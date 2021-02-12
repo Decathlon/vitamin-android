@@ -1,6 +1,7 @@
 include ':radiobuttons'
 include ':checkboxes'
 include ':switches'
+include ':text-inputs'
 include ':buttons'
 include ':vitamin'
 include ':foundation'
