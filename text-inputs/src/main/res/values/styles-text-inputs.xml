@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.TextInputLayout" parent="Widget.Vitamin.TextInputLayout.FilledBox" />
+
+    <style name="Widget.Vitamin.TextInputLayout.OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/vtmn_outlined_stroke_color</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+
+        <item name="android:textColorHint">@color/vtmn_outlined_hint_color</item>
+        <item name="hintTextColor">@color/vtmn_outlined_hint_color</item>
+        <item name="startIconTint">@color/vtmn_outlined_text</item>
+        <item name="endIconTint">@color/vtmn_outlined_text</item>
+
+        <item name="helperTextTextColor">@color/vtmn_outlined_helper_color</item>
+        <item name="errorTextColor">?attr/vtmnContentNegative</item>
+        <item name="errorIconTint">?attr/vtmnContentNegative</item>
+        <item name="errorIconDrawable">@drawable/ic_vtmn_error_warning_line</item>
+
+        <item name="counterTextColor">@color/vtmn_outlined_helper_color</item>
+
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TextInputEditText.OulinedBox
+        </item>
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.TextInputEditText.OulinedBox" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="editTextStyle">@style/Widget.Vitamin.TextInputEditText.OutlinedBox</item>
+    </style>
+
+    <style name="Widget.Vitamin.TextInputEditText.OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textColor">@color/vtmn_outlined_text</item>
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.TextInputEditText.FilledBox" parent="@style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="editTextStyle">@style/Widget.Vitamin.TextInputEditText.FilledBox</item>
+    </style>
+
+
+    <style name="Widget.Vitamin.TextInputEditText.FilledBox" parent="@style/Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textColor">@color/vtmn_filled_text</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+
+    <style name="Widget.Vitamin.TextInputLayout.FilledBox" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/vtmn_filled_stroke_color</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+
+
+        <item name="hintTextColor">@color/vtmn_filled_hint_color</item>
+        <item name="helperTextTextColor">@color/vtmn_filled_text</item>
+        <item name="android:textColorHint">@color/vtmn_filled_hint_color</item>
+
+        <item name="errorIconDrawable">@drawable/ic_vtmn_error_warning_line</item>
+        <item name="errorTextColor">?attr/vtmnContentNegative</item>
+        <item name="errorIconTint">?attr/vtmnContentNegative</item>
+
+
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TextInputEditText.FilledBox
+        </item>
+
+
+    </style>
+
+</resources>

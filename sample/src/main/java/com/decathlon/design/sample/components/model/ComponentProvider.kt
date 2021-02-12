@@ -35,6 +35,11 @@ object ComponentProvider {
                 R.string.switches_screen_title,
                 R.drawable.ic_switch,
                 R.id.action_main_to_switches
+            ),
+            Component(
+                R.string.text_input_screen_title,
+                R.drawable.ic_textinput,
+                R.id.action_main_to_text_input
             )
         )
     }

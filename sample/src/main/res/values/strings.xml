@@ -6,4 +6,5 @@
     <string name="checkboxes_screen_title">Checkboxes</string>
     <string name="radio_buttons_screen_title">Radio Buttons</string>
     <string name="switches_screen_title">Switches</string>
+    <string name="text_input_screen_title">Text Inputs</string>
 </resources>
