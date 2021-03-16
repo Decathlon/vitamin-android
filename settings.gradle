@@ -1,3 +1,4 @@
+include ':checkboxes'
 include ':buttons'
 include ':vitamin'
 include ':foundation'
