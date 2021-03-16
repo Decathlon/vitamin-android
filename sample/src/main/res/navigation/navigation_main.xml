@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_main_to_button"
             app:destination="@id/button" />
+        <action
+            android:id="@+id/action_main_to_checkboxes"
+            app:destination="@id/checkboxes" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -30,4 +33,8 @@
         android:id="@+id/button"
         android:name="com.decathlon.design.sample.components.screens.ButtonFragment"
         android:label="@string/button_screen_title" />
+    <fragment
+        android:id="@+id/checkboxes"
+        android:name="com.decathlon.design.sample.components.screens.CheckboxesFragment"
+        android:label="@string/checkboxes_screen_title" />
 </navigation>

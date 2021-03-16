@@ -3,4 +3,5 @@
     <string name="colors_screen_title">Colors</string>
     <string name="typography_screen_title">Typography</string>
     <string name="button_screen_title">Button</string>
+    <string name="checkboxes_screen_title">Checkboxes</string>
 </resources>

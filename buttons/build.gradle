@@ -18,5 +18,4 @@ android {
 
 dependencies {
     api(project(":foundation"))
-    api(deps.material)
 }
