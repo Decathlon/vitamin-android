@@ -14,5 +14,6 @@
         <item name="buttonSecondary">@style/Widget.Vitamin.Button.Secondary</item>
         <item name="buttonSecondaryReversed">@style/Widget.Vitamin.Button.Secondary.Reversed</item>
         <item name="buttonGhost">@style/Widget.Vitamin.Button.Ghost</item>
+        <item name="buttonGhostReversed">@style/Widget.Vitamin.Button.Ghost.Reversed</item>
     </style>
 </resources>

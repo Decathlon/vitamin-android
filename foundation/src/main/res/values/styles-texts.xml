@@ -7,7 +7,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_headline_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_1</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Headline2" parent="@style/TextAppearance.MaterialComponents.Headline2">
@@ -16,7 +16,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_headline_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_2</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Headline3" parent="@style/TextAppearance.MaterialComponents.Headline3">
@@ -25,7 +25,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_headline_3</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_3</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Headline4" parent="@style/TextAppearance.MaterialComponents.Headline4">
@@ -34,7 +34,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_headline_4</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_4</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Headline5" parent="@style/TextAppearance.MaterialComponents.Headline5">
@@ -43,7 +43,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_headline_5</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_5</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Headline6" parent="@style/TextAppearance.MaterialComponents.Headline6">
@@ -52,7 +52,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_headline_6</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_6</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Subtitle1" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
@@ -60,7 +60,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_subtitle_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_subtitle_1</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Subtitle2" parent="@style/TextAppearance.MaterialComponents.Subtitle2">
@@ -68,7 +68,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_subtitle_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_subtitle_2</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
@@ -77,7 +77,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_body_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_body_1</item>
         <item name="fontWeight">400</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
@@ -86,7 +86,7 @@
         <item name="android:textSize">@dimen/vtmn_text_size_body_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_body_2</item>
         <item name="fontWeight">400</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Button" parent="@style/TextAppearance.MaterialComponents.Button">
@@ -97,7 +97,7 @@
         <item name="textAllCaps">false</item>
         <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
@@ -105,7 +105,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_caption</item>
         <item name="lineHeight">@dimen/vtmn_line_height_caption</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Overline" parent="@style/TextAppearance.MaterialComponents.Overline">
@@ -114,6 +114,6 @@
         <item name="android:textSize">@dimen/vtmn_text_size_overline</item>
         <item name="lineHeight">@dimen/vtmn_line_height_overline</item>
         <item name="fontWeight">700</item>
-        <item name="android:textColor">?attr/vtmnTextPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 </resources>

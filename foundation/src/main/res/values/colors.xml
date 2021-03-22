@@ -1,38 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="vtmn_brand">#ff007dbc</color>
-    <color name="vtmn_brand_dark_1">#ff00689d</color>
-    <color name="vtmn_brand_dark_2">#ff00537d</color>
-    <color name="vtmn_brand_light_1">#ff7ebee0</color>
-    <color name="vtmn_brand_light_2">#ffbedeef</color>
-    <color name="vtmn_brand_light_3">#ffe7f3f9</color>
-    <color name="vtmn_green">#ff02be8a</color>
-    <color name="vtmn_green_dark_1">#ff029e73</color>
-    <color name="vtmn_green_dark_2">#ff017f5c</color>
-    <color name="vtmn_green_light_1">#ff7cdfc4</color>
-    <color name="vtmn_green_light_2">#ffbeefe2</color>
-    <color name="vtmn_green_light_3">#ffe4f9f3</color>
-    <color name="vtmn_yellow">#ffffea28</color>
-    <color name="vtmn_yellow_light_1">#fffff58d</color>
-    <color name="vtmn_yellow_light_2">#fffffbc7</color>
-    <color name="vtmn_orange">#fffe5800</color>
-    <color name="vtmn_orange_light_1">#fffeab7b</color>
-    <color name="vtmn_orange_light_2">#fffed5bd</color>
-    <color name="vtmn_red">#ffee000c</color>
-    <color name="vtmn_red_light_1">#ed8b8f</color>
-    <color name="vtmn_red_light_2">#f5c7c9</color>
+    <!-- Blue -->
+    <color name="vtmn_blue700">#ff00537d</color>
+    <color name="vtmn_blue600">#ff00537d</color>
+    <color name="vtmn_blue500">#ff00689d</color>
+    <color name="vtmn_blue400">#ff007dbc</color>
+    <color name="vtmn_blue300">#ff3d9acc</color>
+    <color name="vtmn_blue200">#ff7ebee0</color>
+    <color name="vtmn_blue100">#ffbedeef</color>
+    <color name="vtmn_blue50">#ffe7f3f9</color>
+
+    <!-- Green -->
+    <color name="vtmn_green700">#ff006f43</color>
+    <color name="vtmn_green600">#ff017f5c</color>
+    <color name="vtmn_green500">#ff029e73</color>
+    <color name="vtmn_green400">#ff02be8a</color>
+    <color name="vtmn_green300">#ff21ce9c</color>
+    <color name="vtmn_green200">#ff7cdfc4</color>
+    <color name="vtmn_green100">#ffbeefe2</color>
+    <color name="vtmn_green50">#ffe4f9f3</color>
+
+    <!-- Conifer -->
+    <color name="vtmn_conifer700">#ff356c1d</color>
+    <color name="vtmn_conifer600">#ff588d2e</color>
+    <color name="vtmn_conifer500">#ff6ba036</color>
+    <color name="vtmn_conifer400">#ff8ec549</color>
+    <color name="vtmn_conifer300">#ffa0ce63</color>
+    <color name="vtmn_conifer200">#ffb0d77f</color>
+    <color name="vtmn_conifer100">#ffdef0c7</color>
+    <color name="vtmn_conifer50">#fff2fbe8</color>
+
+    <!-- Yellow -->
+    <color name="vtmn_yellow700">#ff67611b</color>
+    <color name="vtmn_yellow600">#ff999028</color>
+    <color name="vtmn_yellow500">#ffbcb02c</color>
+    <color name="vtmn_yellow400">#ffffea28</color>
+    <color name="vtmn_yellow300">#fffff370</color>
+    <color name="vtmn_yellow200">#fffff58d</color>
+    <color name="vtmn_yellow100">#fffffbc7</color>
+    <color name="vtmn_yellow50">#fffffef0</color>
+
+    <!-- Orange -->
+    <color name="vtmn_orange700">#ff67611b</color>
+    <color name="vtmn_orange600">#ff9a5321</color>
+    <color name="vtmn_orange500">#ffc16829</color>
+    <color name="vtmn_orange400">#ffec6607</color>
+    <color name="vtmn_orange300">#fffaa569</color>
+    <color name="vtmn_orange200">#fffac8a5</color>
+    <color name="vtmn_orange100">#ffffe7d6</color>
+    <color name="vtmn_orange50">#fffff5ed</color>
+
+    <!-- Red -->
+    <color name="vtmn_red700">#ff5a0005</color>
+    <color name="vtmn_red600">#ff870007</color>
+    <color name="vtmn_red500">#ffab0009</color>
+    <color name="vtmn_red400">#ffe32c26</color>
+    <color name="vtmn_red300">#fffd7278</color>
+    <color name="vtmn_red200">#fffd9297</color>
+    <color name="vtmn_red100">#fffec9cb</color>
+    <color name="vtmn_red50">#fffeeced</color>
+
+    <!-- Grey -->
     <color name="vtmn_black">#ff001018</color>
-    <color name="vtmn_grey">#ff687787</color>
-    <color name="vtmn_grey_dark_1">#ff4e5d6b</color>
-    <color name="vtmn_grey_dark_2">#ff344450</color>
-    <color name="vtmn_grey_dark_3">#ff1a2a34</color>
-    <color name="vtmn_grey_light_1">#ffb3bac3</color>
-    <color name="vtmn_grey_light_2">#ffd9dde1</color>
-    <color name="vtmn_grey_light_3">#ffeff1f3</color>
-    <color name="vtmn_grey_light_4">#fff7f8f9</color>
+    <color name="vtmn_grey900">#ff142129</color>
+    <color name="vtmn_grey800">#ff1a2a34</color>
+    <color name="vtmn_grey700">#ff344450</color>
+    <color name="vtmn_grey600">#ff4e5d6b</color>
+    <color name="vtmn_grey500">#ff687787</color>
+    <color name="vtmn_grey400">#ff788897</color>
+    <color name="vtmn_grey300">#ffb3bac3</color>
+    <color name="vtmn_grey200">#ffd9dde1</color>
+    <color name="vtmn_grey100">#ffeff1f3</color>
+    <color name="vtmn_grey50">#fff7f8f9</color>
     <color name="vtmn_white">#ffffffff</color>
-    <color name="vtmn_success">#ff23a942</color>
-    <color name="vtmn_info">#ff0082c3</color>
-    <color name="vtmn_warning">#ffff600a</color>
-    <color name="vtmn_error">#ffe32c26</color>
 </resources>
