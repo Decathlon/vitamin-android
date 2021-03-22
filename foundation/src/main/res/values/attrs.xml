@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="vtmnBrand" format="color" />
-    <attr name="vtmnBrandDark" format="color" />
-    <attr name="vtmnBrandDarkest" format="color" />
-    <attr name="vtmnPromo" format="color" />
-    <attr name="vtmnSecondary" format="color" />
-    <attr name="vtmnEcommerceSecondary" format="color" />
-    <attr name="vtmnEcommerceSecondarylight" format="color" />
-    <attr name="vtmnEcommerceSecondarylightest" format="color" />
-    <attr name="vtmnTextPrimary" format="color" />
-    <attr name="vtmnTextSecondary" format="color" />
-    <attr name="vtmnSuccess" format="color" />
-    <attr name="vtmnInfo" format="color" />
-    <attr name="vtmnWarning" format="color" />
-    <attr name="vtmnDanger" format="color" />
-    <attr name="vtmnUiBackground" format="color" />
+    <!-- Background -->
+    <attr name="vtmnBackgroundPrimary" format="color" />
+    <attr name="vtmnBackgroundSecondary" format="color" />
+    <attr name="vtmnBackgroundActive" format="color" />
+    <attr name="vtmnBackgroundBrand" format="color" />
+    <attr name="vtmnBackgroundAccent" format="color" />
+    <attr name="vtmnBackgroundPromo" format="color" />
+    <attr name="vtmnBackgroundBrandReversed" format="color" />
+
+    <!-- Content -->
+    <attr name="vtmnContentPrimary" format="color" />
+    <attr name="vtmnContentSecondary" format="color" />
+    <attr name="vtmnContentAction" format="color" />
+    <attr name="vtmnContentActive" format="color" />
+    <attr name="vtmnContentInactive" format="color" />
+    <attr name="vtmnContentNegative" format="color" />
+    <attr name="vtmnContentWarning" format="color" />
+    <attr name="vtmnContentPositive" format="color" />
+    <attr name="vtmnContentReversed" format="color" />
+
+    <!-- Border -->
+    <attr name="vtmnBorderPrimary" format="color" />
+    <attr name="vtmnBorderSecondary" format="color" />
+    <attr name="vtmnBorderActive" format="color" />
+    <attr name="vtmnBorderInactive" format="color" />
+    <attr name="vtmnBorderNegative" format="color" />
+    <attr name="vtmnBorderWarning" format="color" />
+    <attr name="vtmnBorderPositive" format="color" />
+    <attr name="vtmnBorderPrimaryReversed" format="color" />
+    
+    <!-- States -->
+    <attr name="vtmnStatesActiveAccent" format="color" />
 </resources>

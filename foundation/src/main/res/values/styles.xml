@@ -3,32 +3,45 @@
 
     <style name="Base.Theme.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Colors -->
-        <item name="vtmnBrand">@color/vtmn_brand</item>
-        <item name="vtmnBrandDark">@color/vtmn_brand_dark_1</item>
-        <item name="vtmnBrandDarkest">@color/vtmn_brand_dark_2</item>
-        <item name="vtmnPromo">@color/vtmn_red</item>
-        <item name="vtmnSecondary">@color/vtmn_green</item>
-        <item name="vtmnEcommerceSecondary">@color/vtmn_yellow</item>
-        <item name="vtmnEcommerceSecondarylight">@color/vtmn_yellow_light_1</item>
-        <item name="vtmnEcommerceSecondarylightest">@color/vtmn_yellow_light_2</item>
-        <item name="vtmnTextPrimary">@color/vtmn_black</item>
-        <item name="vtmnTextSecondary">@color/vtmn_white</item>
-        <item name="vtmnSuccess">@color/vtmn_success</item>
-        <item name="vtmnInfo">@color/vtmn_info</item>
-        <item name="vtmnWarning">@color/vtmn_warning</item>
-        <item name="vtmnDanger">@color/vtmn_error</item>
-        <item name="vtmnUiBackground">@color/vtmn_white</item>
+        <item name="vtmnBackgroundPrimary">@color/vtmn_white</item>
+        <item name="vtmnBackgroundSecondary">@color/vtmn_grey50</item>
+        <item name="vtmnBackgroundActive">@color/vtmn_blue50</item>
+        <item name="vtmnBackgroundBrand">@color/vtmn_blue400</item>
+        <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
+        <item name="vtmnBackgroundPromo">@color/vtmn_red400</item>
+        <item name="vtmnBackgroundBrandReversed">@color/vtmn_white</item>
 
-        <item name="colorPrimary">?attr/vtmnBrand</item>
-        <item name="colorPrimaryDark">?attr/vtmnBrandDark</item>
-        <item name="colorOnPrimary">?attr/vtmnTextPrimary</item>
-        <item name="colorSecondary">?attr/vtmnSecondary</item>
-        <item name="colorOnSecondary">?attr/vtmnTextSecondary</item>
-        <item name="colorSurface">?attr/vtmnUiBackground</item>
-        <item name="colorOnSurface">?attr/vtmnTextPrimary</item>
-        <item name="colorError">?attr/vtmnDanger</item>
-        <item name="colorOnError">?attr/vtmnTextSecondary</item>
-        <item name="android:windowBackground">?attr/vtmnUiBackground</item>
+        <item name="vtmnContentPrimary">@color/vtmn_black</item>
+        <item name="vtmnContentSecondary">@color/vtmn_grey500</item>
+        <item name="vtmnContentAction">@color/vtmn_blue400</item>
+        <item name="vtmnContentActive">@color/vtmn_blue500</item>
+        <item name="vtmnContentInactive">@color/vtmn_grey300</item>
+        <item name="vtmnContentNegative">@color/vtmn_red400</item>
+        <item name="vtmnContentWarning">@color/vtmn_orange400</item>
+        <item name="vtmnContentPositive">@color/vtmn_conifer400</item>
+        <item name="vtmnContentReversed">@color/vtmn_white</item>
+
+        <item name="vtmnBorderPrimary">@color/vtmn_black</item>
+        <item name="vtmnBorderSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnBorderActive">@color/vtmn_blue400</item>
+        <item name="vtmnBorderInactive">@color/vtmn_grey400</item>
+        <item name="vtmnBorderNegative">@color/vtmn_red400</item>
+        <item name="vtmnBorderWarning">@color/vtmn_orange400</item>
+        <item name="vtmnBorderPositive">@color/vtmn_conifer400</item>
+        <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
+
+        <item name="vtmnStatesActiveAccent">@color/vtmn_yellow100</item>
+
+        <item name="colorPrimary">@color/vtmn_blue400</item>
+        <item name="colorPrimaryDark">@color/vtmn_blue600</item>
+        <item name="colorOnPrimary">?attr/vtmnContentReversed</item>
+        <item name="colorSecondary">@color/vtmn_yellow400</item>
+        <item name="colorOnSecondary">?attr/vtmnContentReversed</item>
+        <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
+        <item name="colorOnSurface">?attr/vtmnContentReversed</item>
+        <item name="colorError">?attr/vtmnContentNegative</item>
+        <item name="colorOnError">?attr/vtmnContentReversed</item>
+        <item name="android:windowBackground">?attr/vtmnBackgroundPrimary</item>
         <item name="colorControlActivated">?attr/colorSecondary</item>
 
         <!-- Typographies -->

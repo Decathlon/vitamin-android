@@ -40,3 +40,9 @@ open class VitaminGhostButton @JvmOverloads constructor(
     attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.buttonGhost
 ) : MaterialButton(context, attrs, defStyleAttr)
+
+open class VitaminGhostReversedButton @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = R.attr.buttonGhostReversed
+) : MaterialButton(context, attrs, defStyleAttr)

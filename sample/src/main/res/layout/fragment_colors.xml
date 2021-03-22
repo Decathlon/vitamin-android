@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="vtmnBrand: #007dbc"
+            android:text="vtmnBackgroundPrimary: #ffffff"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
@@ -37,7 +37,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorPrimary"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="?attr/vtmnBrand"
+            app:srcCompat="?attr/vtmnBackgroundPrimary"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnBrandDark: #00689d"
+            android:text="vtmnBackgroundSecondary: #f7f8f9"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorPrimary"
             tools:ignore="HardcodedText" />
@@ -60,7 +60,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorPrimaryDark"
-            app:srcCompat="?attr/vtmnBrand"
+            app:srcCompat="?attr/vtmnBackgroundSecondary"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnPromo: #ee000c"
+            android:text="vtmnBackgroundActive: #e7f3f9"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorPrimaryDark"
             tools:ignore="HardcodedText" />
@@ -83,7 +83,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorOnPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorOnPrimary"
-            app:srcCompat="?attr/vtmnPromo"
+            app:srcCompat="?attr/vtmnBackgroundActive"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnSecondary: #02be8a"
+            android:text="vtmnBackgroundBrand: #007dbc"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorOnPrimary"
             tools:ignore="HardcodedText" />
@@ -106,7 +106,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorSecondary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorSecondary"
-            app:srcCompat="?attr/vtmnSecondary"
+            app:srcCompat="?attr/vtmnBackgroundBrand"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -114,7 +114,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnEcommerceSecondary: #ffea28"
+            android:text="vtmnBackgroundAccent: #ffea28"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorSecondary"
             tools:ignore="HardcodedText" />
@@ -129,7 +129,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorSecondaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorSecondaryDark"
-            app:srcCompat="?attr/vtmnEcommerceSecondary"
+            app:srcCompat="?attr/vtmnBackgroundAccent"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnTextPrimary: #001018"
+            android:text="vtmnBackgroundPromo: #e32c26"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorSecondaryDark"
             tools:ignore="HardcodedText" />
@@ -152,7 +152,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorOnSecondary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorOnSecondary"
-            app:srcCompat="?attr/vtmnTextPrimary"
+            app:srcCompat="?attr/vtmnBackgroundPromo"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -160,7 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnTextSecondary: #ffffff"
+            android:text="vtmnBackgroundBrandReversed: #ffffff"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorOnSecondary"
             tools:ignore="HardcodedText" />
@@ -175,7 +175,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorSurface"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorSurface"
-            app:srcCompat="?attr/vtmnTextSecondary"
+            app:srcCompat="?attr/vtmnBackgroundBrandReversed"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -183,7 +183,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnSuccess: #23a942"
+            android:text="vtmnContentPrimary: #001018"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorSurface"
             tools:ignore="HardcodedText" />
@@ -198,7 +198,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorOnSurface"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorOnSurface"
-            app:srcCompat="?attr/vtmnSuccess"
+            app:srcCompat="?attr/vtmnContentPrimary"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -206,7 +206,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnInfo: #0082c3"
+            android:text="vtmnContentSecondary: #687787"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorOnSurface"
             tools:ignore="HardcodedText" />
@@ -221,7 +221,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorError"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorError"
-            app:srcCompat="?attr/vtmnInfo"
+            app:srcCompat="?attr/vtmnContentSecondary"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -229,7 +229,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnWarning: #ff600a"
+            android:text="vtmnContentAction: #007dbc"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorError"
             tools:ignore="HardcodedText" />
@@ -244,7 +244,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorOnError"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorOnError"
-            app:srcCompat="?attr/vtmnWarning"
+            app:srcCompat="?attr/vtmnContentAction"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -252,7 +252,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnDanger: #e32c26"
+            android:text="vtmnContentActive: #00689d"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorOnError"
             tools:ignore="HardcodedText" />
@@ -267,7 +267,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorBackground"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorBackground"
-            app:srcCompat="?attr/vtmnDanger"
+            app:srcCompat="?attr/vtmnContentActive"
             tools:ignore="ContentDescription" />
 
         <TextView
@@ -275,7 +275,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="vtmnUiBackground: #ffffff"
+            android:text="vtmnContentInactive: #b3bac3"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
             app:layout_constraintTop_toBottomOf="@+id/tvColorBackground"
             tools:ignore="HardcodedText" />
@@ -290,7 +290,283 @@
             app:layout_constraintBottom_toBottomOf="@+id/tvColorOnBackground"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tvColorOnBackground"
-            app:srcCompat="?attr/vtmnUiBackground"
+            app:srcCompat="?attr/vtmnContentInactive"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvContentNegative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnContentNegative: #e32c26"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivColorOnBackground"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivContentNegative"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvContentNegative"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvContentNegative"
+            app:srcCompat="?attr/vtmnContentNegative"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvContentWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnContentWarning: #ec6607"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivContentNegative"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivContentWarning"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvContentWarning"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvContentWarning"
+            app:srcCompat="?attr/vtmnContentWarning"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvContentPositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnContentPositive: #8ec549"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivContentWarning"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivContentPositive"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvContentPositive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvContentPositive"
+            app:srcCompat="?attr/vtmnContentPositive"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvContentReversed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnContentReversed: #ffffff"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivContentPositive"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivContentReversed"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvContentReversed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvContentReversed"
+            app:srcCompat="?attr/vtmnContentReversed"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderPrimary: #001018"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivContentReversed"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderPrimary"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderPrimary"
+            app:srcCompat="?attr/vtmnBorderPrimary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderSecondary: #d9dde1"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderPrimary"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderSecondary"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderSecondary"
+            app:srcCompat="?attr/vtmnBorderSecondary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderActive: #d9dde1"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderSecondary"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderActive"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderActive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderActive"
+            app:srcCompat="?attr/vtmnBorderActive"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderInactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderInactive: #788897"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderActive"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderInactive"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderInactive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderInactive"
+            app:srcCompat="?attr/vtmnBorderInactive"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderNegative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderNegative: #e32c26"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderInactive"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderNegative"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderNegative"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderNegative"
+            app:srcCompat="?attr/vtmnBorderNegative"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderWarning: #ec6607"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderNegative"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderWarning"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderWarning"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderWarning"
+            app:srcCompat="?attr/vtmnBorderWarning"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderPositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderPositive: #ec6607"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderWarning"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderPositive"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderPositive"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderPositive"
+            app:srcCompat="?attr/vtmnBorderPositive"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvBorderPrimaryReversed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBorderPrimaryReversed: #ffffff"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/ivBorderPositive"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivBorderPrimaryReversed"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBorderPrimaryReversed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvBorderPrimaryReversed"
+            app:srcCompat="?attr/vtmnBorderPrimaryReversed"
             tools:ignore="ContentDescription" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
