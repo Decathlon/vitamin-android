@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="vtmnBrand" format="color" />
+    <attr name="vtmnBrandDark" format="color" />
+    <attr name="vtmnBrandDarkest" format="color" />
+    <attr name="vtmnPromo" format="color" />
+    <attr name="vtmnSecondary" format="color" />
+    <attr name="vtmnEcommerceSecondary" format="color" />
+    <attr name="vtmnEcommerceSecondarylight" format="color" />
+    <attr name="vtmnEcommerceSecondarylightest" format="color" />
+    <attr name="vtmnTextPrimary" format="color" />
+    <attr name="vtmnTextSecondary" format="color" />
+    <attr name="vtmnSuccess" format="color" />
+    <attr name="vtmnInfo" format="color" />
+    <attr name="vtmnWarning" format="color" />
+    <attr name="vtmnDanger" format="color" />
+    <attr name="vtmnUiBackground" format="color" />
+</resources>

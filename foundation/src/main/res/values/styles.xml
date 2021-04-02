@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colors -->
+        <item name="vtmnBrand">@color/vtmn_brand</item>
+        <item name="vtmnBrandDark">@color/vtmn_brand_dark_1</item>
+        <item name="vtmnBrandDarkest">@color/vtmn_brand_dark_2</item>
+        <item name="vtmnPromo">@color/vtmn_red</item>
+        <item name="vtmnSecondary">@color/vtmn_green</item>
+        <item name="vtmnEcommerceSecondary">@color/vtmn_yellow</item>
+        <item name="vtmnEcommerceSecondarylight">@color/vtmn_yellow_light_1</item>
+        <item name="vtmnEcommerceSecondarylightest">@color/vtmn_yellow_light_2</item>
+        <item name="vtmnTextPrimary">@color/vtmn_black</item>
+        <item name="vtmnTextSecondary">@color/vtmn_white</item>
+        <item name="vtmnSuccess">@color/vtmn_success</item>
+        <item name="vtmnInfo">@color/vtmn_info</item>
+        <item name="vtmnWarning">@color/vtmn_warning</item>
+        <item name="vtmnDanger">@color/vtmn_error</item>
+        <item name="vtmnUiBackground">@color/vtmn_white</item>
+
+        <item name="colorPrimary">?attr/vtmnBrand</item>
+        <item name="colorPrimaryDark">?attr/vtmnBrandDark</item>
+        <item name="colorOnPrimary">?attr/vtmnTextPrimary</item>
+        <item name="colorSecondary">?attr/vtmnSecondary</item>
+        <item name="colorOnSecondary">?attr/vtmnTextSecondary</item>
+        <item name="colorSurface">?attr/vtmnUiBackground</item>
+        <item name="colorOnSurface">?attr/vtmnTextPrimary</item>
+        <item name="colorError">?attr/vtmnDanger</item>
+        <item name="colorOnError">?attr/vtmnTextSecondary</item>
+        <item name="android:windowBackground">?attr/vtmnUiBackground</item>
+        <item name="colorControlActivated">?attr/colorSecondary</item>
+
+        <!-- Typographies -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Vitamin.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Vitamin.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Vitamin.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Vitamin.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Vitamin.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Vitamin.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Vitamin.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Vitamin.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Vitamin.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Vitamin.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Vitamin.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Vitamin.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Vitamin.Body1</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Vitamin.Body1</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.Vitamin" />
+</resources>

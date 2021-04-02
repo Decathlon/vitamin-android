@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <TextView
+            android:id="@+id/tvColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="vtmnBrand: #007dbc"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorPrimary"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorPrimary"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="?attr/vtmnBrand"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnBrandDark: #00689d"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorPrimary"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorPrimaryDark"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorPrimaryDark"
+            app:srcCompat="?attr/vtmnBrand"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorOnPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnPromo: #ee000c"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorPrimaryDark"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorOnPrimary"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorOnPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorOnPrimary"
+            app:srcCompat="?attr/vtmnPromo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnSecondary: #02be8a"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorOnPrimary"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorSecondary"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorSecondary"
+            app:srcCompat="?attr/vtmnSecondary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorSecondaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnEcommerceSecondary: #ffea28"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorSecondary"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorSecondaryDark"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorSecondaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorSecondaryDark"
+            app:srcCompat="?attr/vtmnEcommerceSecondary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorOnSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnTextPrimary: #001018"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorSecondaryDark"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorOnSecondary"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorOnSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorOnSecondary"
+            app:srcCompat="?attr/vtmnTextPrimary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorSurface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnTextSecondary: #ffffff"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorOnSecondary"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorSurface"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorSurface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorSurface"
+            app:srcCompat="?attr/vtmnTextSecondary"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorOnSurface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnSuccess: #23a942"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorSurface"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorOnSurface"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorOnSurface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorOnSurface"
+            app:srcCompat="?attr/vtmnSuccess"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnInfo: #0082c3"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorOnSurface"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorError"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorError"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorError"
+            app:srcCompat="?attr/vtmnInfo"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorOnError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnWarning: #ff600a"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorError"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorOnError"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorOnError"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorOnError"
+            app:srcCompat="?attr/vtmnWarning"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnDanger: #e32c26"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorOnError"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorBackground"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorBackground"
+            app:srcCompat="?attr/vtmnDanger"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvColorOnBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="vtmnUiBackground: #ffffff"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvColorBackground"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ivColorOnBackground"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/vtmn_black"
+            android:padding="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tvColorOnBackground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvColorOnBackground"
+            app:srcCompat="?attr/vtmnUiBackground"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

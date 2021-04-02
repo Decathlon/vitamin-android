@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vtmn_text_size_headline_1">60sp</dimen>
+    <dimen name="vtmn_text_size_headline_2">48sp</dimen>
+    <dimen name="vtmn_text_size_headline_3">36sp</dimen>
+    <dimen name="vtmn_text_size_headline_4">28sp</dimen>
+    <dimen name="vtmn_text_size_headline_5">24sp</dimen>
+    <dimen name="vtmn_text_size_headline_6">20sp</dimen>
+    <dimen name="vtmn_text_size_subtitle_1">16sp</dimen>
+    <dimen name="vtmn_text_size_subtitle_2">14sp</dimen>
+    <dimen name="vtmn_text_size_body_1">16sp</dimen>
+    <dimen name="vtmn_text_size_body_2">14sp</dimen>
+    <dimen name="vtmn_text_size_button">16sp</dimen>
+    <dimen name="vtmn_text_size_caption">12sp</dimen>
+    <dimen name="vtmn_text_size_overline">10sp</dimen>
+
+    <dimen name="vtmn_line_height_headline_1">56sp</dimen>
+    <dimen name="vtmn_line_height_headline_2">50sp</dimen>
+    <dimen name="vtmn_line_height_headline_3">40sp</dimen>
+    <dimen name="vtmn_line_height_headline_4">27sp</dimen>
+    <dimen name="vtmn_line_height_headline_5">28sp</dimen>
+    <dimen name="vtmn_line_height_headline_6">24sp</dimen>
+    <dimen name="vtmn_line_height_subtitle_1">24sp</dimen>
+    <dimen name="vtmn_line_height_subtitle_2">20sp</dimen>
+    <dimen name="vtmn_line_height_body_1">24sp</dimen>
+    <dimen name="vtmn_line_height_body_2">20sp</dimen>
+    <dimen name="vtmn_line_height_button">16sp</dimen>
+    <dimen name="vtmn_line_height_caption">16sp</dimen>
+    <dimen name="vtmn_line_height_overline">16sp</dimen>
+</resources>

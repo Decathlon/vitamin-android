@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="com.decathlon.design.sample.main.MainFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_main_to_colors"
+            app:destination="@id/colors" />
+        <action
+            android:id="@+id/action_main_to_typography"
+            app:destination="@id/typography" />
+        <action
+            android:id="@+id/action_main_to_button"
+            app:destination="@id/button" />
+    </fragment>
+    <fragment
+        android:id="@+id/colors"
+        android:name="com.decathlon.design.sample.components.screens.ColorsFragment"
+        android:label="@string/colors_screen_title" />
+    <fragment
+        android:id="@+id/typography"
+        android:name="com.decathlon.design.sample.components.screens.TypographyFragment"
+        android:label="@string/typography_screen_title" />
+    <fragment
+        android:id="@+id/button"
+        android:name="com.decathlon.design.sample.components.screens.ButtonFragment"
+        android:label="@string/button_screen_title" />
+</navigation>

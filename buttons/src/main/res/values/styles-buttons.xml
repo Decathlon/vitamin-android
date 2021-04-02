@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.Button" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">2dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="iconGravity">start</item>
+        <item name="iconEndPadding">12dp</item>
+        <item name="iconStartPadding">24dp</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Primary" parent="@style/Widget.Vitamin.Button">
+        <item name="backgroundTint">@color/vtmn_btn_primary_states</item>
+        <item name="rippleColor">@color/vtmn_btn_primary_ripple</item>
+        <item name="android:textColor">@color/vtmn_btn_primary_text</item>
+        <item name="iconTint">@color/vtmn_btn_primary_text</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Conversion" parent="@style/Widget.Vitamin.Button">
+        <item name="backgroundTint">@color/vtmn_btn_conversion_states</item>
+        <item name="android:textColor">@color/vtmn_btn_conversion_text</item>
+        <item name="iconTint">@color/vtmn_btn_conversion_text</item>
+        <item name="rippleColor">@color/vtmn_btn_conversion_ripple</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.OutlinedButton" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">2dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Primary.Reverse" parent="@style/Widget.Vitamin.Button.OutlinedButton">
+        <item name="android:textColor">@color/vtmn_btn_primary_reverse_text</item>
+        <item name="iconTint">@color/vtmn_btn_primary_reverse_text</item>
+        <item name="backgroundTint">@color/vtmn_btn_primary_reverse_states</item>
+        <item name="rippleColor">@color/vtmn_btn_primary_reverse_ripple</item>
+        <item name="strokeColor">@color/vtmn_btn_primary_reverse_states</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Secondary" parent="@style/Widget.Vitamin.Button.OutlinedButton">
+        <item name="android:textColor">@color/vtmn_btn_secondary_text</item>
+        <item name="backgroundTint">@color/vtmn_btn_secondary_states</item>
+        <item name="rippleColor">@color/vtmn_btn_secondary_ripple</item>
+        <item name="strokeColor">@color/vtmn_btn_secondary_text</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Secondary.Reversed" parent="@style/Widget.Vitamin.Button.OutlinedButton">
+        <item name="android:textColor">@color/vtmn_btn_secondary_reverse_text</item>
+        <item name="backgroundTint">@color/vtmn_btn_secondary_reverse_states</item>
+        <item name="rippleColor">@color/vtmn_btn_secondary_reverse_ripple</item>
+        <item name="strokeColor">@color/vtmn_btn_secondary_reverse_text</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Ghost" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textColor">?attr/vtmnBrandDark</item>
+        <item name="rippleColor">@color/vtmn_btn_ghost_ripple</item>
+        <item name="cornerRadius">2dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="icon">@null</item>
+    </style>
+</resources>

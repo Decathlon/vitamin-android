@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Vitamin" parent="Base.Theme.Vitamin">
+
+        <!-- Buttons -->
+        <item name="buttonStyle">@style/Widget.Vitamin.Button.Primary</item>
+        <item name="materialButtonStyle">@style/Widget.Vitamin.Button.Primary</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Vitamin.Button.Secondary</item>
+        <item name="borderlessButtonStyle">@style/Widget.Vitamin.Button.Ghost</item>
+        <!-- Custom Buttons Styles -->
+        <item name="buttonReverseStyle">@style/Widget.Vitamin.Button.Primary.Reverse</item>
+        <item name="buttonConversionStyle">@style/Widget.Vitamin.Button.Conversion</item>
+        <item name="buttonSecondary">@style/Widget.Vitamin.Button.Secondary</item>
+        <item name="buttonSecondaryReversed">@style/Widget.Vitamin.Button.Secondary.Reversed</item>
+        <item name="buttonGhost">@style/Widget.Vitamin.Button.Ghost</item>
+    </style>
+</resources>
