@@ -30,6 +30,11 @@ object ComponentProvider {
                 R.string.radio_buttons_screen_title,
                 R.drawable.ic_radiobutton,
                 R.id.action_main_to_radio_button
+            ),
+            Component(
+                R.string.switches_screen_title,
+                R.drawable.ic_switch,
+                R.id.action_main_to_switches
             )
         )
     }

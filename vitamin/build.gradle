@@ -21,4 +21,5 @@ dependencies {
     api(project(":buttons"))
     api(project(':checkboxes'))
     api(project(':radiobuttons'))
+    api(project(':switches'))
 }

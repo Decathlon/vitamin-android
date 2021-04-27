@@ -20,5 +20,7 @@
         <!--  RadioButton -->
         <item name="radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
         <item name="android:radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
+        <!-- Switches -->
+        <item name="switchStyle">@style/Widget.Vitamin.Switch</item>
     </style>
 </resources>
