@@ -23,6 +23,9 @@
         <action
             android:id="@+id/action_main_to_radio_button"
             app:destination="@id/radioButton" />
+        <action
+            android:id="@+id/action_main_to_switches"
+            app:destination="@id/switches" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -44,4 +47,8 @@
         android:id="@+id/radioButton"
         android:name="com.decathlon.design.sample.components.screens.RadioButtonFragment"
         android:label="@string/radio_buttons_screen_title" />
+    <fragment
+        android:id="@+id/switches"
+        android:name="com.decathlon.design.sample.components.screens.SwitchesFragment"
+        android:label="@string/switches_screen_title" />
 </navigation>

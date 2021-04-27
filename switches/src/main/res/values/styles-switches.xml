@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.Switch</item>
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Body2</item>
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.Switch" parent="">
+        <item name="colorOnSurface">?attr/vtmnContentPrimary</item>
+        <item name="colorSecondary">?attr/vtmnContentActive</item>
+    </style>
+
+</resources>
