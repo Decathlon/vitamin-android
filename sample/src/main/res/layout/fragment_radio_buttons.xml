@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/simpleRadioButtonsTitle"
+            style="@style/TextAppearance.Vitamin.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple radio buttons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.android.radio.VitaminRadioButton
+            android:id="@+id/selectedRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Selected by default"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/simpleRadioButtonsTitle"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.android.radio.VitaminRadioButton
+            android:id="@+id/unselectedRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Unselected by default"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selectedRadioButton"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.android.radio.VitaminRadioButton
+            android:id="@+id/disabledUncheckedRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Disabled checked"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/unselectedRadioButton"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.android.radio.VitaminRadioButton
+            android:id="@+id/disabledRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:enabled="false"
+            android:text="Disabled unchecked"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/disabledUncheckedRadioButton"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/groupedRadioButton"
+            style="@style/TextAppearance.Vitamin.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grouped radio buttons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/disabledRadioButton"
+            tools:ignore="HardcodedText" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/groupedRadioButton">
+
+            <com.decathlon.android.radio.VitaminRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.android.radio.VitaminRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.android.radio.VitaminRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="C"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.android.radio.VitaminRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="D"
+                tools:ignore="HardcodedText" />
+
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

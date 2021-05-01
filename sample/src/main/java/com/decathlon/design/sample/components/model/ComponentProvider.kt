@@ -25,6 +25,11 @@ object ComponentProvider {
                 R.string.checkboxes_screen_title,
                 R.drawable.ic_checkbox,
                 R.id.action_main_to_checkboxes
+            ),
+            Component(
+                R.string.radio_buttons_screen_title,
+                R.drawable.ic_radiobutton,
+                R.id.action_main_to_radio_button
             )
         )
     }

@@ -1,5 +1,7 @@
-apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
 
 android {
     compileSdkVersion versions.compileSdk
@@ -8,7 +10,6 @@ android {
         minSdkVersion versions.minSdk
         targetSdkVersion versions.compileSdk
         consumerProguardFiles 'consumer-rules.pro'
-        vectorDrawables.useSupportLibrary = true
     }
 
     compileOptions {
@@ -18,7 +19,5 @@ android {
 }
 
 dependencies {
-    api(project(":buttons"))
-    api(project(':checkboxes'))
-    api(project(':radiobuttons'))
+    api(project(":foundation"))
 }
