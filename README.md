@@ -55,6 +55,7 @@ Group | Description
 com.decathlon.android.foundation | Fundamental components of UI with texts, icons and colors.
 com.decathlon.android.buttons | Build UIs with ready to use Button components.
 com.decathlon.android.checkboxes | Build UIs with ready to use Checkbox components.
+com.decathlon.android.radiobuttons | Build UIs with ready to use RadioButton components.
 com.decathlon.android.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
 ## 📥 Download

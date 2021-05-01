@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_main_to_checkboxes"
             app:destination="@id/checkboxes" />
+        <action
+            android:id="@+id/action_main_to_radio_button"
+            app:destination="@id/radioButton" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -37,4 +40,8 @@
         android:id="@+id/checkboxes"
         android:name="com.decathlon.design.sample.components.screens.CheckboxesFragment"
         android:label="@string/checkboxes_screen_title" />
+    <fragment
+        android:id="@+id/radioButton"
+        android:name="com.decathlon.design.sample.components.screens.RadioButtonFragment"
+        android:label="@string/radio_buttons_screen_title" />
 </navigation>

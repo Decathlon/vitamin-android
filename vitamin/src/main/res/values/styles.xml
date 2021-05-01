@@ -17,5 +17,8 @@
         <item name="buttonGhostReversed">@style/Widget.Vitamin.Button.Ghost.Reversed</item>
         <!--  Checkboxes -->
         <item name="checkboxStyle">@style/Widget.Vitamin.Checkbox</item>
+        <!--  RadioButton -->
+        <item name="radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
+        <item name="android:radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
     </style>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/vtmn_radio_button_text</item>
+        <item name="buttonTint">@color/vtmn_radio_button_item</item>
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Body2</item>
+    </style>
+</resources>
