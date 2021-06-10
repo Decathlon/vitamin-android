@@ -21,32 +21,7 @@ you can install a demo with `sample` module in the technical project.
 
 ## 🚀 Getting Started
 
-In the style of your application, you just need to specify `Theme.Decathlon` as parent.
-
-```xml
-<style name="AppTheme" parent="Theme.Vitamin" />
-```
-
-And specify this style in your Android Manifest file as style of your application or one of your
-activity.
-
-```xml
-<manifest
-    ...>
-
-    <application
-        ...
-        android:theme="@style/AppTheme">
-
-        <activity
-            ...
-            android:theme="@style/AppTheme" />
-    </application>
-</manifest>
-```
-
-If you want more information about the integration, please see the official documentation or
-the sample. All links in the Documentation section of this page.
+To start using Vitamin in your app, you can check [the Vitamin module documentation](https://github.com/Decathlon/vitamin-android/tree/main/vitamin) 
 
 ## 📦 Artifacts
 
