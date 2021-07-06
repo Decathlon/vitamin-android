@@ -16,13 +16,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="Outlined"
-            android:textAppearance="@style/TextAppearance.Vitamin.Headline2"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline3"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined"
-            style="@style/Widget.Vitamin.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -38,12 +38,11 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
 
         <!-- Used for error message -->
-        <com.google.android.material.textfield.TextInputLayout
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined2"
-            style="@style/Widget.Vitamin.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -58,11 +57,10 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined3"
-            style="@style/Widget.Vitamin.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -80,11 +78,10 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined4"
-            style="@style/Widget.Vitamin.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -101,16 +98,15 @@
                 android:hint="hint"
                 android:text="Input"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined5"
-            style="@style/Widget.Vitamin.TextInputLayout.OutlinedBox"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="4dp"
+            android:layout_marginEnd="8dp"
             app:endIconDrawable="@drawable/ic_vtmn_calendar_2_line"
             app:endIconMode="custom"
             app:layout_constraintEnd_toEndOf="parent"
@@ -123,7 +119,7 @@
                 android:hint="Birthday"
                 android:inputType="date"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
 
         <TextView
             android:id="@+id/title_text_input_filled"
@@ -133,12 +129,11 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:text="Filled"
-            android:textAppearance="@style/TextAppearance.Vitamin.Headline2"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline3"
             app:layout_constraintTop_toBottomOf="@id/textInputLayoutOutlined5"
             tools:ignore="HardcodedText" />
 
-
-        <com.google.android.material.textfield.TextInputLayout
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -156,9 +151,10 @@
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
 
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
 
-        <com.google.android.material.textfield.TextInputLayout
+        <!-- Used for error message -->
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -174,7 +170,76 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+            android:id="@+id/textInputLayoutFilled3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:enabled="false"
+            app:endIconDrawable="@drawable/ic_vtmn_heart_3_line"
+            app:endIconMode="custom"
+            app:layout_constraintEnd_toStartOf="@id/textInputLayoutFilled2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutFilled1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint"
+                tools:ignore="HardcodedText" />
+
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+            android:id="@+id/textInputLayoutFilled4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:enabled="false"
+            app:helperText="Helper text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textInputLayoutFilled3"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutFilled1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint"
+                android:text="Input"
+                tools:ignore="HardcodedText" />
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+
+        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+            android:id="@+id/textInputLayoutFilled5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:endIconDrawable="@drawable/ic_vtmn_calendar_2_line"
+            app:endIconMode="custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutFilled4">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birthday"
+                android:inputType="date"
+                tools:ignore="HardcodedText" />
+        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutFilled5" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

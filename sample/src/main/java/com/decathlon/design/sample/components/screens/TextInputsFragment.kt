@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.ViewGroupCompat
 import androidx.fragment.app.Fragment
 import com.decathlon.design.sample.databinding.FragmentTextInputsBinding
 import com.google.android.material.snackbar.Snackbar
@@ -17,6 +18,7 @@ class TextInputsFragment : ComponentFragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentTextInputsBinding.inflate(inflater, container, false)
+        ViewGroupCompat.setTransitionGroup(binding.scrollView, true)
         return binding.root
     }
 
@@ -28,5 +30,9 @@ class TextInputsFragment : ComponentFragment() {
                 .show()
         }
         binding.textInputLayoutFilled2.error = "Error message"
+        binding.textInputLayoutFilled5.setEndIconOnClickListener {
+            Snackbar.make(binding.scrollView, "Show dialog to pick birthday", Snackbar.LENGTH_SHORT)
+                .show()
+        }
     }
 }
