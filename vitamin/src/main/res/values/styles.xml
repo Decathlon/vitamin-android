@@ -24,5 +24,7 @@
         <item name="switchStyle">@style/Widget.Vitamin.Switch</item>
         <!-- Text Inputs -->
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
+        <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
+        <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
     </style>
 </resources>
