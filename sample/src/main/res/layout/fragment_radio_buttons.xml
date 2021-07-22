@@ -20,7 +20,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.radio.VitaminRadioButton
+        <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
             android:id="@+id/selectedRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
             app:layout_constraintTop_toBottomOf="@id/simpleRadioButtonsTitle"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.radio.VitaminRadioButton
+        <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
             android:id="@+id/unselectedRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
             app:layout_constraintTop_toBottomOf="@id/selectedRadioButton"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.radio.VitaminRadioButton
+        <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
             android:id="@+id/disabledUncheckedRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             app:layout_constraintTop_toBottomOf="@id/unselectedRadioButton"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.radio.VitaminRadioButton
+        <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
             android:id="@+id/disabledRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,28 +81,28 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/groupedRadioButton">
 
-            <com.decathlon.android.radio.VitaminRadioButton
+            <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="A"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.android.radio.VitaminRadioButton
+            <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="B"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.android.radio.VitaminRadioButton
+            <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="C"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.android.radio.VitaminRadioButton
+            <com.decathlon.vitamin.radiobuttons.VitaminRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

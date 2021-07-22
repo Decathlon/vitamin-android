@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <com.decathlon.android.checkbox.VitaminCheckbox
+        <com.decathlon.vitamin.checkboxes.VitaminCheckbox
             android:id="@+id/selectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.checkbox.VitaminCheckbox
+        <com.decathlon.vitamin.checkboxes.VitaminCheckbox
             android:id="@+id/unselectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             app:layout_constraintTop_toBottomOf="@id/selectedCheckbox"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.checkbox.VitaminCheckbox
+        <com.decathlon.vitamin.checkboxes.VitaminCheckbox
             android:id="@+id/disabledSelectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             app:layout_constraintTop_toBottomOf="@id/unselectedCheckbox"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.checkbox.VitaminCheckbox
+        <com.decathlon.vitamin.checkboxes.VitaminCheckbox
             android:id="@+id/disabledUnselectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

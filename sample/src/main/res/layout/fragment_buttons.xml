@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.decathlon.android.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
             android:id="@+id/button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
             android:id="@+id/buttonIcon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -55,14 +55,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button2">
 
-            <com.decathlon.android.vitamin.buttons.VitaminPrimaryReversedButton
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:text="Primary Reverse"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.android.vitamin.buttons.VitaminPrimaryReversedButton
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
@@ -71,7 +71,7 @@
                 tools:ignore="HardcodedText" />
         </LinearLayout>
 
-        <com.decathlon.android.vitamin.buttons.VitaminConversionButton
+        <com.decathlon.vitamin.buttons.VitaminConversionButton
             android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
             app:layout_constraintTop_toBottomOf="@+id/buttonReverse"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.vitamin.buttons.VitaminConversionButton
+        <com.decathlon.vitamin.buttons.VitaminConversionButton
             android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button3"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.vitamin.buttons.VitaminSecondaryButton
+        <com.decathlon.vitamin.buttons.VitaminSecondaryButton
             android:id="@+id/buttonOutlinedGrey"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button4"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.vitamin.buttons.VitaminSecondaryButton
+        <com.decathlon.vitamin.buttons.VitaminSecondaryButton
             android:id="@+id/buttonOutlinedGrey2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -132,7 +132,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/buttonOutlinedGrey2">
 
-            <com.decathlon.android.vitamin.buttons.VitaminSecondaryReversedButton
+            <com.decathlon.vitamin.buttons.VitaminSecondaryReversedButton
                 android:id="@+id/buttonOutlinedWhite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -140,7 +140,7 @@
                 android:text="Secondary Reversed"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.android.vitamin.buttons.VitaminSecondaryReversedButton
+            <com.decathlon.vitamin.buttons.VitaminSecondaryReversedButton
                 android:id="@+id/buttonOutlinedWhite2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
                 tools:ignore="HardcodedText" />
         </LinearLayout>
 
-        <com.decathlon.android.vitamin.buttons.VitaminGhostButton
+        <com.decathlon.vitamin.buttons.VitaminGhostButton
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button7">
 
-            <com.decathlon.android.vitamin.buttons.VitaminGhostReversedButton
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedButton
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

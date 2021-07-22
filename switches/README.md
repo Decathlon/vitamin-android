@@ -11,7 +11,7 @@ By inheriting the Vitamin theme in your app, you just have to use the default `S
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 ```xml
-<com.decathlon.android.switches.VitaminSwitch
+<com.decathlon.vitamin.switches.VitaminSwitch
     android:id="@+id/switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -53,7 +53,7 @@ implementation("com.decathlon.vitamin:switches:<version>")
 ```
 
 ```xml
-<com.decathlon.android.switches.VitaminSwitch
+<com.decathlon.vitamin.switches.VitaminSwitch
     android:id="@+id/switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

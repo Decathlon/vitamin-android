@@ -21,7 +21,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -38,10 +38,10 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 
         <!-- Used for error message -->
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -57,9 +57,9 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -78,9 +78,9 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -98,9 +98,9 @@
                 android:hint="hint"
                 android:text="Input"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined
             android:id="@+id/textInputLayoutOutlined5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
                 android:hint="Birthday"
                 android:inputType="date"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutOutlined>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 
         <TextView
             android:id="@+id/title_text_input_filled"
@@ -133,7 +133,7 @@
             app:layout_constraintTop_toBottomOf="@id/textInputLayoutOutlined5"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -151,10 +151,10 @@
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
 
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 
         <!-- Used for error message -->
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -170,9 +170,9 @@
                 android:layout_height="wrap_content"
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -192,9 +192,9 @@
                 android:hint="hint"
                 tools:ignore="HardcodedText" />
 
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -213,9 +213,9 @@
                 android:hint="hint"
                 android:text="Input"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 
-        <com.decathlon.android.textinputs.VitaminTextInputLayoutFilled
+        <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
             android:id="@+id/textInputLayoutFilled5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -234,7 +234,7 @@
                 android:hint="Birthday"
                 android:inputType="date"
                 tools:ignore="HardcodedText" />
-        </com.decathlon.android.textinputs.VitaminTextInputLayoutFilled>
+        </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 
         <Space
             android:layout_width="match_parent"

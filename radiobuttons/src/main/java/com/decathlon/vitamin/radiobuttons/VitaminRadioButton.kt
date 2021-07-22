@@ -1,4 +1,4 @@
-package com.decathlon.android.radio
+package com.decathlon.vitamin.radiobuttons
 
 import android.content.Context
 import android.util.AttributeSet
