@@ -7,6 +7,8 @@
 
 # Vitamin Android (beta)
 
+[![Build Status](https://app.bitrise.io/app/62ac2962b2dd627a/status.svg?token=GlcHGXAWV2T4IItZiT43_A&branch=main)](https://app.bitrise.io/app/62ac2962b2dd627a)
+
 > Decathlon Design System 🎨
 
 Android Decathlon Design System is based on Material Design components described on the [official
