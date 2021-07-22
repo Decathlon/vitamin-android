@@ -38,7 +38,7 @@
         <item name="colorSecondary">@color/vtmn_yellow400</item>
         <item name="colorOnSecondary">?attr/vtmnContentReversed</item>
         <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
-        <item name="colorOnSurface">?attr/vtmnContentReversed</item>
+        <item name="colorOnSurface">?attr/vtmnContentPrimary</item>
         <item name="colorError">?attr/vtmnContentNegative</item>
         <item name="colorOnError">?attr/vtmnContentReversed</item>
         <item name="android:windowBackground">?attr/vtmnBackgroundPrimary</item>
