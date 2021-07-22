@@ -72,6 +72,3 @@ All the Vitamin colors, fonts and components will be directly applied (except if
 For more precise documentation of every Vitamin component, you can read the README.md of their own modules.
 
 You can also find some examples of usage in [the sample app](https://github.com/Decathlon/vitamin-android/tree/main/sample).
-
-
-
