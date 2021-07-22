@@ -1,8 +1,7 @@
-package com.decathlon.android.vitamin.buttons
+package com.decathlon.vitamin.buttons
 
 import android.content.Context
 import android.util.AttributeSet
-import com.decathlon.android.buttons.R
 import com.google.android.material.button.MaterialButton
 
 open class VitaminPrimaryButton @JvmOverloads constructor(

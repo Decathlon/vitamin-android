@@ -1,4 +1,4 @@
-package com.decathlon.android.switches
+package com.decathlon.vitamin.switches
 
 import android.content.Context
 import android.util.AttributeSet
