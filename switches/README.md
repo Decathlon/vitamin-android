@@ -5,10 +5,10 @@ You can find the design specs on [www.decathlon.design](https://www.decathlon.de
 
 ## Usage with Vitamin Theme
 
-By inheriting the Vitamin theme in your app, you just have to use the default SwitchMaterial component or the VitaminSwitch component. 
+By inheriting the Vitamin theme in your app, you just have to use the default `SwitchMaterial` component or the `VitaminSwitch` component. 
 
 ```kotlin
-implementation 'com.decathlon.vitamin:vitamin:<version>'
+implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 ```xml
 <com.decathlon.android.switches.VitaminSwitch
@@ -40,7 +40,7 @@ Inherit the Base Vitamin theme in your app to have the right colors and fonts an
 You can now use the switch component as seen previously.
 
 ```kotlin
-implementation 'com.decathlon.vitamin:switches:<version>'
+implementation("com.decathlon.vitamin:switches:<version>")
 ```
 
 ```xml
@@ -75,7 +75,7 @@ implementation 'com.decathlon.vitamin:switches:<version>'
 If you don't want to override all the switch components or your app, you can inherit the Base Vitamin theme but only style the components you want.
 
 ```kotlin
-implementation 'com.decathlon.vitamin:switches:<version>'
+implementation("com.decathlon.vitamin:switches:<version>")
 ```
 
 ```xml
@@ -101,7 +101,7 @@ implementation 'com.decathlon.vitamin:switches:<version>'
 If you don't want to use Vitamin colors and font on all your app, you can directly use the Vitamin theme on the component's parent view.
 
 ```kotlin
-implementation 'com.decathlon.vitamin:vitamin:<version>'
+implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 
 ```xml
