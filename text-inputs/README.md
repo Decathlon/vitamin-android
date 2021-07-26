@@ -15,7 +15,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 ### Filled
 
 ```xml
-<com.decathlon.android.textinput.VitaminTextInputLayoutFilled
+<com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -24,7 +24,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="hint" />
-</com.decathlon.android.textinput.VitaminTextInputLayoutFilled>
+</com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 ```
 
 or
@@ -46,7 +46,7 @@ or
 ### Outlined
 
 ```xml
-<com.decathlon.android.textinput.VitaminTextInputLayoutOutlined
+<com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -55,7 +55,7 @@ or
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="hint" />
-</com.decathlon.android.textinput.VitaminTextInputLayoutOutlined>
+</com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 ```
 
 or
@@ -100,7 +100,7 @@ implementation("com.decathlon.vitamin:textinputs:<version>")
 
 ```xml
 <!-- Filled -->
-<com.decathlon.android.textinput.VitaminTextInputLayoutFilled
+<com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -109,7 +109,7 @@ implementation("com.decathlon.vitamin:textinputs:<version>")
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="hint" />
-</com.decathlon.android.textinput.VitaminTextInputLayoutFilled>
+</com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 ```
 
 ```xml
@@ -128,7 +128,7 @@ implementation("com.decathlon.vitamin:textinputs:<version>")
 
 ### Version 2
 
-If you don't want to override all the text inputs components or your app, you can inherit the Base Vitamin theme but only style the components you want.
+If you don't want to override all the text inputs components of your app, you can inherit the Base Vitamin theme but only style the components you want.
 
 ```kotlin
 implementation("com.decathlon.vitamin:textinputs:<version>")
@@ -170,7 +170,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
          android:layout_height="wrap_content"
          android:theme="@style/Theme.Vitamin">
 
-    <com.decathlon.android.textinput.VitaminTextInputLayoutFilled
+    <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:helperText="Helper text">
@@ -179,7 +179,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="hint" />
-    </com.decathlon.android.textinput.VitaminTextInputLayoutFilled>
+    </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
