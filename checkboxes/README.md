@@ -1,4 +1,3 @@
-
 # Checkbox component
 
 ## Checkbox design specs
@@ -12,8 +11,7 @@ By inheriting the Vitamin theme in your app, you just have to use the default `C
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 ```xml
-<com.decathlon.android.checkbox.VitaminCheckbox
-    android:id="@+id/checkbox"
+<com.decathlon.vitamin.checkboxes.VitaminCheckbox
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -24,7 +22,6 @@ or
 
 ```xml
 <com.google.android.material.checkbox.MaterialCheckBox
-    android:id="@+id/checkbox"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -54,8 +51,7 @@ implementation("com.decathlon.vitamin:checkboxes:<version>")
 ```
 
 ```xml
-<com.decathlon.android.checkbox.VitaminCheckbox
-    android:id="@+id/checkbox"
+<com.decathlon.vitamin.checkboxes.VitaminCheckbox
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -64,7 +60,6 @@ implementation("com.decathlon.vitamin:checkboxes:<version>")
 
 ```xml
 <com.google.android.material.checkbox.MaterialCheckBox
-    android:id="@+id/checkbox"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -73,7 +68,7 @@ implementation("com.decathlon.vitamin:checkboxes:<version>")
 
 ### Version 2
 
-If you don't want to override all the checkbox components or your app, you can inherit the Base Vitamin theme but only style the components you want.
+If you don't want to override all the checkbox components of your app, you can inherit the Base Vitamin theme but only style the components you want.
 
 ```kotlin
 implementation("com.decathlon.vitamin:checkboxes:<version>")
@@ -89,7 +84,6 @@ implementation("com.decathlon.vitamin:checkboxes:<version>")
 
 ```xml
 <com.google.android.material.checkbox.MaterialCheckBox
-    android:id="@+id/checkbox"
     style="@style/Widget.Vitamin.Checkbox"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -107,12 +101,11 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 ```xml
 <androidx.constraintlayout.widget.ConstraintLayout
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:theme="@style/Theme.Vitamin">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.Vitamin">
 
-    <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/checkbox"
+    <com.decathlon.vitamin.checkboxes.VitaminCheckbox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"

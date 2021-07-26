@@ -12,7 +12,6 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 ```xml
 <com.decathlon.vitamin.switches.VitaminSwitch
-    android:id="@+id/switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -23,7 +22,6 @@ or
 
 ```xml
 <com.google.android.material.switchmaterial.SwitchMaterial
-    android:id="@+id/switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -54,7 +52,6 @@ implementation("com.decathlon.vitamin:switches:<version>")
 
 ```xml
 <com.decathlon.vitamin.switches.VitaminSwitch
-    android:id="@+id/switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -63,7 +60,6 @@ implementation("com.decathlon.vitamin:switches:<version>")
 
 ```xml
 <com.google.android.material.switchmaterial.SwitchMaterial
-    android:id="@+id/switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:checked="true"
@@ -72,7 +68,7 @@ implementation("com.decathlon.vitamin:switches:<version>")
 
 ### Version 2
 
-If you don't want to override all the switch components or your app, you can inherit the Base Vitamin theme but only style the components you want.
+If you don't want to override all the switch components of your app, you can inherit the Base Vitamin theme but only style the components you want.
 
 ```kotlin
 implementation("com.decathlon.vitamin:switches:<version>")
@@ -88,7 +84,6 @@ implementation("com.decathlon.vitamin:switches:<version>")
 
 ```xml
 <com.google.android.material.switchmaterial.SwitchMaterial
-    android:id="@+id/switch"
     style="@style/Widget.Vitamin.Switch"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -106,12 +101,11 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 ```xml
 <androidx.constraintlayout.widget.ConstraintLayout
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:theme="@style/Theme.Vitamin">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.Vitamin">
 
-    <com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/switch"
+    <com.decathlon.vitamin.switches.VitaminSwitch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
