@@ -4,11 +4,16 @@
     <style name="Widget.Vitamin.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
         <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.Switch</item>
         <item name="android:textAppearance">@style/TextAppearance.Vitamin.Body2</item>
+        <item name="android:textColor">@color/vtmn_switch_text</item>
     </style>
 
     <style name="ThemeOverlay.Vitamin.Switch" parent="">
+        <!-- Used by SwitchMaterial for the Track -->
         <item name="colorOnSurface">?attr/vtmnContentPrimary</item>
-        <item name="colorSecondary">?attr/vtmnContentActive</item>
+        <!-- Used by SwitchMaterial for the Thumb unchecked -->
+        <item name="colorSurface">?attr/vtmnBackgroundSecondary</item>
+        <!-- Used by SwitchMaterial for the Thumb checked -->
+        <item name="colorControlActivated">?attr/vtmnContentActive</item>
     </style>
 
 </resources>
