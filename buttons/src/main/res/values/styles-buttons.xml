@@ -71,7 +71,7 @@
     </style>
 
     <style name="Widget.Vitamin.Button.Ghost.Reversed" parent="@style/Widget.Vitamin.Button.TextButton">
-        <item name="android:textColor">?attr/vtmnContentReversed</item>
+        <item name="android:textColor">?attr/vtmnContentPrimaryReversed</item>
         <item name="rippleColor">@color/vtmn_btn_ghost_reversed_ripple</item>
     </style>
 </resources>

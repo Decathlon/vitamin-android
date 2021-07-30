@@ -3,11 +3,13 @@
     <!-- Background -->
     <attr name="vtmnBackgroundPrimary" format="color" />
     <attr name="vtmnBackgroundSecondary" format="color" />
-    <attr name="vtmnBackgroundActive" format="color" />
-    <attr name="vtmnBackgroundBrand" format="color" />
+    <attr name="vtmnBackgroundTertiary" format="color" />
+    <attr name="vtmnBackgroundBrandPrimary" format="color" />
+    <attr name="vtmnBackgroundBrandSecondary" format="color" />
     <attr name="vtmnBackgroundAccent" format="color" />
-    <attr name="vtmnBackgroundPromo" format="color" />
-    <attr name="vtmnBackgroundBrandReversed" format="color" />
+    <attr name="vtmnBackgroundDiscount" format="color" />
+    <attr name="vtmnBackgroundPrimaryReversed" format="color" />
+    <attr name="vtmnBackgroundBrandPrimaryReversed" format="color" />
 
     <!-- Content -->
     <attr name="vtmnContentPrimary" format="color" />
@@ -18,7 +20,9 @@
     <attr name="vtmnContentNegative" format="color" />
     <attr name="vtmnContentWarning" format="color" />
     <attr name="vtmnContentPositive" format="color" />
-    <attr name="vtmnContentReversed" format="color" />
+    <attr name="vtmnContentInformation" format="color" />
+    <attr name="vtmnContentPrimaryReversed" format="color" />
+    <attr name="vtmnContentActionReversed" format="color" />
 
     <!-- Border -->
     <attr name="vtmnBorderPrimary" format="color" />
@@ -28,8 +32,10 @@
     <attr name="vtmnBorderNegative" format="color" />
     <attr name="vtmnBorderWarning" format="color" />
     <attr name="vtmnBorderPositive" format="color" />
+    <attr name="vtmnBorderInformation" format="color" />
     <attr name="vtmnBorderPrimaryReversed" format="color" />
     
     <!-- States -->
-    <attr name="vtmnStatesActiveAccent" format="color" />
+    <attr name="vtmnActiveBrand" format="color" />
+    <attr name="vtmnActiveAccent" format="color" />
 </resources>
