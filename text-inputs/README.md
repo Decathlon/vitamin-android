@@ -80,8 +80,8 @@ If you don't want to inherit the full Vitamin theme (and all the Vitamin compone
 
 ### Version 1
 
-Inherit the Base Vitamin theme in your app to have the right colors and fonts and link the Vitamin switch style.
-You can now use the switch component as seen previously.
+Inherit the Base Vitamin theme in your app to have the right colors and fonts and link the Vitamin text input styles.
+You can now use text input components as seen previously.
 
 ```kotlin
 implementation("com.decathlon.vitamin:textinputs:<version>")
