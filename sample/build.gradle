@@ -1,23 +1,25 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
+plugins {
+    id("com.android.application")
+    id("kotlin-android")
+}
 
 android {
-    compileSdkVersion versions.compileSdk
+    compileSdkVersion(versions.compileSdk)
 
     defaultConfig {
-        applicationId "com.decathlon.design.sample"
-        minSdkVersion versions.minSdk
-        targetSdkVersion versions.compileSdk
-        versionCode 1
-        versionName "1.0"
+        applicationId = "com.decathlon.design.sample"
+        minSdkVersion(versions.minSdk)
+        targetSdkVersion(versions.compileSdk)
+        versionCode = 1
+        versionName = "1.0"
         vectorDrawables.useSupportLibrary = true
     }
 
     buildFeatures.viewBinding = true
 
     compileOptions {
-        sourceCompatibility = 1.8
-        targetCompatibility = 1.8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
@@ -26,11 +28,11 @@ android {
 }
 
 dependencies {
-    implementation project(":vitamin")
-    implementation deps.stdlib
+    implementation(project(":vitamin"))
+    implementation(deps.stdlib)
 
-    implementation deps.appcompat
-    implementation deps.constraint
+    implementation(deps.appcompat)
+    implementation(deps.constraint)
 
-    implementation deps.navigation.fragment
+    implementation(deps.navigation.fragment)
 }

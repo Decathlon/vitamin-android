@@ -29,16 +29,56 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
-        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.15.1'
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.8")
+        classpath("org.jacoco:org.jacoco.core:0.8.6")
+        classpath("com.android.tools.build:gradle:4.2.2")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}")
+        classpath("com.vanniktech:gradle-maven-publish-plugin:0.15.1")
     }
 }
+
+apply plugin: "jacoco"
+apply plugin: "org.sonarqube"
 
 allprojects {
     repositories {
         google()
         mavenCentral()
+    }
+}
+
+tasks.register("codeCoverageReport", JacocoReport) {
+    subprojects { subproject ->
+        subproject.plugins.withType(JacocoPlugin).configureEach {
+            subproject.tasks
+                    .matching { t -> t.extensions.findByType(JacocoTaskExtension) }
+                    .configureEach { testTask ->
+                        sourceSets subproject.sourceSets.main
+                        executionData(testTask)
+                    }
+
+            subproject.tasks
+                    .matching { t -> t.extensions.findByType(JacocoTaskExtension) }
+                    .forEach {
+                        rootProject.tasks.codeCoverageReport.dependsOn(it)
+                    }
+        }
+    }
+
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "Decathlon_vitamin-android"
+        property "sonar.organization", "decathlon"
+        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.coverage.jacoco.xmlReportPaths", "$rootDir/build/reports/jacoco/codeCoverageReport/codeCoverageReport.xml"
+        property "sonar.login", System.getenv("SONAR_TOKEN") ?: SONAR_TOKEN
+        property "sonar.debug", true
     }
 }
 
