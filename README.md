@@ -38,7 +38,18 @@ com.decathlon.android.vitamin | Build UIs with ready to use Decathlon's Visual I
 
 ## 📥 Download
 
-Not yet available.
+For now, release artifacts aren't yet available but you can test Vitamin Android from
+snapshot artifact.
+
+```kotlin
+repositories {
+    maven {
+        url = uri("https://oss.sonatype.org/content/repositories/snapshots/")
+    }
+}
+
+implementation("com.decathlon.vitamin:vitamin:1.0.0-SNAPSHOT")
+```
 
 ## 📝 License
 
