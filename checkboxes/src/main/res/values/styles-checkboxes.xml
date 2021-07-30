@@ -2,11 +2,8 @@
 <resources>
 
     <style name="Widget.Vitamin.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
-        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Checkbox</item>
         <item name="buttonTint">@color/vtmn_checkbox_box</item>
-    </style>
-
-    <style name="TextAppearance.Vitamin.Checkbox" parent="TextAppearance.Vitamin.Body2">
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Body2</item>
         <item name="android:textColor">@color/vtmn_checkbox_text</item>
     </style>
 
