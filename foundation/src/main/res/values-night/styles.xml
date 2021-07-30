@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.DayNight.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colors -->
+        <item name="vtmnBackgroundPrimary">@color/vtmn_black</item>
+        <item name="vtmnBackgroundSecondary">@color/vtmn_grey900</item>
+        <item name="vtmnBackgroundTertiary">@color/vtmn_grey800</item>
+        <item name="vtmnBackgroundBrandPrimary">@color/vtmn_blue300</item>
+        <item name="vtmnBackgroundBrandSecondary">@color/vtmn_blue700</item>
+        <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
+        <item name="vtmnBackgroundDiscount">@color/vtmn_red400</item>
+        <item name="vtmnBackgroundPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_black</item>
+
+        <item name="vtmnContentPrimary">@color/vtmn_white</item>
+        <item name="vtmnContentSecondary">@color/vtmn_grey300</item>
+        <item name="vtmnContentAction">@color/vtmn_blue200</item>
+        <item name="vtmnContentActive">@color/vtmn_blue300</item>
+        <item name="vtmnContentInactive">@color/vtmn_grey500</item>
+        <item name="vtmnContentNegative">@color/vtmn_red300</item>
+        <item name="vtmnContentWarning">@color/vtmn_orange300</item>
+        <item name="vtmnContentPositive">@color/vtmn_conifer300</item>
+        <item name="vtmnContentInformation">@color/vtmn_blue300</item>
+        <item name="vtmnContentPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnContentActionReversed">@color/vtmn_black</item>
+
+        <item name="vtmnBorderPrimary">@color/vtmn_white</item>
+        <item name="vtmnBorderSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnBorderActive">@color/vtmn_blue300</item>
+        <item name="vtmnBorderInactive">@color/vtmn_grey500</item>
+        <item name="vtmnBorderNegative">@color/vtmn_red300</item>
+        <item name="vtmnBorderWarning">@color/vtmn_orange300</item>
+        <item name="vtmnBorderPositive">@color/vtmn_conifer300</item>
+        <item name="vtmnBorderInformation">@color/vtmn_blue300</item>
+        <item name="vtmnBorderPrimaryReversed">@color/vtmn_black</item>
+
+        <item name="vtmnActiveBrand">@color/vtmn_blue600</item>
+        <item name="vtmnActiveAccent">@color/vtmn_yellow100</item>
+    </style>
+</resources>

@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Base.Theme.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Colors -->
-        <item name="vtmnBackgroundPrimary">@color/vtmn_white</item>
-        <item name="vtmnBackgroundSecondary">@color/vtmn_grey50</item>
-        <item name="vtmnBackgroundActive">@color/vtmn_blue50</item>
-        <item name="vtmnBackgroundBrand">@color/vtmn_blue400</item>
-        <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
-        <item name="vtmnBackgroundPromo">@color/vtmn_red400</item>
-        <item name="vtmnBackgroundBrandReversed">@color/vtmn_white</item>
-
-        <item name="vtmnContentPrimary">@color/vtmn_black</item>
-        <item name="vtmnContentSecondary">@color/vtmn_grey500</item>
-        <item name="vtmnContentAction">@color/vtmn_blue400</item>
-        <item name="vtmnContentActive">@color/vtmn_blue500</item>
-        <item name="vtmnContentInactive">@color/vtmn_grey300</item>
-        <item name="vtmnContentNegative">@color/vtmn_red400</item>
-        <item name="vtmnContentWarning">@color/vtmn_orange400</item>
-        <item name="vtmnContentPositive">@color/vtmn_conifer400</item>
-        <item name="vtmnContentReversed">@color/vtmn_white</item>
-
-        <item name="vtmnBorderPrimary">@color/vtmn_black</item>
-        <item name="vtmnBorderSecondary">@color/vtmn_grey200</item>
-        <item name="vtmnBorderActive">@color/vtmn_blue400</item>
-        <item name="vtmnBorderInactive">@color/vtmn_grey400</item>
-        <item name="vtmnBorderNegative">@color/vtmn_red400</item>
-        <item name="vtmnBorderWarning">@color/vtmn_orange400</item>
-        <item name="vtmnBorderPositive">@color/vtmn_conifer400</item>
-        <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
-
-        <item name="vtmnStatesActiveAccent">@color/vtmn_yellow100</item>
-
-        <item name="colorPrimary">@color/vtmn_blue400</item>
+    <style name="Base.Theme.Vitamin" parent="Base.Theme.DayNight.Vitamin">
+        <item name="colorPrimary">?attr/vtmnBackgroundBrandPrimary</item>
         <item name="colorPrimaryDark">@color/vtmn_blue600</item>
-        <item name="colorOnPrimary">?attr/vtmnContentReversed</item>
-        <item name="colorSecondary">@color/vtmn_yellow400</item>
-        <item name="colorOnSecondary">?attr/vtmnContentReversed</item>
+        <item name="colorOnPrimary">?attr/vtmnContentPrimaryReversed</item>
+        <item name="colorSecondary">?attr/vtmnBackgroundAccent</item>
+        <item name="colorOnSecondary">?attr/vtmnContentPrimaryReversed</item>
         <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
         <item name="colorOnSurface">?attr/vtmnContentPrimary</item>
         <item name="colorError">?attr/vtmnContentNegative</item>
-        <item name="colorOnError">?attr/vtmnContentReversed</item>
+        <item name="colorOnError">?attr/vtmnContentPrimaryReversed</item>
         <item name="android:windowBackground">?attr/vtmnBackgroundPrimary</item>
         <item name="colorControlActivated">?attr/colorSecondary</item>
 
@@ -60,6 +30,44 @@
         <item name="textAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
         <item name="android:textAppearanceMedium">@style/TextAppearance.Vitamin.Body1</item>
         <item name="android:textAppearanceSmall">@style/TextAppearance.Vitamin.Body1</item>
+    </style>
+
+    <style name="Base.Theme.DayNight.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colors -->
+        <item name="vtmnBackgroundPrimary">@color/vtmn_white</item>
+        <item name="vtmnBackgroundSecondary">@color/vtmn_grey50</item>
+        <item name="vtmnBackgroundTertiary">@color/vtmn_grey100</item>
+        <item name="vtmnBackgroundBrandPrimary">@color/vtmn_blue400</item>
+        <item name="vtmnBackgroundBrandSecondary">@color/vtmn_blue50</item>
+        <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
+        <item name="vtmnBackgroundDiscount">@color/vtmn_red400</item>
+        <item name="vtmnBackgroundPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_white</item>
+
+        <item name="vtmnContentPrimary">@color/vtmn_black</item>
+        <item name="vtmnContentSecondary">@color/vtmn_grey500</item>
+        <item name="vtmnContentAction">@color/vtmn_blue500</item>
+        <item name="vtmnContentActive">@color/vtmn_blue400</item>
+        <item name="vtmnContentInactive">@color/vtmn_grey400</item>
+        <item name="vtmnContentNegative">@color/vtmn_red400</item>
+        <item name="vtmnContentWarning">@color/vtmn_orange400</item>
+        <item name="vtmnContentPositive">@color/vtmn_conifer400</item>
+        <item name="vtmnContentInformation">@color/vtmn_blue400</item>
+        <item name="vtmnContentPrimaryReversed">@color/vtmn_white</item>
+        <item name="vtmnContentActionReversed">@color/vtmn_white</item>
+
+        <item name="vtmnBorderPrimary">@color/vtmn_black</item>
+        <item name="vtmnBorderSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnBorderActive">@color/vtmn_blue400</item>
+        <item name="vtmnBorderInactive">@color/vtmn_grey400</item>
+        <item name="vtmnBorderNegative">@color/vtmn_red400</item>
+        <item name="vtmnBorderWarning">@color/vtmn_orange400</item>
+        <item name="vtmnBorderPositive">@color/vtmn_conifer400</item>
+        <item name="vtmnBorderInformation">@color/vtmn_blue400</item>
+        <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
+
+        <item name="vtmnActiveBrand">@color/vtmn_blue600</item>
+        <item name="vtmnActiveAccent">@color/vtmn_yellow100</item>
     </style>
 
     <style name="Widget" />

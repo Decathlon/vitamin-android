@@ -15,8 +15,8 @@
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             style="?attr/toolbarStyle"
-            app:navigationIconTint="?attr/vtmnContentReversed"
-            app:titleTextColor="?attr/vtmnContentReversed"
+            app:navigationIconTint="?attr/vtmnContentPrimaryReversed"
+            app:titleTextColor="?attr/vtmnContentPrimaryReversed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
