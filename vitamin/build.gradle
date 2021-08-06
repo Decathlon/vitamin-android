@@ -29,6 +29,7 @@ dependencies {
     api(project(':radiobuttons'))
     api(project(':switches'))
     api(project(':text-inputs'))
+    api(project(':fabs'))
 }
 
 jacoco {

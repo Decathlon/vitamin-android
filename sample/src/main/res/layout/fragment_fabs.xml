@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/normalFabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Regular fab"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.fabs.VitaminFloatingActionButton
+            android:id="@+id/normalFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@id/normalFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/normalFabTitle"
+            app:srcCompat="@drawable/ic_vtmn_add_fill" />
+
+        <com.decathlon.vitamin.fabs.VitaminFloatingActionButton
+            android:id="@+id/normalFabDisabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:enabled="false"
+            app:layout_constraintStart_toEndOf="@id/normalFab"
+            app:layout_constraintTop_toTopOf="@id/normalFab"
+            app:srcCompat="@drawable/ic_vtmn_add_fill" />
+
+        <TextView
+            android:id="@+id/miniFabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Mini fab"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline3"
+            app:layout_constraintStart_toStartOf="@id/normalFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/normalFab"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.fabs.VitaminMiniFloatingActionButton
+            android:id="@+id/miniFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@id/normalFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/miniFabTitle"
+            app:srcCompat="@drawable/ic_vtmn_add_fill" />
+
+        <com.decathlon.vitamin.fabs.VitaminMiniFloatingActionButton
+            android:id="@+id/miniFabDisabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:enabled="false"
+            app:layout_constraintStart_toEndOf="@id/miniFab"
+            app:layout_constraintTop_toTopOf="@id/miniFab"
+            app:srcCompat="@drawable/ic_vtmn_add_fill" />
+
+        <TextView
+            android:id="@+id/extendedFabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Extended fab"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline3"
+            app:layout_constraintStart_toStartOf="@id/normalFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/miniFab"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.fabs.VitaminExtendedFloatingActionButton
+            android:id="@+id/extendedFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="Label"
+            app:icon="@drawable/ic_vtmn_add_fill"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/normalFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/extendedFabTitle"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.fabs.VitaminExtendedFloatingActionButton
+            android:id="@+id/extendedFabDisabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:enabled="false"
+            android:text="Label"
+            app:icon="@drawable/ic_vtmn_add_fill"
+            app:layout_constraintStart_toEndOf="@id/extendedFab"
+            app:layout_constraintTop_toTopOf="@id/extendedFab"
+            tools:ignore="HardcodedText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

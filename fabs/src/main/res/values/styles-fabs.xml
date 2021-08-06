@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/vtmn_fab_container</item>
+        <item name="rippleColor">?attr/vtmnActiveBrand</item>
+        <item name="tint">@color/vtmn_fab_icon</item>
+        <item name="fabSize">normal</item>
+    </style>
+
+    <style name="Widget.Vitamin.MiniFloatingActionButton" parent="Widget.Vitamin.FloatingActionButton">
+        <item name="fabSize">mini</item>
+    </style>
+
+    <style name="Widget.Vitamin.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="backgroundTint">@color/vtmn_fab_container</item>
+        <item name="rippleColor">?attr/vtmnActiveBrand</item>
+        <item name="iconTint">@color/vtmn_fab_icon</item>
+        <item name="android:textColor">@color/vtmn_fab_text</item>
+    </style>
+
+</resources>

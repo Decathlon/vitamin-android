@@ -40,6 +40,11 @@ object ComponentProvider {
                 R.string.text_input_screen_title,
                 R.drawable.ic_textinput,
                 R.id.action_main_to_text_input
+            ),
+            Component(
+                R.string.fabs_screen_title,
+                R.drawable.ic_fab,
+                R.id.action_main_to_fabs
             )
         )
     }
