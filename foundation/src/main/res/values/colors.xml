@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Blue -->
-    <color name="vtmn_blue700">#ff00537d</color>
+    <color name="vtmn_blue700">#ff012b49</color>
     <color name="vtmn_blue600">#ff00537d</color>
     <color name="vtmn_blue500">#ff00689d</color>
     <color name="vtmn_blue400">#ff007dbc</color>
