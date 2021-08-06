@@ -26,5 +26,10 @@
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
         <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
         <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
+        <!-- FloatingActionButtons -->
+        <item name="floatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.Vitamin.ExtendedFloatingActionButton</item>
+        <!-- Custom FloatingActionButtons Styles -->
+        <item name="miniFloatingActionButtonStyle">@style/Widget.Vitamin.MiniFloatingActionButton</item>
     </style>
 </resources>

@@ -29,11 +29,13 @@ To start using Vitamin in your app, you can check [the Vitamin module documentat
 
 Group | Description
 -- | --
-com.decathlon.android.foundation | Fundamental components of UI with texts, icons and colors.
-com.decathlon.android.buttons | Build UIs with ready to use Button components.
-com.decathlon.android.checkboxes | Build UIs with ready to use Checkbox components.
-com.decathlon.android.radiobuttons | Build UIs with ready to use RadioButton components.
-com.decathlon.android.switches | Build UIs with ready to use Switch components.
+com.decathlon.vitamin.foundation | Fundamental components of UI with texts, icons and colors.
+com.decathlon.vitamin.buttons | Build UIs with ready to use Button components.
+com.decathlon.vitamin.checkboxes | Build UIs with ready to use Checkbox components.
+com.decathlon.vitamin.radiobuttons | Build UIs with ready to use RadioButton components.
+com.decathlon.vitamin.switches | Build UIs with ready to use Switch components.
+com.decathlon.vitamin.textinputs | Build UIs with ready to use TextInput components.
+com.decathlon.vitamin.fabs | Build UIs with ready to use FloatingActionButton components.
 com.decathlon.android.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
 ## 📥 Download

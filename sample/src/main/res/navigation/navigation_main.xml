@@ -29,6 +29,9 @@
         <action
             android:id="@+id/action_main_to_text_input"
             app:destination="@id/text_inputs" />
+        <action
+            android:id="@+id/action_main_to_fabs"
+            app:destination="@id/fabs" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -58,4 +61,8 @@
         android:id="@+id/text_inputs"
         android:name="com.decathlon.design.sample.components.screens.TextInputsFragment"
         android:label="@string/text_input_screen_title" />
+    <fragment
+        android:id="@+id/fabs"
+        android:name="com.decathlon.design.sample.components.screens.FabsFragment"
+        android:label="@string/fabs_screen_title" />
 </navigation>
