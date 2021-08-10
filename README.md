@@ -40,8 +40,20 @@ com.decathlon.android.vitamin | Build UIs with ready to use Decathlon's Visual I
 
 ## 📥 Download
 
-For now, release artifacts aren't yet available but you can test Vitamin Android from
-snapshot artifact.
+Release artifacts are available on Maven Central. Check the [release page](https://github.com/Decathlon/vitamin-android/releases) 
+to know what is the latest release version of Vitamin artifacts.
+
+```kotlin
+repositories {
+    mavenCentral()
+}
+
+implementation("com.decathlon.vitamin:vitamin:<last_version>")
+```
+
+If you want to test latest changes merge in `main` branch, you can test Vitamin Android from
+snapshot artifacts but we don't recommend to use theses artifacts in production where you can
+have regressions or breaking changes until the next official release.
 
 ```kotlin
 repositories {
