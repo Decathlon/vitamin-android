@@ -264,13 +264,34 @@
             tools:ignore="HardcodedText" />
 
         <TextView
+            android:id="@+id/tvBody3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="textAppearanceBody3"
+            app:layout_constraintStart_toStartOf="@+id/guideline9"
+            app:layout_constraintTop_toBottomOf="@+id/tvBody2"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/body3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body3"
+            android:textAppearance="?attr/textAppearanceBody3"
+            app:layout_constraintBottom_toBottomOf="@+id/tvBody3"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toTopOf="@+id/tvBody3"
+            tools:ignore="HardcodedText" />
+
+        <TextView
             android:id="@+id/tvButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="textAppearanceButton"
             app:layout_constraintStart_toStartOf="@+id/guideline9"
-            app:layout_constraintTop_toBottomOf="@+id/tvBody2"
+            app:layout_constraintTop_toBottomOf="@+id/tvBody3"
             tools:ignore="HardcodedText" />
 
         <TextView

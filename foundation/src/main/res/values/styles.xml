@@ -25,6 +25,7 @@
         <item name="textAppearanceSubtitle2">@style/TextAppearance.Vitamin.Subtitle2</item>
         <item name="textAppearanceBody1">@style/TextAppearance.Vitamin.Body1</item>
         <item name="textAppearanceBody2">@style/TextAppearance.Vitamin.Body2</item>
+        <item name="textAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
         <item name="textAppearanceButton">@style/TextAppearance.Vitamin.Button</item>
         <item name="textAppearanceCaption">@style/TextAppearance.Vitamin.Caption</item>
         <item name="textAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
@@ -53,6 +54,7 @@
         <item name="vtmnContentWarning">@color/vtmn_orange400</item>
         <item name="vtmnContentPositive">@color/vtmn_conifer400</item>
         <item name="vtmnContentInformation">@color/vtmn_blue400</item>
+        <item name="vtmnContentAccent">@color/vtmn_black</item>
         <item name="vtmnContentPrimaryReversed">@color/vtmn_white</item>
         <item name="vtmnContentActionReversed">@color/vtmn_white</item>
 

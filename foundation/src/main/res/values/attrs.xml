@@ -21,6 +21,7 @@
     <attr name="vtmnContentWarning" format="color" />
     <attr name="vtmnContentPositive" format="color" />
     <attr name="vtmnContentInformation" format="color" />
+    <attr name="vtmnContentAccent" format="color" />
     <attr name="vtmnContentPrimaryReversed" format="color" />
     <attr name="vtmnContentActionReversed" format="color" />
 
@@ -34,8 +35,11 @@
     <attr name="vtmnBorderPositive" format="color" />
     <attr name="vtmnBorderInformation" format="color" />
     <attr name="vtmnBorderPrimaryReversed" format="color" />
-    
+
     <!-- States -->
     <attr name="vtmnActiveBrand" format="color" />
     <attr name="vtmnActiveAccent" format="color" />
+
+    <!-- Typography -->
+    <attr name="textAppearanceBody3" format="reference" />
 </resources>
