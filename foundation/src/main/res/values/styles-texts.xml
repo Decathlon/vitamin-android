@@ -60,6 +60,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_subtitle_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_subtitle_1</item>
+        <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
@@ -68,6 +69,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_subtitle_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_subtitle_2</item>
+        <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
@@ -81,6 +83,15 @@
     </style>
 
     <style name="TextAppearance.Vitamin.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/vtmn_text_size_body_2</item>
+        <item name="lineHeight">@dimen/vtmn_line_height_body_2</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Vitamin.Body3" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/roboto_regular</item>
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body_2</item>
@@ -105,6 +116,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_caption</item>
         <item name="lineHeight">@dimen/vtmn_line_height_caption</item>
+        <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 
@@ -113,7 +125,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_overline</item>
         <item name="lineHeight">@dimen/vtmn_line_height_overline</item>
-        <item name="fontWeight">700</item>
+        <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
 </resources>
