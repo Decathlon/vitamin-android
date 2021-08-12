@@ -28,12 +28,6 @@ open class VitaminSecondaryButton @JvmOverloads constructor(
     defStyleAttr: Int = R.attr.buttonSecondary
 ) : MaterialButton(context, attrs, defStyleAttr)
 
-open class VitaminSecondaryReversedButton @JvmOverloads constructor(
-    context: Context,
-    attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.buttonSecondaryReversed
-) : MaterialButton(context, attrs, defStyleAttr)
-
 open class VitaminGhostButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
