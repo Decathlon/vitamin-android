@@ -12,7 +12,6 @@
         <item name="buttonReverseStyle">@style/Widget.Vitamin.Button.Primary.Reverse</item>
         <item name="buttonConversionStyle">@style/Widget.Vitamin.Button.Conversion</item>
         <item name="buttonSecondary">@style/Widget.Vitamin.Button.Secondary</item>
-        <item name="buttonSecondaryReversed">@style/Widget.Vitamin.Button.Secondary.Reversed</item>
         <item name="buttonGhost">@style/Widget.Vitamin.Button.Ghost</item>
         <item name="buttonGhostReversed">@style/Widget.Vitamin.Button.Ghost.Reversed</item>
         <!--  Checkboxes -->

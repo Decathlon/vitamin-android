@@ -3,7 +3,6 @@
     <attr name="buttonReverseStyle" format="reference" />
     <attr name="buttonConversionStyle" format="reference" />
     <attr name="buttonSecondary" format="reference" />
-    <attr name="buttonSecondaryReversed" format="reference" />
     <attr name="buttonGhost" format="reference" />
     <attr name="buttonGhostReversed" format="reference" />
 </resources>
