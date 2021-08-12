@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="@dimen/padding_screen">
 
         <com.decathlon.vitamin.switches.VitaminSwitch
             android:id="@+id/checkedSwitch"
@@ -24,7 +24,7 @@
             android:id="@+id/uncheckedSwitch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:checked="false"
             android:text="Unselected by default"
             app:layout_constraintStart_toStartOf="@id/checkedSwitch"
@@ -35,7 +35,7 @@
             android:id="@+id/disabledCheckedSwitch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:checked="true"
             android:enabled="false"
             android:text="Disabled checked"
@@ -47,7 +47,7 @@
             android:id="@+id/disabledUnCheckedSwitch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:checked="false"
             android:enabled="false"
             android:text="Disabled unchecked"
