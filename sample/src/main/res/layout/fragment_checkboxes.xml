@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="@dimen/padding_screen">
 
         <com.decathlon.vitamin.checkboxes.VitaminCheckbox
             android:id="@+id/selectedCheckbox"
@@ -24,7 +24,7 @@
             android:id="@+id/unselectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:checked="false"
             android:text="Unchecked by default"
             app:layout_constraintStart_toStartOf="@id/selectedCheckbox"
@@ -35,7 +35,7 @@
             android:id="@+id/disabledSelectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:enabled="false"
             android:checked="true"
             android:text="Disabled checked"
@@ -47,7 +47,7 @@
             android:id="@+id/disabledUnselectedCheckbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:enabled="false"
             android:text="Disabled unchecked"
             app:layout_constraintStart_toStartOf="@id/selectedCheckbox"

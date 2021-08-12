@@ -8,11 +8,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="@dimen/padding_screen">
 
         <TextView
             android:id="@+id/simpleRadioButtonsTitle"
-            style="@style/TextAppearance.Vitamin.Caption"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Simple radio buttons"
@@ -24,6 +24,7 @@
             android:id="@+id/selectedRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:checked="true"
             android:text="Selected by default"
             app:layout_constraintStart_toStartOf="parent"
@@ -64,9 +65,10 @@
 
         <TextView
             android:id="@+id/groupedRadioButton"
-            style="@style/TextAppearance.Vitamin.Caption"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
             android:text="Grouped radio buttons"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/disabledRadioButton"
@@ -76,6 +78,7 @@
             android:id="@+id/radioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal"
             app:layout_constraintHorizontal_chainStyle="spread_inside"
             app:layout_constraintStart_toStartOf="parent"
