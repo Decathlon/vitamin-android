@@ -20,7 +20,7 @@ class ProgressbarFragment: ComponentFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.slider.addOnChangeListener { slider, value, fromUser ->
+        binding.slider.addOnChangeListener { _, value, _ ->
             binding.linearProgressIndicatorDeterminatedSmall.setProgressCompat(value.toInt(), true)
             binding.linearProgressIndicatorDeterminatedMedium.setProgressCompat(value.toInt(), true)
             binding.linearProgressIndicatorDeterminatedLarge.setProgressCompat(value.toInt(), true)

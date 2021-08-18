@@ -55,6 +55,11 @@ object ComponentProvider {
                 R.string.progressbar_screen_title,
                 R.drawable.ic_progress,
                 R.id.action_main_to_progressbar
+            ),
+            Component(
+                R.string.ratings_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_ratings
             )
         )
     }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define RatingView style using all the attributes under VitaminRatingView -->
+    <attr name="vtmnRatingViewStyle" format="reference" />
+    <!-- Define the style of the RatingView's ratingBar -->
+    <attr name="vtmnRatingViewRatingBarStyle" format="reference"/>
+
+    <declare-styleable name="VitaminRatingView">
+        <!-- Define the global note to display -->
+        <attr name="vtmnRatingView_note" format="float" />
+        <!-- Define the comments count to display -->
+        <attr name="vtmnRatingView_commentsCount" format="integer" />
+        <!-- Define if you want to show the comments or not -->
+        <attr name="vtmnRatingView_showComments" format="boolean" />
+        <!-- Display the component in compact mode -->
+        <attr name="vtmnRatingView_compact" format="boolean" />
+        <!-- Display the component with emphasis -->
+        <attr name="vtmnRatingView_emphasis" format="boolean" />
+        <!-- Define the rating icon for compact mode -->
+        <attr name="vtmnRatingView_compactIcon" format="reference" />
+        <!-- Define the default color for ratingBar and compact rating icon -->
+        <attr name="vtmnRatingView_defaultIconsColor" format="reference" />
+        <!-- Define the emphasis color for ratingBar and compact rating icon -->
+        <attr name="vtmnRatingView_emphasisIconsColor" format="reference" />
+        <!-- Define the textAppearance for the note -->
+        <attr name="vtmnRatingView_noteTextAppearance" format="reference" />
+        <!-- Define the textAppearance for the comments count -->
+        <attr name="vtmnRatingView_commentsCountTextAppearance" format="reference" />
+    </declare-styleable>
+
+</resources>
