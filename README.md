@@ -5,7 +5,7 @@
     alt="Vitamin Decathlon Design System logo" />
 </p>
 
-# Vitamin Android (beta)
+# Vitamin Android
 
 [![Build Status](https://app.bitrise.io/app/62ac2962b2dd627a/status.svg?token=GlcHGXAWV2T4IItZiT43_A&branch=main)](https://app.bitrise.io/app/62ac2962b2dd627a)
 
@@ -62,8 +62,11 @@ repositories {
     }
 }
 
-implementation("com.decathlon.vitamin:vitamin:1.0.0-SNAPSHOT")
+implementation("com.decathlon.vitamin:vitamin:<latest-major + 1>.0.0-SNAPSHOT")
 ```
+
+If you have any question about the versioning of this project, you can just read our [documentation](https://github.com/Decathlon/vitamin-android/tree/main/VERSIONING.md)
+about it.
 
 ## 📝 License
 
