@@ -6,10 +6,10 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen">
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -19,633 +19,575 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundPrimary"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundPrimary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundPrimary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundSecondary"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundSecondary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundSecondary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundTertiary"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundTertiary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundTertiary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundBrandPrimary"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundBrandPrimary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundBrandPrimary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundBrandSecondary"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundBrandSecondary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundBrandSecondary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundAccent"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundAccent"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundAccent"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundDiscount"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundDiscount"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundDiscount"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundPrimaryReversed"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundPrimaryReversed"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBackgroundBrandPrimaryReversed"
                 android:layout_weight="1"
+                android:text="vtmnBackgroundBrandPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBackgroundBrandPrimaryReversed"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentPrimary"
                 android:layout_weight="1"
+                android:text="vtmnContentPrimary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentPrimary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentSecondary"
                 android:layout_weight="1"
+                android:text="vtmnContentSecondary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentSecondary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentAction"
                 android:layout_weight="1"
+                android:text="vtmnContentAction"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentAction"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentActive"
                 android:layout_weight="1"
+                android:text="vtmnContentActive"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentActive"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentInactive"
                 android:layout_weight="1"
+                android:text="vtmnContentInactive"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentInactive"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentNegative"
                 android:layout_weight="1"
+                android:text="vtmnContentNegative"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentNegative"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentWarning"
                 android:layout_weight="1"
+                android:text="vtmnContentWarning"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentWarning"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentPositive"
                 android:layout_weight="1"
+                android:text="vtmnContentPositive"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentPositive"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentInformation"
                 android:layout_weight="1"
+                android:text="vtmnContentInformation"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentInformation"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentPrimaryReversed"
                 android:layout_weight="1"
+                android:text="vtmnContentPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentPrimaryReversed"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnContentActionReversed"
                 android:layout_weight="1"
+                android:text="vtmnContentActionReversed"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnContentActionReversed"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderPrimary"
                 android:layout_weight="1"
+                android:text="vtmnBorderPrimary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderPrimary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderSecondary"
                 android:layout_weight="1"
+                android:text="vtmnBorderSecondary"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderSecondary"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderActive"
                 android:layout_weight="1"
+                android:text="vtmnBorderActive"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderActive"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderInactive"
                 android:layout_weight="1"
+                android:text="vtmnBorderInactive"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderInactive"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderNegative"
                 android:layout_weight="1"
+                android:text="vtmnBorderNegative"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderNegative"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderWarning"
                 android:layout_weight="1"
+                android:text="vtmnBorderWarning"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderWarning"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderPositive"
                 android:layout_weight="1"
+                android:text="vtmnBorderPositive"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderPositive"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderInformation"
                 android:layout_weight="1"
+                android:text="vtmnBorderInformation"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderInformation"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="vtmnBorderPrimaryReversed"
                 android:layout_weight="1"
+                android:text="vtmnBorderPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:background="@color/vtmn_black"
-                android:padding="1dp"
+                style="@style/Widget.Sample.ColorView"
                 app:srcCompat="?attr/vtmnBorderPrimaryReversed"
                 tools:ignore="ContentDescription" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
