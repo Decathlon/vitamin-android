@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Widget.Sample.ColorView" parent="">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:background">@color/vtmn_black</item>
+        <item name="android:padding">1dp</item>
+    </style>
+    
+</resources>
