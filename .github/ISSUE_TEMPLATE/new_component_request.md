@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: New component request
+about: When a component is ready to dev, create the GitHub issue with this template
 labels: enhancement 🚀
 ---
 
@@ -14,11 +14,13 @@ labels: enhancement 🚀
     If a section isn't adapted for your request, please remove it to avoid any unnecessary section.
 -->
 
-**Is your feature request related to a problem? Please describe.**
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
+**Decathlon.design link**
+<!-- Put here the link to decathlon.design component specification -->
+<!-- Mandatory, can't be removed -->
 
-**Describe the solution you'd like**
-<!-- A clear and concise description of what you want to happen. -->
+**Material.io link**
+<!-- Put here the link to Material.io design and technical specifications -->
+<!-- If the component doesn't exist on Material, just remove this section -->
 
 **Additional context**
-<!-- Add any other context or screenshots about the feature request here. -->
+<!-- Add any additional context about the component here -->
