@@ -30,5 +30,7 @@
         <item name="extendedFloatingActionButtonStyle">@style/Widget.Vitamin.ExtendedFloatingActionButton</item>
         <!-- Custom FloatingActionButtons Styles -->
         <item name="miniFloatingActionButtonStyle">@style/Widget.Vitamin.MiniFloatingActionButton</item>
+        <!-- Modal -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
     </style>
 </resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ThemeOverlay.Vitamin.Modal" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorSecondary">?attr/vtmnContentAction</item>
+        <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
+        <item name="colorOnSurface">?attr/vtmnContentSecondary</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/Modal.Vitamin.Title.Text</item>
+        <item name="materialAlertDialogTitleIconStyle">@style/Modal.Vitamin.Title.Icon</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/Modal.Vitamin.Body.Text</item>
+        <item name="android:checkedTextViewStyle">@style/Modal.Vitamin.Body.Text</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Vitamin.Button.Ghost.Modal</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Vitamin.Button.Ghost.Modal</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.Vitamin.Button.Ghost.Modal</item>
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.Modal.Centered" parent="ThemeOverlay.Vitamin.Modal">
+        <item name="materialAlertDialogButtonSpacerVisibility">@integer/mtrl_view_gone</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Vitamin.Button.Ghost.Modal.Centered</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.Vitamin.Button.Ghost.Modal.Centered</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.Vitamin.Button.Ghost.Modal.Centered</item>
+    </style>
+
+    <!--
+    We can't tint the unchecked states of checkboxes and radiobuttons in single and multi
+    lines MaterialAlertDialog. Bug has been created on Material Android Component:
+    https://github.com/material-components/material-components-android/issues/2351
+    -->
+    <style name="Modal.Vitamin.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
+    </style>
+
+    <style name="Modal.Vitamin.Title.Icon" parent="MaterialAlertDialog.MaterialComponents.Title.Icon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">9dp</item>
+        <item name="android:layout_marginRight">9dp</item>
+        <item name="tint">?attr/vtmnContentPrimary</item>
+        <item name="android:tint">?attr/vtmnContentPrimary</item>
+    </style>
+
+    <style name="Modal.Vitamin.Body.Text" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textAppearance">?attr/textAppearanceBody3</item>
+        <item name="android:textColor">?attr/vtmnContentSecondary</item>
+    </style>
+
+    <style name="Widget.Vitamin.Button.Ghost.Modal" parent="Widget.Vitamin.Button.Ghost" />
+
+    <style name="Widget.Vitamin.Button.Ghost.Modal.Centered" parent="Widget.Vitamin.Button.Ghost.Modal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:maxWidth">@null</item>
+    </style>
+
+</resources>

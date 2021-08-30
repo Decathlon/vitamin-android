@@ -32,6 +32,9 @@
         <action
             android:id="@+id/action_main_to_fabs"
             app:destination="@id/fabs" />
+        <action
+            android:id="@+id/action_main_to_modals"
+            app:destination="@id/modals" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -65,4 +68,8 @@
         android:id="@+id/fabs"
         android:name="com.decathlon.design.sample.components.screens.FabsFragment"
         android:label="@string/fabs_screen_title" />
+    <fragment
+        android:id="@+id/modals"
+        android:name="com.decathlon.design.sample.components.screens.ModalsFragment"
+        android:label="@string/modals_screen_title" />
 </navigation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen">
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APPCOMPAT ALERTDIALOG"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adMessage2Actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="MESSAGE, 2 ACTIONS"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adTitle2Actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="TITLE, 2 ACTIONS"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adTitleMessage3LongActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="TITLE, MESSAGE, 3 LONG ACTIONS"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adIconTitleMessage2Actions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="ICON, TITLE, MESSAGE, 2 ACTIONS"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adItemsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="ITEMS LIST"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adMultiSelectList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="MULTI-SELECT LIST"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adSingleSelectList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="SINGLE SELECT LIST"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adScrollingContentTitleActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="SCROLLING CONTENT, TITLE, ACTIONS"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adScrollingContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="SCROLLING CONTENT"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/adIconTitleMessage2FullWidthActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="ICON, TITLE, MESSAGE, 2 FULL ACTION"
+            tools:ignore="HardcodedText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

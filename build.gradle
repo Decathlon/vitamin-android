@@ -5,8 +5,8 @@ buildscript {
             compileSdk: 30,
             minSdk    : 21,
 
-            kotlin    : "1.5.10",
-            material  : "1.3.0",
+            kotlin    : "1.5.21",
+            material  : "1.5.0-alpha01",
 
             appCompat : "1.2.0",
             constraint: "2.0.1",
