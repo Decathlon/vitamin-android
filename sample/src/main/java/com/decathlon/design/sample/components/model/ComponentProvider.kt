@@ -45,6 +45,11 @@ object ComponentProvider {
                 R.string.fabs_screen_title,
                 R.drawable.ic_fab,
                 R.id.action_main_to_fabs
+            ),
+            Component(
+                R.string.modals_screen_title,
+                R.drawable.ic_modal,
+                R.id.action_main_to_modals
             )
         )
     }

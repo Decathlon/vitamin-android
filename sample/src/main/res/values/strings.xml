@@ -8,4 +8,5 @@
     <string name="switches_screen_title">Switches</string>
     <string name="text_input_screen_title">Text Inputs</string>
     <string name="fabs_screen_title">Floating Action Buttons</string>
+    <string name="modals_screen_title">Modals</string>
 </resources>
