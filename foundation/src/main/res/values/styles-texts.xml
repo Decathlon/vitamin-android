@@ -6,6 +6,7 @@
         <item name="android:fontFamily">@font/roboto_condensed_bolditalic</item>
         <item name="android:textSize">@dimen/vtmn_text_size_headline_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_1</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -15,6 +16,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_headline_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_2</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -24,6 +26,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_headline_3</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_3</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -33,6 +36,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_headline_4</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_4</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -42,6 +46,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_headline_5</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_5</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -51,6 +56,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_headline_6</item>
         <item name="lineHeight">@dimen/vtmn_line_height_headline_6</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -60,6 +66,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_subtitle_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_subtitle_1</item>
+        <item name="android:textStyle">bold</item>
         <item name="fontWeight">700</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -69,6 +76,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_subtitle_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_subtitle_2</item>
+        <item name="android:textStyle">normal</item>
         <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -78,6 +86,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body_1</item>
         <item name="lineHeight">@dimen/vtmn_line_height_body_1</item>
+        <item name="android:textStyle">normal</item>
         <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -87,6 +96,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_body_2</item>
+        <item name="android:textStyle">normal</item>
         <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -96,6 +106,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body_2</item>
         <item name="lineHeight">@dimen/vtmn_line_height_body_2</item>
+        <item name="android:textStyle">normal</item>
         <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -116,6 +127,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_caption</item>
         <item name="lineHeight">@dimen/vtmn_line_height_caption</item>
+        <item name="android:textStyle">normal</item>
         <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -125,6 +137,7 @@
         <item name="android:fontFamily">@font/roboto_regular</item>
         <item name="android:textSize">@dimen/vtmn_text_size_overline</item>
         <item name="lineHeight">@dimen/vtmn_line_height_overline</item>
+        <item name="android:textStyle">normal</item>
         <item name="fontWeight">400</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
