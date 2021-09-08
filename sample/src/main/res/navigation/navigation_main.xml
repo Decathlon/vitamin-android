@@ -35,6 +35,9 @@
         <action
             android:id="@+id/action_main_to_modals"
             app:destination="@id/modals" />
+        <action
+            android:id="@+id/action_main_to_progressbar"
+            app:destination="@id/progressbar" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -72,4 +75,8 @@
         android:id="@+id/modals"
         android:name="com.decathlon.design.sample.components.screens.ModalsFragment"
         android:label="@string/modals_screen_title" />
+    <fragment
+        android:id="@+id/progressbar"
+        android:name="com.decathlon.design.sample.components.screens.ProgressbarFragment"
+        android:label="@string/progressbar_screen_title" />
 </navigation>

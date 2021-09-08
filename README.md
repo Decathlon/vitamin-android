@@ -37,6 +37,7 @@ com.decathlon.vitamin.switches | Build UIs with ready to use Switch components.
 com.decathlon.vitamin.textinputs | Build UIs with ready to use TextInput components.
 com.decathlon.vitamin.fabs | Build UIs with ready to use FloatingActionButton components.
 com.decathlon.vitamin.modals | Build UIs with ready to use Modal components.
+com.decathlon.vitamin.progressbars | Build UIs with ready to use Progressbar components.
 com.decathlon.android.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
 ## 📥 Download
