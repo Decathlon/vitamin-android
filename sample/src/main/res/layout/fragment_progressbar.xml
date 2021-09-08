@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    We can't create a custom class for the linear or circular progress bar because
+    these material classes are final.
+    https://github.com/material-components/material-components-android/issues/2361
+    -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/padding_screen">
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:layout_gravity="center"
+            android:valueFrom="0"
+            android:valueTo="100"
+            android:stepSize="1" />
+
+        <!-- Linear Progressbar -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:text="Linear Progressbar"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Indeterminated"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/linearProgressIndicatorSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            style="@style/Widget.Vitamin.LinearProgressBar.Medium"
+            android:id="@+id/linearProgressIndicatorMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            style="@style/Widget.Vitamin.LinearProgressBar.Large"
+            android:id="@+id/linearProgressIndicatorLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Determinated"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/linearProgressIndicatorDeterminatedSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            style="@style/Widget.Vitamin.LinearProgressBar.Medium"
+            android:id="@+id/linearProgressIndicatorDeterminatedMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            style="@style/Widget.Vitamin.LinearProgressBar.Large"
+            android:id="@+id/linearProgressIndicatorDeterminatedLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Circular Progressbar"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Indeterminated"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                style="@style/Widget.Vitamin.CircularProgressBar.ExtraSmall"
+                android:id="@+id/circularProgressIndicatorExtraSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                style="@style/Widget.Vitamin.CircularProgressBar.Small"
+                android:id="@+id/circularProgressIndicatorSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/circularProgressIndicatorMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                style="@style/Widget.Vitamin.CircularProgressBar.Large"
+                android:id="@+id/circularProgressIndicatorLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Determinated"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                style="@style/Widget.Vitamin.CircularProgressBar.ExtraSmall"
+                android:id="@+id/circularProgressIndicatorDeterminatedExtraSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                style="@style/Widget.Vitamin.CircularProgressBar.Small"
+                android:id="@+id/circularProgressIndicatorDeterminatedSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/circularProgressIndicatorDeterminatedMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                style="@style/Widget.Vitamin.CircularProgressBar.Large"
+                android:id="@+id/circularProgressIndicatorDeterminatedLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/padding_screen"
+                android:layout_marginTop="@dimen/spacing_medium" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

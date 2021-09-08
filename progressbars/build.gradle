@@ -11,7 +11,6 @@ android {
         minSdkVersion(versions.minSdk)
         targetSdkVersion(versions.compileSdk)
         consumerProguardFiles("consumer-rules.pro")
-        vectorDrawables.useSupportLibrary = true
     }
 
     compileOptions {
@@ -24,14 +23,7 @@ android {
 }
 
 dependencies {
-    api(project(":buttons"))
-    api(project(':checkboxes'))
-    api(project(':radiobuttons'))
-    api(project(':switches'))
-    api(project(':text-inputs'))
-    api(project(':fabs'))
-    api(project(':modals'))
-    api(project(':progressbars'))
+    api(project(":foundation"))
 }
 
 jacoco {

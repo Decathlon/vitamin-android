@@ -50,6 +50,11 @@ object ComponentProvider {
                 R.string.modals_screen_title,
                 R.drawable.ic_modal,
                 R.id.action_main_to_modals
+            ),
+            Component(
+                R.string.progressbar_screen_title,
+                R.drawable.ic_progress,
+                R.id.action_main_to_progressbar
             )
         )
     }
