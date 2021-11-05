@@ -25,6 +25,8 @@
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
         <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
         <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
+        <item name="textInputDropdownFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown</item>
+        <item name="textInputDropdownOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown</item>
         <!-- FloatingActionButtons -->
         <item name="floatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
         <item name="extendedFloatingActionButtonStyle">@style/Widget.Vitamin.ExtendedFloatingActionButton</item>
@@ -38,5 +40,11 @@
         <!-- Ratings -->
         <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
         <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
+        <!-- Menu -->
+        <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
+        <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
+        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown</item>
+        <item name="popupMenuStyle">@style/Widget.Vitamin.Menu</item>
+        <item name="listPopupWindowStyle">@style/Widget.Vitamin.Menu.List</item>
     </style>
 </resources>
