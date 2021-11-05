@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="vtmnDropdownLeftIcon" />
+    <item type="id" name="vtmnDropdownRightIcon" />
+    <item type="id" name="vtmnDropdownText" />
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Vitamin.Dropdown" parent="@style/Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="Widget.Vitamin.Dropdown.Text" parent="Widget.Vitamin.Dropdown">
+        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="android:textColor">?attr/vtmnContentPrimary</item>
+    </style>
+</resources>
