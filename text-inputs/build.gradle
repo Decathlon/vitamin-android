@@ -24,6 +24,7 @@ android {
 
 dependencies {
     api(project(":foundation:foundation"))
+    api(project(":internal:dropdown"))
 }
 
 jacoco {

@@ -43,6 +43,38 @@ or
 </com.google.android.material.textfield.TextInputLayout>
 ```
 
+### Dropdown Filled
+
+```xml
+<com.decathlon.vitamin.textinputs.VitaminTextInputDropdownFilled
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.decathlon.vitamin.textinputs.VitaminDropdownEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dropdown"
+        android:inputType="none" />
+</com.decathlon.vitamin.textinputs.VitaminTextInputDropdownFilled>
+```
+
+or
+
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="?attr/textInputDropdownFilled"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:helperText="Helper text">
+
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        style="?attr/autoCompleteTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hint" />
+</com.google.android.material.textfield.TextInputLayout>
+```
+
 ### Outlined
 
 ```xml
@@ -74,6 +106,38 @@ or
 </com.google.android.material.textfield.TextInputLayout>
 ```
 
+### Dropdown Outlined
+
+```xml
+<com.decathlon.vitamin.textinputs.VitaminTextInputDropdownOutlined
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.decathlon.vitamin.textinputs.VitaminDropdownEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dropdown"
+        android:inputType="none" />
+</com.decathlon.vitamin.textinputs.VitaminTextInputDropdownOutlined>
+```
+
+or
+
+```xml
+<com.google.android.material.textfield.TextInputLayout
+    style="?attr/textInputDropdownOutlined"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:helperText="Helper text">
+
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        style="?attr/autoCompleteTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hint" />
+</com.google.android.material.textfield.TextInputLayout>
+```
+
 ## Usage in standalone
 
 If you don't want to inherit the full Vitamin theme (and all the Vitamin components) on your entire app, you can use this component in standalone.
@@ -94,6 +158,8 @@ implementation("com.decathlon.vitamin:textinputs:<version>")
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
         <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
         <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
+        <item name="textInputDropdownFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown</item>
+        <item name="textInputDropdownOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown</item>
     </style>
 </resources>
 ```
@@ -183,3 +249,27 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
+## Dropdown Text Input
+
+The Vitamin subclass of `MaterialAutoCompleteTextView`, `VitaminDropdownEditText`, declare 2
+functions to help you to declare your dropdown according to the Vitamin dropdown specs.
+
+```kotlin
+fun setSimpleAdapter(items: List<String>)
+```
+
+The most simple adapter to display a list of strings. Use an `ArrayAdapter` behind.
+
+```kotlin
+fun setAdapter(items: List<Item>, @LayoutRes layout: Int = R.layout.vtmn_dropdown_item)
+```
+
+An item contains a text and optionally an icon right and/or left. These drawable should be
+an icon and will be tinted with the `vtmnContentPrimary` Vitamin semantic color.
+
+If you have a specific case, you can override the layout and specify your own one but you must 
+to specify these ids for the text and two icons: `vtmnDropdownLeftIcon`, `vtmnDropdownRightIcon`
+and `vtmnDropdownText`.
+
+Note that we don't recommend to use this function because you won't respect Vitamin specs no more.

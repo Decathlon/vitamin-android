@@ -115,6 +115,23 @@
                 tools:ignore="HardcodedText" />
         </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutOutlined>
 
+        <com.decathlon.vitamin.textinputs.VitaminTextInputDropdownOutlined
+            android:id="@+id/textInputLayoutOutlined6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutOutlined5">
+
+            <com.decathlon.vitamin.textinputs.VitaminDropdownEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dropdown"
+                android:inputType="none"
+                tools:ignore="HardcodedText" />
+        </com.decathlon.vitamin.textinputs.VitaminTextInputDropdownOutlined>
+
         <TextView
             android:id="@+id/title_text_input_filled"
             style="@style/Widget.Vitamin.TextInputLayout.OutlinedBox"
@@ -123,7 +140,7 @@
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Filled"
             android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
-            app:layout_constraintTop_toBottomOf="@id/textInputLayoutOutlined5"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutOutlined6"
             tools:ignore="HardcodedText" />
 
         <com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled
@@ -207,10 +224,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:layout_marginBottom="@dimen/spacing_large"
             app:endIconDrawable="@drawable/ic_vtmn_calendar_2_line"
             app:endIconMode="custom"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutFilled4">
@@ -222,6 +237,23 @@
                 android:inputType="date"
                 tools:ignore="HardcodedText" />
         </com.decathlon.vitamin.textinputs.VitaminTextInputLayoutFilled>
+
+        <com.decathlon.vitamin.textinputs.VitaminTextInputDropdownFilled
+            android:id="@+id/textInputLayoutFilled6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutFilled5">
+
+            <com.decathlon.vitamin.textinputs.VitaminDropdownEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Dropdown"
+                android:inputType="none"
+                tools:ignore="HardcodedText" />
+        </com.decathlon.vitamin.textinputs.VitaminTextInputDropdownFilled>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

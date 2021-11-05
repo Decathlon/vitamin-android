@@ -33,6 +33,7 @@ dependencies {
     api(project(':modals'))
     api(project(':progressbars'))
     api(project(':ratings'))
+    api(project(':menus'))
 }
 
 jacoco {

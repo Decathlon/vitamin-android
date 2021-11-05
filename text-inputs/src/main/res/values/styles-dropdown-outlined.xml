@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown" parent="@style/Widget.Vitamin.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.Vitamin.AutoCompleteTextView.OutlinedBox
+        </item>
+        <item name="endIconMode">dropdown_menu</item>
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.AutoCompleteTextView.OutlinedBox" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.OutlinedBox">
+        <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
+        <item name="autoCompleteTextViewStyle">
+            @style/Widget.Vitamin.AutoCompleteTextView.OutlinedBox
+        </item>
+    </style>
+
+    <style name="Widget.Vitamin.AutoCompleteTextView.OutlinedBox" parent="@style/Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox">
+        <item name="android:background">@null</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textColor">@color/vtmn_filled_text</item>
+    </style>
+</resources>
