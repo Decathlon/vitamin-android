@@ -60,6 +60,11 @@ object ComponentProvider {
                 R.string.ratings_screen_title,
                 R.drawable.ic_placeholder,
                 R.id.action_main_to_ratings
+            ),
+            Component(
+                R.string.menus_screen_title,
+                R.drawable.ic_menu,
+                R.id.action_main_to_menus
             )
         )
     }
