@@ -14,6 +14,7 @@
     <!-- Content -->
     <attr name="vtmnContentPrimary" format="color" />
     <attr name="vtmnContentSecondary" format="color" />
+    <attr name="vtmnContentTertiary" format="color" />
     <attr name="vtmnContentAction" format="color" />
     <attr name="vtmnContentActive" format="color" />
     <attr name="vtmnContentInactive" format="color" />

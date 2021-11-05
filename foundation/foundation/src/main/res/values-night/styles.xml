@@ -14,7 +14,8 @@
         <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_black</item>
 
         <item name="vtmnContentPrimary">@color/vtmn_white</item>
-        <item name="vtmnContentSecondary">@color/vtmn_grey300</item>
+        <item name="vtmnContentSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnContentTertiary">@color/vtmn_grey300</item>
         <item name="vtmnContentAction">@color/vtmn_blue200</item>
         <item name="vtmnContentActive">@color/vtmn_blue300</item>
         <item name="vtmnContentInactive">@color/vtmn_grey500</item>
