@@ -11,4 +11,5 @@
     <string name="modals_screen_title">Modals</string>
     <string name="progressbar_screen_title">Progress Bar</string>
     <string name="ratings_screen_title">Ratings</string>
+    <string name="menus_screen_title">Menus</string>
 </resources>
