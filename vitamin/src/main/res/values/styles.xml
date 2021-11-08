@@ -37,6 +37,6 @@
         <item name="circularProgressIndicatorStyle">@style/Widget.Vitamin.CircularProgressBar</item>
         <!-- Ratings -->
         <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
-        <item name="vtmnRatingViewRatingBarStyle">@style/Widget.Vitamin.RatingView.RatingBar</item>
+        <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
     </style>
 </resources>

@@ -8,7 +8,7 @@
 
     <RatingBar
         android:id="@+id/ratingBar"
-        style="?attr/vtmnRatingViewRatingBarStyle"
+        style="?attr/vtmnRatingViewBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical" />

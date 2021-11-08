@@ -4,7 +4,7 @@
     <!-- Define RatingView style using all the attributes under VitaminRatingView -->
     <attr name="vtmnRatingViewStyle" format="reference" />
     <!-- Define the style of the RatingView's ratingBar -->
-    <attr name="vtmnRatingViewRatingBarStyle" format="reference"/>
+    <attr name="vtmnRatingViewBarStyle" format="reference"/>
 
     <declare-styleable name="VitaminRatingView">
         <!-- Define the global note to display -->

@@ -9,7 +9,7 @@
         <item name="vtmnRatingView_compactIcon">@drawable/ic_vtmn_star_fill</item>
     </style>
 
-    <style name="Widget.Vitamin.RatingView.RatingBar" parent="Widget.AppCompat.RatingBar.Small">
+    <style name="Widget.Vitamin.RatingView.Bar" parent="Widget.AppCompat.RatingBar.Small">
         <item name="android:progressDrawable">@drawable/vtmn_rating_star</item>
         <item name="android:numStars">5</item>
         <item name="android:stepSize">0.5</item>

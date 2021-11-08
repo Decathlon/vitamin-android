@@ -14,11 +14,9 @@ import androidx.core.widget.TextViewCompat
 import com.decathlon.vitamin.ratings.databinding.ViewRatingBinding
 
 
-class VitaminRatingView @JvmOverloads constructor(
+open class VitaminRatingView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = R.attr.vtmnRatingViewStyle
 ) : LinearLayout(context, attrs, defStyleAttr) {
-
-    //region Usage public fields
 
     var note: Float = NOTE_DEFAULT_VALUE
         set(value) {
@@ -45,10 +43,6 @@ class VitaminRatingView @JvmOverloads constructor(
             field = value
             updateIconsColor()
         }
-
-    //endregion
-
-    //region Customisation public fields
 
     @StyleRes
     var noteTextAppearance: Int = -1
@@ -82,8 +76,6 @@ class VitaminRatingView @JvmOverloads constructor(
             field = value
             updateCompactIcon()
         }
-
-    //endregion
 
     private val binding: ViewRatingBinding =
         ViewRatingBinding.inflate(LayoutInflater.from(context), this)

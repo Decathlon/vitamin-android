@@ -8,101 +8,19 @@ You can find the design specs on [www.decathlon.design](https://www.decathlon.de
 
 ### Rating usage specs
 
-As this components is a Vitamin custom one, you can find here the main available options to use it.
+As this components is a Vitamin custom one, you can find here the main available options to use it :
 
-#### Specify the note value
-
-You can specify the note value (as a float) in the xml declaration or in your kotlin code.
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminRatingView
-android:id="@+id/ratingView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:vtmnRatingView_note="3.2" />
-```
-
-or
-
-```kotlin 
-binding.ratingView.note = 3.2f
-```
-
-#### Specify the comments count value
-
-You can specify the comments count value (as an int) in the xml declaration or in your kotlin code.
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminRatingView
-android:id="@+id/ratingView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:vtmnRatingView_commentsCount="125" />
-```
-
-or
-
-```kotlin 
-binding.ratingView.commentsCount = 125
-```
-
-#### Specify the comments count visibility
-
-You can specify the comments count visibility in the xml declaration or in your kotlin code.
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminRatingView
-android:id="@+id/ratingView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:vtmnRatingView_showComments="true" />
-```
-
-or
-
-```kotlin 
-binding.ratingView.showComments = true
-```
-
-#### Use the compact mode
-
-You can use the compact mode directly in the xml declaration or in your kotlin code.
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminRatingView
-android:id="@+id/ratingView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:vtmnRatingView_compact="true" />
-```
-
-or
-
-```kotlin 
-binding.ratingView.compact = true
-```
-
-#### Use the emphasis mode
-
-You can use the emphasis mode directly in the xml declaration or in your kotlin code.
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminRatingView
-android:id="@+id/ratingView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:vtmnRatingView_emphasis="true" />
-```
-
-or
-
-```kotlin 
-binding.ratingView.emphasis = true
-```
+| Option                    | Attribute                          | Related class field | Default value |
+|---------------------------|------------------------------------|---------------------|---------------|
+| Note value                | `app:vtmnRatingView_note`          | `note`              | `0`           |
+| Comments count value      | `app:vtmnRatingView_commentsCount` | `commentsCount`     | `0`           |
+| Comments count visibility | `app:vtmnRatingView_showComments`  | `showComments`      | `false`       |
+| Compact mode              | `app:vtmnRatingView_compact`       | `compact`           | `false`       |
+| Emphasis mode             | `app:vtmnRatingView_emphasis`      | `emphasis`          | `false`       |
 
 ### Usage with Vitamin Theme
 
-By inheriting the Vitamin theme in your app, you just have to use the `VitaminRatingView` component. 
+By inheriting the Vitamin theme in your app, you just have to use the `VitaminRatingView` component.
 
 ```kotlin 
 implementation("com.decathlon.vitamin:vitamin:<version>")
@@ -131,7 +49,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
         <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
-        <item name="vtmnRatingViewRatingBarStyle">@style/Widget.Vitamin.RatingView.RatingBar</item>
+        <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
     </style>
 </resources>
 ```
@@ -153,9 +71,9 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 ```xml
 <androidx.constraintlayout.widget.ConstraintLayout
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:theme="@style/Theme.Vitamin">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.Vitamin">
 
     <com.decathlon.vitamin.ratings.VitaminRatingView
         android:layout_width="wrap_content"
@@ -165,29 +83,24 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 
 ### Customize the RatingView
+You can also customize the RatingView style but keep in mind that **this is not recommended by Vitamin**
 
-You can also customize the RatingView style but keep in mind that this is not recommended by Vitamin
-
-To define in the theme
-```xml
-<!-- Define RatingView style using all the attributes under VitaminRatingView -->
-<attr name="vtmnRatingViewStyle" format="reference" />
-<!-- Define the style of the RatingView's ratingBar -->
-<attr name="vtmnRatingViewRatingBarStyle" format="reference"/>
-```
-
-To define inside the style used for vtmnRatingViewStyle
-```xml
-<!-- Define the rating icon for compact mode -->
-<attr name="vtmnRatingView_compactIcon" format="reference" />
-<!-- Define the default color for ratingBar and compact rating icon -->
-<attr name="vtmnRatingView_defaultIconsColor" format="reference" />
-<!-- Define the emphasis color for ratingBar and compact rating icon -->
-<attr name="vtmnRatingView_emphasisIconsColor" format="reference" />
-<!-- Define the textAppearance for the note -->
-<attr name="vtmnRatingView_noteTextAppearance" format="reference" />
-<!-- Define the textAppearance for the comments count -->
-<attr name="vtmnRatingView_commentsCountTextAppearance" format="reference" />
+To define in the theme :
 
 
-```
+| Element                      | Attribute                | Default value                                                                       |
+|------------------------------|--------------------------|-------------------------------------------------------------------------------------|
+| RatingView style             | `vtmnRatingViewStyle`    | `@style/Widget.Vitamin.RatingView`                                                  |
+| RatingView's ratingBar style | `vtmnRatingViewBarStyle` | `@style/Widget.Vitamin.RatingView.Bar`, child of `Widget.AppCompat.RatingBar.Small` |
+
+
+To define inside the style used for `vtmnRatingViewStyle` (the default values come from `Widget.Vitamin.RatingView`) :
+
+
+| Element                              | Attribute                                        | Related class field           | Default value                                    |
+|--------------------------------------|--------------------------------------------------|-------------------------------|--------------------------------------------------|
+| Compact icon                         | `app:vtmnRatingView_compactIcon`                 | `compactIcon`                 | `@drawable/ic_vtmn_star_fill`                    |
+| Default icons color, compact or not  | `app:vtmnRatingView_defaultIconsColor`           | `defaultIconsColor`           | `?attr/vtmnContentPrimary`                       |
+| Emphasis icons color, compact or not | `app:vtmnRatingView_emphasisIconsColor`          | `emphasisIconsColor`          | `?attr/vtmnContentActive`                        |
+| Note text appearance                 | `app:vtmnRatingView_noteTextAppearance`          | `noteTextAppearance`          | `@style/TextAppearance.Vitamin.Ratings.Note`     |
+| Comments count text appearance       | `app:vtmnRatingView_commentsCountTextAppearance` | `commentsCountTextAppearance` | `@style/TextAppearance.Vitamin.Ratings.Comments` |
