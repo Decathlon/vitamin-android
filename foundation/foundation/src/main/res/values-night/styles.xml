@@ -14,7 +14,8 @@
         <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_black</item>
 
         <item name="vtmnContentPrimary">@color/vtmn_white</item>
-        <item name="vtmnContentSecondary">@color/vtmn_grey300</item>
+        <item name="vtmnContentSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnContentTertiary">@color/vtmn_grey300</item>
         <item name="vtmnContentAction">@color/vtmn_blue200</item>
         <item name="vtmnContentActive">@color/vtmn_blue300</item>
         <item name="vtmnContentInactive">@color/vtmn_grey500</item>
@@ -26,15 +27,16 @@
         <item name="vtmnContentPrimaryReversed">@color/vtmn_black</item>
         <item name="vtmnContentActionReversed">@color/vtmn_black</item>
 
-        <item name="vtmnBorderPrimary">@color/vtmn_white</item>
-        <item name="vtmnBorderSecondary">@color/vtmn_grey300</item>
+        <item name="vtmnBorderPrimary">@color/vtmn_grey800</item>
+        <item name="vtmnBorderSecondary">@color/vtmn_grey700</item>
+        <item name="vtmnBorderTertiary">@color/vtmn_black</item>
         <item name="vtmnBorderActive">@color/vtmn_blue300</item>
         <item name="vtmnBorderInactive">@color/vtmn_grey500</item>
         <item name="vtmnBorderNegative">@color/vtmn_red300</item>
         <item name="vtmnBorderWarning">@color/vtmn_orange300</item>
         <item name="vtmnBorderPositive">@color/vtmn_conifer300</item>
         <item name="vtmnBorderInformation">@color/vtmn_blue300</item>
-        <item name="vtmnBorderPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
 
         <item name="vtmnActiveBrand">@color/vtmn_blue600</item>
         <item name="vtmnActiveAccent">@color/vtmn_yellow100</item>

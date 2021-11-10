@@ -19,7 +19,7 @@
 
         <item name="counterOverflowTextColor">?attr/vtmnContentNegative</item>
 
-        <item name="counterTextColor">@color/vtmn_filled_counter_color</item>
+        <item name="counterTextColor">@color/vtmn_filled_helper_color</item>
         <item name="materialThemeOverlay">
             @style/ThemeOverlay.Vitamin.TextInputEditText.FilledBox
         </item>
