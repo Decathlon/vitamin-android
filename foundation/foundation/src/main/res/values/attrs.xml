@@ -29,6 +29,7 @@
     <!-- Border -->
     <attr name="vtmnBorderPrimary" format="color" />
     <attr name="vtmnBorderSecondary" format="color" />
+    <attr name="vtmnBorderTertiary" format="color" />
     <attr name="vtmnBorderActive" format="color" />
     <attr name="vtmnBorderInactive" format="color" />
     <attr name="vtmnBorderNegative" format="color" />
