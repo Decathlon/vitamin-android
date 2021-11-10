@@ -38,6 +38,9 @@
         <action
             android:id="@+id/action_main_to_progressbar"
             app:destination="@id/progressbar" />
+        <action
+            android:id="@+id/action_main_to_ratings"
+            app:destination="@id/ratings" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -79,4 +82,8 @@
         android:id="@+id/progressbar"
         android:name="com.decathlon.design.sample.components.screens.ProgressbarFragment"
         android:label="@string/progressbar_screen_title" />
+    <fragment
+        android:id="@+id/ratings"
+        android:name="com.decathlon.design.sample.components.screens.RatingsFragment"
+        android:label="@string/ratings_screen_title" />
 </navigation>

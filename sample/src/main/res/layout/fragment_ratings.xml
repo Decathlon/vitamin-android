@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read Only Mode"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.ratings.VitaminRatingView
+            android:id="@+id/ratingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/spacing_large" />
+
+        <com.decathlon.vitamin.switches.VitaminSwitch
+            android:id="@+id/commentsSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="With comments"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.switches.VitaminSwitch
+            android:id="@+id/compactSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compact"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.switches.VitaminSwitch
+            android:id="@+id/emphasisSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emphasis"
+            tools:ignore="HardcodedText" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
