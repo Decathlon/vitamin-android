@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     tools:parentTag="android.widget.LinearLayout">
 
-    <RatingBar
+    <androidx.appcompat.widget.AppCompatRatingBar
         android:id="@+id/ratingBar"
         style="?attr/vtmnRatingViewBarStyle"
         android:layout_width="wrap_content"

@@ -27,43 +27,54 @@ class RatingsFragment : ComponentFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupReadOnlyRating()
+        setupInteractiveRating()
     }
 
     override fun showResetOption(): Boolean = true
 
     override fun onResetClick() {
-        updateNote()
+        updateReadOnlyNote()
         with(binding) {
-            commentsSwitch.isChecked = false
-            compactSwitch.isChecked = false
-            emphasisSwitch.isChecked = false
+            readOnlyCommentsSwitch.isChecked = false
+            readOnlyCompactSwitch.isChecked = false
+            readOnlyEmphasisSwitch.isChecked = false
+            interactiveRatingView.progress = 0
+            interactiveEmphasisSwitch.isChecked = false
         }
     }
 
     private fun setupReadOnlyRating() {
-        updateNote()
+        updateReadOnlyNote()
         with(binding) {
-            commentsSwitch.setOnCheckedChangeListener { _, isChecked ->
-                ratingView.showComments = isChecked
+            readOnlyCommentsSwitch.setOnCheckedChangeListener { _, isChecked ->
+                readOnlyRatingView.showComments = isChecked
             }
-            compactSwitch.setOnCheckedChangeListener { _, isChecked ->
-                ratingView.compact = isChecked
+            readOnlyCompactSwitch.setOnCheckedChangeListener { _, isChecked ->
+                readOnlyRatingView.compact = isChecked
             }
-            emphasisSwitch.setOnCheckedChangeListener { _, isChecked ->
-                ratingView.emphasis = isChecked
+            readOnlyEmphasisSwitch.setOnCheckedChangeListener { _, isChecked ->
+                readOnlyRatingView.emphasis = isChecked
             }
-            ratingView.setOnClickListener {
+            readOnlyRatingView.setOnClickListener {
                 Toast.makeText(it.context, "Rating component has been clicked", Toast.LENGTH_LONG)
                     .show()
             }
         }
     }
 
-    private fun updateNote() {
+    private fun updateReadOnlyNote() {
         val rawNote = Random.nextDouble(0.0, 5.0)
         note = BigDecimal(rawNote).setScale(1, BigDecimal.ROUND_HALF_UP).toFloat()
         commentsCount = Random.nextInt(0, 1000)
-        binding.ratingView.note = note
-        binding.ratingView.commentsCount = commentsCount
+        binding.readOnlyRatingView.note = note
+        binding.readOnlyRatingView.commentsCount = commentsCount
+    }
+
+    private fun setupInteractiveRating() {
+        with(binding) {
+            interactiveEmphasisSwitch.setOnCheckedChangeListener { _, isChecked ->
+                interactiveRatingView.emphasis = isChecked
+            }
+        }
     }
 }

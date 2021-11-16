@@ -2,7 +2,8 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/container"
@@ -19,33 +20,54 @@
             tools:ignore="HardcodedText" />
 
         <com.decathlon.vitamin.ratings.VitaminRatingView
-            android:id="@+id/ratingView"
+            android:id="@+id/readOnlyRatingView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/spacing_large" />
 
         <com.decathlon.vitamin.switches.VitaminSwitch
-            android:id="@+id/commentsSwitch"
+            android:id="@+id/readOnlyCommentsSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="With comments"
             tools:ignore="HardcodedText" />
 
         <com.decathlon.vitamin.switches.VitaminSwitch
-            android:id="@+id/compactSwitch"
+            android:id="@+id/readOnlyCompactSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Compact"
             tools:ignore="HardcodedText" />
 
         <com.decathlon.vitamin.switches.VitaminSwitch
-            android:id="@+id/emphasisSwitch"
+            android:id="@+id/readOnlyEmphasisSwitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Emphasis"
             tools:ignore="HardcodedText" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Interactive Mode"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.ratings.VitaminInteractiveRatingView
+            android:id="@+id/interactiveRatingView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_large" />
+
+        <com.decathlon.vitamin.switches.VitaminSwitch
+            android:id="@+id/interactiveEmphasisSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emphasis"
+            tools:ignore="HardcodedText" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
