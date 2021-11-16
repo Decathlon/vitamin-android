@@ -4,7 +4,9 @@
     <!-- Define RatingView style using all the attributes under VitaminRatingView -->
     <attr name="vtmnRatingViewStyle" format="reference" />
     <!-- Define the style of the RatingView's ratingBar -->
-    <attr name="vtmnRatingViewBarStyle" format="reference"/>
+    <attr name="vtmnRatingViewBarStyle" format="reference" />
+    <!-- Define InteractiveRatingView style -->
+    <attr name="vtmnInteractiveRatingViewStyle" format="reference" />
 
     <declare-styleable name="VitaminRatingView">
         <!-- Define the global note to display -->
@@ -27,6 +29,15 @@
         <attr name="vtmnRatingView_noteTextAppearance" format="reference" />
         <!-- Define the textAppearance for the comments count -->
         <attr name="vtmnRatingView_commentsCountTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="VitaminInteractiveRatingView">
+        <!-- Display the component with emphasis -->
+        <attr name="vtmnInteractiveRatingView_emphasis" format="boolean" />
+        <!-- Define the emphasis color -->
+        <attr name="vtmnInteractiveRatingView_emphasisColor" format="reference" />
+        <!-- Define the default color -->
+        <attr name="vtmnInteractiveRatingView_defaultColor" format="reference" />
     </declare-styleable>
 
 </resources>
