@@ -11,5 +11,5 @@ class ButtonFragment : ComponentFragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? = FragmentButtonsBinding.inflate(inflater, container, false).root
+    ): View = FragmentButtonsBinding.inflate(inflater, container, false).root
 }

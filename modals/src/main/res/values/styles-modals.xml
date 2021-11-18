@@ -45,7 +45,7 @@
         <item name="android:textColor">?attr/vtmnContentSecondary</item>
     </style>
 
-    <style name="Widget.Vitamin.Button.Ghost.Modal" parent="Widget.Vitamin.Button.Ghost" />
+    <style name="Widget.Vitamin.Button.Ghost.Modal" parent="Widget.Vitamin.Button.Ghost.Medium" />
 
     <style name="Widget.Vitamin.Button.Ghost.Modal.Centered" parent="Widget.Vitamin.Button.Ghost.Modal">
         <item name="android:layout_width">0dp</item>
