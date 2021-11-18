@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="buttonPrimaryMedium" format="reference"/>
+    <attr name="buttonPrimaryLarge" format="reference"/>
+    <attr name="buttonSecondaryMedium" format="reference"/>
+    <attr name="buttonSecondaryLarge" format="reference"/>
+    <attr name="buttonTertiaryMedium" format="reference"/>
+    <attr name="buttonTertiaryLarge" format="reference"/>
+    <attr name="buttonConversionMedium" format="reference"/>
+    <attr name="buttonConversionLarge" format="reference"/>
+    <attr name="buttonPrimaryReversedMedium" format="reference"/>
+    <attr name="buttonPrimaryReversedLarge" format="reference"/>
+    <attr name="buttonGhostMedium" format="reference"/>
+    <attr name="buttonGhostLarge" format="reference"/>
+    <attr name="buttonGhostReversedMedium" format="reference"/>
+    <attr name="buttonGhostReversedLarge" format="reference"/>
+
+    <!-- {@deprecated Use buttonPrimaryReversedMedium instead.} -->
     <attr name="buttonReverseStyle" format="reference" />
+    <!-- {@deprecated Use buttonConversionMedium instead.} -->
     <attr name="buttonConversionStyle" format="reference" />
+    <!-- {@deprecated Use buttonSecondaryMedium instead.} -->
     <attr name="buttonSecondary" format="reference" />
+    <!-- {@deprecated Use buttonGhostMedium instead.} -->
     <attr name="buttonGhost" format="reference" />
+    <!-- {@deprecated Use buttonGhostReversedMedium instead.} -->
     <attr name="buttonGhostReversed" format="reference" />
+
 </resources>

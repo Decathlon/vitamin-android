@@ -5,259 +5,740 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Primary -->
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingVertical="@dimen/padding_screen">
-
-        <!--region Primary -->
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginStart="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/padding_screen"
             android:text="Primary"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textAppearance="?attr/textAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_medium"
-            android:text="Primary"
-            app:icon="@drawable/ic_vtmn_add_line"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:text="Primary"
-            tools:ignore="HardcodedText" />
+            android:padding="@dimen/padding_screen">
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:enabled="false"
-            android:text="Primary Disabled"
-            tools:ignore="HardcodedText" />
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:id="@+id/mediumPrimaryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
 
-        <!-- endregion -->
 
-        <!--region Primary Reversed-->
+            <com.decathlon.vitamin.buttons.VitaminPrimaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryButton"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:id="@+id/mediumPrimaryButtonStartIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:id="@+id/mediumPrimaryButtonEndIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:id="@+id/mediumPrimaryButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginStart="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Secondary"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_screen">
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryMediumButton
+                android:id="@+id/mediumSecondaryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumSecondaryButton"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryMediumButton
+                android:id="@+id/mediumSecondaryButtonStartIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toEndOf="@id/mediumSecondaryButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryMediumButton
+                android:id="@+id/mediumSecondaryButtonEndIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumSecondaryButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryMediumButton
+                android:id="@+id/mediumSecondaryButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumSecondaryButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Tertiary"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_screen">
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryMediumButton
+                android:id="@+id/mediumTertiaryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumTertiaryButton"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryMediumButton
+                android:id="@+id/mediumTertiaryButtonStartIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toEndOf="@id/mediumTertiaryButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryMediumButton
+                android:id="@+id/mediumTertiaryButtonEndIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumTertiaryButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryMediumButton
+                android:id="@+id/mediumTertiaryButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumTertiaryButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_screen"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Conversion"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_screen">
+
+            <com.decathlon.vitamin.buttons.VitaminConversionMediumButton
+                android:id="@+id/mediumConversionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+
+            <com.decathlon.vitamin.buttons.VitaminConversionLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumConversionButton"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionMediumButton
+                android:id="@+id/mediumConversionButtonStartIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_shopping_cart_line"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumConversionButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_shopping_cart_line"
+                app:layout_constraintStart_toEndOf="@id/mediumConversionButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumConversionButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionMediumButton
+                android:id="@+id/mediumConversionButtonEndIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumConversionButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumConversionButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumConversionButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionMediumButton
+                android:id="@+id/mediumConversionButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumConversionButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumConversionButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumConversionButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Primary Reversed"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textAppearance="?attr/textAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/colorPrimary"
-            android:orientation="vertical"
-            android:paddingHorizontal="@dimen/padding_screen"
-            android:paddingVertical="@dimen/spacing_small">
+            android:background="?attr/vtmnBackgroundBrandPrimary"
+            android:padding="@dimen/padding_screen">
 
-            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedButton
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedMediumButton
+                android:id="@+id/mediumPrimaryReversedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Primary Reversed"
-                app:icon="@drawable/ic_vtmn_add_line"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedButton
-                android:layout_width="match_parent"
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedLargeButton
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_small"
-                android:text="Primary Reversed"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryReversedButton"
+                app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedButton
-                android:layout_width="match_parent"
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedMediumButton
+                android:id="@+id/mediumPrimaryReversedButtonStartIcon"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryReversedButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedMediumButton
+                android:id="@+id/mediumPrimaryReversedButtonEndIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryReversedButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedMediumButton
+                android:id="@+id/mediumPrimaryReversedButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
                 android:enabled="false"
-                android:text="Primary Reversed Disabled"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButtonEndIcon"
                 tools:ignore="HardcodedText" />
-        </LinearLayout>
 
-        <!-- endregion -->
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumPrimaryReversedButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButtonEndIcon"
+                tools:ignore="HardcodedText" />
 
-        <!--region Secondary -->
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_large"
-            android:text="Secondary"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminSecondaryButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_medium"
-            android:text="Secondary"
-            app:icon="@drawable/ic_vtmn_add_fill"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminSecondaryButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:text="Secondary"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminSecondaryButton
-            android:id="@+id/buttonOutlinedGrey2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:enabled="false"
-            android:text="Secondary Disabled"
-            tools:ignore="HardcodedText" />
-
-        <!-- endregion -->
-
-        <!--region Ghost -->
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Ghost"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textAppearance="?attr/textAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminGhostButton
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_medium"
-            android:text="Ghost"
-            app:icon="@drawable/ic_vtmn_add_fill"
-            tools:ignore="HardcodedText" />
+            android:padding="@dimen/padding_screen">
 
-        <com.decathlon.vitamin.buttons.VitaminGhostButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:text="Ghost"
-            tools:ignore="HardcodedText" />
+            <com.decathlon.vitamin.buttons.VitaminGhostMediumButton
+                android:id="@+id/mediumGhostButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminGhostButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:enabled="false"
-            android:text="Ghost Disabled"
-            tools:ignore="HardcodedText" />
+            <com.decathlon.vitamin.buttons.VitaminGhostLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostButton"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
 
-        <!-- endregion -->
+            <com.decathlon.vitamin.buttons.VitaminGhostMediumButton
+                android:id="@+id/mediumGhostButtonStartIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostButton"
+                tools:ignore="HardcodedText" />
 
-        <!--region Ghost Reversed-->
+            <com.decathlon.vitamin.buttons.VitaminGhostLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostButton"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostMediumButton
+                android:id="@+id/mediumGhostButtonEndIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostMediumButton
+                android:id="@+id/mediumGhostButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostButtonEndIcon"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
+            android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Ghost Reversed"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textAppearance="?attr/textAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/colorPrimary"
-            android:orientation="vertical"
-            android:paddingHorizontal="@dimen/padding_screen"
-            android:paddingVertical="@dimen/spacing_small">
+            android:background="?attr/vtmnBackgroundBrandPrimary"
+            android:padding="@dimen/padding_screen">
 
-            <com.decathlon.vitamin.buttons.VitaminGhostReversedButton
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedMediumButton
+                android:id="@+id/mediumGhostReversedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ghost Reversed"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostReversedButton"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedMediumButton
+                android:id="@+id/mediumGhostReversedButtonStartIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
                 app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButton"
                 tools:ignore="HardcodedText" />
 
-
-            <com.decathlon.vitamin.buttons.VitaminGhostReversedButton
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedLargeButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_small"
-                android:text="Ghost Reversed"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_add_fill"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostReversedButtonStartIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButton"
                 tools:ignore="HardcodedText" />
 
-            <com.decathlon.vitamin.buttons.VitaminGhostReversedButton
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedMediumButton
+                android:id="@+id/mediumGhostReversedButtonEndIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_small"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                app:icon="@drawable/ic_vtmn_arrow_drop_right_line"
+                app:iconGravity="end"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostReversedButtonEndIcon"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButtonStartIcon"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedMediumButton
+                android:id="@+id/mediumGhostReversedButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
                 android:enabled="false"
-                android:text="Ghost Reversed Disabled"
+                android:text="Button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButtonEndIcon"
                 tools:ignore="HardcodedText" />
 
-        </LinearLayout>
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedLargeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:enabled="false"
+                android:text="Button"
+                app:layout_constraintStart_toEndOf="@id/mediumGhostReversedButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButtonEndIcon"
+                tools:ignore="HardcodedText" />
 
-        <!-- endregion -->
-
-        <!--region Conversion-->
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_large"
-            android:text="Conversion"
-            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminConversionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_medium"
-            android:text="Conversion"
-            app:icon="@drawable/ic_vtmn_shopping_cart_line"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminConversionButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:text="Conversion"
-            tools:ignore="HardcodedText" />
-
-        <com.decathlon.vitamin.buttons.VitaminConversionButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/padding_screen"
-            android:layout_marginTop="@dimen/spacing_small"
-            android:enabled="false"
-            android:text="Conversion Disabled"
-            tools:ignore="HardcodedText" />
-
-        <!-- endregion-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

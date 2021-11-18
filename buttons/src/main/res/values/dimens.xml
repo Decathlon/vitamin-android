@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="vtmnButtonCornerRadius">4dp</dimen>
+
+    <dimen name="vtmnButtonHorizontalPaddingMedium">24dp</dimen>
+    <dimen name="vtmnButtonVerticalPaddingMedium">14dp</dimen>
+    <dimen name="vtmnButtonIconStartPaddingMedium">24dp</dimen>
+    <dimen name="vtmnButtonIconEndPaddingMedium">8dp</dimen>
+    <dimen name="vtmnButtonIconSizeMedium">20dp</dimen>
+
+    <dimen name="vtmnButtonHorizontalPaddingLarge">40dp</dimen>
+    <dimen name="vtmnButtonVerticalPaddingLarge">16dp</dimen>
+    <dimen name="vtmnButtonIconStartPaddingLarge">40dp</dimen>
+    <dimen name="vtmnButtonIconEndPaddingLarge">12dp</dimen>
+    <dimen name="vtmnButtonIconSizeLarge">24dp</dimen>
+
+</resources>

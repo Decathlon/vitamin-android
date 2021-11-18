@@ -10,14 +10,14 @@
         android:orientation="vertical"
         android:padding="@dimen/padding_screen">
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/ad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="APPCOMPAT ALERTDIALOG"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adMessage2Actions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             android:text="MESSAGE, 2 ACTIONS"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adTitle2Actions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
             android:text="TITLE, 2 ACTIONS"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adTitleMessage3LongActions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             android:text="TITLE, MESSAGE, 3 LONG ACTIONS"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adIconTitleMessage2Actions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
             android:text="ICON, TITLE, MESSAGE, 2 ACTIONS"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adItemsList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:text="ITEMS LIST"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adMultiSelectList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             android:text="MULTI-SELECT LIST"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adSingleSelectList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
             android:text="SINGLE SELECT LIST"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adScrollingContentTitleActions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
             android:text="SCROLLING CONTENT, TITLE, ACTIONS"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adScrollingContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
             android:text="SCROLLING CONTENT"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/adIconTitleMessage2FullWidthActions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

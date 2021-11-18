@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_screen">
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/menu_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/listMenuButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             app:layout_constraintTop_toBottomOf="@+id/menu_button"
             tools:ignore="HardcodedText" />
 
-        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+        <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
             android:id="@+id/listCustomMenuButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
