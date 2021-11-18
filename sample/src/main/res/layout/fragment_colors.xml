@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,6 +9,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="@dimen/padding_screen">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="Background"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -23,10 +30,19 @@
                 android:text="vtmnBackgroundPrimary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundPrimary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundPrimary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -43,10 +59,19 @@
                 android:text="vtmnBackgroundSecondary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundSecondary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundSecondary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -63,10 +88,19 @@
                 android:text="vtmnBackgroundTertiary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundTertiary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundTertiary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -83,10 +117,19 @@
                 android:text="vtmnBackgroundBrandPrimary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundBrandPrimary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundBrandPrimary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -103,10 +146,19 @@
                 android:text="vtmnBackgroundBrandSecondary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundBrandSecondary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundBrandSecondary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -123,10 +175,19 @@
                 android:text="vtmnBackgroundAccent"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundAccent"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundAccent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -143,10 +204,19 @@
                 android:text="vtmnBackgroundDiscount"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundDiscount"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundDiscount" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -163,10 +233,19 @@
                 android:text="vtmnBackgroundPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundPrimaryReversed"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundPrimaryReversed" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -183,17 +262,34 @@
                 android:text="vtmnBackgroundBrandPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBackgroundBrandPrimaryReversed"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBackgroundBrandPrimaryReversed" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="Content"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
@@ -203,10 +299,19 @@
                 android:text="vtmnContentPrimary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentPrimary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentPrimary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -223,10 +328,48 @@
                 android:text="vtmnContentSecondary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentSecondary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentSecondary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnContentTertiary"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentTertiary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -243,10 +386,19 @@
                 android:text="vtmnContentAction"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentAction"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentAction" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -263,10 +415,19 @@
                 android:text="vtmnContentActive"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentActive"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentActive" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -283,10 +444,19 @@
                 android:text="vtmnContentInactive"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentInactive"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentInactive" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -303,10 +473,19 @@
                 android:text="vtmnContentNegative"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentNegative"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentNegative" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -323,10 +502,19 @@
                 android:text="vtmnContentWarning"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentWarning"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentWarning" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -343,10 +531,19 @@
                 android:text="vtmnContentPositive"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentPositive"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentPositive" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -363,10 +560,48 @@
                 android:text="vtmnContentInformation"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentInformation"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentInformation" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnContentAccent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentAccent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -383,10 +618,19 @@
                 android:text="vtmnContentPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentPrimaryReversed"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentPrimaryReversed" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -403,17 +647,34 @@
                 android:text="vtmnContentActionReversed"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnContentActionReversed"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnContentActionReversed" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="Border"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/spacing_medium"
             android:orientation="horizontal">
 
             <TextView
@@ -423,10 +684,19 @@
                 android:text="vtmnBorderPrimary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderPrimary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderPrimary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -443,10 +713,48 @@
                 android:text="vtmnBorderSecondary"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderSecondary"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderSecondary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnBorderTertiary"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderTertiary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -463,10 +771,19 @@
                 android:text="vtmnBorderActive"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderActive"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderActive" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -483,10 +800,19 @@
                 android:text="vtmnBorderInactive"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderInactive"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderInactive" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -503,10 +829,19 @@
                 android:text="vtmnBorderNegative"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderNegative"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderNegative" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -523,10 +858,19 @@
                 android:text="vtmnBorderWarning"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderWarning"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderWarning" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -543,10 +887,19 @@
                 android:text="vtmnBorderPositive"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderPositive"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderPositive" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -563,10 +916,19 @@
                 android:text="vtmnBorderInformation"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderInformation"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderInformation" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -583,10 +945,346 @@
                 android:text="vtmnBorderPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
-            <ImageView
-                style="@style/Widget.Sample.ColorView"
-                app:srcCompat="?attr/vtmnBorderPrimaryReversed"
-                tools:ignore="ContentDescription" />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnBorderPrimaryReversed" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:text="Active"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            tools:ignore="HardcodedText" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActivePrimary"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActivePrimary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActivePrimaryTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActivePrimaryTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveSecondaryTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveSecondaryTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveTertiary"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveTertiary" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveTertiaryTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveTertiaryTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveBrand"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveBrand" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveAccent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveAccent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActivePrimaryTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActivePrimaryTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveSecondaryReversedTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveSecondaryReversedTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveTertiaryReversedTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveTertiaryReversedTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="vtmnActiveBrandReversedTransparent"
+                tools:ignore="HardcodedText" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/spacing_medium">
+
+                <View
+                    style="@style/Widget.Sample.ColorView"
+                    android:background="?attr/vtmnActiveBrandReversedTransparent" />
+
+                <View style="@style/Widget.Sample.ColorViewContainer" />
+
+            </FrameLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 

@@ -53,7 +53,7 @@
         <item name="vtmnContentInactive">@color/vtmn_grey400</item>
         <item name="vtmnContentNegative">@color/vtmn_red400</item>
         <item name="vtmnContentWarning">@color/vtmn_orange400</item>
-        <item name="vtmnContentPositive">@color/vtmn_conifer400</item>
+        <item name="vtmnContentPositive">@color/vtmn_green400</item>
         <item name="vtmnContentInformation">@color/vtmn_blue400</item>
         <item name="vtmnContentAccent">@color/vtmn_black</item>
         <item name="vtmnContentPrimaryReversed">@color/vtmn_white</item>
@@ -66,12 +66,36 @@
         <item name="vtmnBorderInactive">@color/vtmn_grey400</item>
         <item name="vtmnBorderNegative">@color/vtmn_red400</item>
         <item name="vtmnBorderWarning">@color/vtmn_orange400</item>
-        <item name="vtmnBorderPositive">@color/vtmn_conifer400</item>
+        <item name="vtmnBorderPositive">@color/vtmn_green400</item>
         <item name="vtmnBorderInformation">@color/vtmn_blue400</item>
         <item name="vtmnBorderPrimaryReversed">@color/vtmn_black</item>
 
-        <item name="vtmnActiveBrand">@color/vtmn_blue600</item>
-        <item name="vtmnActiveAccent">@color/vtmn_yellow100</item>
+        <!-- Warning: these colors are calculated from other semantic colors
+        If parent colors are updated, you need to update these too
+        This system should change in the future with an auto-generated color token -->
+
+        <!-- parent color: hoverPrimary -->
+        <item name="vtmnActivePrimary">#D9ECF5</item>
+        <!-- parent color: contentActive -->
+        <item name="vtmnActivePrimaryTransparent">#26007DBC</item>
+        <!-- parent color: contentPrimary -->
+        <item name="vtmnActiveSecondaryTransparent">#26001018</item>
+        <!-- parent color: hoverPrimary -->
+        <item name="vtmnActiveTertiary">#CDE6F2</item>
+        <!-- parent color: hoverPrimary -->
+        <item name="vtmnActiveTertiaryTransparent">#CCCEE7F3</item>
+        <!-- parent color: backgroundBrandPrimary -->
+        <item name="vtmnActiveBrand">#00537D</item>
+        <!-- parent color: backgroundAccent -->
+        <item name="vtmnActiveAccent">#FFF9C7</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActivePrimaryReversedTransparent">#40FFFFFF</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActiveSecondaryReversedTransparent">#40FFFFFF</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActiveTertiaryReversedTransparent">#CCFFFFFF</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActiveBrandReversedTransparent">#99FFFFFF</item>
     </style>
 
     <style name="Widget" />
