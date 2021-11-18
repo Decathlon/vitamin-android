@@ -39,8 +39,17 @@
     <attr name="vtmnBorderPrimaryReversed" format="color" />
 
     <!-- States -->
+    <attr name="vtmnActivePrimary" format="color" />
+    <attr name="vtmnActivePrimaryTransparent" format="color" />
+    <attr name="vtmnActiveSecondaryTransparent" format="color" />
+    <attr name="vtmnActiveTertiary" format="color" />
+    <attr name="vtmnActiveTertiaryTransparent" format="color" />
     <attr name="vtmnActiveBrand" format="color" />
     <attr name="vtmnActiveAccent" format="color" />
+    <attr name="vtmnActivePrimaryReversedTransparent" format="color" />
+    <attr name="vtmnActiveSecondaryReversedTransparent" format="color" />
+    <attr name="vtmnActiveTertiaryReversedTransparent" format="color" />
+    <attr name="vtmnActiveBrandReversedTransparent" format="color" />
 
     <!-- Typography -->
     <attr name="textAppearanceBody3" format="reference" />

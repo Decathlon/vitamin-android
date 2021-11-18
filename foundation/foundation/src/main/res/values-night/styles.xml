@@ -38,7 +38,31 @@
         <item name="vtmnBorderInformation">@color/vtmn_blue300</item>
         <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
 
-        <item name="vtmnActiveBrand">@color/vtmn_blue600</item>
-        <item name="vtmnActiveAccent">@color/vtmn_yellow100</item>
+        <!-- Warning: these colors are calculated from other semantic colors
+        If parent colors are updated, you need to update these too
+        This system should change in the future with an auto-generated color token -->
+
+        <!-- parent color: hoverPrimary -->
+        <item name="vtmnActivePrimary">#0382DD</item>
+        <!-- parent color: contentActive -->
+        <item name="vtmnActivePrimaryTransparent">#263D9ACC</item>
+        <!-- parent color: contentPrimary -->
+        <item name="vtmnActiveSecondaryTransparent">#26FFFFFF</item>
+        <!-- parent color: hoverPrimary -->
+        <item name="vtmnActiveTertiary">#012946</item>
+        <!-- parent color: hoverPrimary -->
+        <item name="vtmnActiveTertiaryTransparent">#CC012946</item>
+        <!-- parent color: backgroundBrandPrimary -->
+        <item name="vtmnActiveBrand">#266C91</item>
+        <!-- parent color: backgroundAccent -->
+        <item name="vtmnActiveAccent">#FFF9C7</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActivePrimaryReversedTransparent">#40001018</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActiveSecondaryReversedTransparent">#66001018</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActiveTertiaryReversedTransparent">#99001018</item>
+        <!-- parent color: contentPrimaryReversed -->
+        <item name="vtmnActiveBrandReversedTransparent">#99001018</item>
     </style>
 </resources>
