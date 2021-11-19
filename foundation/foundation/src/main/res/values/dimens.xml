@@ -29,11 +29,10 @@
     <dimen name="vtmn_line_height_button">16sp</dimen>
     <dimen name="vtmn_line_height_caption">16sp</dimen>
     <dimen name="vtmn_line_height_overline">13sp</dimen>
+    
+    <fraction name="vtmn_letter_spacing_caption">0.03125</fraction>
+    <fraction name="vtmn_letter_spacing_overline">0.004375</fraction>
+    <fraction name="vtmn_letter_spacing_button">0.016875</fraction>
 
     <dimen name="vtmn_states_disabled">0.38</dimen>
-    <dimen name="vtmn_states_active_primary">0.15</dimen>
-    <dimen name="vtmn_states_active_secondary">0.15</dimen>
-    <dimen name="vtmn_states_active_primary_reversed">0.15</dimen>
-    <dimen name="vtmn_states_active_secondary_reversed">0.40</dimen>
-    <dimen name="vtmn_states_active_reversed">0.60</dimen>
 </resources>
