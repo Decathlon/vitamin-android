@@ -1,14 +1,5 @@
 # Emulators
 
-**Table of contents** 
-
-- [Emulators](#Emulators)
-  - [Overview](#Overview)
-  - [Configurations](#Configurations)
-    - [Mobile](#Mobile)
-    - [Tablet](#Tablet)
-    - [Kiosk](#Kiosk)
-
 ## Overview
 
 This project aims to be compatible with 3 types of devices, phone, tablet and kiosk.

@@ -38,6 +38,7 @@ com.decathlon.vitamin.textinputs | Build UIs with ready to use TextInput compone
 com.decathlon.vitamin.fabs | Build UIs with ready to use FloatingActionButton components.
 com.decathlon.vitamin.modals | Build UIs with ready to use Modal components.
 com.decathlon.vitamin.progressbars | Build UIs with ready to use Progressbar components.
+com.decathlon.vitamin.menus | Build UIs with ready to use Menu components.
 com.decathlon.vitamin.ratings | Build UIs with ready to use Rating components.
 com.decathlon.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
