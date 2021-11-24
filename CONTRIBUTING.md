@@ -1,17 +1,5 @@
 # Contributing
 
-**Table of contents** 
-
-- [Contributing](#Contributing)
-  - [Project structure](#project-structure)
-  - [Code of conduct](#code-of-conduct)
-  - [Github glossary](#github-glossary)
-  - [Contributing guidelines](#contributing-guidelines)
-    - [Reporting bug](#reporting-bug)
-    - [Code contribution](#code-contribution)
-    - [Contributing acceptance criteria](#contributing-acceptance-criteria)
-  - [Devices testing](#devices-testing)
-
 ## Project structure
 
 - `foundation`: atomics components. e.g. typographies, colors
@@ -21,6 +9,17 @@
 
 You can find all components in [ReadMe](README.md), at the Artifacts paragraph.
 
+## Why this project is open source?
+
+Because Vitamin is the Design System of Decathlon, you may ask why this project is open source?
+There are multiple reasons for that:
+
+1. We are working with a lot of external teams, sometimes with no access to our internal resources,
+publish this project on the public registry, Maven Central, and in our public GitHub organization
+allow us to work better with these teams.
+2. For now, Vitamin is the Design System of Decathlon but the ambitions of this project is to
+create a generic Design System for retail application, not specific to Decathlon.
+
 ## Code of conduct
 
 This project and everyone participating in it is governed by the [following code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
@@ -28,6 +27,11 @@ This project and everyone participating in it is governed by the [following code
 ## Github glossary
 
 If you are not familiar with Git and GitHub terms you can check a complete [glossary](https://help.github.com/articles/github-glossary/) on the GitHub website.
+
+## Devices testing
+
+As shown in Pull Request template, you have to test on 3 devices, mobile, tablet and kiosk.
+If you do not own these types of devices, you can emulate them following [these tips](EMULATORS.md).
 
 ## Contributing guidelines
 
@@ -66,8 +70,3 @@ To reach this goal we fixed some rule in our team and we would love to go ahead 
 4. After you proposed the PullRequest. If you will receive any mail or find any automatic comment on the Pull Request you opened, it means there is something which is not respecting the project defined code style or your broke any previously created test.
 
 If you respect all these rules you will help us saving time and we will be able to check your pull request faster.
-
-## Devices testing
-
-As shown in Pull Request template, you have to test on 3 devices, mobile, tablet and kiosk.
-If you do not own these types of devices, you can emulate them following [these tips](EMULATORS.md).
