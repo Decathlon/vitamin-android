@@ -2,40 +2,18 @@ plugins {
     id("com.android.library")
     id("kotlin-android")
     id("com.vanniktech.maven.publish")
-}
-
-android {
-    compileSdkVersion(versions.compileSdk)
-
-    defaultConfig {
-        minSdkVersion(versions.minSdk)
-        targetSdkVersion(versions.compileSdk)
-        consumerProguardFiles("consumer-rules.pro")
-        vectorDrawables.useSupportLibrary = true
-    }
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
+    id("VitaminLibraryPlugin")
 }
 
 dependencies {
     api(project(":buttons"))
-    api(project(':checkboxes'))
-    api(project(':radiobuttons'))
-    api(project(':switches'))
-    api(project(':text-inputs'))
-    api(project(':fabs'))
-    api(project(':modals'))
-    api(project(':progressbars'))
-    api(project(':ratings'))
-    api(project(':menus'))
-}
-
-jacoco {
-    toolVersion = '0.8.6'
+    api(project(":checkboxes"))
+    api(project(":radiobuttons"))
+    api(project(":switches"))
+    api(project(":text-inputs"))
+    api(project(":fabs"))
+    api(project(":modals"))
+    api(project(":progressbars"))
+    api(project(":ratings"))
+    api(project(":menus"))
 }
