@@ -44,11 +44,11 @@ the design specifications and technical information for supported platforms by D
 [decathlon.design](https://www.decathlon.design/). If you are interested by a sample,
 you can install a demo with `sample` module in the technical project.
 
-## Getting Started 🚀 
+## Getting Started
 
 To start using Vitamin in your app, you can check [the Vitamin module documentation](https://github.com/Decathlon/vitamin-android/tree/main/vitamin) 
 
-## Artifacts 📦 
+## Artifacts
 
 Group | Description
 -- | --
@@ -65,7 +65,7 @@ com.decathlon.vitamin.menus | Build UIs with ready to use Menu components.
 com.decathlon.vitamin.ratings | Build UIs with ready to use Rating components.
 com.decathlon.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
-## Download 📥 
+## Download
 
 Release artifacts are available on Maven Central. Check the [release page](https://github.com/Decathlon/vitamin-android/releases) 
 to know what is the latest release version of Vitamin artifacts.
@@ -103,7 +103,7 @@ Thank you to the [contributors](CONTRIBUTORS.md) involved in these vitamin-andro
   <img src="https://contrib.rocks/image?repo=decathlon/vitamin-android" />
 </a>
 
-## License 📝
+## License
 
     Copyright 2021 Decathlon.
 
