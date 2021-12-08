@@ -5,13 +5,36 @@
     alt="Vitamin Decathlon Design System logo" />
 </p>
 
-# Vitamin Android
+<h1 align="center">Vitamin Android</h1>
 
-[![Build Status](https://app.bitrise.io/app/62ac2962b2dd627a/status.svg?token=GlcHGXAWV2T4IItZiT43_A&branch=main)](https://app.bitrise.io/app/62ac2962b2dd627a)
+<p align="center">Decathlon Design System libraries for android applications</p>
 
-> Decathlon Design System 🎨
+<p align="center">
+  <a href="https://www.decathlon.design">Website</a>
+</p>
 
-Android Decathlon Design System is based on Material Design components described on the [official
+<p align="center">
+  <a aria-label="contributors graph" href="https://github.com/decathlon/vitamin-android/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/decathlon/vitamin-android.svg">
+  </a>
+  <a aria-label="last commit" href="https://github.com/Decathlon/vitamin-android/commits">
+    <img alt="" src=
+  "https://img.shields.io/github/last-commit/decathlon/vitamin-android.svg">
+  </a>
+  <a aria-label="license" href="https://github.com/decathlon/vitamin-android/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/decathlon/vitamin-android.svg" alt="">
+  </a>
+  <a aria-label="Bitrise - Build main branch" href="https://app.bitrise.io/app/62ac2962b2dd627a">
+    <img src="https://app.bitrise.io/app/62ac2962b2dd627a/status.svg?token=GlcHGXAWV2T4IItZiT43_A&branch=main" alt="">
+  </a>
+  <a aria-label="license" href="https://join.slack.com/t/decathlon-design/shared_invite/zt-ou0n9qas-n_oamDSVUIqvLqNO1LETJg">
+    <img src="https://img.shields.io/badge/slack-Decathlon%20Design%20System-purple.svg?logo=slack" alt="">
+  </a>
+</p>
+
+## Introduction
+
+Android Decathlon Design System libraries are based on Material Design components described on the [official
 documentation](https://material.io/) and developed in a
 [library](https://github.com/material-components/material-components-android) maintained by
 Google developers and designers.
@@ -21,11 +44,11 @@ the design specifications and technical information for supported platforms by D
 [decathlon.design](https://www.decathlon.design/). If you are interested by a sample,
 you can install a demo with `sample` module in the technical project.
 
-## 🚀 Getting Started
+## Getting Started 🚀 
 
 To start using Vitamin in your app, you can check [the Vitamin module documentation](https://github.com/Decathlon/vitamin-android/tree/main/vitamin) 
 
-## 📦 Artifacts
+## Artifacts 📦 
 
 Group | Description
 -- | --
@@ -42,7 +65,7 @@ com.decathlon.vitamin.menus | Build UIs with ready to use Menu components.
 com.decathlon.vitamin.ratings | Build UIs with ready to use Rating components.
 com.decathlon.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
-## 📥 Download
+## Download 📥 
 
 Release artifacts are available on Maven Central. Check the [release page](https://github.com/Decathlon/vitamin-android/releases) 
 to know what is the latest release version of Vitamin artifacts.
@@ -72,18 +95,14 @@ implementation("com.decathlon.vitamin:vitamin:<latest-major + 1>.0.0-SNAPSHOT")
 If you have any question about the versioning of this project, you can just read our [documentation](https://github.com/Decathlon/vitamin-android/tree/main/VERSIONING.md)
 about it.
 
-## 📝 License
+## Special thanks
 
-    Copyright 2021 Decathlon.
+Thank you to the [contributors](CONTRIBUTORS.md) involved in these vitamin-android libraries. 💙
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+<a href="https://github.com/decathlon/vitamin-android/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=decathlon/vitamin-android" />
+</a>
 
-       http://www.apache.org/licenses/LICENSE-2.0
+## License 📝 
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Apache-2.0 © [Decathlon](https://github.com/Decathlon)
