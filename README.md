@@ -97,7 +97,7 @@ about it.
 
 ## Special thanks
 
-Thank you to the [contributors](CONTRIBUTORS.md) involved in these vitamin-android libraries. 💙
+Thank you to the [contributors](https://github.com/Decathlon/vitamin-android/graphs/contributors) involved in these vitamin-android libraries. 💙
 
 <a href="https://github.com/decathlon/vitamin-android/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=decathlon/vitamin-android" />
