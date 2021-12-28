@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Base.Theme.DayNight.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Base.Theme.DayNight.Vitamin" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
         <!-- Colors -->
         <item name="vtmnBackgroundPrimary">@color/vtmn_grey800</item>
         <item name="vtmnBackgroundSecondary">@color/vtmn_grey900</item>
