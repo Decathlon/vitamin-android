@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <com.decathlon.vitamin.buttons.VitaminPrimaryButton
+            android:id="@+id/btnToggleActionMode"
+            android:text="Toggle Action Mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.decathlon.vitamin.appbars.VitaminTopBar
+                android:id="@+id/topbar1"
+                style="@style/Widget.Vitamin.TopBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:title="AppBarLayout Toolbar"
+                app:menu="@menu/menu_topbar" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <com.decathlon.vitamin.appbars.VitaminTopBar
+            android:id="@+id/topbar2"
+            style="@style/Widget.Vitamin.TopBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Standalone Toolbar" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

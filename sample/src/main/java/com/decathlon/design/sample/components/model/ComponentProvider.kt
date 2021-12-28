@@ -65,6 +65,11 @@ object ComponentProvider {
                 R.string.menus_screen_title,
                 R.drawable.ic_menu,
                 R.id.action_main_to_menus
+            ),
+            Component(
+                R.string.topbars_screen_title,
+                R.drawable.ic_topappbar,
+                R.id.action_main_to_topbars
             )
         )
     }

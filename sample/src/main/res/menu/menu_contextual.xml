@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/upload"
+        android:icon="@drawable/ic_vtmn_upload_line"
+        android:title="Upload"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/trash"
+        android:title="Trash"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+</menu>
