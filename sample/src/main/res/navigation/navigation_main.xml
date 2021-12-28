@@ -44,6 +44,9 @@
         <action
             android:id="@+id/action_main_to_menus"
             app:destination="@id/menus" />
+        <action
+            android:id="@+id/action_main_to_topbars"
+            app:destination="@id/topbars" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -93,4 +96,8 @@
         android:id="@+id/menus"
         android:name="com.decathlon.design.sample.components.screens.MenusFragment"
         android:label="@string/menus_screen_title" />
+    <fragment
+        android:id="@+id/topbars"
+        android:name="com.decathlon.design.sample.components.screens.TopBarsFragment"
+        android:label="@string/topbars_screen_title" />
 </navigation>

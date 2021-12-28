@@ -11,12 +11,9 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent">
 
-        <!-- The customs colors should be removed when Vitamin Toolbar will be available -->
-        <com.google.android.material.appbar.MaterialToolbar
+        <com.decathlon.vitamin.appbars.VitaminTopBar
             android:id="@+id/toolbar"
-            style="?attr/toolbarStyle"
-            app:navigationIconTint="?attr/vtmnContentPrimaryReversed"
-            app:titleTextColor="?attr/vtmnContentPrimaryReversed"
+            style="@style/Widget.Vitamin.TopBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

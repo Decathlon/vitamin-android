@@ -16,4 +16,5 @@ dependencies {
     api(project(":progressbars"))
     api(project(":ratings"))
     api(project(":menus"))
+    api(project(":appbars"))
 }

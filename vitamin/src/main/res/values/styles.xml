@@ -62,5 +62,15 @@
         <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
         <item name="popupMenuStyle">@style/Widget.Vitamin.Menu</item>
         <item name="listPopupWindowStyle">@style/Widget.Vitamin.Menu.List</item>
+        <!-- AppBars -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_vtmn_close_line</item>
+        <item name="appBarLayoutStyle">@style/Widget.Vitamin.AppBarLayout</item>
+        <item name="toolbarStyle">@style/Widget.Vitamin.TopBar</item>
+        <item name="actionBarStyle">@style/Widget.Vitamin.TopBar</item>
+        <item name="actionModeStyle">@style/Widget.Vitamin.ActionMode</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
     </style>
 </resources>

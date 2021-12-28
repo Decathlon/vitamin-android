@@ -12,4 +12,5 @@
     <string name="progressbar_screen_title">Progress Bar</string>
     <string name="ratings_screen_title">Ratings</string>
     <string name="menus_screen_title">Menus</string>
+    <string name="topbars_screen_title">TopBars</string>
 </resources>

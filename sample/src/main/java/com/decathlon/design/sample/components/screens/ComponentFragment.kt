@@ -30,18 +30,6 @@ abstract class ComponentFragment : Fragment() {
         inflater.inflate(R.menu.menu_reset, menu)
     }
 
-    @Suppress("DEPRECATION")
-    override fun onPrepareOptionsMenu(menu: Menu) {
-        super.onPrepareOptionsMenu(menu)
-        // This line should be removed when the Vitamin's Toolbar will be available
-        context?.let {
-            menu.getItem(0).icon.setColorFilter(
-                ContextCompat.getColor(it, R.color.vtmn_white),
-                PorterDuff.Mode.SRC_ATOP
-            )
-        }
-    }
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.reset -> {
