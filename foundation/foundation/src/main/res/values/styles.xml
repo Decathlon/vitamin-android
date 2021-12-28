@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Base.Theme.Vitamin" parent="Base.Theme.DayNight.Vitamin">
         <item name="colorPrimary">?attr/vtmnBackgroundBrandPrimary</item>
-        <item name="colorPrimaryDark">@color/vtmn_blue600</item>
+        <item name="colorPrimaryDark">?attr/vtmnBackgroundPrimary</item>
         <item name="colorOnPrimary">?attr/vtmnContentPrimaryReversed</item>
         <item name="colorSecondary">?attr/vtmnBackgroundAccent</item>
         <item name="colorOnSecondary">?attr/vtmnContentPrimaryReversed</item>
@@ -34,6 +34,8 @@
     </style>
 
     <style name="Base.Theme.DayNight.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
         <!-- Colors -->
         <item name="vtmnBackgroundPrimary">@color/vtmn_white</item>
         <item name="vtmnBackgroundSecondary">@color/vtmn_grey50</item>
