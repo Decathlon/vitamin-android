@@ -31,7 +31,7 @@
   <a aria-label="Bitrise - Build main branch" href="https://app.bitrise.io/app/62ac2962b2dd627a">
     <img src="https://app.bitrise.io/app/62ac2962b2dd627a/status.svg?token=GlcHGXAWV2T4IItZiT43_A&branch=main" alt="">
   </a>
-  <a aria-label="license" href="https://join.slack.com/t/decathlon-design/shared_invite/zt-ou0n9qas-n_oamDSVUIqvLqNO1LETJg">
+  <a aria-label="slack" href="https://join.slack.com/t/decathlon-design/shared_invite/zt-ou0n9qas-n_oamDSVUIqvLqNO1LETJg">
     <img src="https://img.shields.io/badge/slack-Decathlon%20Design%20System-purple.svg?logo=slack" alt="">
   </a>
 </p>
