@@ -3,25 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <item
+        android:id="@+id/repeat"
+        android:icon="@drawable/ic_vtmn_repeat_line"
+        android:title="Reset"
+        app:showAsAction="always"
+        tools:ignore="HardcodedText" />
+    <item
         android:id="@+id/reset"
-        android:icon="@drawable/ic_vtmn_repeat_line"
         android:title="Reset"
         app:showAsAction="always"
         tools:ignore="HardcodedText" />
     <item
-        android:id="@+id/reset3"
-        android:title="Reset"
+        android:id="@+id/search"
+        android:icon="@drawable/ic_vtmn_search_line"
+        android:title="Search"
         app:showAsAction="always"
         tools:ignore="HardcodedText" />
     <item
-        android:id="@+id/reset4"
-        android:title="Reset"
-        android:icon="@drawable/ic_vtmn_android_fill"
-        app:showAsAction="always"
-        tools:ignore="HardcodedText" />
-    <item
-        android:id="@+id/reset2"
-        android:icon="@drawable/ic_vtmn_repeat_line"
+        android:id="@+id/overflow"
         android:title="Reset"
         app:showAsAction="never"
         tools:ignore="HardcodedText" />

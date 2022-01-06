@@ -1,9 +1,7 @@
 package com.decathlon.design.sample.components.screens
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.appcompat.app.AppCompatActivity
 import com.decathlon.design.sample.R
 import com.decathlon.design.sample.databinding.FragmentTopbarsBinding
@@ -13,7 +11,7 @@ class TopBarsFragment : ComponentFragment() {
     private val actionModeCallback = PrimaryActionModeCallback(R.menu.menu_contextual)
     private lateinit var binding: FragmentTopbarsBinding
 
-    override fun showResetOption() = true
+    override fun showResetOption() = false
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,6 +24,7 @@ class TopBarsFragment : ComponentFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        setHasOptionsMenu(true)
         binding.btnToggleActionMode.setOnClickListener {
             if (!actionModeCallback.isActive) {
                 (activity as AppCompatActivity).startSupportActionMode(actionModeCallback)
@@ -33,6 +32,19 @@ class TopBarsFragment : ComponentFragment() {
             } else {
                 actionModeCallback.finishActionMode()
             }
+        }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.menu_topbar, menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.search -> {
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
 

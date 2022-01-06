@@ -4,8 +4,26 @@ import android.content.Context
 import android.util.AttributeSet
 import com.google.android.material.appbar.MaterialToolbar
 
-class VitaminTopBar @JvmOverloads constructor(
+open class VitaminTopBar @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.toolbarStyle
-) : MaterialToolbar(context, attrs, defStyleAttr)
+) : MaterialToolbar(context, attrs, defStyleAttr) {
+    fun setNavigationDrawer() {
+        setNavigationIcon(R.drawable.ic_vtmn_menu_line)
+    }
+
+    fun setNavigationContext() {
+        setNavigationIcon(R.drawable.ic_vtmn_arrow_left_line)
+    }
+
+    fun setNavigationPreviousPage() {
+        setNavigationIcon(R.drawable.ic_vtmn_arrow_left_s_line)
+    }
+}
+
+open class VitaminSearchTopBar @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = R.attr.toolbarSearchStyle
+) : VitaminTopBar(context, attrs, defStyleAttr)

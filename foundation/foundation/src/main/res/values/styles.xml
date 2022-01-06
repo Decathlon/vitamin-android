@@ -12,7 +12,7 @@
         <item name="colorError">?attr/vtmnContentNegative</item>
         <item name="colorOnError">?attr/vtmnContentPrimaryReversed</item>
         <item name="android:windowBackground">?attr/vtmnBackgroundSecondary</item>
-        <item name="colorControlActivated">?attr/colorSecondary</item>
+        <item name="colorControlActivated">?attr/vtmnBackgroundBrandPrimary</item>
 
         <!-- Typographies -->
         <item name="textAppearanceHeadline1">@style/TextAppearance.Vitamin.Headline1</item>

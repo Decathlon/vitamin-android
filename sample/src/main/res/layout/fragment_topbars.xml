@@ -16,9 +16,9 @@
 
         <com.decathlon.vitamin.buttons.VitaminPrimaryButton
             android:id="@+id/btnToggleActionMode"
-            android:text="Toggle Action Mode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Toggle Action Mode"
             tools:ignore="HardcodedText" />
 
         <Space
@@ -32,11 +32,11 @@
 
             <com.decathlon.vitamin.appbars.VitaminTopBar
                 android:id="@+id/topbar1"
-                style="@style/Widget.Vitamin.TopBar"
+                style="?attr/toolbarStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:title="AppBarLayout Toolbar"
-                app:menu="@menu/menu_topbar" />
+                app:menu="@menu/menu_topbar"
+                app:title="AppBarLayout Toolbar" />
 
         </com.google.android.material.appbar.AppBarLayout>
 
@@ -46,10 +46,26 @@
 
         <com.decathlon.vitamin.appbars.VitaminTopBar
             android:id="@+id/topbar2"
-            style="@style/Widget.Vitamin.TopBar"
+            style="?attr/toolbarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title="Standalone Toolbar" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <com.decathlon.vitamin.appbars.VitaminSearchTopBar
+            android:id="@+id/topbar3"
+            style="?attr/toolbarSearchStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:queryHint="Placeholder" />
+        </com.decathlon.vitamin.appbars.VitaminSearchTopBar>
 
         <Space
             android:layout_width="match_parent"
