@@ -72,5 +72,8 @@
         <item name="actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
         <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
         <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
+        <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
+        <!-- Custom AppBars -->
+        <item name="toolbarSearchStyle">@style/Widget.Vitamin.TopBar.Search</item>
     </style>
 </resources>

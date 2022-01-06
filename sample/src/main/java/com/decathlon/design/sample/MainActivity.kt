@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             title = destination.label
             when (destination.id) {
                 R.id.main -> binding.toolbar.navigationIcon = null
-                else -> binding.toolbar.setNavigationIcon(R.drawable.ic_vtmn_arrow_left_line)
+                else -> binding.toolbar.setNavigationPreviousPage()
             }
         }
     }

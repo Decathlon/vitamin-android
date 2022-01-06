@@ -52,4 +52,25 @@
         <item name="srcCompat">@drawable/ic_vtmn_more_2_line</item>`
         <item name="android:src">@drawable/ic_vtmn_more_2_line</item>
     </style>
+
+    <!-- Customization of the search view inside a Toolbar -->
+    <eat-comment />
+
+    <style name="Widget.Vitamin.TopBar.Search" parent="@style/Widget.Vitamin.TopBar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TopBar.Search</item>
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.TopBar.Search" parent="">
+        <item name="colorOnPrimary">?attr/vtmnContentTertiary</item>
+    </style>
+
+    <style name="Widget.Vitamin.SearchView" parent="@style/Widget.AppCompat.SearchView">
+        <item name="closeIcon">@drawable/ic_vtmn_close_line</item>
+        <item name="searchIcon">@drawable/ic_vtmn_search_line</item>
+        <item name="searchHintIcon">@drawable/ic_vtmn_search_line</item>
+        <item name="goIcon">@drawable/ic_vtmn_check_line</item>
+        <item name="voiceIcon">@drawable/ic_vtmn_mic_vtmn_line</item>
+        <item name="iconifiedByDefault">false</item>
+    </style>
 </resources>
