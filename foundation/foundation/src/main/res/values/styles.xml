@@ -11,7 +11,7 @@
         <item name="colorOnSurface">?attr/vtmnContentPrimary</item>
         <item name="colorError">?attr/vtmnContentNegative</item>
         <item name="colorOnError">?attr/vtmnContentPrimaryReversed</item>
-        <item name="android:windowBackground">?attr/vtmnBackgroundPrimary</item>
+        <item name="android:windowBackground">?attr/vtmnBackgroundSecondary</item>
         <item name="colorControlActivated">?attr/colorSecondary</item>
 
         <!-- Typographies -->
