@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.Snackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@drawable/vtmn_snackbar_background</item>
+        <item name="android:paddingLeft">@dimen/vtmnSnackbarPaddingHorizontal</item>
+        <item name="android:paddingRight">@dimen/vtmnSnackbarPaddingHorizontal</item>
+    </style>
+
+    <style name="Widget.Vitamin.Snackbar.TextView" parent="TextAppearance.Vitamin.Body3">
+        <item name="android:textColor">?attr/vtmnContentPrimaryReversed</item>
+        <item name="android:paddingTop">@dimen/vtmnSnackbarPaddingVertical</item>
+        <item name="android:paddingBottom">@dimen/vtmnSnackbarPaddingVertical</item>
+    </style>
+
+    <style name="Widget.Vitamin.SnackbarButton" parent="Widget.Vitamin.Button.GhostReversed.Medium">
+    </style>
+</resources>
