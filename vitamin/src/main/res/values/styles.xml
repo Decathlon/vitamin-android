@@ -76,5 +76,10 @@
         <item name="bottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
         <!-- Custom AppBars -->
         <item name="toolbarSearchStyle">@style/Widget.Vitamin.TopBar.Search</item>
+        <!-- Snackbar -->
+        <item name="snackbarStyle">@style/Widget.Vitamin.Snackbar</item>
+        <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>
+        <item name="snackbarTextViewStyle">@style/Widget.Vitamin.Snackbar.TextView</item>
+        <item name="maxActionInlineWidth">@dimen/vtmnMaxActionInlineWidth</item>
     </style>
 </resources>

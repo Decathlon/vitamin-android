@@ -17,4 +17,5 @@ dependencies {
     api(project(":ratings"))
     api(project(":menus"))
     api(project(":appbars"))
+    api(project(":snackbars"))
 }

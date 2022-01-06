@@ -53,6 +53,9 @@
         <action
             android:id="@+id/action_main_to_skeleton"
             app:destination="@id/skeleton" />
+        <action
+            android:id="@+id/action_main_to_snackbars"
+            app:destination="@id/snackbars" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -114,4 +117,8 @@
         android:id="@+id/skeleton"
         android:name="com.decathlon.design.sample.components.screens.SkeletonFragment"
         android:label="@string/skeleton_screen_title" />
+    <fragment
+        android:id="@+id/snackbars"
+        android:name="com.decathlon.design.sample.components.screens.SnackbarsFragment"
+        android:label="@string/snackbars_screen_title" />
 </navigation>

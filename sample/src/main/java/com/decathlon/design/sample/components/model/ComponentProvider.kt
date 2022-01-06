@@ -80,6 +80,11 @@ object ComponentProvider {
                 R.string.skeleton_screen_title,
                 R.drawable.ic_placeholder,
                 R.id.action_main_to_skeleton
+            ),
+            Component(
+                R.string.snackbars_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_snackbars
             )
         )
     }
