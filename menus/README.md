@@ -76,7 +76,7 @@ implementation("com.decathlon.vitamin:menus:<version>")
         ...
         <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
-        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown</item>
+        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
         <item name="popupMenuStyle">@style/Widget.Vitamin.Menu</item>
         <item name="listPopupWindowStyle">@style/Widget.Vitamin.Menu.List</item>
     </style>
