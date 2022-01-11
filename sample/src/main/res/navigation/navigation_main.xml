@@ -47,6 +47,9 @@
         <action
             android:id="@+id/action_main_to_topbars"
             app:destination="@id/topbars" />
+        <action
+            android:id="@+id/action_main_to_bottomnavs"
+            app:destination="@id/bottomnavs" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -100,4 +103,8 @@
         android:id="@+id/topbars"
         android:name="com.decathlon.design.sample.components.screens.TopBarsFragment"
         android:label="@string/topbars_screen_title" />
+    <fragment
+        android:id="@+id/bottomnavs"
+        android:name="com.decathlon.design.sample.components.screens.BottomNavigationFragment"
+        android:label="@string/bottomnavs_screen_title" />
 </navigation>

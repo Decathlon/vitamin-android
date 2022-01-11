@@ -70,6 +70,11 @@ object ComponentProvider {
                 R.string.topbars_screen_title,
                 R.drawable.ic_topappbar,
                 R.id.action_main_to_topbars
+            ),
+            Component(
+                R.string.bottomnavs_screen_title,
+                R.drawable.ic_bottomnavigation,
+                R.id.action_main_to_bottomnavs
             )
         )
     }

@@ -13,4 +13,5 @@
     <string name="ratings_screen_title">Ratings</string>
     <string name="menus_screen_title">Menus</string>
     <string name="topbars_screen_title">TopBars</string>
+    <string name="bottomnavs_screen_title">Bottom Navigation</string>
 </resources>

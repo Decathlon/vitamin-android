@@ -16,10 +16,6 @@ open class VitaminTopBar @JvmOverloads constructor(
     fun setNavigationContext() {
         setNavigationIcon(R.drawable.ic_vtmn_arrow_left_line)
     }
-
-    fun setNavigationPreviousPage() {
-        setNavigationIcon(R.drawable.ic_vtmn_arrow_left_s_line)
-    }
 }
 
 open class VitaminSearchTopBar @JvmOverloads constructor(
