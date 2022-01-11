@@ -6,9 +6,10 @@ import androidx.annotation.MenuRes
 import androidx.appcompat.view.ActionMode
 
 class PrimaryActionModeCallback(
-    @MenuRes val menuResId: Int,
-    val onActionItemClickListener: ((item: MenuItem) -> Unit)? = null,
-    val onActionModeFinishedListener: (() -> Unit)? = null
+    @MenuRes private val menuResId: Int,
+    private val autoFinishMode: Boolean = true,
+    private val onActionItemClickListener: ((item: MenuItem) -> Unit)? = null,
+    private val onActionModeFinishedListener: (() -> Unit)? = null
 ) : ActionMode.Callback {
     private var actionMode: ActionMode? = null
 
@@ -29,7 +30,9 @@ class PrimaryActionModeCallback(
 
     override fun onActionItemClicked(mode: ActionMode, item: MenuItem): Boolean {
         onActionItemClickListener?.invoke(item)
-        mode.finish()
+        if (autoFinishMode) {
+            mode.finish()
+        }
         return true
     }
 

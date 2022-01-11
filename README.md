@@ -56,7 +56,9 @@ To start using Vitamin in your app, you can check [the Vitamin module documentat
 
 Group | Description
 -- | --
-com.decathlon.vitamin.foundation | Fundamental components of UI with texts, icons and colors.
+com.decathlon.vitamin.foundation | Fundamental components of UI with texts and colors.
+com.decathlon.vitamin.foundation-assets | Fundamental components of UI for iconography.
+com.decathlon.vitamin.foundation-icons | Fundamental components of UI for assets.
 com.decathlon.vitamin.buttons | Build UIs with ready to use Button components.
 com.decathlon.vitamin.checkboxes | Build UIs with ready to use Checkbox components.
 com.decathlon.vitamin.radiobuttons | Build UIs with ready to use RadioButton components.
@@ -67,6 +69,7 @@ com.decathlon.vitamin.modals | Build UIs with ready to use Modal components.
 com.decathlon.vitamin.progressbars | Build UIs with ready to use Progressbar components.
 com.decathlon.vitamin.menus | Build UIs with ready to use Menu components.
 com.decathlon.vitamin.ratings | Build UIs with ready to use Rating components.
+com.decathlon.vitamin.appbars | Build UIs with ready to use AppBars components.
 com.decathlon.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
 ## Download
