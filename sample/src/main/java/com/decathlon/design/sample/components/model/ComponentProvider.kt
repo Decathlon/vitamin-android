@@ -75,6 +75,11 @@ object ComponentProvider {
                 R.string.bottomnavs_screen_title,
                 R.drawable.ic_bottomnavigation,
                 R.id.action_main_to_bottomnavs
+            ),
+            Component(
+                R.string.skeleton_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_skeleton
             )
         )
     }

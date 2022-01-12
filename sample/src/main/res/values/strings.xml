@@ -14,4 +14,5 @@
     <string name="menus_screen_title">Menus</string>
     <string name="topbars_screen_title">TopBars</string>
     <string name="bottomnavs_screen_title">Bottom Navigation</string>
+    <string name="skeleton_screen_title">Skeleton</string>
 </resources>

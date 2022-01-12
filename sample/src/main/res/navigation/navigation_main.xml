@@ -50,6 +50,9 @@
         <action
             android:id="@+id/action_main_to_bottomnavs"
             app:destination="@id/bottomnavs" />
+        <action
+            android:id="@+id/action_main_to_skeleton"
+            app:destination="@id/skeleton" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -107,4 +110,8 @@
         android:id="@+id/bottomnavs"
         android:name="com.decathlon.design.sample.components.screens.BottomNavigationFragment"
         android:label="@string/bottomnavs_screen_title" />
+    <fragment
+        android:id="@+id/skeleton"
+        android:name="com.decathlon.design.sample.components.screens.SkeletonFragment"
+        android:label="@string/skeleton_screen_title" />
 </navigation>

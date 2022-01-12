@@ -33,6 +33,8 @@ repositories {
 
 dependencies {
     implementation(project(":vitamin"))
+    implementation(project(":skeleton"))
+
     implementation(Dependencies.stdlib)
 
     implementation(Dependencies.appcompat)
