@@ -7,6 +7,30 @@ plugins {
     id("VitaminLibraryPlugin")
 }
 
+tasks.create("generateDynamicIcons") {
+    doLast {
+        def drawableFolder = file("src/main/res/drawable")
+        def iconsLine = drawableFolder.listFiles(new FileFilter() {
+            @Override
+            boolean accept(File file) {
+                return file.name.startsWith("ic_vtmn") && file.name.endsWith("line.xml")
+            }
+        })
+        iconsLine.each {
+            def dynamicIconName = it.name.split("_line")[0]
+            def dynamicIconFile = file("${it.parentFile.absolutePath}${File.separator}${dynamicIconName}.xml")
+            def iconFillFile = file("${it.parentFile.absolutePath}${File.separator}${dynamicIconName}_fill.xml")
+            if (!dynamicIconFile.exists() && iconFillFile.exists()) {
+                dynamicIconFile.write("""<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/${dynamicIconName}_fill" android:state_checked="true"/>
+    <item android:drawable="@drawable/${dynamicIconName}_line" android:state_checked="false"/>
+</selector>""")
+            }
+        }
+    }
+}
+
 dependencies {
     implementation(Dependencies.material)
 }
