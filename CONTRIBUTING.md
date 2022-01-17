@@ -37,7 +37,9 @@ If you do not own these types of devices, you can emulate them following [these 
 
 ### Reporting bug
 
-The first way to contribute to a project is simply reporting a Bug. If you find anything which is not working well or as expected you can [open an issue](https://github.com/decathlon/vitamin-android/issues/new/choose).
+### Reporting an issue
+
+The first way to contribute to a project is simply proposing an issue. If you find anything which is not working well or as expected you can [open an issue](https://github.com/Decathlon/vitamin-android/issues/new/choose).
 
 Before to open the issue please check if there is one similar already opened. It will save us hours of work and it will allow us to answer you quickly with the desired hotfix or implementation.
 
