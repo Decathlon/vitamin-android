@@ -23,7 +23,7 @@ labels: bug 🐛
 **Describe the bug**
 <!-- A clear and concise description of what the bug is. -->
 
-**To Reproduce**
+**Steps to reproduce**
 <!--
     Steps to reproduce the behavior:
     1. Go to '...'
@@ -38,7 +38,7 @@ labels: bug 🐛
 **Screenshots**
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-**Smartphone (please complete the following information):**
-- Device: [e.g. One Plus]
+**Device (please complete the following information):**
+- Model: [e.g. One Plus]
 - OS: [e.g. Lollipop]
 - Version [e.g. 21]

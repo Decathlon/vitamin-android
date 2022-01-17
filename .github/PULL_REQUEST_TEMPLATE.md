@@ -8,14 +8,13 @@
 ## Checklist
 <!--- Feel free to add other steps if needed. -->
 
-- [ ] Make sure you are requesting to **pull a topic/feature/bugfix branch**. Don't request your main!
-- [ ] Check the commit's or even all commits' message styles matches our requested structure.
+- [ ] Make sure you are requesting to **pull a topic/feature/bugfix branch**. Please, don't request your main!
+- [ ] Check commits & PR names matches our requested structure. It must follow the https://www.conventionalcommits.org pattern.
 - [ ] Check your code additions will fail neither code linting checks.
-- [ ] Check PR name, it must follow the https://www.conventionalcommits.org pattern.
-- [ ] I have reviewed the submitted code
-- [ ] I have tested on a phone device/emulator
-- [ ] I have tested on a tablet device/emulator
-- [ ] I have tested on a large screen device/emulator
+- [ ] I have reviewed the submitted code.
+- [ ] I have tested on a phone device/emulator.
+- [ ] I have tested on a tablet device/emulator.
+- [ ] I have tested on a large screen device/emulator.
 - [ ] If it's a new component, please ask for design review.
 
 ## Does this introduce a breaking change?
