@@ -4,14 +4,19 @@ about: Suggest an idea for this project
 labels: enhancement 🚀
 ---
 
-<!--
+<!-- 
+    Before submitting an issue, please consult our [documentation](https://decathlon.design). 
+    Please make sure you are posting an issue pertaining to the Decathlon Design System. 
+
     Note that before opening an issue, you can chat maintainer of this project on channel
-    #vitamin-android in Vitamin Slack. More information here: https://www.decathlon.design/726f8c765/p/195920-contributing
+    #vitamin-android in [Decathlon Design System's Slack(https://join.slack.com/t/decathlon-design/shared_invite/zt-ou0n9qas-n_oamDSVUIqvLqNO1LETJg).
 
     If you want to know how to contribute to this project, you can check our CONTRIBUTING file:
     https://github.com/Decathlon/vitamin-android/blob/main/CONTRIBUTING.md
 
     If a section isn't adapted for your request, please remove it to avoid any unnecessary section.
+
+    Thanks!
 -->
 
 **Is your feature request related to a problem? Please describe.**
