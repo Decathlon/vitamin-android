@@ -12,7 +12,7 @@ labels: enhancement 🚀
     #vitamin-android in [Decathlon Design System's Slack(https://join.slack.com/t/decathlon-design/shared_invite/zt-ou0n9qas-n_oamDSVUIqvLqNO1LETJg).
 
     If you want to know how to contribute to this project, you can check our CONTRIBUTING file:
-    https://github.com/Decathlon/vitamin-web/blob/main/CONTRIBUTING.md
+    https://github.com/Decathlon/vitamin-android/blob/main/CONTRIBUTING.md
 
     If a section isn't adapted for your request, please remove it to avoid any unnecessary section.
 
