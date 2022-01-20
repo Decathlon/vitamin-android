@@ -1,7 +1,8 @@
 ---
-name: New component request
-about: When a component is ready to dev, create the GitHub issue with this template
-labels: enhancement 🚀
+name: Bug report
+about: Create a report to help us improve
+title: 'bug: '
+labels: bug 🐛
 ---
 
 <!-- 
@@ -19,11 +20,25 @@ labels: enhancement 🚀
     Thanks!
 -->
 
-**New component**
-<!-- A clear and concise description of what the feature request is. Please include if your feature request is related to a problem. -->
+**Describe the bug**
+<!-- A clear and concise description of what the bug is. -->
 
-**Documentation links**
+**Steps to reproduce**
+<!--
+    Steps to reproduce the behavior:
+    1. Go to '...'
+    2. Click on '....'
+    3. Scroll down to '....'
+    4. See error
+-->
 
-- [Documentation](https://decathlon.design/...)
-- [Figma](https://figma.com/...)
-- [Material](https://material.io/...)
+**Expected behavior**
+<!-- A clear and concise description of what you expected to happen. -->
+
+**Screenshots**
+<!-- If applicable, add screenshots to help explain your problem. -->
+
+**Device (please complete the following information):**
+- Model: [e.g. One Plus]
+- OS: [e.g. Lollipop]
+- Version [e.g. 21]
