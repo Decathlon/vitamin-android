@@ -1,6 +1,7 @@
 ---
 name: New component request
 about: When a component is ready to dev, create the GitHub issue with this template
+title: 'feat: add [component name] component'
 labels: enhancement 🚀
 ---
 
