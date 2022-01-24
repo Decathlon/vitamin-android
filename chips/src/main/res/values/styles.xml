@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.Chip.Filter.Medium" parent="@style/Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/vtmn_chip_background</item>
+        <item name="rippleColor">@color/vtmn_chip_ripple</item>
+        <item name="chipStrokeWidth">@dimen/vtmn_chip_stroke_width</item>
+        <item name="chipStrokeColor">@color/vtmn_chip_stroke</item>
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textColor">@color/vtmn_chip_text</item>
+        <item name="checkedIcon">@drawable/ic_vtmn_check_line</item>
+        <item name="checkedIconTint">@color/vtmn_chip_icon</item>
+        <item name="checkedIconSize">@dimen/vtmn_chip_icon_size</item>
+        <item name="chipStartPadding">@dimen/vtmn_chip_with_start_ic_chip_start_padding_medium</item>
+        <item name="chipEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_medium</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_medium</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.Filter.Small" parent="@style/Widget.Vitamin.Chip.Filter.Medium">
+        <item name="chipStartPadding">@dimen/vtmn_chip_with_start_ic_chip_start_padding_small</item>
+        <item name="chipEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_small</item>
+        <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_small</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.Input.Medium" parent="@style/Widget.MaterialComponents.Chip.Entry">
+        <item name="chipBackgroundColor">@color/vtmn_chip_background</item>
+        <item name="rippleColor">@color/vtmn_chip_ripple</item>
+        <item name="chipStrokeWidth">@dimen/vtmn_chip_stroke_width</item>
+        <item name="chipStrokeColor">@color/vtmn_chip_stroke</item>
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textColor">@color/vtmn_chip_text</item>
+        <item name="chipIconTint">@color/vtmn_chip_icon</item>
+        <item name="chipIconSize">@dimen/vtmn_chip_icon_size</item>
+        <item name="android:checkable">false</item>
+        <item name="closeIcon">@drawable/ic_vtmn_close_line</item>
+        <item name="closeIconSize">@dimen/vtmn_chip_icon_size</item>
+        <item name="closeIconTint">@color/vtmn_chip_icon</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipEndPadding">@dimen/vtmn_chip_with_end_ic_chip_end_padding_medium</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_with_end_ic_text_end_padding</item>
+        <item name="closeIconStartPadding">@dimen/vtmn_chip_with_end_ic_icon_start_padding</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_medium</item>
+        <item name="chipStartPadding">@dimen/vtmn_chip_with_start_ic_chip_start_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_medium</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.InputImage.Medium" parent="@style/Widget.Vitamin.Chip.Input.Medium">
+        <item name="chipIconTint">@null</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.Input.Small" parent="@style/Widget.Vitamin.Chip.Input.Medium">
+        <item name="chipEndPadding">@dimen/vtmn_chip_with_end_ic_chip_end_padding_small</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_with_end_ic_text_end_padding</item>
+        <item name="closeIconStartPadding">@dimen/vtmn_chip_with_end_ic_icon_start_padding</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+        <item name="chipStartPadding">@dimen/vtmn_chip_with_start_ic_chip_start_padding_small</item>
+        <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_small</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.InputImage.Small" parent="@style/Widget.Vitamin.Chip.Input.Small">
+        <item name="chipIconTint">@null</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.SingleChoice.Medium" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/vtmn_chip_background</item>
+        <item name="rippleColor">@color/vtmn_chip_ripple</item>
+        <item name="chipStrokeWidth">@dimen/vtmn_chip_stroke_width</item>
+        <item name="chipStrokeColor">@color/vtmn_chip_stroke</item>
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textColor">@color/vtmn_chip_text</item>
+        <item name="chipStartPadding">0dp</item>
+        <item name="chipEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_text_start_padding_medium</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_medium</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_medium</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.SingleChoice.Small" parent="@style/Widget.Vitamin.Chip.SingleChoice.Medium">
+        <item name="textStartPadding">@dimen/vtmn_chip_text_start_padding_small</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_small</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.Action.Medium" parent="@style/Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/vtmn_chip_background</item>
+        <item name="rippleColor">@color/vtmn_chip_ripple</item>
+        <item name="chipStrokeWidth">@dimen/vtmn_chip_stroke_width</item>
+        <item name="chipStrokeColor">@color/vtmn_chip_stroke</item>
+        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textColor">@color/vtmn_chip_text</item>
+        <item name="chipIconTint">@color/vtmn_chip_icon</item>
+        <item name="chipIconSize">@dimen/vtmn_chip_icon_size</item>
+        <item name="chipStartPadding">@dimen/vtmn_chip_with_start_ic_chip_start_padding_medium</item>
+        <item name="chipEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_medium</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_medium</item>
+    </style>
+
+    <style name="Widget.Vitamin.Chip.Action.Small" parent="@style/Widget.Vitamin.Chip.Action.Medium">
+        <item name="chipStartPadding">@dimen/vtmn_chip_with_start_ic_chip_start_padding_small</item>
+        <item name="chipEndPadding">0dp</item>
+        <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+        <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_small</item>
+        <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_small</item>
+        <item name="iconEndPadding">0dp</item>
+        <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+    </style>
+
+    <style name="TextAppearance.Vitamin.Chip" parent="@style/TextAppearance.Vitamin.Body2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter Chips"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Medium"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/mediumFilterChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small">
+
+            <com.decathlon.vitamin.chips.VitaminFilterMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter 1"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminFilterMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Filter 2"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminFilterMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter 3"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminFilterMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter 4"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Small"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/smallFilterChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small">
+
+            <com.decathlon.vitamin.chips.VitaminFilterSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter 1"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminFilterSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Filter 2"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminFilterSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter 3"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminFilterSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter 4"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Input Chips"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Medium"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/mediumInputChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small">
+
+            <com.decathlon.vitamin.chips.VitaminInputMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input 1"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminInputMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Input 2"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminInputMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input 3"
+                app:chipIcon="@drawable/ic_vtmn_map_pin_line"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminInputImageMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input 4"
+                app:chipIcon="@drawable/profile_picture_round"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Small"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/smallInputChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small">
+
+            <com.decathlon.vitamin.chips.VitaminInputSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input 1"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminInputSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Input 2"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminInputSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input 3"
+                app:chipIcon="@drawable/ic_vtmn_map_pin_line"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminInputImageSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Input 4"
+                app:chipIcon="@drawable/profile_picture_round"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Single choice Chips"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Medium"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/mediumSingleChoiceChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            app:singleSelection="true">
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 1"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Choice 2"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 3"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 4"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Small"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/smallSingleChoiceChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            app:singleSelection="true">
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 1"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Choice 2"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 3"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminSingleChoiceSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 4"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Action Chips"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Medium"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small">
+
+            <com.decathlon.vitamin.chips.VitaminActionMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 1"
+                app:chipIcon="@drawable/ic_vtmn_add_fill"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminActionMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Action 2"
+                app:chipIcon="@drawable/ic_vtmn_map_pin_line"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminActionMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 3"
+                app:chipIcon="@drawable/ic_vtmn_heart_3_fill"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminActionMediumChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 4"
+                app:chipIcon="@drawable/ic_vtmn_settings_3_line"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Small"
+            android:textAppearance="@style/TextAppearance.Vitamin.Subtitle1"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small">
+
+            <com.decathlon.vitamin.chips.VitaminActionSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 1"
+                app:chipIcon="@drawable/ic_vtmn_add_fill"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminActionSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Action 2"
+                app:chipIcon="@drawable/ic_vtmn_map_pin_line"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminActionSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action 3"
+                app:chipIcon="@drawable/ic_vtmn_heart_3_fill"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.chips.VitaminActionSmallChip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 4"
+                app:chipIcon="@drawable/ic_vtmn_settings_3_line"
+                tools:ignore="HardcodedText" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

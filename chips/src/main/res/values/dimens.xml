@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="vtmn_chip_min_height_medium">40dp</dimen>
+    <dimen name="vtmn_chip_min_height_small">32dp</dimen>
+    <dimen name="vtmn_chip_stroke_width">1dp</dimen>
+    <dimen name="vtmn_chip_text_start_padding_medium">16dp</dimen>
+    <dimen name="vtmn_chip_text_start_padding_small">12dp</dimen>
+    <dimen name="vtmn_chip_text_end_padding_medium">16dp</dimen>
+    <dimen name="vtmn_chip_text_end_padding_small">12dp</dimen>
+    <dimen name="vtmn_chip_icon_size">20dp</dimen>
+    <dimen name="vtmn_chip_with_start_ic_chip_start_padding_medium">8dp</dimen>
+    <dimen name="vtmn_chip_with_start_ic_chip_start_padding_small">4dp</dimen>
+    <dimen name="vtmn_chip_with_start_ic_icon_start_padding_medium">2dp</dimen>
+    <dimen name="vtmn_chip_with_start_ic_icon_start_padding_small">4dp</dimen>
+    <dimen name="vtmn_chip_with_start_ic_text_start_padding">8dp</dimen>
+    <dimen name="vtmn_chip_with_end_ic_chip_end_padding_medium">10dp</dimen>
+    <dimen name="vtmn_chip_with_end_ic_chip_end_padding_small">6dp</dimen>
+    <dimen name="vtmn_chip_with_end_ic_text_end_padding">6dp</dimen>
+    <dimen name="vtmn_chip_with_end_ic_icon_start_padding">2dp</dimen>
+</resources>
