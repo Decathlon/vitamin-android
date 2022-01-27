@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic list examples"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/spacing_large">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape2"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shape1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape3"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toStartOf="@id/shape2"
+                    app:layout_constraintTop_toBottomOf="@id/shape2"
+                    app:layout_constraintWidth_percent="0.5"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape1" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape5"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shape4"
+                    app:layout_constraintTop_toTopOf="@id/shape4"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape6"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toStartOf="@id/shape5"
+                    app:layout_constraintTop_toBottomOf="@id/shape5"
+                    app:layout_constraintWidth_percent="0.5"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape4" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape8"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shape7"
+                    app:layout_constraintTop_toTopOf="@id/shape7"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape9"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toStartOf="@id/shape8"
+                    app:layout_constraintTop_toBottomOf="@id/shape8"
+                    app:layout_constraintWidth_percent="0.5"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape10"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="64dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape7"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape11"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shape10"
+                    app:layout_constraintTop_toTopOf="@id/shape10"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape12"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toStartOf="@id/shape11"
+                    app:layout_constraintTop_toBottomOf="@id/shape11"
+                    app:layout_constraintWidth_percent="0.5"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape13"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape10"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape14"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shape13"
+                    app:layout_constraintTop_toTopOf="@id/shape13"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape15"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toStartOf="@id/shape14"
+                    app:layout_constraintTop_toBottomOf="@id/shape14"
+                    app:layout_constraintWidth_percent="0.5"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape16"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape13"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape17"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/shape16"
+                    app:layout_constraintTop_toTopOf="@id/shape16"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape18"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toStartOf="@id/shape17"
+                    app:layout_constraintTop_toBottomOf="@id/shape17"
+                    app:layout_constraintWidth_percent="0.5"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:text="Other shape examples"
+            android:textAppearance="@style/TextAppearance.Vitamin.Headline6"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/spacing_large">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape20"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.5" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape21"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape20"
+                    app:layout_constraintWidth_percent="0.7"
+                    app:vtmnSkeletonRectangularView_cornerRadius="8dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape22"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/spacing_medium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape21"
+                    app:layout_constraintWidth_percent="0.9"
+                    app:vtmnSkeletonRectangularView_cornerRadius="30dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape23"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape22" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape24"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    app:layout_constraintStart_toEndOf="@id/shape23"
+                    app:layout_constraintTop_toTopOf="@id/shape23" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape25"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    app:layout_constraintStart_toEndOf="@id/shape24"
+                    app:layout_constraintTop_toTopOf="@id/shape24" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape26"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    android:layout_marginTop="@dimen/spacing_small"
+                    app:layout_constraintStart_toEndOf="@id/shape24"
+                    app:layout_constraintTop_toBottomOf="@id/shape25" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
+                    android:id="@+id/shape27"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="@dimen/spacing_small"
+                    app:layout_constraintBottom_toBottomOf="@id/shape26"
+                    app:layout_constraintStart_toEndOf="@id/shape26"
+                    app:layout_constraintTop_toTopOf="@id/shape26" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape28"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    app:layout_constraintStart_toEndOf="@id/shape27"
+                    app:layout_constraintTop_toTopOf="@id/shape25" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape29"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    app:layout_constraintStart_toEndOf="@id/shape28"
+                    app:layout_constraintTop_toTopOf="@id/shape28"
+                    app:vtmnSkeletonRectangularView_cornerRadius="4dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape30"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="@dimen/spacing_medium"
+                    app:layout_constraintStart_toEndOf="@id/shape29"
+                    app:layout_constraintTop_toTopOf="@id/shape29"
+                    app:vtmnSkeletonRectangularView_cornerRadius="10dp" />
+
+                <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
+                    android:id="@+id/shape31"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/shape30" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

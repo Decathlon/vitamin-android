@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Define VitaminSkeletonRoundedView style -->
+    <attr name="vtmnSkeletonRoundedViewStyle" format="reference" />
+    <!-- Define VitaminSkeletonRectangularView style -->
+    <attr name="vtmnSkeletonRectangularViewStyle" format="reference" />
+
+    <declare-styleable name="VitaminSkeletonRoundedView">
+        <!-- Define the color view -->
+        <attr name="vtmnSkeletonRoundedView_color" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="VitaminSkeletonRectangularView">
+        <!-- Define the color view -->
+        <attr name="vtmnSkeletonRectangularView_color" format="reference" />
+        <!-- Define the corner radius view -->
+        <attr name="vtmnSkeletonRectangularView_cornerRadius" format="dimension" />
+    </declare-styleable>
+
+</resources>
