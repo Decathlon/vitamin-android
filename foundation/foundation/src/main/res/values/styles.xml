@@ -43,7 +43,8 @@
         <item name="vtmnBackgroundBrandPrimary">@color/vtmn_blue400</item>
         <item name="vtmnBackgroundBrandSecondary">@color/vtmn_blue50</item>
         <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
-        <item name="vtmnBackgroundDiscount">@color/vtmn_red400</item>
+        <item name="vtmnBackgroundAlert">@color/vtmn_red400</item>
+        <item name="vtmnBackgroundDiscount">?attr/vtmnBackgroundAlert</item>
         <item name="vtmnBackgroundPrimaryReversed">@color/vtmn_black</item>
         <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_white</item>
 

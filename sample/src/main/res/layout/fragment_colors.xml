@@ -201,7 +201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundDiscount"
+                android:text="vtmnBackgroundAlert"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -212,7 +212,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundDiscount" />
+                    android:background="?attr/vtmnBackgroundAlert" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
