@@ -7,6 +7,8 @@
     <attr name="vtmnBackgroundBrandPrimary" format="color" />
     <attr name="vtmnBackgroundBrandSecondary" format="color" />
     <attr name="vtmnBackgroundAccent" format="color" />
+    <attr name="vtmnBackgroundAlert" format="color" />
+    <!-- @deprecated check vtmnBackgroundAlert -->
     <attr name="vtmnBackgroundDiscount" format="color" />
     <attr name="vtmnBackgroundPrimaryReversed" format="color" />
     <attr name="vtmnBackgroundBrandPrimaryReversed" format="color" />
