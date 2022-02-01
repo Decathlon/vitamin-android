@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="vtmnButtonCornerRadius">4dp</dimen>
-
     <dimen name="vtmnButtonHorizontalPaddingMedium">24dp</dimen>
     <dimen name="vtmnButtonVerticalPaddingMedium">14dp</dimen>
     <dimen name="vtmnButtonIconStartPaddingMedium">24dp</dimen>

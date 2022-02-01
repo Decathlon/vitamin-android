@@ -5,7 +5,7 @@
         <item name="trackThickness">@dimen/vtmn_progressbar_linear_thickness_small</item>
         <item name="indicatorColor">?attr/vtmnContentActive</item>
         <item name="trackColor">?attr/vtmnBackgroundTertiary</item>
-        <item name="trackCornerRadius">32dp</item>
+        <item name="trackCornerRadius">@dimen/vtmn_radius_700</item>
     </style>
 
     <style name="Widget.Vitamin.LinearProgressBar.Small" />
@@ -23,7 +23,7 @@
         <item name="indicatorSize">@dimen/vtmn_progressbar_circular_medium</item>
         <item name="indicatorColor">?attr/vtmnContentActive</item>
         <item name="trackColor">?attr/vtmnBackgroundTertiary</item>
-        <item name="trackCornerRadius">32dp</item>
+        <item name="trackCornerRadius">@dimen/vtmn_radius_700</item>
     </style>
 
     <style name="Widget.Vitamin.CircularProgressBar.ExtraSmall">
