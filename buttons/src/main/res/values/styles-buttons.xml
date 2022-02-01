@@ -4,7 +4,7 @@
     <style name="Widget.Vitamin.Button.Primary.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>
@@ -32,7 +32,7 @@
     <style name="Widget.Vitamin.Button.Secondary.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>
@@ -62,7 +62,7 @@
     <style name="Widget.Vitamin.Button.Tertiary.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>
@@ -90,7 +90,7 @@
     <style name="Widget.Vitamin.Button.Conversion.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>
@@ -118,7 +118,7 @@
     <style name="Widget.Vitamin.Button.PrimaryReversed.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>
@@ -146,7 +146,7 @@
     <style name="Widget.Vitamin.Button.Ghost.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>
@@ -174,7 +174,7 @@
     <style name="Widget.Vitamin.Button.GhostReversed.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
-        <item name="cornerRadius">@dimen/vtmnButtonCornerRadius</item>
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
         <item name="iconEndPadding">@dimen/vtmnButtonIconEndPaddingMedium</item>
         <item name="iconStartPadding">@dimen/vtmnButtonIconStartPaddingMedium</item>

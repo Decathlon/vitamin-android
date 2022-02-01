@@ -34,5 +34,14 @@
     <fraction name="vtmn_letter_spacing_overline">0.004375</fraction>
     <fraction name="vtmn_letter_spacing_button">0.016875</fraction>
 
+    <dimen name="vtmn_radius_100">4dp</dimen>
+    <dimen name="vtmn_radius_200">8dp</dimen>
+    <dimen name="vtmn_radius_300">12dp</dimen>
+    <dimen name="vtmn_radius_400">16dp</dimen>
+    <dimen name="vtmn_radius_500">20dp</dimen>
+    <dimen name="vtmn_radius_600">24dp</dimen>
+    <dimen name="vtmn_radius_700">32dp</dimen>
+    <dimen name="vtmn_radius_800">48dp</dimen>
+
     <dimen name="vtmn_states_disabled">0.38</dimen>
 </resources>
