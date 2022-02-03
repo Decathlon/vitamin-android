@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_screen">
+
+        <com.google.android.material.textview.MaterialTextView
+            style="?textAppearanceHeadline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagAccent
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagAlert
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagBrand
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagAccent
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagAlert
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagBrand
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:chipIcon="@drawable/ic_vtmn_football_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGravel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeBrick
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeSaffron
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGravel
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeBrick
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeSaffron
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeJade
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeEmerald
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeCobalt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeAmethyst
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeJade
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeEmerald
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeCobalt
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeAmethyst
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.textview.MaterialTextView
+            style="?textAppearanceHeadline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="Interactive tags" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagAccentInteractive
+                android:id="@+id/interactiveTagAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagAlertInteractive
+                android:id="@+id/interactiveTagAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagBrandInteractive
+                android:id="@+id/interactiveTagBrand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagAccentInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagAlertInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagBrandInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGravelInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeBrickInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeSaffronInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGoldInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGravelInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeBrickInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeSaffronInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeGoldInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeJadeInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeEmeraldInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeCobaltInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeAmethystInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <com.decathlon.android.tags.VitaminTagDecorativeJadeInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeEmeraldInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeCobaltInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+            <com.decathlon.android.tags.VitaminTagDecorativeAmethystInteractive
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_small"
+                android:text="Tag"
+                app:tagIcon="@drawable/ic_vtmn_football_line" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

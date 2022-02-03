@@ -100,6 +100,11 @@ object ComponentProvider {
                 R.string.dividers_screen_title,
                 R.drawable.ic_placeholder,
                 R.id.action_main_to_dividers
+            ),
+            Component(
+                R.string.tags_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_tags
             )
         )
     }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tagAccent" format="reference" />
+    <attr name="tagAccentInteractive" format="reference" />
+    <attr name="tagAlert" format="reference" />
+    <attr name="tagAlertInteractive" format="reference" />
+    <attr name="tagBrand" format="reference" />
+    <attr name="tagBrandInteractive" format="reference" />
+    <attr name="tagDecorativeGravel" format="reference" />
+    <attr name="tagDecorativeGravelInteractive" format="reference" />
+    <attr name="tagDecorativeBrick" format="reference" />
+    <attr name="tagDecorativeBrickInteractive" format="reference" />
+    <attr name="tagDecorativeSaffron" format="reference" />
+    <attr name="tagDecorativeSaffronInteractive" format="reference" />
+    <attr name="tagDecorativeGold" format="reference" />
+    <attr name="tagDecorativeGoldInteractive" format="reference" />
+    <attr name="tagDecorativeJade" format="reference" />
+    <attr name="tagDecorativeJadeInteractive" format="reference" />
+    <attr name="tagDecorativeEmerald" format="reference" />
+    <attr name="tagDecorativeEmeraldInteractive" format="reference" />
+    <attr name="tagDecorativeCobalt" format="reference" />
+    <attr name="tagDecorativeCobaltInteractive" format="reference" />
+    <attr name="tagDecorativeAmethyst" format="reference" />
+    <attr name="tagDecorativeAmethystInteractive" format="reference" />
+
+    <declare-styleable name="VitaminTag">
+        <attr name="tagIcon" format="reference"/>
+    </declare-styleable>
+</resources>

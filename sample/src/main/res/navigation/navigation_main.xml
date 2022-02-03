@@ -65,6 +65,9 @@
         <action
             android:id="@+id/action_main_to_dividers"
             app:destination="@id/dividers" />
+        <action
+            android:id="@+id/action_main_to_tags"
+            app:destination="@id/tags" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -142,4 +145,8 @@
         android:id="@+id/dividers"
         android:name="com.decathlon.design.sample.components.screens.DividersFragment"
         android:label="@string/dividers_screen_title" />
+    <fragment
+        android:id="@+id/tags"
+        android:name="com.decathlon.design.sample.components.screens.TagsFragment"
+        android:label="@string/tags_screen_title" />
 </navigation>
