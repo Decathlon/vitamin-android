@@ -21,4 +21,5 @@ dependencies {
     api(project(":chips"))
     api(project(":prices"))
     api(project(":dividers"))
+    api(project(":tags"))
 }

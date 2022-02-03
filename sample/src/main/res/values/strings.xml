@@ -19,4 +19,5 @@
     <string name="chips_screen_title">Chips</string>
     <string name="prices_screen_title">Prices</string>
     <string name="dividers_screen_title">Dividers</string>
+    <string name="tags_screen_title">Tags</string>
 </resources>
