@@ -28,6 +28,16 @@
     <attr name="vtmnContentPrimaryReversed" format="color" />
     <attr name="vtmnContentActionReversed" format="color" />
 
+    <!-- Decorative -->
+    <attr name="vtmnDecorativeGravel" format="color" />
+    <attr name="vtmnDecorativeGold" format="color" />
+    <attr name="vtmnDecorativeCobalt" format="color" />
+    <attr name="vtmnDecorativeBrick" format="color" />
+    <attr name="vtmnDecorativeJade" format="color" />
+    <attr name="vtmnDecorativeAmethyst" format="color" />
+    <attr name="vtmnDecorativeSaffron" format="color" />
+    <attr name="vtmnDecorativeEmerald" format="color" />
+
     <!-- Border -->
     <attr name="vtmnBorderPrimary" format="color" />
     <attr name="vtmnBorderSecondary" format="color" />
