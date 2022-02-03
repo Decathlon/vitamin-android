@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Purple -->
+    <color name="vtmn_purple700">#2C202D</color>
+    <color name="vtmn_purple600">#49354B</color>
+    <color name="vtmn_purple500">#5B415D</color>
+    <color name="vtmn_purple400">#6C4E6F</color>
+    <color name="vtmn_purple300">#966F9A</color>
+    <color name="vtmn_purple200">#AC8DAF</color>
+    <color name="vtmn_purple100">#DCCFDD</color>
+    <color name="vtmn_purple50">#F2EDF2</color>
     <!-- Blue -->
     <color name="vtmn_blue700">#ff012b49</color>
     <color name="vtmn_blue600">#ff00537d</color>

@@ -41,6 +41,15 @@
         <item name="vtmnBorderInformation">@color/vtmn_blue300</item>
         <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
 
+        <item name="vtmnDecorativeGravel">@color/vtmn_grey600</item>
+        <item name="vtmnDecorativeGold">@color/vtmn_yellow700</item>
+        <item name="vtmnDecorativeCobalt">@color/vtmn_blue600</item>
+        <item name="vtmnDecorativeBrick">@color/vtmn_red600</item>
+        <item name="vtmnDecorativeJade">@color/vtmn_conifer700</item>
+        <item name="vtmnDecorativeAmethyst">@color/vtmn_purple600</item>
+        <item name="vtmnDecorativeSaffron">@color/vtmn_orange600</item>
+        <item name="vtmnDecorativeEmerald">@color/vtmn_green600</item>
+
         <!-- Warning: these colors are calculated from other semantic colors
         If parent colors are updated, you need to update these too
         This system should change in the future with an auto-generated color token -->
