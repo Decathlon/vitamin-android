@@ -73,6 +73,7 @@ com.decathlon.vitamin.appbars | Build UIs with ready to use AppBars components.
 com.decathlon.vitamin.skeleton | Build UIs with ready to use Skeleton components.
 com.decathlon.vitamin.snackbars | Build UIs with ready to use Snackbar component.
 com.decathlon.vitamin.chips | Build UIs with ready to use Chip components.
+com.decathlon.vitamin.prices | Build UIs with ready to use Price component.
 com.decathlon.vitamin | Build UIs with ready to use Decathlon's Visual Identity components.
 
 ## Download

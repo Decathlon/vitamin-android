@@ -59,6 +59,9 @@
         <action
             android:id="@+id/action_main_to_chips"
             app:destination="@id/chips" />
+        <action
+            android:id="@+id/action_main_to_prices"
+            app:destination="@id/prices" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -128,4 +131,8 @@
         android:id="@+id/chips"
         android:name="com.decathlon.design.sample.components.screens.ChipsFragment"
         android:label="@string/chips_screen_title" />
+    <fragment
+        android:id="@+id/prices"
+        android:name="com.decathlon.design.sample.components.screens.PricesFragment"
+        android:label="@string/prices_screen_title" />
 </navigation>
