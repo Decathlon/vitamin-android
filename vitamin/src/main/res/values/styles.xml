@@ -108,5 +108,18 @@
         <item name="chipInputImageSmall">@style/Widget.Vitamin.Chip.InputImage.Small</item>
         <item name="chipStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
         <item name="chipStandaloneStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
+        <!-- Prices -->
+        <item name="priceDefaultSmall">@style/Widget.Vitamin.Price.Default.Small</item>
+        <item name="priceDefaultMedium">@style/Widget.Vitamin.Price.Default.Medium</item>
+        <item name="priceDefaultLarge">@style/Widget.Vitamin.Price.Default.Large</item>
+        <item name="priceAccentSmall">@style/Widget.Vitamin.Price.Accent.Small</item>
+        <item name="priceAccentMedium">@style/Widget.Vitamin.Price.Accent.Medium</item>
+        <item name="priceAccentLarge">@style/Widget.Vitamin.Price.Accent.Large</item>
+        <item name="priceAlertSmall">@style/Widget.Vitamin.Price.Alert.Small</item>
+        <item name="priceAlertMedium">@style/Widget.Vitamin.Price.Alert.Medium</item>
+        <item name="priceAlertLarge">@style/Widget.Vitamin.Price.Alert.Large</item>
+        <item name="priceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
+        <item name="priceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
+        <item name="priceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
     </style>
 </resources>

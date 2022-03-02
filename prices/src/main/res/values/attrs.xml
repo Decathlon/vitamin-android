@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="priceDefaultSmall" format="reference" />
+    <attr name="priceDefaultMedium" format="reference" />
+    <attr name="priceDefaultLarge" format="reference" />
+    <attr name="priceAccentSmall" format="reference" />
+    <attr name="priceAccentMedium" format="reference" />
+    <attr name="priceAccentLarge" format="reference" />
+    <attr name="priceAlertSmall" format="reference" />
+    <attr name="priceAlertMedium" format="reference" />
+    <attr name="priceAlertLarge" format="reference" />
+    <attr name="priceStrikethroughSmall" format="reference" />
+    <attr name="priceStrikethroughMedium" format="reference" />
+    <attr name="priceStrikethroughLarge" format="reference" />
+</resources>

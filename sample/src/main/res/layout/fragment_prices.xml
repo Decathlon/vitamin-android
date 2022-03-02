@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/padding_screen">
+
+    <TextView
+        android:id="@+id/title_default_prices"
+        style="?attr/textAppearanceHeadline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceDefaultSmall
+        android:id="@+id/price_default_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 €"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/price_default_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceDefaultMedium
+        android:id="@+id/price_default_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_default_small"
+        app:layout_constraintTop_toTopOf="@id/price_default_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceDefaultLarge
+        android:id="@+id/price_default_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_default_medium"
+        app:layout_constraintTop_toBottomOf="@id/title_default_prices" />
+
+    <TextView
+        android:id="@+id/title_accent_prices"
+        style="?attr/textAppearanceHeadline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="Accent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price_default_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceAccentSmall
+        android:id="@+id/price_accent_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 €"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/price_accent_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceAccentMedium
+        android:id="@+id/price_accent_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_accent_small"
+        app:layout_constraintTop_toTopOf="@id/price_accent_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceAccentLarge
+        android:id="@+id/price_accent_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_accent_medium"
+        app:layout_constraintTop_toBottomOf="@id/title_accent_prices" />
+
+    <TextView
+        android:id="@+id/title_alert_prices"
+        style="?attr/textAppearanceHeadline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="Alert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price_accent_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceAlertSmall
+        android:id="@+id/price_alert_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 €"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/price_alert_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceAlertMedium
+        android:id="@+id/price_alert_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_alert_small"
+        app:layout_constraintTop_toTopOf="@id/price_alert_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceAlertLarge
+        android:id="@+id/price_alert_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_alert_medium"
+        app:layout_constraintTop_toBottomOf="@id/title_alert_prices" />
+
+    <TextView
+        android:id="@+id/title_strikethrough_prices"
+        style="?attr/textAppearanceHeadline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="Strikethrough"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/price_alert_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceStrikethroughSmall
+        android:id="@+id/price_strikethrough_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="250 €"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/price_strikethrough_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceStrikethroughMedium
+        android:id="@+id/price_strikethrough_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_strikethrough_small"
+        app:layout_constraintTop_toTopOf="@id/price_strikethrough_large" />
+
+    <com.decathlon.vitamin.prices.VitaminPriceStrikethroughLarge
+        android:id="@+id/price_strikethrough_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:text="250 €"
+        app:layout_constraintStart_toEndOf="@id/price_strikethrough_medium"
+        app:layout_constraintTop_toBottomOf="@id/title_strikethrough_prices" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

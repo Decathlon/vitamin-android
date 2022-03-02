@@ -19,4 +19,5 @@ dependencies {
     api(project(":appbars"))
     api(project(":snackbars"))
     api(project(":chips"))
+    api(project(":prices"))
 }
