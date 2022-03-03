@@ -26,15 +26,15 @@ With the same usage as above, you have multiple price types available:
 | Default Small           | `VitaminPriceDefaultSmall`           | `?attr/priceDefaultSmall`           |
 | Default Medium          | `VitaminPriceDefaultMedium`          | `?attr/priceDefaultMedium`          |
 | Default Large           | `VitaminPriceDefaultLarge`           | `?attr/priceDefaultLarge`           |
-| Accent Large            | `VitaminPriceAccentSmall`            | `?attr/priceAccentSmall`            |
-| Accent Medium           | `VitaminPriceAccentSmall`            | `?attr/priceAccentMedium`           |
-| Accent Large            | `VitaminPriceAccentSmall`            | `?attr/priceAccentLarge`            |
+| Accent Small            | `VitaminPriceAccentSmall`            | `?attr/priceAccentSmall`            |
+| Accent Medium           | `VitaminPriceAccentMedium`            | `?attr/priceAccentMedium`           |
+| Accent Large            | `VitaminPriceAccentLarge`            | `?attr/priceAccentLarge`            |
 | Alert Small             | `VitaminPriceAlertSmall`             | `?attr/priceAlertSmall`             |
 | Alert Medium            | `VitaminPriceAlertMedium`            | `?attr/priceAlertMedium`            |
 | Alert Large             | `VitaminPriceAlertLarge`             | `?attr/priceAlertLarge`             |
 | Strikethrough Small     | `VitaminPriceStrikethroughSmall`     | `?attr/priceStrikethroughSmall`     |
 | Strikethrough Medium    | `VitaminPriceStrikethroughMedium`    | `?attr/priceStrikethroughMedium`    |
-| Strikethrough Large     | `VitaminPriceStrikethroughLarge`     | `?attr/priceStrikethroughMedium`    |
+| Strikethrough Large     | `VitaminPriceStrikethroughLarge`     | `?attr/priceStrikethroughLarge`    |
 
 ## Usage in standalone
 
@@ -104,4 +104,26 @@ implementation("com.decathlon.vitamin:prices:<version>")
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" 
     android:text="150 €" />
+```
+
+### Version 3
+
+If you don't want to use Vitamin colors and font on all your app, you can directly use the Vitamin theme on the component's parent view.
+
+```kotlin
+implementation("com.decathlon.vitamin:vitamin:<version>")
+```
+
+```xml
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.Vitamin">
+    
+    <com.decathlon.vitamin.prices.VitaminPriceDefaultSmall
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150 €" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
 ```
