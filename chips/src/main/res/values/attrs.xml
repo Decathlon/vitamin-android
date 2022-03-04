@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="chipFilterMedium" format="reference" />
+    <attr name="chipFilterSmall" format="reference" />
+    <attr name="chipInputMedium" format="reference" />
+    <attr name="chipInputSmall" format="reference" />
+    <attr name="chipInputImageMedium" format="reference" />
+    <attr name="chipInputImageSmall" format="reference" />
+    <attr name="chipSingleChoiceMedium" format="reference" />
+    <attr name="chipSingleChoiceSmall" format="reference" />
+    <attr name="chipActionMedium" format="reference" />
+    <attr name="chipActionSmall" format="reference" />
+</resources>

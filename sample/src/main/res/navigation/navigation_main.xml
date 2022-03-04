@@ -56,6 +56,9 @@
         <action
             android:id="@+id/action_main_to_snackbars"
             app:destination="@id/snackbars" />
+        <action
+            android:id="@+id/action_main_to_chips"
+            app:destination="@id/chips" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -121,4 +124,8 @@
         android:id="@+id/snackbars"
         android:name="com.decathlon.design.sample.components.screens.SnackbarsFragment"
         android:label="@string/snackbars_screen_title" />
+    <fragment
+        android:id="@+id/chips"
+        android:name="com.decathlon.design.sample.components.screens.ChipsFragment"
+        android:label="@string/chips_screen_title" />
 </navigation>

@@ -6,7 +6,8 @@
         <!-- Buttons -->
         <item name="buttonStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
         <item name="materialButtonStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="materialButtonOutlinedStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Vitamin.Button.Secondary.Medium
+        </item>
         <item name="borderlessButtonStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
         <!-- Custom Buttons Styles -->
         <item name="buttonPrimaryMedium">@style/Widget.Vitamin.Button.Primary.Medium</item>
@@ -17,12 +18,17 @@
         <item name="buttonTertiaryLarge">@style/Widget.Vitamin.Button.Tertiary.Large</item>
         <item name="buttonConversionMedium">@style/Widget.Vitamin.Button.Conversion.Medium</item>
         <item name="buttonConversionLarge">@style/Widget.Vitamin.Button.Conversion.Large</item>
-        <item name="buttonPrimaryReversedMedium">@style/Widget.Vitamin.Button.PrimaryReversed.Medium</item>
-        <item name="buttonPrimaryReversedLarge">@style/Widget.Vitamin.Button.PrimaryReversed.Large</item>
+        <item name="buttonPrimaryReversedMedium">
+            @style/Widget.Vitamin.Button.PrimaryReversed.Medium
+        </item>
+        <item name="buttonPrimaryReversedLarge">@style/Widget.Vitamin.Button.PrimaryReversed.Large
+        </item>
         <item name="buttonGhostMedium">@style/Widget.Vitamin.Button.Ghost.Medium</item>
         <item name="buttonGhostLarge">@style/Widget.Vitamin.Button.Ghost.Large</item>
-        <item name="buttonGhostReversedMedium">@style/Widget.Vitamin.Button.GhostReversed.Medium</item>
-        <item name="buttonGhostReversedLarge">@style/Widget.Vitamin.Button.GhostReversed.Large</item>
+        <item name="buttonGhostReversedMedium">@style/Widget.Vitamin.Button.GhostReversed.Medium
+        </item>
+        <item name="buttonGhostReversedLarge">@style/Widget.Vitamin.Button.GhostReversed.Large
+        </item>
         <!-- Deprecated Buttons Styles -->
         <item name="buttonReverseStyle">@style/Widget.Vitamin.Button.PrimaryReversed.Medium</item>
         <item name="buttonConversionStyle">@style/Widget.Vitamin.Button.Conversion.Medium</item>
@@ -40,13 +46,20 @@
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
         <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
         <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
-        <item name="textInputDropdownFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown</item>
-        <item name="textInputDropdownOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown</item>
+        <item name="textInputDropdownFilled">
+            @style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown
+        </item>
+        <item name="textInputDropdownOutlined">
+            @style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown
+        </item>
         <!-- FloatingActionButtons -->
         <item name="floatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
-        <item name="extendedFloatingActionButtonStyle">@style/Widget.Vitamin.ExtendedFloatingActionButton</item>
+        <item name="extendedFloatingActionButtonStyle">
+            @style/Widget.Vitamin.ExtendedFloatingActionButton
+        </item>
         <!-- Custom FloatingActionButtons Styles -->
-        <item name="miniFloatingActionButtonStyle">@style/Widget.Vitamin.MiniFloatingActionButton</item>
+        <item name="miniFloatingActionButtonStyle">@style/Widget.Vitamin.MiniFloatingActionButton
+        </item>
         <!-- Modal -->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
         <!-- ProgressBar -->
@@ -55,7 +68,8 @@
         <!-- Ratings -->
         <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
         <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
-        <item name="vtmnInteractiveRatingViewStyle">@style/Widget.Vitamin.InteractiveRatingView</item>
+        <item name="vtmnInteractiveRatingViewStyle">@style/Widget.Vitamin.InteractiveRatingView
+        </item>
         <!-- Menu -->
         <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
@@ -81,5 +95,18 @@
         <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>
         <item name="snackbarTextViewStyle">@style/Widget.Vitamin.Snackbar.TextView</item>
         <item name="maxActionInlineWidth">@dimen/vtmnMaxActionInlineWidth</item>
+        <!-- Chips -->
+        <item name="chipSingleChoiceMedium">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
+        <item name="chipSingleChoiceSmall">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
+        <item name="chipFilterMedium">@style/Widget.Vitamin.Chip.Filter.Medium</item>
+        <item name="chipFilterSmall">@style/Widget.Vitamin.Chip.Filter.Small</item>
+        <item name="chipActionMedium">@style/Widget.Vitamin.Chip.Action.Medium</item>
+        <item name="chipActionSmall">@style/Widget.Vitamin.Chip.Action.Small</item>
+        <item name="chipInputMedium">@style/Widget.Vitamin.Chip.Input.Medium</item>
+        <item name="chipInputSmall">@style/Widget.Vitamin.Chip.Input.Small</item>
+        <item name="chipInputImageMedium">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
+        <item name="chipInputImageSmall">@style/Widget.Vitamin.Chip.InputImage.Small</item>
+        <item name="chipStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
+        <item name="chipStandaloneStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
     </style>
 </resources>

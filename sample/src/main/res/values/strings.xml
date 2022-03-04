@@ -16,4 +16,5 @@
     <string name="bottomnavs_screen_title">Bottom Navigation</string>
     <string name="skeleton_screen_title">Skeleton</string>
     <string name="snackbars_screen_title">Snackbars</string>
+    <string name="chips_screen_title">Chips</string>
 </resources>
