@@ -2,7 +2,6 @@
 <resources>
 
     <style name="Theme.Vitamin" parent="Base.Theme.Vitamin">
-
         <!-- Vitamin Buttons -->
         <item name="vtmnButtonPrimaryMediumStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
         <item name="vtmnButtonPrimaryLargeStyle">@style/Widget.Vitamin.Button.Primary.Large</item>
@@ -24,6 +23,49 @@
         </item>
         <item name="vtmnButtonGhostReversedLargeStyle">
             @style/Widget.Vitamin.Button.GhostReversed.Large
+        </item>
+        <!-- Vitamin Icon Buttons -->
+        <item name="vtmnIconButtonPrimaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Primary.Medium
+        </item>
+        <item name="vtmnIconButtonPrimaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Primary.Large
+        </item>
+        <item name="vtmnIconButtonSecondaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Secondary.Medium
+        </item>
+        <item name="vtmnIconButtonSecondaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Secondary.Large
+        </item>
+        <item name="vtmnIconButtonTertiaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Tertiary.Medium
+        </item>
+        <item name="vtmnIconButtonTertiaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Tertiary.Large
+        </item>
+        <item name="vtmnIconButtonConversionMediumStyle">
+            @style/Widget.Vitamin.IconButton.Conversion.Medium
+        </item>
+        <item name="vtmnIconButtonConversionLargeStyle">
+            @style/Widget.Vitamin.IconButton.Conversion.Large
+        </item>
+        <item name="vtmnIconButtonPrimaryReversedMediumStyle">
+            @style/Widget.Vitamin.IconButton.PrimaryReversed.Medium
+        </item>
+        <item name="vtmnIconButtonPrimaryReversedLargeStyle">
+            @style/Widget.Vitamin.IconButton.PrimaryReversed.Large
+        </item>
+        <item name="vtmnIconButtonGhostMediumStyle">
+            @style/Widget.Vitamin.IconButton.Ghost.Medium
+        </item>
+        <item name="vtmnIconButtonGhostLargeStyle">
+            @style/Widget.Vitamin.IconButton.Ghost.Large
+        </item>
+        <item name="vtmnIconButtonGhostReversedMediumStyle">
+            @style/Widget.Vitamin.IconButton.GhostReversed.Medium
+        </item>
+        <item name="vtmnIconButtonGhostReversedLargeStyle">
+            @style/Widget.Vitamin.IconButton.GhostReversed.Large
         </item>
         <!-- Deprecated Vitamin Buttons -->
         <item name="buttonPrimaryMedium">?attr/vtmnButtonPrimaryMediumStyle</item>

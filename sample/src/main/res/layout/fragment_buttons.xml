@@ -36,7 +36,6 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="HardcodedText" />
 
-
             <com.decathlon.vitamin.buttons.VitaminPrimaryLargeButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -114,6 +113,25 @@
                 app:layout_constraintStart_toEndOf="@id/mediumPrimaryButtonDisabled"
                 app:layout_constraintTop_toBottomOf="@id/mediumPrimaryButtonEndIcon"
                 tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumIconButton
+                android:id="@+id/mediumPrimaryIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumPrimaryButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumPrimaryIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumPrimaryButtonDisabled" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -220,6 +238,25 @@
                 app:layout_constraintTop_toBottomOf="@id/mediumSecondaryButtonEndIcon"
                 tools:ignore="HardcodedText" />
 
+            <com.decathlon.vitamin.buttons.VitaminSecondaryMediumIconButton
+                android:id="@+id/mediumSecondaryIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumSecondaryButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminSecondaryLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumSecondaryIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumSecondaryButtonDisabled" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
@@ -324,6 +361,25 @@
                 app:layout_constraintStart_toEndOf="@id/mediumTertiaryButtonDisabled"
                 app:layout_constraintTop_toBottomOf="@id/mediumTertiaryButtonEndIcon"
                 tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryMediumIconButton
+                android:id="@+id/mediumTertiaryIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumTertiaryButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminTertiaryLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumTertiaryIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumTertiaryButtonDisabled" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -430,6 +486,25 @@
                 app:layout_constraintTop_toBottomOf="@id/mediumConversionButtonEndIcon"
                 tools:ignore="HardcodedText" />
 
+            <com.decathlon.vitamin.buttons.VitaminConversionMediumIconButton
+                android:id="@+id/mediumConversionIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumConversionButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminConversionLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumConversionIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumConversionButtonDisabled" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
@@ -533,6 +608,25 @@
                 app:layout_constraintTop_toBottomOf="@id/mediumPrimaryReversedButtonEndIcon"
                 tools:ignore="HardcodedText" />
 
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedMediumIconButton
+                android:id="@+id/mediumPrimaryReversedIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumPrimaryReversedButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryReversedLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumPrimaryReversedIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumPrimaryReversedButtonDisabled" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
@@ -634,6 +728,25 @@
                 app:layout_constraintStart_toEndOf="@id/mediumGhostButtonDisabled"
                 app:layout_constraintTop_toBottomOf="@id/mediumGhostButtonEndIcon"
                 tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostMediumIconButton
+                android:id="@+id/mediumGhostIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumGhostButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumGhostIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumGhostButtonDisabled" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -737,6 +850,25 @@
                 app:layout_constraintStart_toEndOf="@id/mediumGhostReversedButtonDisabled"
                 app:layout_constraintTop_toBottomOf="@id/mediumGhostReversedButtonEndIcon"
                 tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedMediumIconButton
+                android:id="@+id/mediumGhostReversedIconButtonDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/mediumGhostReversedButtonDisabled"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.vitamin.buttons.VitaminGhostReversedLargeIconButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:icon="@drawable/ic_vtmn_add"
+                app:layout_constraintStart_toEndOf="@+id/mediumGhostReversedIconButtonDisabled"
+                app:layout_constraintTop_toBottomOf="@+id/mediumGhostReversedButtonDisabled" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
