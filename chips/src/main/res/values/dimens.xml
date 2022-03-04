@@ -18,4 +18,5 @@
     <dimen name="vtmn_chip_with_end_ic_chip_end_padding_small">6dp</dimen>
     <dimen name="vtmn_chip_with_end_ic_text_end_padding">6dp</dimen>
     <dimen name="vtmn_chip_with_end_ic_icon_start_padding">2dp</dimen>
+    <dimen name="vtmn_chip_small_vertical_padding">6dp</dimen>
 </resources>

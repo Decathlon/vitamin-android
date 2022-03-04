@@ -28,6 +28,8 @@
         <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_small</item>
         <item name="iconEndPadding">0dp</item>
         <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+        <item name="android:paddingTop">@dimen/vtmn_chip_small_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vtmn_chip_small_vertical_padding</item>
     </style>
 
     <style name="Widget.Vitamin.Chip.Input.Medium" parent="@style/Widget.MaterialComponents.Chip.Entry">
@@ -67,6 +69,8 @@
         <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_small</item>
         <item name="iconEndPadding">0dp</item>
         <item name="textStartPadding">@dimen/vtmn_chip_with_start_ic_text_start_padding</item>
+        <item name="android:paddingTop">@dimen/vtmn_chip_small_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vtmn_chip_small_vertical_padding</item>
     </style>
 
     <style name="Widget.Vitamin.Chip.InputImage.Small" parent="@style/Widget.Vitamin.Chip.Input.Small">
@@ -91,6 +95,8 @@
         <item name="textStartPadding">@dimen/vtmn_chip_text_start_padding_small</item>
         <item name="textEndPadding">@dimen/vtmn_chip_text_end_padding_small</item>
         <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+        <item name="android:paddingTop">@dimen/vtmn_chip_small_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vtmn_chip_small_vertical_padding</item>
     </style>
 
     <style name="Widget.Vitamin.Chip.Action.Medium" parent="@style/Widget.MaterialComponents.Chip.Action">
@@ -119,6 +125,8 @@
         <item name="iconStartPadding">@dimen/vtmn_chip_with_start_ic_icon_start_padding_small</item>
         <item name="iconEndPadding">0dp</item>
         <item name="chipMinHeight">@dimen/vtmn_chip_min_height_small</item>
+        <item name="android:paddingTop">@dimen/vtmn_chip_small_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/vtmn_chip_small_vertical_padding</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Chip" parent="@style/TextAppearance.Vitamin.Body2">
