@@ -17,6 +17,9 @@
 
     <dimen name="vtmn_buttons_secondary_stroke_width">2dp</dimen>
 
+    <dimen name="vtmn_icon_buttons_size_medium">48dp</dimen>
+    <dimen name="vtmn_icon_buttons_size_large">56dp</dimen>
+
     <!-- {@deprecated check vtmn_buttons_horizontal_padding_medium} -->
     <dimen name="vtmnButtonHorizontalPaddingMedium">@dimen/vtmn_buttons_horizontal_padding_medium</dimen>
     <!-- {@deprecated check vtmn_buttons_vertical_padding_medium} -->

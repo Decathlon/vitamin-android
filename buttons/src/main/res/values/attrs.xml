@@ -15,6 +15,21 @@
     <attr name="vtmnButtonGhostReversedMediumStyle" format="reference"/>
     <attr name="vtmnButtonGhostReversedLargeStyle" format="reference"/>
 
+    <attr name="vtmnIconButtonPrimaryMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonPrimaryLargeStyle" format="reference"/>
+    <attr name="vtmnIconButtonSecondaryMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonSecondaryLargeStyle" format="reference"/>
+    <attr name="vtmnIconButtonTertiaryMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonTertiaryLargeStyle" format="reference"/>
+    <attr name="vtmnIconButtonConversionMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonConversionLargeStyle" format="reference"/>
+    <attr name="vtmnIconButtonPrimaryReversedMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonPrimaryReversedLargeStyle" format="reference"/>
+    <attr name="vtmnIconButtonGhostMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonGhostLargeStyle" format="reference"/>
+    <attr name="vtmnIconButtonGhostReversedMediumStyle" format="reference"/>
+    <attr name="vtmnIconButtonGhostReversedLargeStyle" format="reference"/>
+
     <!-- {@deprecated check vtmnButtonPrimaryMedium} -->
     <attr name="buttonPrimaryMedium" format="reference"/>
     <!-- {@deprecated check vtmnButtonPrimaryLarge} -->

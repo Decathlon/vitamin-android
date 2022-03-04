@@ -12,6 +12,8 @@ By inheriting the Vitamin theme in your app, you just have to use the default `B
 implementation("com.decathlon.vitamin:buttons:<version>")
 ```
 
+**Buttons**
+
 ```xml
 <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
     android:layout_width="wrap_content"
@@ -29,7 +31,28 @@ or
     android:text="My Button" />
 ```
 
+**Icon Buttons**
+
+```xml
+<com.decathlon.vitamin.buttons.VitaminPrimaryMediumIconButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:icon="@drawable/ic_vtmn_add" />
+```
+
+or
+
+```xml
+<com.google.android.material.button.MaterialButton
+    style="?attr/vtmnIconButtonPrimaryMediumStyle"
+    android:layout_width="@dimen/vtmn_icon_buttons_size_medium"
+    android:layout_height="@dimen/vtmn_icon_buttons_size_medium"
+    app:icon="@drawable/ic_vtmn_add" />
+```
+
 With the same usage as above, you have multiple button types available: 
+
+**Buttons**
 
 | Button type             | Kotlin Class                         | Attribute style                              |
 |-------------------------|--------------------------------------|----------------------------------------------|
@@ -47,6 +70,25 @@ With the same usage as above, you have multiple button types available:
 | Ghost Large             | `VitaminGhostLargeButton`            | `?attr/vtmnButtonGhostLargeStyle`            |
 | Ghost Reversed Medium   | `VitaminGhostReversedMediumButton`   | `?attr/vtmnButtonGhostReversedMediumStyle`   |
 | Ghost Reversed Large    | `VitaminGhostReversedLargeButton`    | `?attr/vtmnButtonGhostReversedLargeStyle`    |
+
+**Icon Buttons**
+
+| Icon Button type        | Kotlin Class                             | Attribute style                                  |
+|-------------------------|------------------------------------------|--------------------------------------------------|
+| Primary Medium          | `VitaminPrimaryMediumIconButton`         | `?attr/vtmnIconButtonPrimaryMediumStyle`         |
+| Primary Large           | `VitaminPrimaryLargeIconButton`          | `?attr/vtmnIconButtonPrimaryLargeStyle`          |
+| Secondary Medium        | `VitaminSecondaryMediumIconButton`       | `?attr/vtmnIconButtonSecondaryMediumStyle`       |
+| Secondary Large         | `VitaminSecondaryLargeIconButton`        | `?attr/vtmnIconButtonSecondaryLargeStyle`        |
+| Tertiary Medium         | `VitaminTertiaryMediumIconButton`        | `?attr/vtmnIconButtonTertiaryMediumStyle`        |
+| Tertiary Large          | `VitaminTertiaryLargeIconButton`         | `?attr/vtmnIconButtonTertiaryLargeStyle`         |
+| Conversion Medium       | `VitaminConversionMediumIconButton`      | `?attr/vtmnIconButtonConversionMediumStyle`      |
+| Conversion Large        | `VitaminConversionLargeIconButton`       | `?attr/vtmnIconButtonConversionLargeStyle`       |
+| Primary Reversed Medium | `VitaminPrimaryReversedMediumIconButton` | `?attr/vtmnIconButtonPrimaryReversedMediumStyle` |
+| Primary Reversed Large  | `VitaminPrimaryReversedLargeIconButton`  | `?attr/vtmnIconButtonPrimaryReversedLargeStyle`  |
+| Ghost Medium            | `VitaminGhostMediumIconButton`           | `?attr/vtmnIconButtonGhostMediumStyle`           |
+| Ghost Large             | `VitaminGhostLargeIconButton`            | `?attr/vtmnIconButtonGhostLargeStyle`            |
+| Ghost Reversed Medium   | `VitaminGhostReversedMediumIconButton`   | `?attr/vtmnIconButtonGhostReversedMediumStyle`   |
+| Ghost Reversed Large    | `VitaminGhostReversedLargeIconButton`    | `?attr/vtmnIconButtonGhostReversedLargeStyle`    |
 
 ## Usage in standalone
 
@@ -87,6 +129,49 @@ implementation("com.decathlon.vitamin:buttons:<version>")
         <item name="vtmnButtonGhostReversedLargeStyle">
             @style/Widget.Vitamin.Button.GhostReversed.Large
         </item>
+        <!-- Vitamin Icon Buttons -->
+        <item name="vtmnIconButtonPrimaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Primary.Medium
+        </item>
+        <item name="vtmnIconButtonPrimaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Primary.Large
+        </item>
+        <item name="vtmnIconButtonSecondaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Secondary.Medium
+        </item>
+        <item name="vtmnIconButtonSecondaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Secondary.Large
+        </item>
+        <item name="vtmnIconButtonTertiaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Tertiary.Medium
+        </item>
+        <item name="vtmnIconButtonTertiaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Tertiary.Large
+        </item>
+        <item name="vtmnIconButtonConversionMediumStyle">
+            @style/Widget.Vitamin.IconButton.Conversion.Medium
+        </item>
+        <item name="vtmnIconButtonConversionLargeStyle">
+            @style/Widget.Vitamin.IconButton.Conversion.Large
+        </item>
+        <item name="vtmnIconButtonPrimaryReversedMediumStyle">
+            @style/Widget.Vitamin.IconButton.PrimaryReversed.Medium
+        </item>
+        <item name="vtmnIconButtonPrimaryReversedLargeStyle">
+            @style/Widget.Vitamin.IconButton.PrimaryReversed.Large
+        </item>
+        <item name="vtmnIconButtonGhostMediumStyle">
+            @style/Widget.Vitamin.IconButton.Ghost.Medium
+        </item>
+        <item name="vtmnIconButtonGhostLargeStyle">
+            @style/Widget.Vitamin.IconButton.Ghost.Large
+        </item>
+        <item name="vtmnIconButtonGhostReversedMediumStyle">
+            @style/Widget.Vitamin.IconButton.GhostReversed.Medium
+        </item>
+        <item name="vtmnIconButtonGhostReversedLargeStyle">
+            @style/Widget.Vitamin.IconButton.GhostReversed.Large
+        </item>
         <!-- Material Buttons -->
         <item name="buttonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
         <item name="materialButtonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
@@ -96,11 +181,22 @@ implementation("com.decathlon.vitamin:buttons:<version>")
 </resources>
 ```
 
+**Buttons**
+
 ```xml
 <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="My Button" />
+```
+
+**Icon Buttons**
+
+```xml
+<com.decathlon.vitamin.buttons.VitaminPrimaryMediumIconButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:icon="@drawable/ic_vtmn_add" />
 ```
 
 ### Version 2
@@ -119,12 +215,24 @@ implementation("com.decathlon.vitamin:buttons:<version>")
 </resources>
 ```
 
+**Buttons**
+
 ```xml
 <com.google.android.material.button.MaterialButton
     style="@style/Widget.Vitamin.Button.Primary.Medium"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="My Button" />
+```
+
+**Icon Buttons**
+
+```xml
+<com.google.android.material.button.MaterialButton
+    style="?attr/vtmnIconButtonPrimaryMediumStyle"
+    android:layout_width="@dimen/vtmn_icon_buttons_size_medium"
+    android:layout_height="@dimen/vtmn_icon_buttons_size_medium"
+    app:icon="@drawable/ic_vtmn_add" />
 ```
 
 ### Version 3
@@ -134,6 +242,8 @@ If you don't want to use Vitamin colors and font on all your app, you can direct
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
+
+**Buttons**
 
 ```xml
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -145,6 +255,22 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+**Icon Buttons**
+
+```xml
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.Vitamin">
+
+    <com.decathlon.vitamin.buttons.VitaminPrimaryMediumIconButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_vtmn_add" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
