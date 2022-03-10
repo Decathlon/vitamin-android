@@ -5,8 +5,8 @@
         <item name="android:background">?attr/vtmnBackgroundPrimary</item>
         <item name="itemTextAppearanceInactive">?attr/textAppearanceCaption</item>
         <item name="itemTextAppearanceActive">?attr/textAppearanceCaption</item>
-        <item name="itemTextColor">@color/vtmn_navigation_bar_item_tint</item>
-        <item name="itemIconTint">@color/vtmn_navigation_bar_item_tint</item>
+        <item name="itemTextColor">@color/vtmn_navigation_bar_text_color</item>
+        <item name="itemIconTint">@color/vtmn_navigation_bar_icon_tint</item>
         <item name="labelVisibilityMode">labeled</item>
     </style>
 
