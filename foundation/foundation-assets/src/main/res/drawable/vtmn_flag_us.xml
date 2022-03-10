@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="28dp"
+    android:height="20dp"
+    android:viewportWidth="28"
+    android:viewportHeight="20">
+  <path
+      android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"
+      android:fillColor="#fff"/>
+  <group>
+    <clip-path
+        android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"/>
+    <path
+        android:pathData="M28,0L0,0v1.333h28L28,0ZM28,2.667L0,2.667L0,4h28L28,2.667ZM0,5.333h28v1.334L0,6.667L0,5.333ZM28,8L0,8v1.333h28L28,8ZM0,10.667h28L28,12L0,12v-1.333ZM28,13.333L0,13.333v1.334h28v-1.334ZM0,16h28v1.333L0,17.333L0,16ZM28,18.667L0,18.667L0,20h28v-1.333Z"
+        android:fillColor="#D02F44"
+        android:fillType="evenOdd"/>
+    <path
+        android:pathData="M0,0h12v9.333H0z"
+        android:fillColor="#46467F"/>
+    <path
+        android:pathData="M2.667,2a0.667,0.667 0,1 1,-1.334 0,0.667 0.667,0 0,1 1.334,0ZM5.333,2A0.667,0.667 0,1 1,4 2a0.667,0.667 0,0 1,1.333 0ZM7.333,2.667a0.667,0.667 0,1 0,0 -1.334,0.667 0.667,0 0,0 0,1.334ZM10.667,2a0.667,0.667 0,1 1,-1.334 0,0.667 0.667,0 0,1 1.334,0ZM3.333,4a0.667,0.667 0,1 0,0 -1.333,0.667 0.667,0 0,0 0,1.333ZM6.667,3.333a0.667,0.667 0,1 1,-1.334 0,0.667 0.667,0 0,1 1.334,0ZM8.667,4a0.667,0.667 0,1 0,0 -1.333,0.667 0.667,0 0,0 0,1.333ZM10.667,4.667a0.667,0.667 0,1 1,-1.334 0,0.667 0.667,0 0,1 1.334,0ZM7.333,5.333a0.667,0.667 0,1 0,0 -1.333,0.667 0.667,0 0,0 0,1.333ZM5.333,4.667a0.667,0.667 0,1 1,-1.333 0,0.667 0.667,0 0,1 1.333,0ZM2,5.333A0.667,0.667 0,1 0,2 4a0.667,0.667 0,0 0,0 1.333ZM4,6a0.667,0.667 0,1 1,-1.333 0A0.667,0.667 0,0 1,4 6ZM6,6.667a0.667,0.667 0,1 0,0 -1.334,0.667 0.667,0 0,0 0,1.334ZM9.333,6A0.667,0.667 0,1 1,8 6a0.667,0.667 0,0 1,1.333 0ZM10,8a0.667,0.667 0,1 0,0 -1.333A0.667,0.667 0,0 0,10 8ZM8,7.333a0.667,0.667 0,1 1,-1.333 0,0.667 0.667,0 0,1 1.333,0ZM4.667,8a0.667,0.667 0,1 0,0 -1.333,0.667 0.667,0 0,0 0,1.333ZM2.667,7.333a0.667,0.667 0,1 1,-1.334 0,0.667 0.667,0 0,1 1.334,0Z"
+        android:fillType="evenOdd">
+      <aapt:attr name="android:fillColor">
+        <gradient 
+            android:startY="1.333"
+            android:startX="1.333"
+            android:endY="8"
+            android:endX="1.333"
+            android:type="linear">
+          <item android:offset="0" android:color="#FFFFFFFF"/>
+          <item android:offset="1" android:color="#FFF0F0F0"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+  </group>
+</vector>

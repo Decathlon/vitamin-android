@@ -4,3 +4,18 @@ plugins {
     id("com.vanniktech.maven.publish")
     id("VitaminLibraryPlugin")
 }
+
+tasks.create("renameMalformedAssets") {
+    doLast {
+        def drawableFolder = file("src/main/res/drawable")
+        def malformedAssets = drawableFolder.listFiles(new FileFilter() {
+            @Override
+            boolean accept(File file) {
+                return !file.name.startsWith("vtmn") && file.name.endsWith(".xml")
+            }
+        })
+        malformedAssets.each {
+            it.renameTo(file("${it.parentFile.absolutePath}${File.separator}vtmn_${it.name}"))
+        }
+    }
+}
