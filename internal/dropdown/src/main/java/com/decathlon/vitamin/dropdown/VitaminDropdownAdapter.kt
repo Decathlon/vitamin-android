@@ -42,15 +42,15 @@ class VitaminDropdownAdapter(
 }
 
 private class ArrayFilter<T>(val list: List<T>, val adapter: BaseAdapter) : Filter() {
-    override fun performFiltering(prefix: CharSequence): FilterResults {
+    override fun performFiltering(prefix: CharSequence?): FilterResults {
         val results = FilterResults()
         results.values = list
         results.count = list.size
         return results
     }
 
-    override fun publishResults(constraint: CharSequence, results: FilterResults) {
-        if (results.count > 0) {
+    override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
+        if (results != null && results.count > 0) {
             adapter.notifyDataSetChanged()
         } else {
             adapter.notifyDataSetInvalidated()
