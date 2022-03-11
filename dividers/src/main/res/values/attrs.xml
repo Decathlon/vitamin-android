@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dividerFullBleed" format="reference"/>
+    <attr name="dividerInset" format="reference"/>
+    <attr name="dividerMiddle" format="reference"/>
+</resources>

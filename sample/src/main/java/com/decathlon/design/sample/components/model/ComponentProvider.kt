@@ -95,6 +95,11 @@ object ComponentProvider {
                 R.string.prices_screen_title,
                 R.drawable.ic_placeholder,
                 R.id.action_main_to_prices
+            ),
+            Component(
+                R.string.dividers_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_dividers
             )
         )
     }

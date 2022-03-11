@@ -121,5 +121,11 @@
         <item name="priceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
         <item name="priceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
         <item name="priceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <!-- Dividers -->
+        <item name="materialDividerStyle">@style/Widget.Vitamin.Divider.FullBleed</item>
+        <item name="dividerFullBleed">@style/Widget.Vitamin.Divider.FullBleed</item>
+        <item name="dividerInset">@style/Widget.Vitamin.Divider.Inset</item>
+        <item name="dividerMiddle">@style/Widget.Vitamin.Divider.Middle</item>
+        <item name="android:listDivider">?attr/vtmnBorderSecondary</item>
     </style>
 </resources>
