@@ -1,7 +1,6 @@
 package com.decathlon.design.sample.main
 
 import android.content.res.Configuration
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,9 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
-import com.decathlon.design.sample.R
 import com.decathlon.design.sample.components.model.ComponentProvider
 import com.decathlon.design.sample.databinding.FragmentMainBinding
+import com.decathlon.vitamin.dividers.VitaminFullBleedDividerItemDecoration
+import com.decathlon.vitamin.dividers.VitaminMiddleDividerItemDecoration
 import com.google.android.material.transition.MaterialSharedAxis
 
 class MainFragment : Fragment() {
@@ -47,16 +47,8 @@ class MainFragment : Fragment() {
                         4
                     }
                 layoutManager = GridLayoutManager(context, spanCount)
-                addItemDecoration(
-                    DividerItemDecoration(context, DividerItemDecoration.HORIZONTAL).apply {
-                        setDrawable(ColorDrawable(context.getColorFromAttr(R.attr.vtmnBorderPrimary)))
-                    }
-                )
-                addItemDecoration(
-                    DividerItemDecoration(context, DividerItemDecoration.VERTICAL).apply {
-                        setDrawable(ColorDrawable(context.getColorFromAttr(R.attr.vtmnBorderPrimary)))
-                    }
-                )
+                addItemDecoration(VitaminMiddleDividerItemDecoration(context, DividerItemDecoration.VERTICAL))
+                addItemDecoration(VitaminFullBleedDividerItemDecoration(context, DividerItemDecoration.HORIZONTAL))
                 adapter = MainAdapter(ComponentProvider.getAll()) {
                     findNavController().navigate(it)
                 }

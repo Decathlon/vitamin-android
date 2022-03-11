@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.Divider" parent="Widget.MaterialComponents.MaterialDivider">
+        <item name="dividerColor">?attr/vtmnBorderSecondary</item>
+    </style>
+
+    <style name="Widget.Vitamin.Divider.FullBleed"/>
+
+    <style name="Widget.Vitamin.Divider.Inset">
+        <item name="dividerInsetStart">@dimen/vtmn_dividers_inset_inset_start</item>
+    </style>
+
+    <style name="Widget.Vitamin.Divider.Middle">
+        <item name="dividerInsetStart">@dimen/vtmn_dividers_middle_inset_horizontal</item>
+        <item name="dividerInsetEnd">@dimen/vtmn_dividers_middle_inset_horizontal</item>
+    </style>
+
+</resources>

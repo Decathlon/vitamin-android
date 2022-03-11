@@ -18,4 +18,5 @@
     <string name="snackbars_screen_title">Snackbars</string>
     <string name="chips_screen_title">Chips</string>
     <string name="prices_screen_title">Prices</string>
+    <string name="dividers_screen_title">Dividers</string>
 </resources>
