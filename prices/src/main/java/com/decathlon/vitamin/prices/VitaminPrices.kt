@@ -1,7 +1,9 @@
 package com.decathlon.vitamin.prices
 
 import android.content.Context
-import android.graphics.Paint
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.style.StrikethroughSpan
 import android.util.AttributeSet
 import com.google.android.material.textview.MaterialTextView
 
@@ -66,7 +68,9 @@ open class VitaminPriceStrikethroughSmall @JvmOverloads constructor(
     defStyleAttr: Int = R.attr.priceStrikethroughSmall
 ) : MaterialTextView(context, attrs, defStyleAttr) {
     init {
-        this.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
+        val string = SpannableString(this.text)
+        string.setSpan(StrikethroughSpan(), 0, string.length, Spanned.SPAN_EXCLUSIVE_INCLUSIVE)
+        this.text = string
     }
 }
 
@@ -76,7 +80,9 @@ open class VitaminPriceStrikethroughMedium @JvmOverloads constructor(
     defStyleAttr: Int = R.attr.priceStrikethroughMedium
 ) : MaterialTextView(context, attrs, defStyleAttr) {
     init {
-        this.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
+        val string = SpannableString(this.text)
+        string.setSpan(StrikethroughSpan(), 0, string.length, Spanned.SPAN_EXCLUSIVE_INCLUSIVE)
+        this.text = string
     }
 }
 
@@ -86,6 +92,8 @@ open class VitaminPriceStrikethroughLarge @JvmOverloads constructor(
     defStyleAttr: Int = R.attr.priceStrikethroughLarge
 ) : MaterialTextView(context, attrs, defStyleAttr) {
     init {
-        this.paintFlags = Paint.STRIKE_THRU_TEXT_FLAG
+        val string = SpannableString(this.text)
+        string.setSpan(StrikethroughSpan(), 0, string.length, Spanned.SPAN_EXCLUSIVE_INCLUSIVE)
+        this.text = string
     }
 }
