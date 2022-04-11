@@ -2,8 +2,8 @@
 <resources>
     <style name="Widget.Vitamin.TextInputLayout.OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@color/vtmn_outlined_stroke_color</item>
-        <item name="boxStrokeWidth">1dp</item>
-        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxStrokeWidth">@dimen/vtmn_textinputlayout_strokewidth</item>
+        <item name="boxStrokeWidthFocused">@dimen/vtmn_textinputlayout_strokewidthfocused</item>
 
         <item name="android:textColorHint">@color/vtmn_outlined_hint_color</item>
         <item name="hintTextColor">@color/vtmn_outlined_hint_color</item>
