@@ -2,8 +2,8 @@
 <resources>
     <style name="Widget.Vitamin.TextInputLayout.FilledBox" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="boxStrokeColor">@color/vtmn_filled_stroke_color</item>
-        <item name="boxStrokeWidth">1dp</item>
-        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxStrokeWidth">@dimen/vtmn_textinputlayout_strokewidth</item>
+        <item name="boxStrokeWidthFocused">@dimen/vtmn_textinputlayout_strokewidthfocused</item>
 
         <item name="boxBackgroundColor">@color/vtmn_filled_background_color</item>
 
@@ -32,8 +32,8 @@
     <style name="Widget.Vitamin.TextInputEditText.FilledBox" parent="@style/Widget.MaterialComponents.TextInputEditText.FilledBox">
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="android:textColor">@color/vtmn_filled_text</item>
-        <item name="android:paddingStart">0dp</item>
-        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingStart">@dimen/vtmn_textinputedittextfilled_paddinghorizontal</item>
+        <item name="android:paddingEnd">@dimen/vtmn_textinputedittextfilled_paddinghorizontal</item>
     </style>
 
 </resources>

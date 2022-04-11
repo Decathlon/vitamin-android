@@ -57,7 +57,7 @@
     <eat-comment />
 
     <style name="Widget.Vitamin.TopBar.Search" parent="@style/Widget.Vitamin.TopBar">
-        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStart">@dimen/vtmn_topbar_search_contentinsetstart</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TopBar.Search</item>
     </style>
 

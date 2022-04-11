@@ -8,10 +8,10 @@
 
     <ImageView
         android:id="@id/vtmnDropdownLeftIcon"
-        android:layout_width="20dp"
+        android:layout_width="@dimen/vtmn_dropdown_iconwidth"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginEnd="34dp"
+        android:layout_marginEnd="@dimen/vtmn_dropdown_lefticonmarginend"
         app:tint="?attr/vtmnContentTertiary"
         tools:ignore="ContentDescription" />
 
@@ -27,7 +27,7 @@
 
     <ImageView
         android:id="@id/vtmnDropdownRightIcon"
-        android:layout_width="20dp"
+        android:layout_width="@dimen/vtmn_dropdown_iconwidth"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         app:tint="?attr/vtmnContentTertiary"

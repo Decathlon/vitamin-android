@@ -16,8 +16,8 @@
     </style>
 
     <style name="Widget.Vitamin.AutoCompleteTextView.FilledBox" parent="@style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox">
-        <item name="android:paddingStart">0dp</item>
-        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingStart">@dimen/vtmn_autocompletetextviewfilled_paddinghorizontal</item>
+        <item name="android:paddingEnd">@dimen/vtmn_autocompletetextviewfilled_paddinghorizontal</item>
         <item name="android:background">@null</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
         <item name="android:textColor">@color/vtmn_filled_text</item>

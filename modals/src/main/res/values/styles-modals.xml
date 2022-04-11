@@ -32,10 +32,10 @@
     </style>
 
     <style name="Modal.Vitamin.Title.Icon" parent="MaterialAlertDialog.MaterialComponents.Title.Icon">
-        <item name="android:layout_width">24dp</item>
-        <item name="android:layout_height">24dp</item>
-        <item name="android:layout_marginEnd" tools:ignore="NewApi">9dp</item>
-        <item name="android:layout_marginRight">9dp</item>
+        <item name="android:layout_width">@dimen/vtmn_modal_titleiconsize</item>
+        <item name="android:layout_height">@dimen/vtmn_modal_titleiconsize</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/vtmn_modal_titleiconmarginend</item>
+        <item name="android:layout_marginRight">@dimen/vtmn_modal_titleiconmarginend</item>
         <item name="tint">?attr/vtmnContentPrimary</item>
         <item name="android:tint">?attr/vtmnContentPrimary</item>
     </style>
