@@ -70,3 +70,10 @@ To reach this goal we fixed some rule in our team and we would love to go ahead 
 4. After you proposed the PullRequest. If you will receive any mail or find any automatic comment on the Pull Request you opened, it means there is something which is not respecting the project defined code style or your broke any previously created test.
 
 If you respect all these rules you will help us saving time and we will be able to check your pull request faster.
+
+### Naming convention
+
+To keep a clean project, thanks to respect the following naming convention guidelines:
+
+1. Theme attributes use camelCase. If you need to specify variant and size, use the pattern <what><Variant><Size>. ex: buttonPrimaryMedium
+2. Dimens use snakeCase following the pattern vtmn_<what>_<where>_<description>_<size>. ex: vtmn_progressbarcircular_thickness_small

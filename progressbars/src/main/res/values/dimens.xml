@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_progressbar_linear_thickness_small">4dp</dimen>
-    <dimen name="vtmn_progressbar_linear_thickness_medium">8dp</dimen>
-    <dimen name="vtmn_progressbar_linear_thickness_large">16dp</dimen>
+    <dimen name="vtmn_progressbarlinear_thickness_small">4dp</dimen>
+    <dimen name="vtmn_progressbarlinear_thickness_medium">8dp</dimen>
+    <dimen name="vtmn_progressbarlinear_thickness_large">16dp</dimen>
 
-    <dimen name="vtmn_progressbar_circular_thickness_extrasmall">2.5dp</dimen>
-    <dimen name="vtmn_progressbar_circular_thickness_small">3dp</dimen>
-    <dimen name="vtmn_progressbar_circular_thickness_medium">4dp</dimen>
-    <dimen name="vtmn_progressbar_circular_thickness_large">6dp</dimen>
+    <dimen name="vtmn_progressbarcircular_thickness_extrasmall">2.5dp</dimen>
+    <dimen name="vtmn_progressbarcircular_thickness_small">3dp</dimen>
+    <dimen name="vtmn_progressbarcircular_thickness_medium">4dp</dimen>
+    <dimen name="vtmn_progressbarcircular_thickness_large">6dp</dimen>
 
-    <dimen name="vtmn_progressbar_circular_extrasmall">20dp</dimen>
-    <dimen name="vtmn_progressbar_circular_small">28dp</dimen>
-    <dimen name="vtmn_progressbar_circular_medium">40dp</dimen>
-    <dimen name="vtmn_progressbar_circular_large">64dp</dimen>
+    <dimen name="vtmn_progressbarcircular_extrasmall">20dp</dimen>
+    <dimen name="vtmn_progressbarcircular_small">28dp</dimen>
+    <dimen name="vtmn_progressbarcircular_medium">40dp</dimen>
+    <dimen name="vtmn_progressbarcircular_large">64dp</dimen>
 </resources>

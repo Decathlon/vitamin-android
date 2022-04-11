@@ -4,8 +4,8 @@
     <style name="TextAppearance.Vitamin.Headline1" parent="@style/TextAppearance.MaterialComponents.Headline1">
         <item name="fontFamily">@font/roboto_condensed_family</item>
         <item name="android:fontFamily">@font/roboto_condensed_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_headline_1</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_headline_1</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_headline1</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_headline1</item>
         <item name="android:textStyle">bold|italic</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
@@ -14,8 +14,8 @@
     <style name="TextAppearance.Vitamin.Headline2" parent="@style/TextAppearance.MaterialComponents.Headline2">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_headline_2</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_headline_2</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_headline2</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_headline2</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -23,8 +23,8 @@
     <style name="TextAppearance.Vitamin.Headline3" parent="@style/TextAppearance.MaterialComponents.Headline3">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_headline_3</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_headline_3</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_headline3</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_headline3</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -32,8 +32,8 @@
     <style name="TextAppearance.Vitamin.Headline4" parent="@style/TextAppearance.MaterialComponents.Headline4">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_headline_4</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_headline_4</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_headline4</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_headline4</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -41,8 +41,8 @@
     <style name="TextAppearance.Vitamin.Headline5" parent="@style/TextAppearance.MaterialComponents.Headline5">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_headline_5</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_headline_5</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_headline5</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_headline5</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -50,8 +50,8 @@
     <style name="TextAppearance.Vitamin.Headline6" parent="@style/TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_headline_6</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_headline_6</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_headline6</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_headline6</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -59,8 +59,8 @@
     <style name="TextAppearance.Vitamin.Subtitle1" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_subtitle_1</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_subtitle_1</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_subtitle1</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_subtitle1</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -68,8 +68,8 @@
     <style name="TextAppearance.Vitamin.Subtitle2" parent="@style/TextAppearance.MaterialComponents.Subtitle2">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_subtitle_2</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_subtitle_2</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_subtitle2</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_subtitle2</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -77,8 +77,8 @@
     <style name="TextAppearance.Vitamin.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_body_1</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_body_1</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_body1</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_body1</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -86,8 +86,8 @@
     <style name="TextAppearance.Vitamin.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_body_2</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_body_2</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_body2</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_body2</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -95,8 +95,8 @@
     <style name="TextAppearance.Vitamin.Body3" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_body_3</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_body_3</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_body3</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_body3</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -104,9 +104,9 @@
     <style name="TextAppearance.Vitamin.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_caption</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_caption</item>
-        <item name="android:letterSpacing">@fraction/vtmn_letter_spacing_caption</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_caption</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_caption</item>
+        <item name="android:letterSpacing">@fraction/vtmn_letterspacing_caption</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -114,9 +114,9 @@
     <style name="TextAppearance.Vitamin.Overline" parent="@style/TextAppearance.MaterialComponents.Overline">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_overline</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_overline</item>
-        <item name="android:letterSpacing">@fraction/vtmn_letter_spacing_overline</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_overline</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_overline</item>
+        <item name="android:letterSpacing">@fraction/vtmn_letterspacing_overline</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>
     </style>
@@ -124,9 +124,9 @@
     <style name="TextAppearance.Vitamin.Button" parent="@style/TextAppearance.MaterialComponents.Button">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
-        <item name="android:textSize">@dimen/vtmn_text_size_button</item>
-        <item name="lineHeight">@dimen/vtmn_line_height_button</item>
-        <item name="android:letterSpacing">@fraction/vtmn_letter_spacing_button</item>
+        <item name="android:textSize">@dimen/vtmn_textsize_button</item>
+        <item name="lineHeight">@dimen/vtmn_lineheight_button</item>
+        <item name="android:letterSpacing">@fraction/vtmn_letterspacing_button</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textColor">?attr/vtmnContentPrimary</item>

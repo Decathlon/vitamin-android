@@ -2,10 +2,10 @@
 <resources>
 
     <style name="Widget.Vitamin.Price" parent="@style/Widget.MaterialComponents.TextView">
-        <item name="android:paddingStart">@dimen/vtmn_price_padding_horizontal</item>
-        <item name="android:paddingEnd">@dimen/vtmn_price_padding_horizontal</item>
-        <item name="android:paddingTop">@dimen/vtmn_price_padding_vertical</item>
-        <item name="android:paddingBottom">@dimen/vtmn_price_padding_vertical</item>
+        <item name="android:paddingStart">@dimen/vtmn_price_paddinghorizontal</item>
+        <item name="android:paddingEnd">@dimen/vtmn_price_paddinghorizontal</item>
+        <item name="android:paddingTop">@dimen/vtmn_price_paddingvertical</item>
+        <item name="android:paddingBottom">@dimen/vtmn_price_paddingvertical</item>
         <item name="android:textStyle">bold</item>
     </style>
 

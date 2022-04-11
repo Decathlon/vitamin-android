@@ -8,12 +8,12 @@
     <style name="Widget.Vitamin.Divider.FullBleed"/>
 
     <style name="Widget.Vitamin.Divider.Inset">
-        <item name="dividerInsetStart">@dimen/vtmn_dividers_inset_inset_start</item>
+        <item name="dividerInsetStart">@dimen/vtmn_dividerinset_insetstart</item>
     </style>
 
     <style name="Widget.Vitamin.Divider.Middle">
-        <item name="dividerInsetStart">@dimen/vtmn_dividers_middle_inset_horizontal</item>
-        <item name="dividerInsetEnd">@dimen/vtmn_dividers_middle_inset_horizontal</item>
+        <item name="dividerInsetStart">@dimen/vtmn_dividermiddle_insethorizontal</item>
+        <item name="dividerInsetEnd">@dimen/vtmn_dividermiddle_insethorizontal</item>
     </style>
 
 </resources>

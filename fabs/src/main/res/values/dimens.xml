@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_fab_container_states_disabled">0.12</dimen>
+    <dimen name="vtmn_fabcontainer_statedisabledalpha">0.12</dimen>
 </resources>
