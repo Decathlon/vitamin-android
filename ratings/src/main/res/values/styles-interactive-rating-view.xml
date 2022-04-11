@@ -2,7 +2,7 @@
 <resources>
 
     <style name="Widget.Vitamin.InteractiveRatingView" parent="Widget.AppCompat.RatingBar">
-        <item name="android:progressDrawable">@drawable/vtmn_interactive_rating_star</item>
+        <item name="android:progressDrawable">@drawable/vtmn_interactiverating_star</item>
         <item name="android:numStars">5</item>
         <item name="android:stepSize">1</item>
         <item name="vtmnInteractiveRatingView_defaultColor">?attr/vtmnContentPrimary</item>

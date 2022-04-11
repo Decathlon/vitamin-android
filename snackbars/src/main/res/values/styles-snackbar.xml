@@ -3,14 +3,14 @@
 
     <style name="Widget.Vitamin.Snackbar" parent="Widget.MaterialComponents.Snackbar">
         <item name="android:background">@drawable/vtmn_snackbar_background</item>
-        <item name="android:paddingLeft">@dimen/vtmnSnackbarPaddingHorizontal</item>
-        <item name="android:paddingRight">@dimen/vtmnSnackbarPaddingHorizontal</item>
+        <item name="android:paddingLeft">@dimen/vtmn_snackbar_paddinghorizontal</item>
+        <item name="android:paddingRight">@dimen/vtmn_snackbar_paddinghorizontal</item>
     </style>
 
     <style name="Widget.Vitamin.Snackbar.TextView" parent="TextAppearance.Vitamin.Body3">
         <item name="android:textColor">?attr/vtmnContentPrimaryReversed</item>
-        <item name="android:paddingTop">@dimen/vtmnSnackbarPaddingVertical</item>
-        <item name="android:paddingBottom">@dimen/vtmnSnackbarPaddingVertical</item>
+        <item name="android:paddingTop">@dimen/vtmn_snackbar_paddingvertical</item>
+        <item name="android:paddingBottom">@dimen/vtmn_snackbar_paddingvertical</item>
     </style>
 
     <style name="Widget.Vitamin.SnackbarButton" parent="Widget.Vitamin.Button.GhostReversed.Medium">
