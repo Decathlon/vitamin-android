@@ -40,7 +40,7 @@
         <item name="android:tint">?attr/vtmnContentPrimary</item>
     </style>
 
-    <style name="Modal.Vitamin.Body.Text" parent="TextAppearance.MaterialComponents.Body2">
+    <style name="Modal.Vitamin.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
         <item name="android:textAppearance">?attr/textAppearanceBody3</item>
         <item name="android:textColor">?attr/vtmnContentSecondary</item>
     </style>
