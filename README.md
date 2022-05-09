@@ -117,7 +117,7 @@ Thank you to the [contributors](https://github.com/Decathlon/vitamin-android/gra
 
 ## License
 
-    Copyright 2021 Decathlon.
+    Copyright 2021-2022 Decathlon.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
