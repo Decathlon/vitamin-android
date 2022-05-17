@@ -5,9 +5,9 @@
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
         <!-- Colors -->
-        <item name="vtmnBackgroundPrimary">@color/vtmn_grey800</item>
-        <item name="vtmnBackgroundSecondary">@color/vtmn_grey900</item>
-        <item name="vtmnBackgroundTertiary">@color/vtmn_black</item>
+        <item name="vtmnBackgroundPrimary">@color/vtmn_grey900</item>
+        <item name="vtmnBackgroundSecondary">@color/vtmn_black</item>
+        <item name="vtmnBackgroundTertiary">@color/vtmn_grey800</item>
         <item name="vtmnBackgroundBrandPrimary">@color/vtmn_blue300</item>
         <item name="vtmnBackgroundBrandSecondary">@color/vtmn_blue700</item>
         <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
