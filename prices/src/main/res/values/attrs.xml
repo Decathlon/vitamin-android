@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="vtmnPriceDefaultSmallStyle" format="reference" />
+    <attr name="vtmnPriceDefaultMediumStyle" format="reference" />
+    <attr name="vtmnPriceDefaultLargeStyle" format="reference" />
+    <attr name="vtmnPriceAccentSmallStyle" format="reference" />
+    <attr name="vtmnPriceAccentMediumStyle" format="reference" />
+    <attr name="vtmnPriceAccentLargeStyle" format="reference" />
+    <attr name="vtmnPriceAlertSmallStyle" format="reference" />
+    <attr name="vtmnPriceAlertMediumStyle" format="reference" />
+    <attr name="vtmnPriceAlertLargeStyle" format="reference" />
+    <attr name="vtmnPriceStrikethroughSmallStyle" format="reference" />
+    <attr name="vtmnPriceStrikethroughMediumStyle" format="reference" />
+    <attr name="vtmnPriceStrikethroughLargeStyle" format="reference" />
+
+    <!-- {@deprecated check vtmnPriceDefaultSmall} -->
     <attr name="priceDefaultSmall" format="reference" />
+    <!-- {@deprecated check vtmnPriceDefaultMedium} -->
     <attr name="priceDefaultMedium" format="reference" />
+    <!-- {@deprecated check vtmnPriceDefaultLarge} -->
     <attr name="priceDefaultLarge" format="reference" />
+    <!-- {@deprecated check vtmnPriceAccentSmall} -->
     <attr name="priceAccentSmall" format="reference" />
+    <!-- {@deprecated check vtmnPriceAccentMedium} -->
     <attr name="priceAccentMedium" format="reference" />
+    <!-- {@deprecated check vtmnPriceAccentLarge} -->
     <attr name="priceAccentLarge" format="reference" />
+    <!-- {@deprecated check vtmnPriceAlertSmall} -->
     <attr name="priceAlertSmall" format="reference" />
+    <!-- {@deprecated check vtmnPriceAlertMedium} -->
     <attr name="priceAlertMedium" format="reference" />
+    <!-- {@deprecated check vtmnPriceAlertLarge} -->
     <attr name="priceAlertLarge" format="reference" />
+    <!-- {@deprecated check vtmnPriceStrikethroughSmall} -->
     <attr name="priceStrikethroughSmall" format="reference" />
+    <!-- {@deprecated check vtmnPriceStrikethroughMedium} -->
     <attr name="priceStrikethroughMedium" format="reference" />
+    <!-- {@deprecated check vtmnPriceStrikethroughLarge} -->
     <attr name="priceStrikethroughLarge" format="reference" />
 </resources>
