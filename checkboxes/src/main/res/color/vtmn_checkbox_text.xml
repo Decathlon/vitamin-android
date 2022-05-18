@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="?attr/vtmnContentPrimary" android:state_enabled="true" />
-    <item android:alpha="@dimen/vtmn_statedisabled_alpha" android:color="?attr/vtmnContentPrimary" android:state_enabled="false" />
+    <item android:color="?attr/vtmnContentColorPrimary" android:state_enabled="true" />
+    <item android:alpha="@dimen/vtmn_state_disabled_alpha" android:color="?attr/vtmnContentColorPrimary" android:state_enabled="false" />
 </selector>

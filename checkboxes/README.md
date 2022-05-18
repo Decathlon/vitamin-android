@@ -45,7 +45,10 @@ implementation("com.decathlon.vitamin:checkboxes:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <item name="checkboxStyle">@style/Widget.Vitamin.Checkbox</item>
+        <!--  Vitamin Checkboxes -->
+        <item name="vtmnCheckboxStyle">@style/Widget.Vitamin.Checkbox</item>
+        <!--  Material Checkboxes -->
+        <item name="checkboxStyle">?attr/vtmnCheckboxStyle</item>
     </style>
 </resources>
 ```
