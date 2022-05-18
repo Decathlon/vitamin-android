@@ -1,29 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="buttonPrimaryMedium" format="reference"/>
-    <attr name="buttonPrimaryLarge" format="reference"/>
-    <attr name="buttonSecondaryMedium" format="reference"/>
-    <attr name="buttonSecondaryLarge" format="reference"/>
-    <attr name="buttonTertiaryMedium" format="reference"/>
-    <attr name="buttonTertiaryLarge" format="reference"/>
-    <attr name="buttonConversionMedium" format="reference"/>
-    <attr name="buttonConversionLarge" format="reference"/>
-    <attr name="buttonPrimaryReversedMedium" format="reference"/>
-    <attr name="buttonPrimaryReversedLarge" format="reference"/>
-    <attr name="buttonGhostMedium" format="reference"/>
-    <attr name="buttonGhostLarge" format="reference"/>
-    <attr name="buttonGhostReversedMedium" format="reference"/>
-    <attr name="buttonGhostReversedLarge" format="reference"/>
+    <attr name="vtmnButtonPrimaryMediumStyle" format="reference"/>
+    <attr name="vtmnButtonPrimaryLargeStyle" format="reference"/>
+    <attr name="vtmnButtonSecondaryMediumStyle" format="reference"/>
+    <attr name="vtmnButtonSecondaryLargeStyle" format="reference"/>
+    <attr name="vtmnButtonTertiaryMediumStyle" format="reference"/>
+    <attr name="vtmnButtonTertiaryLargeStyle" format="reference"/>
+    <attr name="vtmnButtonConversionMediumStyle" format="reference"/>
+    <attr name="vtmnButtonConversionLargeStyle" format="reference"/>
+    <attr name="vtmnButtonPrimaryReversedMediumStyle" format="reference"/>
+    <attr name="vtmnButtonPrimaryReversedLargeStyle" format="reference"/>
+    <attr name="vtmnButtonGhostMediumStyle" format="reference"/>
+    <attr name="vtmnButtonGhostLargeStyle" format="reference"/>
+    <attr name="vtmnButtonGhostReversedMediumStyle" format="reference"/>
+    <attr name="vtmnButtonGhostReversedLargeStyle" format="reference"/>
 
-    <!-- {@deprecated Use buttonPrimaryReversedMedium instead.} -->
+    <!-- {@deprecated check vtmnButtonPrimaryMedium} -->
+    <attr name="buttonPrimaryMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonPrimaryLarge} -->
+    <attr name="buttonPrimaryLarge" format="reference"/>
+    <!-- {@deprecated check vtmnButtonSecondaryMedium} -->
+    <attr name="buttonSecondaryMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonSecondaryLarge} -->
+    <attr name="buttonSecondaryLarge" format="reference"/>
+    <!-- {@deprecated check vtmnButtonTertiaryMedium} -->
+    <attr name="buttonTertiaryMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonTertiaryLarge} -->
+    <attr name="buttonTertiaryLarge" format="reference"/>
+    <!-- {@deprecated check vtmnButtonConversionMedium} -->
+    <attr name="buttonConversionMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonConversionLarge} -->
+    <attr name="buttonConversionLarge" format="reference"/>
+    <!-- {@deprecated check vtmnButtonPrimaryReversedMedium} -->
+    <attr name="buttonPrimaryReversedMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonPrimaryReversedLarge} -->
+    <attr name="buttonPrimaryReversedLarge" format="reference"/>
+    <!-- {@deprecated check vtmnButtonGhostMedium} -->
+    <attr name="buttonGhostMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonGhostLarge} -->
+    <attr name="buttonGhostLarge" format="reference"/>
+    <!-- {@deprecated check vtmnButtonGhostReversedMedium} -->
+    <attr name="buttonGhostReversedMedium" format="reference"/>
+    <!-- {@deprecated check vtmnButtonGhostReversedLarge} -->
+    <attr name="buttonGhostReversedLarge" format="reference"/>
+    <!-- {@deprecated check buttonPrimaryReversedMedium} -->
     <attr name="buttonReverseStyle" format="reference" />
-    <!-- {@deprecated Use buttonConversionMedium instead.} -->
+    <!-- {@deprecated check buttonConversionMedium} -->
     <attr name="buttonConversionStyle" format="reference" />
-    <!-- {@deprecated Use buttonSecondaryMedium instead.} -->
+    <!-- {@deprecated check buttonSecondaryMedium} -->
     <attr name="buttonSecondary" format="reference" />
-    <!-- {@deprecated Use buttonGhostMedium instead.} -->
+    <!-- {@deprecated check buttonGhostMedium} -->
     <attr name="buttonGhost" format="reference" />
-    <!-- {@deprecated Use buttonGhostReversedMedium instead.} -->
+    <!-- {@deprecated check buttonGhostReversedMedium} -->
     <attr name="buttonGhostReversed" format="reference" />
 
 </resources>

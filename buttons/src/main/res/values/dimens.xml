@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_button_insettop">0dp</dimen>
-    <dimen name="vtmn_button_insetbottom">0dp</dimen>
+    <dimen name="vtmn_buttons_inset_top">0dp</dimen>
+    <dimen name="vtmn_buttons_inset_bottom">0dp</dimen>
 
-    <dimen name="vtmn_button_horizontalpadding_medium">24dp</dimen>
-    <dimen name="vtmn_button_verticalpadding_medium">14dp</dimen>
-    <dimen name="vtmn_button_iconstartpadding_medium">24dp</dimen>
-    <dimen name="vtmn_button_iconendpadding_medium">8dp</dimen>
-    <dimen name="vtmn_button_iconsize_medium">20dp</dimen>
+    <dimen name="vtmn_buttons_horizontal_padding_medium">24dp</dimen>
+    <dimen name="vtmn_buttons_vertical_padding_medium">14dp</dimen>
+    <dimen name="vtmn_buttons_icon_start_padding_medium">24dp</dimen>
+    <dimen name="vtmn_buttons_icon_end_padding_medium">8dp</dimen>
+    <dimen name="vtmn_buttons_icon_size_medium">20dp</dimen>
 
-    <dimen name="vtmn_button_horizontalpadding_large">40dp</dimen>
-    <dimen name="vtmn_button_verticalpadding_large">16dp</dimen>
-    <dimen name="vtmn_button_iconstartpadding_large">40dp</dimen>
-    <dimen name="vtmn_button_iconendpadding_large">12dp</dimen>
-    <dimen name="vtmn_button_iconsize_large">24dp</dimen>
+    <dimen name="vtmn_buttons_horizontal_padding_large">40dp</dimen>
+    <dimen name="vtmn_buttons_vertical_padding_large">16dp</dimen>
+    <dimen name="vtmn_buttons_icon_start_padding_large">40dp</dimen>
+    <dimen name="vtmn_buttons_icon_end_padding_large">12dp</dimen>
+    <dimen name="vtmn_buttons_icon_size_large">24dp</dimen>
 
-    <dimen name="vtmn_buttonsecondary_strokewidth">2dp</dimen>
+    <dimen name="vtmn_buttons_secondary_stroke_width">2dp</dimen>
+
+    <!-- {@deprecated check vtmn_buttons_horizontal_padding_medium} -->
+    <dimen name="vtmnButtonHorizontalPaddingMedium">@dimen/vtmn_buttons_horizontal_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_buttons_vertical_padding_medium} -->
+    <dimen name="vtmnButtonVerticalPaddingMedium">@dimen/vtmn_buttons_vertical_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_buttons_icon_start_padding_medium} -->
+    <dimen name="vtmnButtonIconStartPaddingMedium">@dimen/vtmn_buttons_icon_start_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_buttons_icon_end_padding_medium} -->
+    <dimen name="vtmnButtonIconEndPaddingMedium">@dimen/vtmn_buttons_icon_end_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_buttons_icon_size_medium} -->
+    <dimen name="vtmnButtonIconSizeMedium">@dimen/vtmn_buttons_icon_size_medium</dimen>
+
+    <!-- {@deprecated check vtmn_buttons_horizontal_padding_large} -->
+    <dimen name="vtmnButtonHorizontalPaddingLarge">@dimen/vtmn_buttons_horizontal_padding_large</dimen>
+    <!-- {@deprecated check vtmn_buttons_vertical_padding_large} -->
+    <dimen name="vtmnButtonVerticalPaddingLarge">@dimen/vtmn_buttons_vertical_padding_large</dimen>
+    <!-- {@deprecated check vtmn_buttons_icon_start_padding_large} -->
+    <dimen name="vtmnButtonIconStartPaddingLarge">@dimen/vtmn_buttons_icon_start_padding_large</dimen>
+    <!-- {@deprecated check vtmn_buttons_icon_end_padding_large} -->
+    <dimen name="vtmnButtonIconEndPaddingLarge">@dimen/vtmn_buttons_icon_end_padding_large</dimen>
+    <!-- {@deprecated check vtmn_buttons_icon_size_large} -->
+    <dimen name="vtmnButtonIconSizeLarge">@dimen/vtmn_buttons_icon_size_large</dimen>
 </resources>
