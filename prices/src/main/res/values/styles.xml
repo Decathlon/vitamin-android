@@ -2,77 +2,77 @@
 <resources>
 
     <style name="Widget.Vitamin.Price" parent="@style/Widget.MaterialComponents.TextView">
-        <item name="android:paddingStart">@dimen/vtmn_price_paddinghorizontal</item>
-        <item name="android:paddingEnd">@dimen/vtmn_price_paddinghorizontal</item>
-        <item name="android:paddingTop">@dimen/vtmn_price_paddingvertical</item>
-        <item name="android:paddingBottom">@dimen/vtmn_price_paddingvertical</item>
+        <item name="android:paddingStart">@dimen/vtmn_prices_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/vtmn_prices_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/vtmn_prices_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/vtmn_prices_padding_vertical</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Accent">
-        <item name="android:background">@drawable/vtmn_price_background</item>
-        <item name="android:backgroundTint">?attr/vtmnBackgroundAccent</item>
-        <item name="android:textColor">?attr/vtmnContentAccent</item>
+        <item name="android:background">@drawable/vtmn_prices_background</item>
+        <item name="android:backgroundTint">?attr/vtmnBackgroundColorAccent</item>
+        <item name="android:textColor">?attr/vtmnContentColorAccent</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Accent.Small">
-        <item name="android:textAppearance">?attr/textAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Accent.Medium">
-        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Accent.Large">
-        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Default" />
 
     <style name="Widget.Vitamin.Price.Default.Small">
-        <item name="android:textAppearance">?attr/textAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Default.Medium">
-        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Default.Large">
-        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert">
-        <item name="android:background">@drawable/vtmn_price_background</item>
-        <item name="android:backgroundTint">?attr/vtmnBackgroundAlert</item>
-        <item name="android:textColor">?attr/vtmnContentPrimaryReversed</item>
+        <item name="android:background">@drawable/vtmn_prices_background</item>
+        <item name="android:backgroundTint">?attr/vtmnBackgroundColorAlert</item>
+        <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert.Small">
-        <item name="android:textAppearance">?attr/textAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert.Medium">
-        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert.Large">
-        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
     </style>
 
 
     <style name="Widget.Vitamin.Price.Strikethrough">
-        <item name="android:textColor">?attr/vtmnContentTertiary</item>
+        <item name="android:textColor">?attr/vtmnContentColorTertiary</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Strikethrough.Small">
-        <item name="android:textAppearance">?attr/textAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Strikethrough.Medium">
-        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Strikethrough.Large">
-        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
     </style>
 </resources>

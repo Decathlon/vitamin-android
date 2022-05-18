@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_price_paddinghorizontal">8dp</dimen>
-    <dimen name="vtmn_price_paddingvertical">2dp</dimen>
+    <dimen name="vtmn_prices_padding_horizontal">8dp</dimen>
+    <dimen name="vtmn_prices_padding_vertical">2dp</dimen>
+
+    <!-- {@deprecated check vtmn_prices_padding_horizontal} -->
+    <dimen name="vtmn_price_padding_horizontal">@dimen/vtmn_prices_padding_horizontal</dimen>
+    <!-- {@deprecated check vtmn_prices_padding_vertical} -->
+    <dimen name="vtmn_price_padding_vertical">@dimen/vtmn_prices_padding_vertical</dimen>
 </resources>

@@ -9,61 +9,61 @@ import fondation.extensions.setStrikethrough
 open class VitaminPriceDefaultSmall @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceDefaultSmall
+    defStyleAttr: Int = R.attr.vtmnPriceDefaultSmallStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceDefaultMedium @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceDefaultMedium
+    defStyleAttr: Int = R.attr.vtmnPriceDefaultMediumStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceDefaultLarge @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceDefaultLarge
+    defStyleAttr: Int = R.attr.vtmnPriceDefaultLargeStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceAccentSmall @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceAccentSmall
+    defStyleAttr: Int = R.attr.vtmnPriceAccentSmallStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceAccentMedium @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceAccentMedium
+    defStyleAttr: Int = R.attr.vtmnPriceAccentMediumStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceAccentLarge @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceAccentLarge
+    defStyleAttr: Int = R.attr.vtmnPriceAccentLargeStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceAlertSmall @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceAlertSmall
+    defStyleAttr: Int = R.attr.vtmnPriceAlertSmallStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceAlertMedium @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceAlertMedium
+    defStyleAttr: Int = R.attr.vtmnPriceAlertMediumStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceAlertLarge @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceAlertLarge
+    defStyleAttr: Int = R.attr.vtmnPriceAlertLargeStyle
 ) : MaterialTextView(context, attrs, defStyleAttr)
 
 open class VitaminPriceStrikethroughSmall @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceStrikethroughSmall
+    defStyleAttr: Int = R.attr.vtmnPriceStrikethroughSmallStyle
 ) : MaterialTextView(context, attrs, defStyleAttr) {
     init {
         this.text = SpannableString(this.text).setStrikethrough()
@@ -73,7 +73,7 @@ open class VitaminPriceStrikethroughSmall @JvmOverloads constructor(
 open class VitaminPriceStrikethroughMedium @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceStrikethroughMedium
+    defStyleAttr: Int = R.attr.vtmnPriceStrikethroughMediumStyle
 ) : MaterialTextView(context, attrs, defStyleAttr) {
     init {
         this.text = SpannableString(this.text).setStrikethrough()
@@ -83,7 +83,7 @@ open class VitaminPriceStrikethroughMedium @JvmOverloads constructor(
 open class VitaminPriceStrikethroughLarge @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.priceStrikethroughLarge
+    defStyleAttr: Int = R.attr.vtmnPriceStrikethroughLargeStyle
 ) : MaterialTextView(context, attrs, defStyleAttr) {
     init {
         this.text = SpannableString(this.text).setStrikethrough()
