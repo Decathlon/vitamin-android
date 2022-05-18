@@ -2,9 +2,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="ThemeOverlay.Vitamin.Modal" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
-        <item name="colorSecondary">?attr/vtmnContentAction</item>
-        <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
-        <item name="colorOnSurface">?attr/vtmnContentSecondary</item>
+        <item name="colorSecondary">?attr/vtmnContentColorAction</item>
+        <item name="colorSurface">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="colorOnSurface">?attr/vtmnContentColorSecondary</item>
         <item name="materialAlertDialogTitleTextStyle">@style/Modal.Vitamin.Title.Text</item>
         <item name="materialAlertDialogTitleIconStyle">@style/Modal.Vitamin.Title.Icon</item>
         <item name="materialAlertDialogBodyTextStyle">@style/Modal.Vitamin.Body.Text</item>
@@ -27,22 +27,22 @@
     https://github.com/material-components/material-components-android/issues/2351
     -->
     <style name="Modal.Vitamin.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
-        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
-        <item name="android:textColor">?attr/vtmnContentPrimary</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceSubtitle1</item>
+        <item name="android:textColor">?attr/vtmnContentColorPrimary</item>
     </style>
 
     <style name="Modal.Vitamin.Title.Icon" parent="MaterialAlertDialog.MaterialComponents.Title.Icon">
-        <item name="android:layout_width">@dimen/vtmn_modal_titleiconsize</item>
-        <item name="android:layout_height">@dimen/vtmn_modal_titleiconsize</item>
-        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/vtmn_modal_titleiconmarginend</item>
-        <item name="android:layout_marginRight">@dimen/vtmn_modal_titleiconmarginend</item>
-        <item name="tint">?attr/vtmnContentPrimary</item>
-        <item name="android:tint">?attr/vtmnContentPrimary</item>
+        <item name="android:layout_width">@dimen/vtmn_modals_title_icon_size</item>
+        <item name="android:layout_height">@dimen/vtmn_modals_title_icon_size</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/vtmn_modals_title_icon_margin_end</item>
+        <item name="android:layout_marginRight">@dimen/vtmn_modals_title_icon_margin_end</item>
+        <item name="tint">?attr/vtmnContentColorPrimary</item>
+        <item name="android:tint">?attr/vtmnContentColorPrimary</item>
     </style>
 
     <style name="Modal.Vitamin.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
-        <item name="android:textAppearance">?attr/textAppearanceBody3</item>
-        <item name="android:textColor">?attr/vtmnContentSecondary</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
+        <item name="android:textColor">?attr/vtmnContentColorSecondary</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Ghost.Modal" parent="Widget.Vitamin.Button.Ghost.Medium" />
