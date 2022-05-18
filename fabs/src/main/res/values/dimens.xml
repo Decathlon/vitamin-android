@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_fabcontainer_statedisabledalpha">0.12</dimen>
+    <dimen name="vtmn_fabs_container_state_disabled_alpha">0.12</dimen>
+
+    <!-- {@deprecated check vtmn_fabs_container_state_disabled_alpha} -->
+    <dimen name="vtmn_fab_container_states_disabled">
+        @dimen/vtmn_fabs_container_state_disabled_alpha
+    </dimen>
 </resources>

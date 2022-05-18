@@ -86,9 +86,19 @@ implementation("com.decathlon.vitamin:fabs:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <item name="floatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
-        <item name="miniFloatingActionButtonStyle">@style/Widget.Vitamin.MiniFloatingActionButton</item>
-        <item name="extendedFloatingActionButtonStyle">@style/Widget.Vitamin.ExtendedFloatingActionButton</item>
+        <!-- Vitamin FloatingActionButtons -->
+        <item name="vtmnFloatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
+        <item name="vtmnMiniFloatingActionButtonStyle">
+            @style/Widget.Vitamin.MiniFloatingActionButton
+        </item>
+        <item name="vtmnExtendedFloatingActionButtonStyle">
+            @style/Widget.Vitamin.ExtendedFloatingActionButton
+        </item>
+        <!-- Material FloatingActionButtons -->
+        <item name="floatingActionButtonStyle">?attr/vtmnFloatingActionButtonStyle</item>
+        <item name="extendedFloatingActionButtonStyle">
+            ?attr/vtmnExtendedFloatingActionButtonStyle
+        </item>
     </style>
 </resources>
 ```

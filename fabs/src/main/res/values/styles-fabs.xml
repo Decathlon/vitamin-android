@@ -2,9 +2,9 @@
 <resources>
 
     <style name="Widget.Vitamin.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
-        <item name="backgroundTint">@color/vtmn_fab_container</item>
-        <item name="rippleColor">?attr/vtmnActiveBrand</item>
-        <item name="tint">@color/vtmn_fab_icon</item>
+        <item name="backgroundTint">@color/vtmn_fabs_container</item>
+        <item name="rippleColor">?attr/vtmnActiveColorBrand</item>
+        <item name="tint">@color/vtmn_fabs_icon</item>
         <item name="fabSize">normal</item>
     </style>
 
@@ -13,10 +13,10 @@
     </style>
 
     <style name="Widget.Vitamin.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
-        <item name="backgroundTint">@color/vtmn_fab_container</item>
-        <item name="rippleColor">?attr/vtmnActiveBrand</item>
-        <item name="iconTint">@color/vtmn_fab_icon</item>
-        <item name="android:textColor">@color/vtmn_fab_text</item>
+        <item name="backgroundTint">@color/vtmn_fabs_container</item>
+        <item name="rippleColor">?attr/vtmnActiveColorBrand</item>
+        <item name="iconTint">@color/vtmn_fabs_icon</item>
+        <item name="android:textColor">@color/vtmn_fabs_text</item>
     </style>
 
 </resources>
