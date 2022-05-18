@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_progressbarlinear_thickness_small">4dp</dimen>
-    <dimen name="vtmn_progressbarlinear_thickness_medium">8dp</dimen>
-    <dimen name="vtmn_progressbarlinear_thickness_large">16dp</dimen>
+    <dimen name="vtmn_progressbars_linear_thickness_small">4dp</dimen>
+    <dimen name="vtmn_progressbars_linear_thickness_medium">8dp</dimen>
+    <dimen name="vtmn_progressbars_linear_thickness_large">16dp</dimen>
 
-    <dimen name="vtmn_progressbarcircular_thickness_extrasmall">2.5dp</dimen>
-    <dimen name="vtmn_progressbarcircular_thickness_small">3dp</dimen>
-    <dimen name="vtmn_progressbarcircular_thickness_medium">4dp</dimen>
-    <dimen name="vtmn_progressbarcircular_thickness_large">6dp</dimen>
+    <dimen name="vtmn_progressbars_circular_thickness_extrasmall">2.5dp</dimen>
+    <dimen name="vtmn_progressbars_circular_thickness_small">3dp</dimen>
+    <dimen name="vtmn_progressbars_circular_thickness_medium">4dp</dimen>
+    <dimen name="vtmn_progressbars_circular_thickness_large">6dp</dimen>
 
-    <dimen name="vtmn_progressbarcircular_extrasmall">20dp</dimen>
-    <dimen name="vtmn_progressbarcircular_small">28dp</dimen>
-    <dimen name="vtmn_progressbarcircular_medium">40dp</dimen>
-    <dimen name="vtmn_progressbarcircular_large">64dp</dimen>
+    <dimen name="vtmn_progressbars_circular_extrasmall">20dp</dimen>
+    <dimen name="vtmn_progressbars_circular_small">28dp</dimen>
+    <dimen name="vtmn_progressbars_circular_medium">40dp</dimen>
+    <dimen name="vtmn_progressbars_circular_large">64dp</dimen>
+
+    <!-- {@deprecated check vtmn_progressbars_linear_thickness_small} -->
+    <dimen name="vtmn_progressbar_linear_thickness_small">
+        @dimen/vtmn_progressbars_linear_thickness_small
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_linear_thickness_medium} -->
+    <dimen name="vtmn_progressbar_linear_thickness_medium">
+        @dimen/vtmn_progressbars_linear_thickness_medium
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_linear_thickness_large} -->
+    <dimen name="vtmn_progressbar_linear_thickness_large">
+        @dimen/vtmn_progressbars_linear_thickness_large
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_thickness_extrasmall} -->
+    <dimen name="vtmn_progressbar_circular_thickness_extrasmall">
+        @dimen/vtmn_progressbars_circular_thickness_extrasmall
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_thickness_small} -->
+    <dimen name="vtmn_progressbar_circular_thickness_small">
+        @dimen/vtmn_progressbars_circular_thickness_small
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_thickness_medium} -->
+    <dimen name="vtmn_progressbar_circular_thickness_medium">
+        @dimen/vtmn_progressbars_circular_thickness_medium
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_thickness_large} -->
+    <dimen name="vtmn_progressbar_circular_thickness_large">
+        @dimen/vtmn_progressbars_circular_thickness_large
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_extrasmall} -->
+    <dimen name="vtmn_progressbar_circular_extrasmall">
+        @dimen/vtmn_progressbars_circular_extrasmall
+    </dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_small} -->
+    <dimen name="vtmn_progressbar_circular_small">@dimen/vtmn_progressbars_circular_small</dimen>
+    <!-- {@deprecated check vtmn_progressbars_circular_medium} -->
+    <dimen name="vtmn_progressbar_circular_medium">@dimen/vtmn_progressbars_circular_medium</dimen>
 </resources>
