@@ -75,5 +75,12 @@ If you respect all these rules you will help us saving time and we will be able 
 
 To keep a clean project, thanks to respect the following naming convention guidelines:
 
-1. Theme attributes use camelCase. If you need to specify variant and size, use the pattern <what><Variant><Size>. ex: buttonPrimaryMedium
-2. Dimens use snakeCase following the pattern vtmn_<what>_<where>_<description>_<size>. ex: vtmn_progressbarcircular_thickness_small
+1. Theme attributes use camel case with the following specification for the name: `vtmn<Component><Variant>?<Size>?` where 
+   1. `Component` is the name of the component in singular
+   2. `Variant` is an optional variant if exist for the component
+   3. `Size` is an optional size if exist for the component
+2. Resource use snake case with the following specification for the name: `vtmn_<module>_<component>?_<description>_<size>?` where
+   1. `module` is the module name of the component
+   2. `component` is an optional name if the module have several components
+   3. `description` is free space to give more context about the resource
+   4. `size` is an optional size if exist for the resource
