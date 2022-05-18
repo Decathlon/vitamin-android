@@ -2,44 +2,44 @@
 <resources>
 
     <style name="Widget.Vitamin.LinearProgressBar" parent="Widget.MaterialComponents.LinearProgressIndicator">
-        <item name="trackThickness">@dimen/vtmn_progressbarlinear_thickness_small</item>
-        <item name="indicatorColor">?attr/vtmnContentActive</item>
-        <item name="trackColor">?attr/vtmnBackgroundTertiary</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_linear_thickness_small</item>
+        <item name="indicatorColor">?attr/vtmnContentColorActive</item>
+        <item name="trackColor">?attr/vtmnBackgroundColorTertiary</item>
         <item name="trackCornerRadius">@dimen/vtmn_radius_700</item>
     </style>
 
     <style name="Widget.Vitamin.LinearProgressBar.Small" />
 
     <style name="Widget.Vitamin.LinearProgressBar.Medium">
-        <item name="trackThickness">@dimen/vtmn_progressbarlinear_thickness_medium</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_linear_thickness_medium</item>
     </style>
 
     <style name="Widget.Vitamin.LinearProgressBar.Large">
-        <item name="trackThickness">@dimen/vtmn_progressbarlinear_thickness_large</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_linear_thickness_large</item>
     </style>
 
     <style name="Widget.Vitamin.CircularProgressBar" parent="Widget.MaterialComponents.CircularProgressIndicator">
-        <item name="trackThickness">@dimen/vtmn_progressbarcircular_thickness_medium</item>
-        <item name="indicatorSize">@dimen/vtmn_progressbarcircular_medium</item>
-        <item name="indicatorColor">?attr/vtmnContentActive</item>
-        <item name="trackColor">?attr/vtmnBackgroundTertiary</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_circular_thickness_medium</item>
+        <item name="indicatorSize">@dimen/vtmn_progressbars_circular_medium</item>
+        <item name="indicatorColor">?attr/vtmnContentColorActive</item>
+        <item name="trackColor">?attr/vtmnBackgroundColorTertiary</item>
         <item name="trackCornerRadius">@dimen/vtmn_radius_700</item>
     </style>
 
     <style name="Widget.Vitamin.CircularProgressBar.ExtraSmall">
-        <item name="trackThickness">@dimen/vtmn_progressbarcircular_thickness_extrasmall</item>
-        <item name="indicatorSize">@dimen/vtmn_progressbarcircular_extrasmall</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_circular_thickness_extrasmall</item>
+        <item name="indicatorSize">@dimen/vtmn_progressbars_circular_extrasmall</item>
     </style>
 
     <style name="Widget.Vitamin.CircularProgressBar.Small">
-        <item name="trackThickness">@dimen/vtmn_progressbarcircular_thickness_small</item>
-        <item name="indicatorSize">@dimen/vtmn_progressbarcircular_small</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_circular_thickness_small</item>
+        <item name="indicatorSize">@dimen/vtmn_progressbars_circular_small</item>
     </style>
 
     <style name="Widget.Vitamin.CircularProgressBar.Medium" />
 
     <style name="Widget.Vitamin.CircularProgressBar.Large">
-        <item name="trackThickness">@dimen/vtmn_progressbarcircular_thickness_large</item>
-        <item name="indicatorSize">@dimen/vtmn_progressbarcircular_large</item>
+        <item name="trackThickness">@dimen/vtmn_progressbars_circular_thickness_large</item>
+        <item name="indicatorSize">@dimen/vtmn_progressbars_circular_large</item>
     </style>
 </resources>
