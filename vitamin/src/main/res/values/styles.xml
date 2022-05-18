@@ -3,38 +3,54 @@
 
     <style name="Theme.Vitamin" parent="Base.Theme.Vitamin">
 
-        <!-- Buttons -->
-        <item name="buttonStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="materialButtonStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="materialButtonOutlinedStyle">@style/Widget.Vitamin.Button.Secondary.Medium
-        </item>
-        <item name="borderlessButtonStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
-        <!-- Custom Buttons Styles -->
-        <item name="buttonPrimaryMedium">@style/Widget.Vitamin.Button.Primary.Medium</item>
-        <item name="buttonPrimaryLarge">@style/Widget.Vitamin.Button.Primary.Large</item>
-        <item name="buttonSecondaryMedium">@style/Widget.Vitamin.Button.Secondary.Medium</item>
-        <item name="buttonSecondaryLarge">@style/Widget.Vitamin.Button.Secondary.Large</item>
-        <item name="buttonTertiaryMedium">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
-        <item name="buttonTertiaryLarge">@style/Widget.Vitamin.Button.Tertiary.Large</item>
-        <item name="buttonConversionMedium">@style/Widget.Vitamin.Button.Conversion.Medium</item>
-        <item name="buttonConversionLarge">@style/Widget.Vitamin.Button.Conversion.Large</item>
-        <item name="buttonPrimaryReversedMedium">
+        <!-- Vitamin Buttons -->
+        <item name="vtmnButtonPrimaryMediumStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
+        <item name="vtmnButtonPrimaryLargeStyle">@style/Widget.Vitamin.Button.Primary.Large</item>
+        <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
+        <item name="vtmnButtonSecondaryLargeStyle">@style/Widget.Vitamin.Button.Secondary.Large</item>
+        <item name="vtmnButtonTertiaryMediumStyle">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
+        <item name="vtmnButtonTertiaryLargeStyle">@style/Widget.Vitamin.Button.Tertiary.Large</item>
+        <item name="vtmnButtonConversionMediumStyle">@style/Widget.Vitamin.Button.Conversion.Medium</item>
+        <item name="vtmnButtonConversionLargeStyle">@style/Widget.Vitamin.Button.Conversion.Large</item>
+        <item name="vtmnButtonPrimaryReversedMediumStyle">
             @style/Widget.Vitamin.Button.PrimaryReversed.Medium
         </item>
-        <item name="buttonPrimaryReversedLarge">@style/Widget.Vitamin.Button.PrimaryReversed.Large
+        <item name="vtmnButtonPrimaryReversedLargeStyle">
+            @style/Widget.Vitamin.Button.PrimaryReversed.Large
         </item>
-        <item name="buttonGhostMedium">@style/Widget.Vitamin.Button.Ghost.Medium</item>
-        <item name="buttonGhostLarge">@style/Widget.Vitamin.Button.Ghost.Large</item>
-        <item name="buttonGhostReversedMedium">@style/Widget.Vitamin.Button.GhostReversed.Medium
+        <item name="vtmnButtonGhostMediumStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
+        <item name="vtmnButtonGhostLargeStyle">@style/Widget.Vitamin.Button.Ghost.Large</item>
+        <item name="vtmnButtonGhostReversedMediumStyle">@style/Widget.Vitamin.Button.GhostReversed.Medium
         </item>
-        <item name="buttonGhostReversedLarge">@style/Widget.Vitamin.Button.GhostReversed.Large
+        <item name="vtmnButtonGhostReversedLargeStyle">
+            @style/Widget.Vitamin.Button.GhostReversed.Large
         </item>
-        <!-- Deprecated Buttons Styles -->
-        <item name="buttonReverseStyle">@style/Widget.Vitamin.Button.PrimaryReversed.Medium</item>
-        <item name="buttonConversionStyle">@style/Widget.Vitamin.Button.Conversion.Medium</item>
-        <item name="buttonSecondary">@style/Widget.Vitamin.Button.Secondary.Medium</item>
-        <item name="buttonGhost">@style/Widget.Vitamin.Button.Ghost.Medium</item>
-        <item name="buttonGhostReversed">@style/Widget.Vitamin.Button.GhostReversed.Medium</item>
+        <!-- Deprecated Vitamin Buttons -->
+        <item name="buttonPrimaryMedium">?attr/vtmnButtonPrimaryMediumStyle</item>
+        <item name="buttonPrimaryLarge">?attr/vtmnButtonPrimaryLargeStyle</item>
+        <item name="buttonSecondaryMedium">?attr/vtmnButtonSecondaryMediumStyle</item>
+        <item name="buttonSecondaryLarge">?attr/vtmnButtonSecondaryLargeStyle</item>
+        <item name="buttonTertiaryMedium">?attr/vtmnButtonTertiaryMediumStyle</item>
+        <item name="buttonTertiaryLarge">?attr/vtmnButtonTertiaryLargeStyle</item>
+        <item name="buttonConversionMedium">?attr/vtmnButtonConversionMediumStyle</item>
+        <item name="buttonConversionLarge">?attr/vtmnButtonConversionLargeStyle</item>
+        <item name="buttonPrimaryReversedMedium">?attr/vtmnButtonPrimaryReversedMediumStyle</item>
+        <item name="buttonPrimaryReversedLarge">?attr/vtmnButtonPrimaryReversedLargeStyle</item>
+        <item name="buttonGhostMedium">?attr/vtmnButtonGhostMediumStyle</item>
+        <item name="buttonGhostLarge">?attr/vtmnButtonGhostLargeStyle</item>
+        <item name="buttonGhostReversedMedium">?attr/vtmnButtonGhostReversedMediumStyle</item>
+        <item name="buttonGhostReversedLarge">?attr/vtmnButtonGhostReversedLargeStyle</item>
+        <item name="buttonReverseStyle">?attr/buttonPrimaryReversedMedium</item>
+        <item name="buttonConversionStyle">?attr/buttonConversionMedium</item>
+        <item name="buttonSecondary">?attr/buttonSecondaryMedium</item>
+        <item name="buttonGhost">?attr/buttonGhostMedium</item>
+        <item name="buttonGhostReversed">?attr/buttonGhostReversedMedium</item>
+        <!-- Material Buttons -->
+        <item name="buttonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
+        <item name="materialButtonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
+        <item name="materialButtonOutlinedStyle">?attr/vtmnButtonSecondaryMediumStyle</item>
+        <item name="borderlessButtonStyle">?attr/vtmnButtonGhostMediumStyle</item>
+
         <!--  Checkboxes -->
         <item name="checkboxStyle">@style/Widget.Vitamin.Checkbox</item>
         <!--  RadioButton -->

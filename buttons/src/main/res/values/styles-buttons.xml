@@ -2,201 +2,201 @@
 <resources>
 
     <style name="Widget.Vitamin.Button.Primary.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
-        <item name="backgroundTint">@color/vtmn_btn_primary_background</item>
-        <item name="android:textColor">@color/vtmn_btn_primary_text</item>
-        <item name="iconTint">@color/vtmn_btn_primary_text</item>
-        <item name="rippleColor">?attr/vtmnActiveBrand</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
+        <item name="backgroundTint">@color/vtmn_buttons_primary_background</item>
+        <item name="android:textColor">@color/vtmn_buttons_primary_text</item>
+        <item name="iconTint">@color/vtmn_buttons_primary_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorBrand</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Primary.Large" parent="@style/Widget.Vitamin.Button.Primary.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Secondary.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
-        <item name="backgroundTint">@color/vtmn_btn_secondary_background</item>
-        <item name="android:textColor">@color/vtmn_btn_secondary_text</item>
-        <item name="iconTint">@color/vtmn_btn_secondary_text</item>
-        <item name="rippleColor">?attr/vtmnActivePrimary</item>
-        <item name="strokeWidth">@dimen/vtmn_buttonsecondary_strokewidth</item>
-        <item name="strokeColor">@color/vtmn_btn_secondary_stroke</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
+        <item name="backgroundTint">@color/vtmn_buttons_secondary_background</item>
+        <item name="android:textColor">@color/vtmn_buttons_secondary_text</item>
+        <item name="iconTint">@color/vtmn_buttons_secondary_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorPrimary</item>
+        <item name="strokeWidth">@dimen/vtmn_buttons_secondary_stroke_width</item>
+        <item name="strokeColor">@color/vtmn_buttons_secondary_stroke</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Secondary.Large" parent="Widget.Vitamin.Button.Secondary.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Tertiary.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
-        <item name="backgroundTint">@color/vtmn_btn_tertiary_background</item>
-        <item name="android:textColor">@color/vtmn_btn_tertiary_text</item>
-        <item name="iconTint">@color/vtmn_btn_tertiary_text</item>
-        <item name="rippleColor">?attr/vtmnActiveTertiary</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
+        <item name="backgroundTint">@color/vtmn_buttons_tertiary_background</item>
+        <item name="android:textColor">@color/vtmn_buttons_tertiary_text</item>
+        <item name="iconTint">@color/vtmn_buttons_tertiary_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorTertiary</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Tertiary.Large" parent="@style/Widget.Vitamin.Button.Tertiary.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Conversion.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
-        <item name="backgroundTint">@color/vtmn_btn_conversion_background</item>
-        <item name="android:textColor">@color/vtmn_btn_conversion_text</item>
-        <item name="iconTint">@color/vtmn_btn_conversion_text</item>
-        <item name="rippleColor">?attr/vtmnActiveAccent</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
+        <item name="backgroundTint">@color/vtmn_buttons_conversion_background</item>
+        <item name="android:textColor">@color/vtmn_buttons_conversion_text</item>
+        <item name="iconTint">@color/vtmn_buttons_conversion_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorAccent</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Conversion.Large" parent="@style/Widget.Vitamin.Button.Conversion.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
     <style name="Widget.Vitamin.Button.PrimaryReversed.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
-        <item name="backgroundTint">@color/vtmn_btn_primaryreversed_background</item>
-        <item name="android:textColor">@color/vtmn_btn_primaryreversed_text</item>
-        <item name="iconTint">@color/vtmn_btn_primaryreversed_text</item>
-        <item name="rippleColor">?attr/vtmnActivePrimary</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
+        <item name="backgroundTint">@color/vtmn_buttons_primary_reversed_background</item>
+        <item name="android:textColor">@color/vtmn_buttons_primary_reversed_text</item>
+        <item name="iconTint">@color/vtmn_buttons_primary_reversed_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorPrimary</item>
     </style>
 
     <style name="Widget.Vitamin.Button.PrimaryReversed.Large" parent="@style/Widget.Vitamin.Button.PrimaryReversed.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Ghost.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
         <item name="backgroundTint">@android:color/transparent</item>
-        <item name="android:textColor">@color/vtmn_btn_ghost_text</item>
-        <item name="iconTint">@color/vtmn_btn_ghost_text</item>
-        <item name="rippleColor">?attr/vtmnActivePrimary</item>
+        <item name="android:textColor">@color/vtmn_buttons_ghost_text</item>
+        <item name="iconTint">@color/vtmn_buttons_ghost_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorPrimary</item>
     </style>
 
     <style name="Widget.Vitamin.Button.Ghost.Large" parent="@style/Widget.Vitamin.Button.Ghost.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
     <style name="Widget.Vitamin.Button.GhostReversed.Medium" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:insetTop">@dimen/vtmn_button_insettop</item>
-        <item name="android:insetBottom">@dimen/vtmn_button_insetbottom</item>
+        <item name="android:insetTop">@dimen/vtmn_buttons_inset_top</item>
+        <item name="android:insetBottom">@dimen/vtmn_buttons_inset_bottom</item>
         <item name="cornerRadius">@dimen/vtmn_radius_100</item>
         <item name="android:maxLines">1</item>
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_medium</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_medium</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_medium</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_medium</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_medium</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
         <item name="backgroundTint">@android:color/transparent</item>
-        <item name="android:textColor">@color/vtmn_btn_ghostreversed_text</item>
-        <item name="iconTint">@color/vtmn_btn_ghostreversed_text</item>
-        <item name="rippleColor">?attr/vtmnActivePrimaryReversedTransparent</item>
+        <item name="android:textColor">@color/vtmn_buttons_ghost_reversed_text</item>
+        <item name="iconTint">@color/vtmn_buttons_ghost_reversed_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorPrimaryReversedTransparent</item>
     </style>
 
     <style name="Widget.Vitamin.Button.GhostReversed.Large" parent="@style/Widget.Vitamin.Button.GhostReversed.Medium">
-        <item name="iconEndPadding">@dimen/vtmn_button_iconendpadding_large</item>
-        <item name="iconStartPadding">@dimen/vtmn_button_iconstartpadding_large</item>
-        <item name="android:paddingStart">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingEnd">@dimen/vtmn_button_horizontalpadding_large</item>
-        <item name="android:paddingTop">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="android:paddingBottom">@dimen/vtmn_button_verticalpadding_large</item>
-        <item name="iconSize">@dimen/vtmn_button_iconsize_large</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_large</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_large</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_large</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_large</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_large</item>
     </style>
 
 </resources>
