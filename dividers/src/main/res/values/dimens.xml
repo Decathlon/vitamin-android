@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_dividerinset_insetstart">64dp</dimen>
-    <dimen name="vtmn_dividermiddle_insethorizontal">32dp</dimen>
+    <dimen name="vtmn_dividers_inset_inset_start">64dp</dimen>
+    <dimen name="vtmn_dividers_middle_inset_horizontal">32dp</dimen>
 </resources>

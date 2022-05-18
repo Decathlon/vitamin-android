@@ -160,12 +160,19 @@
         <item name="priceStrikethroughSmall">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
         <item name="priceStrikethroughMedium">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
         <item name="priceStrikethroughLarge">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
-        <!-- Dividers -->
-        <item name="materialDividerStyle">@style/Widget.Vitamin.Divider.FullBleed</item>
-        <item name="dividerFullBleed">@style/Widget.Vitamin.Divider.FullBleed</item>
-        <item name="dividerInset">@style/Widget.Vitamin.Divider.Inset</item>
-        <item name="dividerMiddle">@style/Widget.Vitamin.Divider.Middle</item>
-        <item name="android:listDivider">?attr/vtmnBorderSecondary</item>
+
+        <!-- Vitamin Dividers -->
+        <item name="vtmnDividerFullBleedStyle">@style/Widget.Vitamin.Divider.FullBleed</item>
+        <item name="vtmnDividerInsetStyle">@style/Widget.Vitamin.Divider.Inset</item>
+        <item name="vtmnDividerMiddleStyle">@style/Widget.Vitamin.Divider.Middle</item>
+        <!-- Deprecated Vitamin Chips -->
+        <item name="dividerFullBleed">?attr/vtmnDividerFullBleedStyle</item>
+        <item name="dividerInset">?attr/vtmnDividerInsetStyle</item>
+        <item name="dividerMiddle">?attr/vtmnDividerMiddleStyle</item>
+        <!-- Material Dividers -->
+        <item name="materialDividerStyle">?attr/vtmnDividerFullBleedStyle</item>
+        <item name="android:listDivider">?attr/vtmnBorderColorSecondary</item>
+
         <!-- Tags -->
         <item name="tagAccent">@style/Widget.Vitamin.Tag.Accent</item>
         <item name="tagAccentInteractive">@style/Widget.Vitamin.Tag.Accent.Interactive</item>

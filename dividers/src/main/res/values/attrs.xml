@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="vtmnDividerFullBleedStyle" format="reference"/>
+    <attr name="vtmnDividerInsetStyle" format="reference"/>
+    <attr name="vtmnDividerMiddleStyle" format="reference"/>
+
+    <!-- {@deprecated check vtmnDividerFullBleed} -->
     <attr name="dividerFullBleed" format="reference"/>
+    <!-- {@deprecated check vtmnDividerInset} -->
     <attr name="dividerInset" format="reference"/>
+    <!-- {@deprecated check vtmnDividerMiddle} -->
     <attr name="dividerMiddle" format="reference"/>
 </resources>
