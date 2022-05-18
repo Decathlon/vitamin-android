@@ -8,17 +8,17 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 open class VitaminFloatingActionButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.floatingActionButtonStyle
+    defStyleAttr: Int = R.attr.vtmnFloatingActionButtonStyle
 ) : FloatingActionButton(context, attrs, defStyleAttr)
 
 open class VitaminMiniFloatingActionButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.miniFloatingActionButtonStyle
+    defStyleAttr: Int = R.attr.vtmnMiniFloatingActionButtonStyle
 ) : FloatingActionButton(context, attrs, defStyleAttr)
 
 open class VitaminExtendedFloatingActionButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.extendedFloatingActionButtonStyle
+    defStyleAttr: Int = R.attr.vtmnExtendedFloatingActionButtonStyle
 ) : ExtendedFloatingActionButton(context, attrs, defStyleAttr)

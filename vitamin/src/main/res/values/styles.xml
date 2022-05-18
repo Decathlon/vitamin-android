@@ -71,14 +71,23 @@
         <item name="textInputDropdownOutlined">
             @style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown
         </item>
-        <!-- FloatingActionButtons -->
-        <item name="floatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
-        <item name="extendedFloatingActionButtonStyle">
+
+        <!-- Vitamin FloatingActionButtons -->
+        <item name="vtmnFloatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
+        <item name="vtmnMiniFloatingActionButtonStyle">
+            @style/Widget.Vitamin.MiniFloatingActionButton
+        </item>
+        <item name="vtmnExtendedFloatingActionButtonStyle">
             @style/Widget.Vitamin.ExtendedFloatingActionButton
         </item>
-        <!-- Custom FloatingActionButtons Styles -->
-        <item name="miniFloatingActionButtonStyle">@style/Widget.Vitamin.MiniFloatingActionButton
+        <!-- Deprecated Vitamin FloatingActionButtons -->
+        <item name="miniFloatingActionButtonStyle">?attr/vtmnMiniFloatingActionButtonStyle</item>
+        <!-- Material FloatingActionButtons -->
+        <item name="floatingActionButtonStyle">?attr/vtmnFloatingActionButtonStyle</item>
+        <item name="extendedFloatingActionButtonStyle">
+            ?attr/vtmnExtendedFloatingActionButtonStyle
         </item>
+
         <!-- Modal -->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
         <!-- ProgressBar -->

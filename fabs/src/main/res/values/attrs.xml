@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="vtmnFloatingActionButtonStyle" format="reference" />
+    <attr name="vtmnMiniFloatingActionButtonStyle" format="reference" />
+    <attr name="vtmnExtendedFloatingActionButtonStyle" format="reference" />
+
+    <!-- {@deprecated check vtmnDividerFullBleed} -->
     <attr name="miniFloatingActionButtonStyle" format="reference" />
 </resources>
