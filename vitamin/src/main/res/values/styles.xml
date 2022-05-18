@@ -88,8 +88,9 @@
             ?attr/vtmnExtendedFloatingActionButtonStyle
         </item>
 
-        <!-- Modal -->
+        <!-- Material Modal -->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
+
         <!-- ProgressBar -->
         <item name="linearProgressIndicatorStyle">@style/Widget.Vitamin.LinearProgressBar</item>
         <item name="circularProgressIndicatorStyle">@style/Widget.Vitamin.CircularProgressBar</item>
