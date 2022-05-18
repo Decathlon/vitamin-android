@@ -7,5 +7,5 @@ import com.google.android.material.checkbox.MaterialCheckBox
 open class VitaminCheckbox @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.checkboxStyle
+    defStyleAttr: Int = R.attr.vtmnCheckboxStyle
 ) : MaterialCheckBox(context, attrs, defStyleAttr)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="?attr/vtmnContentAction" android:state_checked="true" android:state_enabled="true" />
-    <item android:color="?attr/vtmnContentInactive" android:state_checked="false" android:state_enabled="true" />
-    <item android:alpha="@dimen/vtmn_statedisabled_alpha" android:color="?attr/vtmnContentActive" android:state_checked="true" android:state_enabled="false" />
-    <item android:alpha="@dimen/vtmn_statedisabled_alpha" android:color="?attr/vtmnContentInactive" android:state_checked="false" android:state_enabled="false" />
+    <item android:color="?attr/vtmnContentColorAction" android:state_checked="true" android:state_enabled="true" />
+    <item android:color="?attr/vtmnContentColorInactive" android:state_checked="false" android:state_enabled="true" />
+    <item android:alpha="@dimen/vtmn_state_disabled_alpha" android:color="?attr/vtmnContentColorActive" android:state_checked="true" android:state_enabled="false" />
+    <item android:alpha="@dimen/vtmn_state_disabled_alpha" android:color="?attr/vtmnContentColorInactive" android:state_checked="false" android:state_enabled="false" />
 </selector>

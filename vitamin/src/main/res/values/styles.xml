@@ -51,8 +51,11 @@
         <item name="materialButtonOutlinedStyle">?attr/vtmnButtonSecondaryMediumStyle</item>
         <item name="borderlessButtonStyle">?attr/vtmnButtonGhostMediumStyle</item>
 
-        <!--  Checkboxes -->
-        <item name="checkboxStyle">@style/Widget.Vitamin.Checkbox</item>
+        <!--  Vitamin Checkboxes -->
+        <item name="vtmnCheckboxStyle">@style/Widget.Vitamin.Checkbox</item>
+        <!--  Material Checkboxes -->
+        <item name="checkboxStyle">?attr/vtmnCheckboxStyle</item>
+
         <!--  RadioButton -->
         <item name="radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
         <item name="android:radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
