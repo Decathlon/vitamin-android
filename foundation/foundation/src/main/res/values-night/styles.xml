@@ -5,76 +5,75 @@
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
         <!-- Colors -->
-        <item name="vtmnBackgroundPrimary">@color/vtmn_grey900</item>
-        <item name="vtmnBackgroundSecondary">@color/vtmn_black</item>
-        <item name="vtmnBackgroundTertiary">@color/vtmn_grey800</item>
-        <item name="vtmnBackgroundBrandPrimary">@color/vtmn_blue300</item>
-        <item name="vtmnBackgroundBrandSecondary">@color/vtmn_blue700</item>
-        <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
-        <item name="vtmnBackgroundAlert">@color/vtmn_red300</item>
-        <item name="vtmnBackgroundDiscount">?attr/vtmnBackgroundAlert</item>
-        <item name="vtmnBackgroundPrimaryReversed">@color/vtmn_white</item>
-        <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnBackgroundColorPrimary">@color/vtmn_grey900</item>
+        <item name="vtmnBackgroundColorSecondary">@color/vtmn_black</item>
+        <item name="vtmnBackgroundColorTertiary">@color/vtmn_grey800</item>
+        <item name="vtmnBackgroundColorBrandPrimary">@color/vtmn_blue300</item>
+        <item name="vtmnBackgroundColorBrandSecondary">@color/vtmn_blue700</item>
+        <item name="vtmnBackgroundColorAccent">@color/vtmn_yellow400</item>
+        <item name="vtmnBackgroundColorAlert">@color/vtmn_red300</item>
+        <item name="vtmnBackgroundColorPrimaryReversed">@color/vtmn_white</item>
+        <item name="vtmnBackgroundColorBrandPrimaryReversed">@color/vtmn_black</item>
 
-        <item name="vtmnContentPrimary">@color/vtmn_white</item>
-        <item name="vtmnContentSecondary">@color/vtmn_grey200</item>
-        <item name="vtmnContentTertiary">@color/vtmn_grey300</item>
-        <item name="vtmnContentAction">@color/vtmn_blue200</item>
-        <item name="vtmnContentActive">@color/vtmn_blue300</item>
-        <item name="vtmnContentInactive">@color/vtmn_grey500</item>
-        <item name="vtmnContentNegative">@color/vtmn_red300</item>
-        <item name="vtmnContentWarning">@color/vtmn_orange300</item>
-        <item name="vtmnContentPositive">@color/vtmn_conifer300</item>
-        <item name="vtmnContentInformation">@color/vtmn_blue300</item>
-        <item name="vtmnContentAccent">@color/vtmn_black</item>
-        <item name="vtmnContentPrimaryReversed">@color/vtmn_black</item>
-        <item name="vtmnContentActionReversed">@color/vtmn_black</item>
+        <item name="vtmnContentColorPrimary">@color/vtmn_white</item>
+        <item name="vtmnContentColorSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnContentColorTertiary">@color/vtmn_grey300</item>
+        <item name="vtmnContentColorAction">@color/vtmn_blue200</item>
+        <item name="vtmnContentColorActive">@color/vtmn_blue300</item>
+        <item name="vtmnContentColorInactive">@color/vtmn_grey500</item>
+        <item name="vtmnContentColorNegative">@color/vtmn_red300</item>
+        <item name="vtmnContentColorWarning">@color/vtmn_orange300</item>
+        <item name="vtmnContentColorPositive">@color/vtmn_conifer300</item>
+        <item name="vtmnContentColorInformation">@color/vtmn_blue300</item>
+        <item name="vtmnContentColorAccent">@color/vtmn_black</item>
+        <item name="vtmnContentColorPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnContentColorActionReversed">@color/vtmn_black</item>
 
-        <item name="vtmnBorderPrimary">@color/vtmn_grey800</item>
-        <item name="vtmnBorderSecondary">@color/vtmn_grey700</item>
-        <item name="vtmnBorderTertiary">@color/vtmn_black</item>
-        <item name="vtmnBorderActive">@color/vtmn_blue300</item>
-        <item name="vtmnBorderInactive">@color/vtmn_grey500</item>
-        <item name="vtmnBorderNegative">@color/vtmn_red300</item>
-        <item name="vtmnBorderWarning">@color/vtmn_orange300</item>
-        <item name="vtmnBorderPositive">@color/vtmn_conifer300</item>
-        <item name="vtmnBorderInformation">@color/vtmn_blue300</item>
-        <item name="vtmnBorderPrimaryReversed">@color/vtmn_white</item>
+        <item name="vtmnBorderColorPrimary">@color/vtmn_grey800</item>
+        <item name="vtmnBorderColorSecondary">@color/vtmn_grey700</item>
+        <item name="vtmnBorderColorTertiary">@color/vtmn_black</item>
+        <item name="vtmnBorderColorActive">@color/vtmn_blue300</item>
+        <item name="vtmnBorderColorInactive">@color/vtmn_grey500</item>
+        <item name="vtmnBorderColorNegative">@color/vtmn_red300</item>
+        <item name="vtmnBorderColorWarning">@color/vtmn_orange300</item>
+        <item name="vtmnBorderColorPositive">@color/vtmn_conifer300</item>
+        <item name="vtmnBorderColorInformation">@color/vtmn_blue300</item>
+        <item name="vtmnBorderColorPrimaryReversed">@color/vtmn_white</item>
 
-        <item name="vtmnDecorativeGravel">@color/vtmn_grey600</item>
-        <item name="vtmnDecorativeGold">@color/vtmn_yellow700</item>
-        <item name="vtmnDecorativeCobalt">@color/vtmn_blue600</item>
-        <item name="vtmnDecorativeBrick">@color/vtmn_red600</item>
-        <item name="vtmnDecorativeJade">@color/vtmn_conifer700</item>
-        <item name="vtmnDecorativeAmethyst">@color/vtmn_purple600</item>
-        <item name="vtmnDecorativeSaffron">@color/vtmn_orange600</item>
-        <item name="vtmnDecorativeEmerald">@color/vtmn_green600</item>
+        <item name="vtmnDecorativeColorGravel">@color/vtmn_grey600</item>
+        <item name="vtmnDecorativeColorGold">@color/vtmn_yellow700</item>
+        <item name="vtmnDecorativeColorCobalt">@color/vtmn_blue600</item>
+        <item name="vtmnDecorativeColorBrick">@color/vtmn_red600</item>
+        <item name="vtmnDecorativeColorJade">@color/vtmn_conifer700</item>
+        <item name="vtmnDecorativeColorAmethyst">@color/vtmn_purple600</item>
+        <item name="vtmnDecorativeColorSaffron">@color/vtmn_orange600</item>
+        <item name="vtmnDecorativeColorEmerald">@color/vtmn_green600</item>
 
         <!-- Warning: these colors are calculated from other semantic colors
         If parent colors are updated, you need to update these too
         This system should change in the future with an auto-generated color token -->
 
         <!-- parent color: hoverPrimary -->
-        <item name="vtmnActivePrimary">#012946</item>
+        <item name="vtmnActiveColorPrimary">#012946</item>
         <!-- parent color: contentActive -->
-        <item name="vtmnActivePrimaryTransparent">#263D9ACC</item>
+        <item name="vtmnActiveColorPrimaryTransparent">#263D9ACC</item>
         <!-- parent color: contentPrimary -->
-        <item name="vtmnActiveSecondaryTransparent">#26FFFFFF</item>
+        <item name="vtmnActiveColorSecondaryTransparent">#26FFFFFF</item>
         <!-- parent color: hoverPrimary -->
-        <item name="vtmnActiveTertiary">#012946</item>
+        <item name="vtmnActiveColorTertiary">#012946</item>
         <!-- parent color: hoverPrimary -->
-        <item name="vtmnActiveTertiaryTransparent">#CC012946</item>
+        <item name="vtmnActiveColorTertiaryTransparent">#CC012946</item>
         <!-- parent color: backgroundBrandPrimary -->
-        <item name="vtmnActiveBrand">#266C91</item>
+        <item name="vtmnActiveColorBrand">#266C91</item>
         <!-- parent color: backgroundAccent -->
-        <item name="vtmnActiveAccent">#FFF9C7</item>
+        <item name="vtmnActiveColorAccent">#FFF9C7</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActivePrimaryReversedTransparent">#40001018</item>
+        <item name="vtmnActiveColorPrimaryReversedTransparent">#40001018</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActiveSecondaryReversedTransparent">#66001018</item>
+        <item name="vtmnActiveColorSecondaryReversedTransparent">#66001018</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActiveTertiaryReversedTransparent">#99001018</item>
+        <item name="vtmnActiveColorTertiaryReversedTransparent">#99001018</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActiveBrandReversedTransparent">#99001018</item>
+        <item name="vtmnActiveColorBrandReversedTransparent">#99001018</item>
     </style>
 </resources>

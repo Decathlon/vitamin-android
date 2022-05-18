@@ -1,69 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Background -->
+    <attr name="vtmnBackgroundColorPrimary" format="color" />
+    <attr name="vtmnBackgroundColorSecondary" format="color" />
+    <attr name="vtmnBackgroundColorTertiary" format="color" />
+    <attr name="vtmnBackgroundColorBrandPrimary" format="color" />
+    <attr name="vtmnBackgroundColorBrandSecondary" format="color" />
+    <attr name="vtmnBackgroundColorAccent" format="color" />
+    <attr name="vtmnBackgroundColorAlert" format="color" />
+    <attr name="vtmnBackgroundColorPrimaryReversed" format="color" />
+    <attr name="vtmnBackgroundColorBrandPrimaryReversed" format="color" />
+
+    <!-- Content -->
+    <attr name="vtmnContentColorPrimary" format="color" />
+    <attr name="vtmnContentColorSecondary" format="color" />
+    <attr name="vtmnContentColorTertiary" format="color" />
+    <attr name="vtmnContentColorAction" format="color" />
+    <attr name="vtmnContentColorActive" format="color" />
+    <attr name="vtmnContentColorInactive" format="color" />
+    <attr name="vtmnContentColorNegative" format="color" />
+    <attr name="vtmnContentColorWarning" format="color" />
+    <attr name="vtmnContentColorPositive" format="color" />
+    <attr name="vtmnContentColorInformation" format="color" />
+    <attr name="vtmnContentColorAccent" format="color" />
+    <attr name="vtmnContentColorPrimaryReversed" format="color" />
+    <attr name="vtmnContentColorActionReversed" format="color" />
+
+    <!-- Border -->
+    <attr name="vtmnBorderColorPrimary" format="color" />
+    <attr name="vtmnBorderColorSecondary" format="color" />
+    <attr name="vtmnBorderColorTertiary" format="color" />
+    <attr name="vtmnBorderColorActive" format="color" />
+    <attr name="vtmnBorderColorInactive" format="color" />
+    <attr name="vtmnBorderColorNegative" format="color" />
+    <attr name="vtmnBorderColorWarning" format="color" />
+    <attr name="vtmnBorderColorPositive" format="color" />
+    <attr name="vtmnBorderColorInformation" format="color" />
+    <attr name="vtmnBorderColorPrimaryReversed" format="color" />
+
+    <!-- Decorative -->
+    <attr name="vtmnDecorativeColorGravel" format="color" />
+    <attr name="vtmnDecorativeColorGold" format="color" />
+    <attr name="vtmnDecorativeColorCobalt" format="color" />
+    <attr name="vtmnDecorativeColorBrick" format="color" />
+    <attr name="vtmnDecorativeColorJade" format="color" />
+    <attr name="vtmnDecorativeColorAmethyst" format="color" />
+    <attr name="vtmnDecorativeColorSaffron" format="color" />
+    <attr name="vtmnDecorativeColorEmerald" format="color" />
+
+    <!-- States -->
+    <attr name="vtmnActiveColorPrimary" format="color" />
+    <attr name="vtmnActiveColorPrimaryTransparent" format="color" />
+    <attr name="vtmnActiveColorSecondaryTransparent" format="color" />
+    <attr name="vtmnActiveColorTertiary" format="color" />
+    <attr name="vtmnActiveColorTertiaryTransparent" format="color" />
+    <attr name="vtmnActiveColorBrand" format="color" />
+    <attr name="vtmnActiveColorAccent" format="color" />
+    <attr name="vtmnActiveColorPrimaryReversedTransparent" format="color" />
+    <attr name="vtmnActiveColorSecondaryReversedTransparent" format="color" />
+    <attr name="vtmnActiveColorTertiaryReversedTransparent" format="color" />
+    <attr name="vtmnActiveColorBrandReversedTransparent" format="color" />
+
+    <!-- Typography -->
+    <attr name="vtmnTextAppearanceHeadline1" format="reference" />
+    <attr name="vtmnTextAppearanceHeadline2" format="reference" />
+    <attr name="vtmnTextAppearanceHeadline3" format="reference" />
+    <attr name="vtmnTextAppearanceHeadline4" format="reference" />
+    <attr name="vtmnTextAppearanceHeadline5" format="reference" />
+    <attr name="vtmnTextAppearanceHeadline6" format="reference" />
+    <attr name="vtmnTextAppearanceSubtitle1" format="reference" />
+    <attr name="vtmnTextAppearanceSubtitle2" format="reference" />
+    <attr name="vtmnTextAppearanceBody1" format="reference" />
+    <attr name="vtmnTextAppearanceBody2" format="reference" />
+    <attr name="vtmnTextAppearanceBody3" format="reference" />
+    <attr name="vtmnTextAppearanceButton" format="reference" />
+    <attr name="vtmnTextAppearanceCaption" format="reference" />
+    <attr name="vtmnTextAppearanceOverline" format="reference" />
+
+    <!-- Background -->
+    <!-- @deprecated check vtmnBackgroundColorPrimary -->
     <attr name="vtmnBackgroundPrimary" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorSecondary -->
     <attr name="vtmnBackgroundSecondary" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorTertiary -->
     <attr name="vtmnBackgroundTertiary" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorBrandPrimary -->
     <attr name="vtmnBackgroundBrandPrimary" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorBrandSecondary -->
     <attr name="vtmnBackgroundBrandSecondary" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorAccent -->
     <attr name="vtmnBackgroundAccent" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorAlert -->
     <attr name="vtmnBackgroundAlert" format="color" />
     <!-- @deprecated check vtmnBackgroundAlert -->
     <attr name="vtmnBackgroundDiscount" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorPrimaryReversed -->
     <attr name="vtmnBackgroundPrimaryReversed" format="color" />
+    <!-- @deprecated check vtmnBackgroundColorBrandPrimaryReversed -->
     <attr name="vtmnBackgroundBrandPrimaryReversed" format="color" />
 
     <!-- Content -->
+    <!-- @deprecated check vtmnContentColorPrimary -->
     <attr name="vtmnContentPrimary" format="color" />
+    <!-- @deprecated check vtmnContentColorSecondary -->
     <attr name="vtmnContentSecondary" format="color" />
+    <!-- @deprecated check vtmnContentColorTertiary -->
     <attr name="vtmnContentTertiary" format="color" />
+    <!-- @deprecated check vtmnContentColorAction -->
     <attr name="vtmnContentAction" format="color" />
+    <!-- @deprecated check vtmnContentColorActive -->
     <attr name="vtmnContentActive" format="color" />
+    <!-- @deprecated check vtmnContentColorInactive -->
     <attr name="vtmnContentInactive" format="color" />
+    <!-- @deprecated check vtmnContentColorNegative -->
     <attr name="vtmnContentNegative" format="color" />
+    <!-- @deprecated check vtmnContentColorWarning -->
     <attr name="vtmnContentWarning" format="color" />
+    <!-- @deprecated check vtmnContentColorPositive -->
     <attr name="vtmnContentPositive" format="color" />
+    <!-- @deprecated check vtmnContentColorInformation -->
     <attr name="vtmnContentInformation" format="color" />
+    <!-- @deprecated check vtmnContentColorAccent -->
     <attr name="vtmnContentAccent" format="color" />
+    <!-- @deprecated check vtmnContentColorPrimaryReversed -->
     <attr name="vtmnContentPrimaryReversed" format="color" />
+    <!-- @deprecated check vtmnContentColorActionReversed -->
     <attr name="vtmnContentActionReversed" format="color" />
 
-    <!-- Decorative -->
-    <attr name="vtmnDecorativeGravel" format="color" />
-    <attr name="vtmnDecorativeGold" format="color" />
-    <attr name="vtmnDecorativeCobalt" format="color" />
-    <attr name="vtmnDecorativeBrick" format="color" />
-    <attr name="vtmnDecorativeJade" format="color" />
-    <attr name="vtmnDecorativeAmethyst" format="color" />
-    <attr name="vtmnDecorativeSaffron" format="color" />
-    <attr name="vtmnDecorativeEmerald" format="color" />
-
     <!-- Border -->
+    <!-- @deprecated check vtmnBorderColorPrimary -->
     <attr name="vtmnBorderPrimary" format="color" />
+    <!-- @deprecated check vtmnBorderColorSecondary -->
     <attr name="vtmnBorderSecondary" format="color" />
+    <!-- @deprecated check vtmnBorderColorTertiary -->
     <attr name="vtmnBorderTertiary" format="color" />
+    <!-- @deprecated check vtmnBorderColorActive -->
     <attr name="vtmnBorderActive" format="color" />
+    <!-- @deprecated check vtmnBorderColorInactive -->
     <attr name="vtmnBorderInactive" format="color" />
+    <!-- @deprecated check vtmnBorderColorNegative -->
     <attr name="vtmnBorderNegative" format="color" />
+    <!-- @deprecated check vtmnBorderColorWarning -->
     <attr name="vtmnBorderWarning" format="color" />
+    <!-- @deprecated check vtmnBorderColorPositive -->
     <attr name="vtmnBorderPositive" format="color" />
+    <!-- @deprecated check vtmnBorderColorInformation -->
     <attr name="vtmnBorderInformation" format="color" />
+    <!-- @deprecated check vtmnBorderColorPrimaryReversed -->
     <attr name="vtmnBorderPrimaryReversed" format="color" />
 
+    <!-- Decorative -->
+    <!-- @deprecated check vtmnDecorativeColorGravel -->
+    <attr name="vtmnDecorativeGravel" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorGold -->
+    <attr name="vtmnDecorativeGold" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorCobalt -->
+    <attr name="vtmnDecorativeCobalt" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorBrick -->
+    <attr name="vtmnDecorativeBrick" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorJade -->
+    <attr name="vtmnDecorativeJade" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorAmethyst -->
+    <attr name="vtmnDecorativeAmethyst" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorSaffron -->
+    <attr name="vtmnDecorativeSaffron" format="color" />
+    <!-- @deprecated check vtmnDecorativeColorEmerald -->
+    <attr name="vtmnDecorativeEmerald" format="color" />
+
     <!-- States -->
+    <!-- @deprecated check vtmnActiveColorPrimary -->
     <attr name="vtmnActivePrimary" format="color" />
+    <!-- @deprecated check vtmnActiveColorPrimaryTransparent -->
     <attr name="vtmnActivePrimaryTransparent" format="color" />
+    <!-- @deprecated check vtmnActiveColorSecondaryTransparent -->
     <attr name="vtmnActiveSecondaryTransparent" format="color" />
+    <!-- @deprecated check vtmnActiveColorTertiary -->
     <attr name="vtmnActiveTertiary" format="color" />
+    <!-- @deprecated check vtmnActiveColorTertiaryTransparent -->
     <attr name="vtmnActiveTertiaryTransparent" format="color" />
+    <!-- @deprecated check vtmnActiveColorBrand -->
     <attr name="vtmnActiveBrand" format="color" />
+    <!-- @deprecated check vtmnActiveColorAccent -->
     <attr name="vtmnActiveAccent" format="color" />
+    <!-- @deprecated check vtmnActiveColorPrimaryReversedTransparent -->
     <attr name="vtmnActivePrimaryReversedTransparent" format="color" />
+    <!-- @deprecated check vtmnActiveColorSecondaryReversedTransparent -->
     <attr name="vtmnActiveSecondaryReversedTransparent" format="color" />
+    <!-- @deprecated check vtmnActiveColorTertiaryReversedTransparent -->
     <attr name="vtmnActiveTertiaryReversedTransparent" format="color" />
+    <!-- @deprecated check vtmnActiveColorBrandReversedTransparent -->
     <attr name="vtmnActiveBrandReversedTransparent" format="color" />
 
     <!-- Typography -->
+    <!-- @deprecated check vtmnTextAppearanceBody3 -->
     <attr name="textAppearanceBody3" format="reference" />
-
 </resources>

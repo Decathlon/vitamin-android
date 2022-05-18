@@ -2,112 +2,188 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Base.Theme.Vitamin" parent="Base.Theme.DayNight.Vitamin">
-        <item name="colorPrimary">?attr/vtmnBackgroundBrandPrimary</item>
-        <item name="colorPrimaryDark">?attr/vtmnBackgroundPrimary</item>
-        <item name="colorOnPrimary">?attr/vtmnContentPrimaryReversed</item>
-        <item name="colorSecondary">?attr/vtmnBackgroundAccent</item>
-        <item name="colorOnSecondary">?attr/vtmnContentPrimaryReversed</item>
-        <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
-        <item name="colorOnSurface">?attr/vtmnContentPrimary</item>
-        <item name="colorError">?attr/vtmnContentNegative</item>
-        <item name="colorOnError">?attr/vtmnContentPrimaryReversed</item>
-        <item name="android:windowBackground">?attr/vtmnBackgroundSecondary</item>
-        <item name="colorControlActivated">?attr/vtmnBackgroundBrandPrimary</item>
+        <!-- Deprecated Vitamin Colors -->
+        <item name="vtmnBackgroundPrimary">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="vtmnBackgroundSecondary">?attr/vtmnBackgroundColorSecondary</item>
+        <item name="vtmnBackgroundTertiary">?attr/vtmnBackgroundColorTertiary</item>
+        <item name="vtmnBackgroundBrandPrimary">?attr/vtmnBackgroundColorBrandPrimary</item>
+        <item name="vtmnBackgroundBrandSecondary">?attr/vtmnBackgroundColorBrandSecondary</item>
+        <item name="vtmnBackgroundAccent">?attr/vtmnBackgroundColorAccent</item>
+        <item name="vtmnBackgroundAlert">?attr/vtmnBackgroundColorAlert</item>
+        <item name="vtmnBackgroundDiscount">?attr/vtmnBackgroundColorAlert</item>
+        <item name="vtmnBackgroundPrimaryReversed">?attr/vtmnBackgroundColorPrimaryReversed</item>
+        <item name="vtmnBackgroundBrandPrimaryReversed">?attr/vtmnBackgroundColorBrandPrimaryReversed</item>
 
-        <!-- Typographies -->
-        <item name="textAppearanceHeadline1">@style/TextAppearance.Vitamin.Headline1</item>
-        <item name="textAppearanceHeadline2">@style/TextAppearance.Vitamin.Headline2</item>
-        <item name="textAppearanceHeadline3">@style/TextAppearance.Vitamin.Headline3</item>
-        <item name="textAppearanceHeadline4">@style/TextAppearance.Vitamin.Headline4</item>
-        <item name="textAppearanceHeadline5">@style/TextAppearance.Vitamin.Headline5</item>
-        <item name="textAppearanceHeadline6">@style/TextAppearance.Vitamin.Headline6</item>
-        <item name="textAppearanceSubtitle1">@style/TextAppearance.Vitamin.Subtitle1</item>
-        <item name="textAppearanceSubtitle2">@style/TextAppearance.Vitamin.Subtitle2</item>
-        <item name="textAppearanceBody1">@style/TextAppearance.Vitamin.Body1</item>
-        <item name="textAppearanceBody2">@style/TextAppearance.Vitamin.Body2</item>
+        <item name="vtmnContentPrimary">?attr/vtmnContentColorPrimary</item>
+        <item name="vtmnContentSecondary">?attr/vtmnContentColorSecondary</item>
+        <item name="vtmnContentTertiary">?attr/vtmnContentColorTertiary</item>
+        <item name="vtmnContentAction">?attr/vtmnContentColorAction</item>
+        <item name="vtmnContentActive">?attr/vtmnContentColorActive</item>
+        <item name="vtmnContentInactive">?attr/vtmnContentColorInactive</item>
+        <item name="vtmnContentNegative">?attr/vtmnContentColorNegative</item>
+        <item name="vtmnContentWarning">?attr/vtmnContentColorWarning</item>
+        <item name="vtmnContentPositive">?attr/vtmnContentColorPositive</item>
+        <item name="vtmnContentInformation">?attr/vtmnContentColorInformation</item>
+        <item name="vtmnContentAccent">?attr/vtmnContentColorAccent</item>
+        <item name="vtmnContentPrimaryReversed">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="vtmnContentActionReversed">?attr/vtmnContentColorActionReversed</item>
+
+        <item name="vtmnBorderPrimary">?attr/vtmnBorderColorPrimary</item>
+        <item name="vtmnBorderSecondary">?attr/vtmnBorderColorSecondary</item>
+        <item name="vtmnBorderTertiary">?attr/vtmnBorderColorTertiary</item>
+        <item name="vtmnBorderActive">?attr/vtmnBorderColorActive</item>
+        <item name="vtmnBorderInactive">?attr/vtmnBorderColorInactive</item>
+        <item name="vtmnBorderNegative">?attr/vtmnBorderColorNegative</item>
+        <item name="vtmnBorderWarning">?attr/vtmnBorderColorWarning</item>
+        <item name="vtmnBorderPositive">?attr/vtmnBorderColorPositive</item>
+        <item name="vtmnBorderInformation">?attr/vtmnBorderColorInformation</item>
+        <item name="vtmnBorderPrimaryReversed">?attr/vtmnBorderColorPrimaryReversed</item>
+
+        <item name="vtmnDecorativeGravel">?attr/vtmnDecorativeColorGravel</item>
+        <item name="vtmnDecorativeGold">?attr/vtmnDecorativeColorGold</item>
+        <item name="vtmnDecorativeCobalt">?attr/vtmnDecorativeColorCobalt</item>
+        <item name="vtmnDecorativeBrick">?attr/vtmnDecorativeColorBrick</item>
+        <item name="vtmnDecorativeJade">?attr/vtmnDecorativeColorJade</item>
+        <item name="vtmnDecorativeAmethyst">?attr/vtmnDecorativeColorAmethyst</item>
+        <item name="vtmnDecorativeSaffron">?attr/vtmnDecorativeColorSaffron</item>
+        <item name="vtmnDecorativeEmerald">?attr/vtmnDecorativeColorEmerald</item>
+
+        <item name="vtmnActivePrimary">?attr/vtmnActiveColorPrimary</item>
+        <item name="vtmnActivePrimaryTransparent">?attr/vtmnActiveColorPrimaryTransparent</item>
+        <item name="vtmnActiveSecondaryTransparent">?attr/vtmnActiveColorSecondaryTransparent</item>
+        <item name="vtmnActiveTertiary">?attr/vtmnActiveColorTertiary</item>
+        <item name="vtmnActiveTertiaryTransparent">?attr/vtmnActiveColorTertiaryTransparent</item>
+        <item name="vtmnActiveBrand">?attr/vtmnActiveColorBrand</item>
+        <item name="vtmnActiveAccent">?attr/vtmnActiveColorAccent</item>
+        <item name="vtmnActivePrimaryReversedTransparent">?attr/vtmnActiveColorPrimaryReversedTransparent</item>
+        <item name="vtmnActiveSecondaryReversedTransparent">?attr/vtmnActiveColorSecondaryReversedTransparent</item>
+        <item name="vtmnActiveTertiaryReversedTransparent">?attr/vtmnActiveColorTertiaryReversedTransparent</item>
+        <item name="vtmnActiveBrandReversedTransparent">?attr/vtmnActiveColorBrandReversedTransparent</item>
+
+        <!-- Material Colors -->
+        <item name="colorPrimary">?attr/vtmnBackgroundColorBrandPrimary</item>
+        <item name="colorPrimaryDark">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="colorOnPrimary">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="colorSecondary">?attr/vtmnBackgroundColorAccent</item>
+        <item name="colorOnSecondary">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="colorSurface">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="colorOnSurface">?attr/vtmnContentColorPrimary</item>
+        <item name="colorError">?attr/vtmnContentColorNegative</item>
+        <item name="colorOnError">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="android:windowBackground">?attr/vtmnBackgroundColorSecondary</item>
+        <item name="colorControlActivated">?attr/vtmnBackgroundColorBrandPrimary</item>
+
+        <!-- Vitamin Typographies -->
+        <item name="vtmnTextAppearanceHeadline1">@style/TextAppearance.Vitamin.Headline1</item>
+        <item name="vtmnTextAppearanceHeadline2">@style/TextAppearance.Vitamin.Headline2</item>
+        <item name="vtmnTextAppearanceHeadline3">@style/TextAppearance.Vitamin.Headline3</item>
+        <item name="vtmnTextAppearanceHeadline4">@style/TextAppearance.Vitamin.Headline4</item>
+        <item name="vtmnTextAppearanceHeadline5">@style/TextAppearance.Vitamin.Headline5</item>
+        <item name="vtmnTextAppearanceHeadline6">@style/TextAppearance.Vitamin.Headline6</item>
+        <item name="vtmnTextAppearanceSubtitle1">@style/TextAppearance.Vitamin.Subtitle1</item>
+        <item name="vtmnTextAppearanceSubtitle2">@style/TextAppearance.Vitamin.Subtitle2</item>
+        <item name="vtmnTextAppearanceBody1">@style/TextAppearance.Vitamin.Body1</item>
+        <item name="vtmnTextAppearanceBody2">@style/TextAppearance.Vitamin.Body2</item>
+        <item name="vtmnTextAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
+        <item name="vtmnTextAppearanceButton">@style/TextAppearance.Vitamin.Button</item>
+        <item name="vtmnTextAppearanceCaption">@style/TextAppearance.Vitamin.Caption</item>
+        <item name="vtmnTextAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
+
+        <!-- Deprecated Vitamin Typographies -->
         <item name="textAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
-        <item name="textAppearanceButton">@style/TextAppearance.Vitamin.Button</item>
-        <item name="textAppearanceCaption">@style/TextAppearance.Vitamin.Caption</item>
-        <item name="textAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
-        <item name="android:textAppearanceMedium">@style/TextAppearance.Vitamin.Body1</item>
-        <item name="android:textAppearanceSmall">@style/TextAppearance.Vitamin.Body1</item>
+
+        <!-- Material Typographies -->
+        <item name="textAppearanceHeadline1">?attr/vtmnTextAppearanceHeadline1</item>
+        <item name="textAppearanceHeadline2">?attr/vtmnTextAppearanceHeadline2</item>
+        <item name="textAppearanceHeadline3">?attr/vtmnTextAppearanceHeadline3</item>
+        <item name="textAppearanceHeadline4">?attr/vtmnTextAppearanceHeadline4</item>
+        <item name="textAppearanceHeadline5">?attr/vtmnTextAppearanceHeadline5</item>
+        <item name="textAppearanceHeadline6">?attr/vtmnTextAppearanceHeadline6</item>
+        <item name="textAppearanceSubtitle1">?attr/vtmnTextAppearanceSubtitle1</item>
+        <item name="textAppearanceSubtitle2">?attr/vtmnTextAppearanceSubtitle2</item>
+        <item name="textAppearanceBody1">?attr/vtmnTextAppearanceBody1</item>
+        <item name="textAppearanceBody2">?attr/vtmnTextAppearanceBody2</item>
+        <item name="textAppearanceButton">?attr/vtmnTextAppearanceButton</item>
+        <item name="textAppearanceCaption">?attr/vtmnTextAppearanceCaption</item>
+        <item name="textAppearanceOverline">?attr/vtmnTextAppearanceOverline</item>
+        <item name="android:textAppearanceMedium">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearanceSmall">?attr/vtmnTextAppearanceBody1</item>
     </style>
 
     <style name="Base.Theme.DayNight.Vitamin" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
-        <!-- Colors -->
-        <item name="vtmnBackgroundPrimary">@color/vtmn_white</item>
-        <item name="vtmnBackgroundSecondary">@color/vtmn_grey50</item>
-        <item name="vtmnBackgroundTertiary">@color/vtmn_grey100</item>
-        <item name="vtmnBackgroundBrandPrimary">@color/vtmn_blue400</item>
-        <item name="vtmnBackgroundBrandSecondary">@color/vtmn_blue50</item>
-        <item name="vtmnBackgroundAccent">@color/vtmn_yellow400</item>
-        <item name="vtmnBackgroundAlert">@color/vtmn_red400</item>
-        <item name="vtmnBackgroundDiscount">?attr/vtmnBackgroundAlert</item>
-        <item name="vtmnBackgroundPrimaryReversed">@color/vtmn_black</item>
-        <item name="vtmnBackgroundBrandPrimaryReversed">@color/vtmn_white</item>
+        <!-- Vitamin Colors -->
+        <item name="vtmnBackgroundColorPrimary">@color/vtmn_white</item>
+        <item name="vtmnBackgroundColorSecondary">@color/vtmn_grey50</item>
+        <item name="vtmnBackgroundColorTertiary">@color/vtmn_grey100</item>
+        <item name="vtmnBackgroundColorBrandPrimary">@color/vtmn_blue400</item>
+        <item name="vtmnBackgroundColorBrandSecondary">@color/vtmn_blue50</item>
+        <item name="vtmnBackgroundColorAccent">@color/vtmn_yellow400</item>
+        <item name="vtmnBackgroundColorAlert">@color/vtmn_red400</item>
+        <item name="vtmnBackgroundColorPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnBackgroundColorBrandPrimaryReversed">@color/vtmn_white</item>
 
-        <item name="vtmnContentPrimary">@color/vtmn_black</item>
-        <item name="vtmnContentSecondary">@color/vtmn_grey600</item>
-        <item name="vtmnContentTertiary">@color/vtmn_grey500</item>
-        <item name="vtmnContentAction">@color/vtmn_blue500</item>
-        <item name="vtmnContentActive">@color/vtmn_blue400</item>
-        <item name="vtmnContentInactive">@color/vtmn_grey400</item>
-        <item name="vtmnContentNegative">@color/vtmn_red400</item>
-        <item name="vtmnContentWarning">@color/vtmn_orange400</item>
-        <item name="vtmnContentPositive">@color/vtmn_green400</item>
-        <item name="vtmnContentInformation">@color/vtmn_blue400</item>
-        <item name="vtmnContentAccent">@color/vtmn_black</item>
-        <item name="vtmnContentPrimaryReversed">@color/vtmn_white</item>
-        <item name="vtmnContentActionReversed">@color/vtmn_white</item>
+        <item name="vtmnContentColorPrimary">@color/vtmn_black</item>
+        <item name="vtmnContentColorSecondary">@color/vtmn_grey600</item>
+        <item name="vtmnContentColorTertiary">@color/vtmn_grey500</item>
+        <item name="vtmnContentColorAction">@color/vtmn_blue500</item>
+        <item name="vtmnContentColorActive">@color/vtmn_blue400</item>
+        <item name="vtmnContentColorInactive">@color/vtmn_grey400</item>
+        <item name="vtmnContentColorNegative">@color/vtmn_red400</item>
+        <item name="vtmnContentColorWarning">@color/vtmn_orange400</item>
+        <item name="vtmnContentColorPositive">@color/vtmn_green400</item>
+        <item name="vtmnContentColorInformation">@color/vtmn_blue400</item>
+        <item name="vtmnContentColorAccent">@color/vtmn_black</item>
+        <item name="vtmnContentColorPrimaryReversed">@color/vtmn_white</item>
+        <item name="vtmnContentColorActionReversed">@color/vtmn_white</item>
 
-        <item name="vtmnBorderPrimary">@color/vtmn_white</item>
-        <item name="vtmnBorderSecondary">@color/vtmn_grey200</item>
-        <item name="vtmnBorderTertiary">@color/vtmn_grey100</item>
-        <item name="vtmnBorderActive">@color/vtmn_blue400</item>
-        <item name="vtmnBorderInactive">@color/vtmn_grey400</item>
-        <item name="vtmnBorderNegative">@color/vtmn_red400</item>
-        <item name="vtmnBorderWarning">@color/vtmn_orange400</item>
-        <item name="vtmnBorderPositive">@color/vtmn_green400</item>
-        <item name="vtmnBorderInformation">@color/vtmn_blue400</item>
-        <item name="vtmnBorderPrimaryReversed">@color/vtmn_black</item>
+        <item name="vtmnBorderColorPrimary">@color/vtmn_white</item>
+        <item name="vtmnBorderColorSecondary">@color/vtmn_grey200</item>
+        <item name="vtmnBorderColorTertiary">@color/vtmn_grey100</item>
+        <item name="vtmnBorderColorActive">@color/vtmn_blue400</item>
+        <item name="vtmnBorderColorInactive">@color/vtmn_grey400</item>
+        <item name="vtmnBorderColorNegative">@color/vtmn_red400</item>
+        <item name="vtmnBorderColorWarning">@color/vtmn_orange400</item>
+        <item name="vtmnBorderColorPositive">@color/vtmn_green400</item>
+        <item name="vtmnBorderColorInformation">@color/vtmn_blue400</item>
+        <item name="vtmnBorderColorPrimaryReversed">@color/vtmn_black</item>
 
-        <item name="vtmnDecorativeGravel">@color/vtmn_grey100</item>
-        <item name="vtmnDecorativeGold">@color/vtmn_yellow100</item>
-        <item name="vtmnDecorativeCobalt">@color/vtmn_blue100</item>
-        <item name="vtmnDecorativeBrick">@color/vtmn_red100</item>
-        <item name="vtmnDecorativeJade">@color/vtmn_conifer100</item>
-        <item name="vtmnDecorativeAmethyst">@color/vtmn_purple100</item>
-        <item name="vtmnDecorativeSaffron">@color/vtmn_orange100</item>
-        <item name="vtmnDecorativeEmerald">@color/vtmn_green100</item>
+        <item name="vtmnDecorativeColorGravel">@color/vtmn_grey100</item>
+        <item name="vtmnDecorativeColorGold">@color/vtmn_yellow100</item>
+        <item name="vtmnDecorativeColorCobalt">@color/vtmn_blue100</item>
+        <item name="vtmnDecorativeColorBrick">@color/vtmn_red100</item>
+        <item name="vtmnDecorativeColorJade">@color/vtmn_conifer100</item>
+        <item name="vtmnDecorativeColorAmethyst">@color/vtmn_purple100</item>
+        <item name="vtmnDecorativeColorSaffron">@color/vtmn_orange100</item>
+        <item name="vtmnDecorativeColorEmerald">@color/vtmn_green100</item>
 
         <!-- Warning: these colors are calculated from other semantic colors
         If parent colors are updated, you need to update these too
         This system should change in the future with an auto-generated color token -->
 
         <!-- parent color: hoverPrimary -->
-        <item name="vtmnActivePrimary">#D9ECF5</item>
+        <item name="vtmnActiveColorPrimary">#D9ECF5</item>
         <!-- parent color: contentActive -->
-        <item name="vtmnActivePrimaryTransparent">#26007DBC</item>
+        <item name="vtmnActiveColorPrimaryTransparent">#26007DBC</item>
         <!-- parent color: contentPrimary -->
-        <item name="vtmnActiveSecondaryTransparent">#26001018</item>
+        <item name="vtmnActiveColorSecondaryTransparent">#26001018</item>
         <!-- parent color: hoverPrimary -->
-        <item name="vtmnActiveTertiary">#CDE6F2</item>
+        <item name="vtmnActiveColorTertiary">#CDE6F2</item>
         <!-- parent color: hoverPrimary -->
-        <item name="vtmnActiveTertiaryTransparent">#CCCEE7F3</item>
+        <item name="vtmnActiveColorTertiaryTransparent">#CCCEE7F3</item>
         <!-- parent color: backgroundBrandPrimary -->
-        <item name="vtmnActiveBrand">#00537D</item>
+        <item name="vtmnActiveColorBrand">#00537D</item>
         <!-- parent color: backgroundAccent -->
-        <item name="vtmnActiveAccent">#FFF9C7</item>
+        <item name="vtmnActiveColorAccent">#FFF9C7</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActivePrimaryReversedTransparent">#40FFFFFF</item>
+        <item name="vtmnActiveColorPrimaryReversedTransparent">#40FFFFFF</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActiveSecondaryReversedTransparent">#40FFFFFF</item>
+        <item name="vtmnActiveColorSecondaryReversedTransparent">#40FFFFFF</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActiveTertiaryReversedTransparent">#CCFFFFFF</item>
+        <item name="vtmnActiveColorTertiaryReversedTransparent">#CCFFFFFF</item>
         <!-- parent color: contentPrimaryReversed -->
-        <item name="vtmnActiveBrandReversedTransparent">#99FFFFFF</item>
+        <item name="vtmnActiveColorBrandReversedTransparent">#99FFFFFF</item>
     </style>
 
     <style name="Widget" />
