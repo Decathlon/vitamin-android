@@ -2,26 +2,26 @@
 <resources>
 
     <style name="Widget.Vitamin.AppBarLayout" parent="@style/Widget.MaterialComponents.AppBarLayout.Primary">
-        <item name="android:background">?attr/vtmnBackgroundPrimary</item>
+        <item name="android:background">?attr/vtmnBackgroundColorPrimary</item>
     </style>
 
     <style name="Widget.Vitamin.TopBar" parent="@style/Widget.MaterialComponents.Toolbar.Primary">
-        <item name="titleTextAppearance">?attr/textAppearanceHeadline6</item>
-        <item name="subtitleTextAppearance">?attr/textAppearanceSubtitle1</item>
-        <item name="android:background">?attr/vtmnBackgroundPrimary</item>
+        <item name="titleTextAppearance">?attr/vtmnTextAppearanceHeadline6</item>
+        <item name="subtitleTextAppearance">?attr/vtmnTextAppearanceSubtitle1</item>
+        <item name="android:background">?attr/vtmnBackgroundColorPrimary</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TopBar</item>
     </style>
 
     <style name="ThemeOverlay.Vitamin.TopBar" parent="">
-        <item name="colorOnPrimary">?attr/vtmnContentPrimary</item>
+        <item name="colorOnPrimary">?attr/vtmnContentColorPrimary</item>
     </style>
 
     <!-- Contextual menu integrated in the Toolbar -->
     <eat-comment />
 
     <style name="Widget.Vitamin.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
-        <item name="background">?attr/vtmnContentActive</item>
-        <item name="backgroundSplit">?attr/vtmnContentActive</item>
+        <item name="background">?attr/vtmnContentColorActive</item>
+        <item name="backgroundSplit">?attr/vtmnContentColorActive</item>
         <item name="titleTextStyle">@style/TextAppearance.Vitamin.ActionMode.TopBar.Title</item>
         <item name="subtitleTextStyle">
             @style/TextAppearance.Vitamin.ActionMode.TopBar.Subtitle
@@ -29,20 +29,20 @@
     </style>
 
     <style name="TextAppearance.Vitamin.ActionMode.TopBar.Title" parent="@style/TextAppearance.Vitamin.Headline6">
-        <item name="android:textColor">?attr/vtmnContentPrimaryReversed</item>
+        <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
     </style>
 
     <style name="TextAppearance.Vitamin.ActionMode.TopBar.Subtitle" parent="@style/TextAppearance.Vitamin.Subtitle1">
-        <item name="android:textColor">?attr/vtmnContentPrimaryReversed</item>
+        <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
     </style>
 
     <!-- Customization applied on an overlay in top of a Toolbar -->
     <eat-comment />
 
     <style name="ThemeOverlay.Vitamin.ActionBar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
-        <item name="actionMenuTextColor">?attr/vtmnContentPrimaryReversed</item>
-        <item name="colorAccent">?attr/vtmnContentAction</item>
-        <item name="colorControlNormal">?attr/vtmnContentPrimaryReversed</item>
+        <item name="actionMenuTextColor">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="colorAccent">?attr/vtmnContentColorAction</item>
+        <item name="colorControlNormal">?attr/vtmnContentColorPrimaryReversed</item>
     </style>
 
     <!-- Customization applied on the icon used when there is an overflow in the Toolbar menu -->
@@ -57,12 +57,12 @@
     <eat-comment />
 
     <style name="Widget.Vitamin.TopBar.Search" parent="@style/Widget.Vitamin.TopBar">
-        <item name="contentInsetStart">@dimen/vtmn_topbar_search_contentinsetstart</item>
+        <item name="contentInsetStart">@dimen/vtmn_appbars_topbar_search_content_inset_start</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TopBar.Search</item>
     </style>
 
     <style name="ThemeOverlay.Vitamin.TopBar.Search" parent="">
-        <item name="colorOnPrimary">?attr/vtmnContentTertiary</item>
+        <item name="colorOnPrimary">?attr/vtmnContentColorTertiary</item>
     </style>
 
     <style name="Widget.Vitamin.SearchView" parent="@style/Widget.AppCompat.SearchView">

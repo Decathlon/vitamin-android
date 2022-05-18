@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="vtmnTopBarStyle" format="reference" />
+    <attr name="vtmnSearchTopBarStyle" format="reference"/>
+    <attr name="vtmnBottomNavigationStyle" format="reference" />
+
+    <!-- @deprecated check vtmnTopBarStyle -->
     <attr name="toolbarSearchStyle" format="reference"/>
 </resources>

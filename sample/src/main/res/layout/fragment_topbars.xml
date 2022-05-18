@@ -32,7 +32,7 @@
 
             <com.decathlon.vitamin.appbars.VitaminTopBar
                 android:id="@+id/topbar1"
-                style="?attr/toolbarStyle"
+                style="?attr/vtmnTopBarStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:menu="@menu/menu_topbar"
@@ -46,7 +46,7 @@
 
         <com.decathlon.vitamin.appbars.VitaminTopBar
             android:id="@+id/topbar2"
-            style="?attr/toolbarStyle"
+            style="?attr/vtmnTopBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title="Standalone Toolbar" />
@@ -57,7 +57,7 @@
 
         <com.decathlon.vitamin.appbars.VitaminSearchTopBar
             android:id="@+id/topbar3"
-            style="?attr/toolbarSearchStyle"
+            style="?attr/vtmnSearchTopBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 

@@ -17,7 +17,7 @@ implementation("com.decathlon.vitamin:appbars:<version>")
 
 ```xml
 <com.decathlon.vitamin.appbars.VitaminTopBar
-    style="?attr/toolbarStyle"
+    style="?attr/vtmnTopBarStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:menu="@menu/menu_topbar"
@@ -28,7 +28,7 @@ or
 
 ```xml
 <com.google.android.material.appbar.MaterialToolbar
-    style="?attr/toolbarStyle"
+    style="?attr/vtmnTopBarStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:menu="@menu/menu_topbar"
@@ -39,7 +39,7 @@ or
 
 ```xml
 <com.decathlon.vitamin.appbars.VitaminSearchTopBar
-    style="?attr/toolbarSearchStyle"
+    style="?attr/vtmnSearchTopBarStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -54,7 +54,7 @@ or
 
 ```xml
 <com.google.android.material.appbar.MaterialToolbar
-    style="?attr/toolbarSearchStyle"
+    style="?attr/vtmnSearchTopBarStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -103,7 +103,11 @@ implementation("com.decathlon.vitamin:appbars:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <!-- AppBars -->
+        <!-- Vitamin AppBars -->
+        <item name="vtmnTopBarStyle">@style/Widget.Vitamin.TopBar</item>
+        <item name="vtmnSearchTopBarStyle">@style/Widget.Vitamin.TopBar.Search</item>
+        <item name="vtmnBottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
+        <!-- Material AppBars -->
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeCloseDrawable">@drawable/ic_vtmn_close_line</item>
         <item name="appBarLayoutStyle">@style/Widget.Vitamin.AppBarLayout</item>
@@ -115,8 +119,6 @@ implementation("com.decathlon.vitamin:appbars:<version>")
         <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
         <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
         <item name="bottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
-        <!-- Custom AppBars -->
-        <item name="toolbarSearchStyle">@style/Widget.Vitamin.TopBar.Search</item>
     </style>
 </resources>
 ```
@@ -163,7 +165,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
          android:theme="@style/Theme.Vitamin">
 
     <com.decathlon.vitamin.appbars.VitaminTopBar
-        style="?attr/toolbarStyle"
+        style="?attr/vtmnTopBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/menu_topbar"
