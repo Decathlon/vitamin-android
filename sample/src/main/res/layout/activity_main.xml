@@ -13,7 +13,7 @@
 
         <com.decathlon.vitamin.appbars.VitaminTopBar
             android:id="@+id/toolbar"
-            style="?attr/toolbarStyle"
+            style="?attr/vtmnTopBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

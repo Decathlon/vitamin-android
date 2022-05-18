@@ -76,20 +76,26 @@
         <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
         <item name="popupMenuStyle">@style/Widget.Vitamin.Menu</item>
         <item name="listPopupWindowStyle">@style/Widget.Vitamin.Menu.List</item>
-        <!-- AppBars -->
+
+        <!-- Vitamin AppBars -->
+        <item name="vtmnTopBarStyle">@style/Widget.Vitamin.TopBar</item>
+        <item name="vtmnSearchTopBarStyle">@style/Widget.Vitamin.TopBar.Search</item>
+        <item name="vtmnBottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
+        <!-- Deprecated Vitamin AppBars -->
+        <item name="toolbarSearchStyle">?attr/vtmnSearchTopBarStyle</item>
+        <!-- Material AppBars -->
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeCloseDrawable">@drawable/ic_vtmn_close_line</item>
         <item name="appBarLayoutStyle">@style/Widget.Vitamin.AppBarLayout</item>
-        <item name="toolbarStyle">@style/Widget.Vitamin.TopBar</item>
-        <item name="actionBarStyle">@style/Widget.Vitamin.TopBar</item>
+        <item name="toolbarStyle">?attr/vtmnTopBarStyle</item>
+        <item name="actionBarStyle">?attr/vtmnTopBarStyle</item>
         <item name="actionModeStyle">@style/Widget.Vitamin.ActionMode</item>
         <item name="actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
         <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
         <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
         <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
-        <item name="bottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
-        <!-- Custom AppBars -->
-        <item name="toolbarSearchStyle">@style/Widget.Vitamin.TopBar.Search</item>
+        <item name="bottomNavigationStyle">?attr/vtmnBottomNavigationStyle</item>
+
         <!-- Snackbar -->
         <item name="snackbarStyle">@style/Widget.Vitamin.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_topbar_search_contentinsetstart">0dp</dimen>
+    <dimen name="vtmn_appbars_topbar_search_content_inset_start">0dp</dimen>
+
+    <!-- @deprecated check vtmn_appbars_topbar_search_content_inset_start -->
+    <dimen name="vtmn_topbar_search_contentinsetstart">@dimen/vtmn_appbars_topbar_search_content_inset_start</dimen>
 </resources>

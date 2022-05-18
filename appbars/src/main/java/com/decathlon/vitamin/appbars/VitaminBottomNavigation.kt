@@ -7,5 +7,5 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 open class VitaminBottomNavigation @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.bottomNavigationStyle
+    defStyleAttr: Int = R.attr.vtmnBottomNavigationStyle
 ) : BottomNavigationView(context, attrs, defStyleAttr)

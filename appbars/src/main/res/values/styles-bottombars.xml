@@ -2,11 +2,11 @@
 <resources>
     <style name="Widget.Vitamin.BottomNavigation" parent="@style/Widget.MaterialComponents.BottomNavigationView.PrimarySurface">
         <item name="enforceMaterialTheme">false</item>
-        <item name="android:background">?attr/vtmnBackgroundPrimary</item>
-        <item name="itemTextAppearanceInactive">?attr/textAppearanceCaption</item>
-        <item name="itemTextAppearanceActive">?attr/textAppearanceCaption</item>
-        <item name="itemTextColor">@color/vtmn_navigationbar_text_color</item>
-        <item name="itemIconTint">@color/vtmn_navigationbar_icon_color</item>
+        <item name="android:background">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="itemTextAppearanceInactive">?attr/vtmnTextAppearanceCaption</item>
+        <item name="itemTextAppearanceActive">?attr/vtmnTextAppearanceCaption</item>
+        <item name="itemTextColor">@color/vtmn_appbars_bottom_navigation_text</item>
+        <item name="itemIconTint">@color/vtmn_appbars_bottom_navigation_icon</item>
         <item name="labelVisibilityMode">labeled</item>
     </style>
 

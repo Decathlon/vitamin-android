@@ -7,7 +7,7 @@ import com.google.android.material.appbar.MaterialToolbar
 open class VitaminTopBar @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.toolbarStyle
+    defStyleAttr: Int = R.attr.vtmnTopBarStyle
 ) : MaterialToolbar(context, attrs, defStyleAttr) {
     fun setNavigationDrawer() {
         setNavigationIcon(R.drawable.ic_vtmn_menu_line)
@@ -21,5 +21,5 @@ open class VitaminTopBar @JvmOverloads constructor(
 open class VitaminSearchTopBar @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.toolbarSearchStyle
+    defStyleAttr: Int = R.attr.vtmnSearchTopBarStyle
 ) : VitaminTopBar(context, attrs, defStyleAttr)
