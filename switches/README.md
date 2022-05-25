@@ -45,7 +45,10 @@ implementation("com.decathlon.vitamin:switches:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <item name="switchStyle">@style/Widget.Vitamin.Switch</item>
+        <!-- Vitamin Switches -->
+        <item name="vtmnSwitchStyle">@style/Widget.Vitamin.Switch</item>
+        <!-- Material Switches -->
+        <item name="switchStyle">?attr/vtmnSwitchStyle</item>
     </style>
 </resources>
 ```
