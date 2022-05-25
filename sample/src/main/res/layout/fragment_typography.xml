@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Headline 1"
-            android:textAppearance="?attr/textAppearanceHeadline1"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline1"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Headline 2"
-            android:textAppearance="?attr/textAppearanceHeadline2"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline2"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Headline 3"
-            android:textAppearance="?attr/textAppearanceHeadline3"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline3"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Headline 4"
-            android:textAppearance="?attr/textAppearanceHeadline4"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline4"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Headline 5"
-            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline5"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Headline 6"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Subtitle 1"
-            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textAppearance="?attr/vtmnTextAppearanceSubtitle1"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Subtitle 2"
-            android:textAppearance="?attr/textAppearanceSubtitle2"
+            android:textAppearance="?attr/vtmnTextAppearanceSubtitle2"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Body 1"
-            android:textAppearance="?attr/textAppearanceBody1"
+            android:textAppearance="?attr/vtmnTextAppearanceBody1"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Body 2"
-            android:textAppearance="?attr/textAppearanceBody2"
+            android:textAppearance="?attr/vtmnTextAppearanceBody2"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -94,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Body 3"
-            android:textAppearance="?attr/textAppearanceBody3"
+            android:textAppearance="?attr/vtmnTextAppearanceBody3"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Caption"
-            android:textAppearance="?attr/textAppearanceCaption"
+            android:textAppearance="?attr/vtmnTextAppearanceCaption"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -110,7 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Overline"
-            android:textAppearance="?attr/textAppearanceOverline"
+            android:textAppearance="?attr/vtmnTextAppearanceOverline"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -118,7 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
             android:text="Button"
-            android:textAppearance="?attr/textAppearanceButton"
+            android:textAppearance="?attr/vtmnTextAppearanceButton"
             tools:ignore="HardcodedText" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>

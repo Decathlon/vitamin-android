@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/padding_screen"
             android:text="Linear Progressbar"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:layout_marginHorizontal="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
             android:text="Indeterminated"
-            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textAppearance="?attr/vtmnTextAppearanceSubtitle1"
             tools:ignore="HardcodedText" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -74,7 +74,7 @@
             android:layout_marginHorizontal="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
             android:text="Determinated"
-            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textAppearance="?attr/vtmnTextAppearanceSubtitle1"
             tools:ignore="HardcodedText" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
@@ -106,7 +106,7 @@
             android:layout_marginHorizontal="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
             android:text="Circular Progressbar"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -115,7 +115,7 @@
             android:layout_marginHorizontal="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
             android:text="Indeterminated"
-            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textAppearance="?attr/vtmnTextAppearanceSubtitle1"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -161,7 +161,7 @@
             android:layout_marginHorizontal="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
             android:text="Determinated"
-            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textAppearance="?attr/vtmnTextAppearanceSubtitle1"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat

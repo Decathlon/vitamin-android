@@ -7,7 +7,7 @@
 
     <TextView
         android:id="@+id/title_default_prices"
-        style="?attr/textAppearanceHeadline6"
+        style="?attr/vtmnTextAppearanceHeadline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Default"
@@ -43,7 +43,7 @@
 
     <TextView
         android:id="@+id/title_accent_prices"
-        style="?attr/textAppearanceHeadline6"
+        style="?attr/vtmnTextAppearanceHeadline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_small"
@@ -80,7 +80,7 @@
 
     <TextView
         android:id="@+id/title_alert_prices"
-        style="?attr/textAppearanceHeadline6"
+        style="?attr/vtmnTextAppearanceHeadline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_small"
@@ -117,7 +117,7 @@
 
     <TextView
         android:id="@+id/title_strikethrough_prices"
-        style="?attr/textAppearanceHeadline6"
+        style="?attr/vtmnTextAppearanceHeadline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/spacing_small"
