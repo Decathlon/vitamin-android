@@ -31,7 +31,7 @@ or
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
-    style="?attr/textInputFilled"
+    style="?attr/vtmnTextInputFilledStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -62,7 +62,7 @@ or
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
-    style="?attr/textInputDropdownFilled"
+    style="?attr/vtmnTextInputDropdownFilledStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -94,7 +94,7 @@ or
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
-    style="?attr/textInputOutlined"
+    style="?attr/vtmnTextInputOutlinedStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -125,7 +125,7 @@ or
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
-    style="?attr/textInputDropdownOutlined"
+    style="?attr/vtmnTextInputDropdownOutlinedStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -155,11 +155,19 @@ implementation("com.decathlon.vitamin:textinputs:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
+        <!-- Vitamin Text Inputs -->
+        <item name="vtmnTextInputFilledStyle">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
+        <item name="vtmnTextInputOutlinedStyle">
+            @style/Widget.Vitamin.TextInputLayout.OutlinedBox
+        </item>
+        <item name="vtmnTextInputDropdownFilledStyle">
+            @style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown
+        </item>
+        <item name="vtmnTextInputDropdownOutlinedStyle">
+            @style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown
+        </item>
+        <!-- Material Text Inputs -->
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
-        <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
-        <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
-        <item name="textInputDropdownFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown</item>
-        <item name="textInputDropdownOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown</item>
     </style>
 </resources>
 ```
@@ -180,7 +188,7 @@ implementation("com.decathlon.vitamin:textinputs:<version>")
 
 ```xml
 <com.google.android.material.textfield.TextInputLayout
-    style="?attr/textInputFilled"
+    style="?attr/vtmnTextInputFilledStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:helperText="Helper text">
@@ -266,7 +274,7 @@ fun setAdapter(items: List<Item>, @LayoutRes layout: Int = R.layout.vtmn_dropdow
 ```
 
 An item contains a text and optionally an icon right and/or left. These drawable should be
-an icon and will be tinted with the `vtmnContentPrimary` Vitamin semantic color.
+an icon and will be tinted with the `vtmnContentColorPrimary` Vitamin semantic color.
 
 If you have a specific case, you can override the layout and specify your own one but you must 
 to specify these ids for the text and two icons: `vtmnDropdownLeftIcon`, `vtmnDropdownRightIcon`

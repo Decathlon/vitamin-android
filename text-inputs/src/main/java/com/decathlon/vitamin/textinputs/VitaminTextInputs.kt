@@ -12,19 +12,19 @@ import com.google.android.material.textfield.TextInputLayout
 open class VitaminTextInputLayoutFilled @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.textInputFilled
+    defStyleAttr: Int = R.attr.vtmnTextInputFilledStyle
 ) : TextInputLayout(context, attrs, defStyleAttr)
 
 open class VitaminTextInputLayoutOutlined @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.textInputOutlined
+    defStyleAttr: Int = R.attr.vtmnTextInputOutlinedStyle
 ) : TextInputLayout(context, attrs, defStyleAttr)
 
 open class VitaminTextInputDropdownFilled @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-) : VitaminTextInputLayoutFilled(context, attrs, R.attr.textInputDropdownFilled) {
+) : VitaminTextInputLayoutFilled(context, attrs, R.attr.vtmnTextInputDropdownFilledStyle) {
     override fun getEditText(): VitaminDropdownEditText {
         val editText = super.getEditText()
             ?: throw IllegalStateException("Add VitaminDropdownEditText as child")
@@ -35,7 +35,7 @@ open class VitaminTextInputDropdownFilled @JvmOverloads constructor(
 open class VitaminTextInputDropdownOutlined @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-) : VitaminTextInputLayoutOutlined(context, attrs, R.attr.textInputDropdownOutlined) {
+) : VitaminTextInputLayoutOutlined(context, attrs, R.attr.vtmnTextInputDropdownOutlinedStyle) {
     override fun getEditText(): VitaminDropdownEditText {
         val editText = super.getEditText()
             ?: throw IllegalStateException("Add VitaminDropdownEditText as child")

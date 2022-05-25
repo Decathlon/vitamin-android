@@ -9,17 +9,17 @@
     </style>
 
     <style name="ThemeOverlay.Vitamin.AutoCompleteTextView.FilledBox" parent="@style/ThemeOverlay.MaterialComponents.AutoCompleteTextView.FilledBox">
-        <item name="colorSurface">?attr/vtmnBackgroundPrimary</item>
+        <item name="colorSurface">?attr/vtmnBackgroundColorPrimary</item>
         <item name="autoCompleteTextViewStyle">
             @style/Widget.Vitamin.AutoCompleteTextView.FilledBox
         </item>
     </style>
 
     <style name="Widget.Vitamin.AutoCompleteTextView.FilledBox" parent="@style/Widget.MaterialComponents.AutoCompleteTextView.FilledBox">
-        <item name="android:paddingStart">@dimen/vtmn_autocompletetextviewfilled_paddinghorizontal</item>
-        <item name="android:paddingEnd">@dimen/vtmn_autocompletetextviewfilled_paddinghorizontal</item>
+        <item name="android:paddingStart">@dimen/vtmn_textinputs_auto_complete_textview_filled_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/vtmn_textinputs_auto_complete_textview_filled_padding_horizontal</item>
         <item name="android:background">@null</item>
-        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
-        <item name="android:textColor">@color/vtmn_filled_text</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textColor">@color/vtmn_textinputs_filled_text</item>
     </style>
 </resources>

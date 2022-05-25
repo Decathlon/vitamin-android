@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="?attr/vtmnBackgroundColorSecondary" android:state_enabled="false"/>
+    <item android:color="?attr/vtmnBackgroundColorSecondary"/>
+</selector>

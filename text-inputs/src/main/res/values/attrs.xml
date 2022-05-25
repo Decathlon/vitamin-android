@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="vtmnTextInputOutlinedStyle" format="reference" />
+    <attr name="vtmnTextInputFilledStyle" format="reference" />
+    <attr name="vtmnTextInputDropdownFilledStyle" format="reference" />
+    <attr name="vtmnTextInputDropdownOutlinedStyle" format="reference" />
+
+    <!-- {@deprecated check vtmnTextInputOutlinedStyle} -->
     <attr name="textInputOutlined" format="reference" />
+    <!-- {@deprecated check vtmnTextInputFilledStyle} -->
     <attr name="textInputFilled" format="reference" />
+    <!-- {@deprecated check vtmnTextInputDropdownFilledStyle} -->
     <attr name="textInputDropdownFilled" format="reference" />
+    <!-- {@deprecated check vtmnTextInputDropdownOutlinedStyle} -->
     <attr name="textInputDropdownOutlined" format="reference" />
 </resources>
