@@ -18,7 +18,7 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/padding_screen"
             android:text="Primary"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -123,7 +123,7 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Secondary"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -228,7 +228,7 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Tertiary"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -333,7 +333,7 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Conversion"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -438,13 +438,13 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Primary Reversed"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/vtmnBackgroundBrandPrimary"
+            android:background="?attr/vtmnBackgroundColorBrandPrimary"
             android:padding="@dimen/padding_screen">
 
             <com.decathlon.vitamin.buttons.VitaminPrimaryReversedMediumButton
@@ -541,7 +541,7 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Ghost"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -643,13 +643,13 @@
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_large"
             android:text="Ghost Reversed"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/vtmnBackgroundBrandPrimary"
+            android:background="?attr/vtmnBackgroundColorBrandPrimary"
             android:padding="@dimen/padding_screen">
 
             <com.decathlon.vitamin.buttons.VitaminGhostReversedMediumButton

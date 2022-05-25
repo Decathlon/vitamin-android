@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/spacing_medium"
             android:text="Background"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundPrimary"
+                android:text="vtmnBackgroundColorPrimary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -38,7 +38,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundPrimary" />
+                    android:background="?attr/vtmnBackgroundColorPrimary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -56,7 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundSecondary"
+                android:text="vtmnBackgroundColorSecondary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -67,7 +67,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundSecondary" />
+                    android:background="?attr/vtmnBackgroundColorSecondary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -85,7 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundTertiary"
+                android:text="vtmnBackgroundColorTertiary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -96,7 +96,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundTertiary" />
+                    android:background="?attr/vtmnBackgroundColorTertiary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundBrandPrimary"
+                android:text="vtmnBackgroundColorBrandPrimary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -125,7 +125,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundBrandPrimary" />
+                    android:background="?attr/vtmnBackgroundColorBrandPrimary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -143,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundBrandSecondary"
+                android:text="vtmnBackgroundColorBrandSecondary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -154,7 +154,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundBrandSecondary" />
+                    android:background="?attr/vtmnBackgroundColorBrandSecondary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -172,7 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundAccent"
+                android:text="vtmnBackgroundColorAccent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -183,7 +183,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundAccent" />
+                    android:background="?attr/vtmnBackgroundColorAccent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -201,7 +201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundAlert"
+                android:text="vtmnBackgroundColorAlert"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -212,7 +212,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundAlert" />
+                    android:background="?attr/vtmnBackgroundColorAlert" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -230,7 +230,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundPrimaryReversed"
+                android:text="vtmnBackgroundColorPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -241,7 +241,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundPrimaryReversed" />
+                    android:background="?attr/vtmnBackgroundColorPrimaryReversed" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -259,7 +259,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBackgroundBrandPrimaryReversed"
+                android:text="vtmnBackgroundColorBrandPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -270,7 +270,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBackgroundBrandPrimaryReversed" />
+                    android:background="?attr/vtmnBackgroundColorBrandPrimaryReversed" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -284,7 +284,7 @@
             android:layout_marginTop="@dimen/spacing_large"
             android:layout_marginBottom="@dimen/spacing_medium"
             android:text="Content"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -296,7 +296,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentPrimary"
+                android:text="vtmnContentColorPrimary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -307,7 +307,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentPrimary" />
+                    android:background="?attr/vtmnContentColorPrimary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -325,7 +325,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentSecondary"
+                android:text="vtmnContentColorSecondary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -336,7 +336,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentSecondary" />
+                    android:background="?attr/vtmnContentColorSecondary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -354,7 +354,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentTertiary"
+                android:text="vtmnContentColorTertiary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -365,7 +365,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentTertiary" />
+                    android:background="?attr/vtmnContentColorTertiary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -383,7 +383,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentAction"
+                android:text="vtmnContentColorAction"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -394,7 +394,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentAction" />
+                    android:background="?attr/vtmnContentColorAction" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -412,7 +412,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentActive"
+                android:text="vtmnContentColorActive"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -423,7 +423,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentActive" />
+                    android:background="?attr/vtmnContentColorActive" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -441,7 +441,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentInactive"
+                android:text="vtmnContentColorInactive"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -452,7 +452,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentInactive" />
+                    android:background="?attr/vtmnContentColorInactive" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -470,7 +470,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentNegative"
+                android:text="vtmnContentColorNegative"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -481,7 +481,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentNegative" />
+                    android:background="?attr/vtmnContentColorNegative" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -499,7 +499,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentWarning"
+                android:text="vtmnContentColorWarning"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -510,7 +510,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentWarning" />
+                    android:background="?attr/vtmnContentColorWarning" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -528,7 +528,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentPositive"
+                android:text="vtmnContentColorPositive"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -539,7 +539,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentPositive" />
+                    android:background="?attr/vtmnContentColorPositive" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -557,7 +557,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentInformation"
+                android:text="vtmnContentColorInformation"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -568,7 +568,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentInformation" />
+                    android:background="?attr/vtmnContentColorInformation" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -586,7 +586,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentAccent"
+                android:text="vtmnContentColorAccent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -597,7 +597,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentAccent" />
+                    android:background="?attr/vtmnContentColorAccent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -615,7 +615,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentPrimaryReversed"
+                android:text="vtmnContentColorPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -626,7 +626,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentPrimaryReversed" />
+                    android:background="?attr/vtmnContentColorPrimaryReversed" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -644,7 +644,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnContentActionReversed"
+                android:text="vtmnContentColorActionReversed"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -655,7 +655,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnContentActionReversed" />
+                    android:background="?attr/vtmnContentColorActionReversed" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -669,7 +669,7 @@
             android:layout_marginTop="@dimen/spacing_large"
             android:layout_marginBottom="@dimen/spacing_medium"
             android:text="Border"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -681,7 +681,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderPrimary"
+                android:text="vtmnBorderColorPrimary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -692,7 +692,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderPrimary" />
+                    android:background="?attr/vtmnBorderColorPrimary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -710,7 +710,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderSecondary"
+                android:text="vtmnBorderColorSecondary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -721,7 +721,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderSecondary" />
+                    android:background="?attr/vtmnBorderColorSecondary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -739,7 +739,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderTertiary"
+                android:text="vtmnBorderColorTertiary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -750,7 +750,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderTertiary" />
+                    android:background="?attr/vtmnBorderColorTertiary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -768,7 +768,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderActive"
+                android:text="vtmnBorderColorActive"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -779,7 +779,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderActive" />
+                    android:background="?attr/vtmnBorderColorActive" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -797,7 +797,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderInactive"
+                android:text="vtmnBorderColorInactive"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -808,7 +808,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderInactive" />
+                    android:background="?attr/vtmnBorderColorInactive" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -826,7 +826,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderNegative"
+                android:text="vtmnBorderColorNegative"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -837,7 +837,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderNegative" />
+                    android:background="?attr/vtmnBorderColorNegative" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -855,7 +855,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderWarning"
+                android:text="vtmnBorderColorWarning"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -866,7 +866,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderWarning" />
+                    android:background="?attr/vtmnBorderColorWarning" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -884,7 +884,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderPositive"
+                android:text="vtmnBorderColorPositive"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -895,7 +895,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderPositive" />
+                    android:background="?attr/vtmnBorderColorPositive" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -913,7 +913,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderInformation"
+                android:text="vtmnBorderColorInformation"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -924,7 +924,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderInformation" />
+                    android:background="?attr/vtmnBorderColorInformation" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -942,7 +942,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnBorderPrimaryReversed"
+                android:text="vtmnBorderColorPrimaryReversed"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -953,7 +953,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnBorderPrimaryReversed" />
+                    android:background="?attr/vtmnBorderColorPrimaryReversed" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -967,7 +967,7 @@
             android:layout_marginTop="@dimen/spacing_large"
             android:layout_marginBottom="@dimen/spacing_medium"
             android:text="Active"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -979,7 +979,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActivePrimary"
+                android:text="vtmnActiveColorPrimary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -990,7 +990,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActivePrimary" />
+                    android:background="?attr/vtmnActiveColorPrimary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1008,7 +1008,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActivePrimaryTransparent"
+                android:text="vtmnActiveColorPrimaryTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1019,7 +1019,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActivePrimaryTransparent" />
+                    android:background="?attr/vtmnActiveColorPrimaryTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1037,7 +1037,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveSecondaryTransparent"
+                android:text="vtmnActiveColorSecondaryTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1048,7 +1048,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveSecondaryTransparent" />
+                    android:background="?attr/vtmnActiveColorSecondaryTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1066,7 +1066,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveTertiary"
+                android:text="vtmnActiveColorTertiary"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1077,7 +1077,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveTertiary" />
+                    android:background="?attr/vtmnActiveColorTertiary" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1095,7 +1095,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveTertiaryTransparent"
+                android:text="vtmnActiveColorTertiaryTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1106,7 +1106,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveTertiaryTransparent" />
+                    android:background="?attr/vtmnActiveColorTertiaryTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1124,7 +1124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveBrand"
+                android:text="vtmnActiveColorBrand"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1135,7 +1135,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveBrand" />
+                    android:background="?attr/vtmnActiveColorBrand" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1153,7 +1153,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveAccent"
+                android:text="vtmnActiveColorAccent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1164,7 +1164,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveAccent" />
+                    android:background="?attr/vtmnActiveColorAccent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1182,7 +1182,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActivePrimaryTransparent"
+                android:text="vtmnActiveColorPrimaryTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1193,7 +1193,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActivePrimaryTransparent" />
+                    android:background="?attr/vtmnActiveColorPrimaryTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1211,7 +1211,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveSecondaryReversedTransparent"
+                android:text="vtmnActiveColorSecondaryReversedTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1222,7 +1222,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveSecondaryReversedTransparent" />
+                    android:background="?attr/vtmnActiveColorSecondaryReversedTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1240,7 +1240,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveTertiaryReversedTransparent"
+                android:text="vtmnActiveColorTertiaryReversedTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1251,7 +1251,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveTertiaryReversedTransparent" />
+                    android:background="?attr/vtmnActiveColorTertiaryReversedTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1269,7 +1269,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnActiveBrandReversedTransparent"
+                android:text="vtmnActiveColorBrandReversedTransparent"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1280,7 +1280,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnActiveBrandReversedTransparent" />
+                    android:background="?attr/vtmnActiveColorBrandReversedTransparent" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1294,7 +1294,7 @@
             android:layout_marginTop="@dimen/spacing_large"
             android:layout_marginBottom="@dimen/spacing_medium"
             android:text="Decorative"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
             tools:ignore="HardcodedText" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -1306,7 +1306,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeGravel"
+                android:text="vtmnDecorativeColorGravel"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1317,7 +1317,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeGravel" />
+                    android:background="?attr/vtmnDecorativeColorGravel" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1335,7 +1335,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeGold"
+                android:text="vtmnDecorativeColorGold"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1346,7 +1346,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeGold" />
+                    android:background="?attr/vtmnDecorativeColorGold" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1364,7 +1364,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeCobalt"
+                android:text="vtmnDecorativeColorCobalt"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1375,7 +1375,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeCobalt" />
+                    android:background="?attr/vtmnDecorativeColorCobalt" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1393,7 +1393,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeBrick"
+                android:text="vtmnDecorativeColorBrick"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1404,7 +1404,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeBrick" />
+                    android:background="?attr/vtmnDecorativeColorBrick" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1422,7 +1422,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeJade"
+                android:text="vtmnDecorativeColorJade"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1433,7 +1433,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeJade" />
+                    android:background="?attr/vtmnDecorativeColorJade" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1451,7 +1451,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeAmethyst"
+                android:text="vtmnDecorativeColorAmethyst"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1462,7 +1462,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeAmethyst" />
+                    android:background="?attr/vtmnDecorativeColorAmethyst" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1480,7 +1480,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeSaffron"
+                android:text="vtmnDecorativeColorSaffron"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1491,7 +1491,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeSaffron" />
+                    android:background="?attr/vtmnDecorativeColorSaffron" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 
@@ -1509,7 +1509,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="vtmnDecorativeEmerald"
+                android:text="vtmnDecorativeColorEmerald"
                 tools:ignore="HardcodedText" />
 
             <FrameLayout
@@ -1520,7 +1520,7 @@
 
                 <View
                     style="@style/Widget.Sample.ColorView"
-                    android:background="?attr/vtmnDecorativeEmerald" />
+                    android:background="?attr/vtmnDecorativeColorEmerald" />
 
                 <View style="@style/Widget.Sample.ColorViewContainer" />
 

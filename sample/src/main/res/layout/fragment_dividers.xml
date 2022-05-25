@@ -25,14 +25,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <com.decathlon.vitamin.dividers.VitaminFullBleedDivider
             android:layout_width="match_parent"
@@ -44,14 +44,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <com.decathlon.vitamin.dividers.VitaminFullBleedDivider
             android:layout_width="match_parent"
@@ -63,14 +63,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -86,14 +86,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <com.decathlon.vitamin.dividers.VitaminInsetDivider
             android:layout_width="match_parent"
@@ -105,14 +105,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <com.decathlon.vitamin.dividers.VitaminInsetDivider
             android:layout_width="match_parent"
@@ -124,14 +124,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -147,14 +147,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <com.decathlon.vitamin.dividers.VitaminMiddleDivider
             android:layout_width="match_parent"
@@ -166,14 +166,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <com.decathlon.vitamin.dividers.VitaminMiddleDivider
             android:layout_width="match_parent"
@@ -185,14 +185,14 @@
             android:layout_height="18dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_medium"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
         <View
             android:layout_width="192dp"
             android:layout_height="12dp"
             android:layout_marginStart="@dimen/padding_screen"
             android:layout_marginTop="@dimen/spacing_small"
-            android:background="?attr/vtmnContentSecondary" />
+            android:background="?attr/vtmnContentColorSecondary" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
