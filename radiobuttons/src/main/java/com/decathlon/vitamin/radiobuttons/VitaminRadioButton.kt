@@ -7,5 +7,5 @@ import com.google.android.material.radiobutton.MaterialRadioButton
 open class VitaminRadioButton @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.radioButtonStyle
+    defStyleAttr: Int = R.attr.vtmnRadioButtonStyle
 ) : MaterialRadioButton(context, attrs, defStyleAttr)

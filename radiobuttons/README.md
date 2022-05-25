@@ -45,8 +45,11 @@ implementation("com.decathlon.vitamin:radiobuttons:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <item name="radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
-        <item name="android:radioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
+        <!-- Vitamin RadioButtons -->
+        <item name="vtmnRadioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
+        <!--  Material RadioButtons -->
+        <item name="radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
+        <item name="android:radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
     </style>
 </resources>
 ```
