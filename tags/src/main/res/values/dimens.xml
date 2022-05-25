@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_tag_paddingvertical">2dp</dimen>
-    <dimen name="vtmn_tag_iconsize">16dp</dimen>
-    <dimen name="vtmn_tag_height">24dp</dimen>
-    <dimen name="vtmn_tag_mintouchsize_interactive">40dp</dimen>
-    <dimen name="vtmn_tag_paddinghorizontalstart">4dp</dimen>
-    <dimen name="vtmn_tag_paddinghorizontalend">8dp</dimen>
+    <dimen name="vtmn_tags_padding_vertical">2dp</dimen>
+    <dimen name="vtmn_tags_icon_size">16dp</dimen>
+    <dimen name="vtmn_tags_height">24dp</dimen>
+    <dimen name="vtmn_tags_interactive_min_touch_size">40dp</dimen>
+    <dimen name="vtmn_tags_padding_horizontal_start">4dp</dimen>
+    <dimen name="vtmn_tags_padding_horizontal_end">8dp</dimen>
 
-    <dimen name="vtmn_tag_iconstartpadding">0dp</dimen>
-    <dimen name="vtmn_tag_iconendpadding">0dp</dimen>
-    <dimen name="vtmn_tag_chipendpadding">0dp</dimen>
+    <dimen name="vtmn_tags_icon_start_padding">0dp</dimen>
+    <dimen name="vtmn_tags_icon_end_padding">0dp</dimen>
+    <dimen name="vtmn_tags_chip_end_padding">0dp</dimen>
 </resources>

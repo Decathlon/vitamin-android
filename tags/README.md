@@ -53,30 +53,30 @@ or :
 
 With the same usage as above, you have multiple tag types available: 
 
-| Tag type                       | Kotlin Class                              | Attribute style                          |
-| ------------------------------ | ----------------------------------------- | ---------------------------------------- |
-| Accent                         | `VitaminTagAccent`                        | `?attr/tagAccent`                        |
-| Alert                          | `VitaminTagAlert`                         | `?attr/tagAlert`                         |
-| Brand                          | `VitaminTagBrand`                         | `?attr/tagBrand`                         |
-| Decorative Gravel              | `VitaminTagDecorativeGravel`              | `?attr/tagDecorativeGravel`              |
-| Decorative Brick               | `VitaminTagDecorativeBrick`               | `?attr/tagDecorativeBrick`               |
-| Decorative Saffron             | `VitaminTagDecorativeSaffron`             | `?attr/tagDecorativeSaffron`             |
-| Decorative Gold                | `VitaminTagDecorativeGold`                | `?attr/tagDecorativeGold`                |
-| Decorative Jade                | `VitaminTagDecorativeJade`                | `?attr/tagDecorativeJade`                |
-| Decorative Emerald             | `VitaminTagDecorativeEmerald`             | `?attr/tagDecorativeEmerald`             |
-| Decorative Cobalt              | `VitaminTagDecorativeCobalt`              | `?attr/tagDecorativeCobalt`              |
-| Decorative Amethyst            | `VitaminTagDecorativeAmethyst`            | `?attr/tagDecorativeAmethyst`            |
-| Accent Interactive             | `VitaminTagAccentInteractive`             | `?attr/tagAccentInteractive`             |
-| Alert Interactive              | `VitaminTagAlertInteractive`              | `?attr/tagAlertInteractive`              |
-| Brand Interactive              | `VitaminTagBrandInteractive`              | `?attr/tagBrandInteractive`              |
-| Decorative Gravel Interactive  | `VitaminTagDecorativeGravelInteractive`   | `?attr/tagDecorativeGravelInteractive`   |
-| Decorative Brick Interactive   | `VitaminTagDecorativeBrickInteractive`    | `?attr/tagDecorativeBrickInteractive`    |
-| Decorative Saffron Interactive | `VitaminTagDecorativeSaffronInteractive`  | `?attr/tagDecorativeSaffronInteractive`  |
-| Decorative Gold Interactive    | `VitaminTagDecorativeGoldInteractive`     | `?attr/tagDecorativeGoldInteractive`     |
-| Decorative Jade Interactive    | `VitaminTagDecorativeJadeInteractive`     | `?attr/tagDecorativeJadeInteractive`     |
-| Decorative Emerald Interactive | `VitaminTagDecorativeEmeraldInteractive`  | `?attr/tagDecorativeEmeraldInteractive`  |
-| Decorative Cobalt Interactive  | `VitaminTagDecorativeCobaltInteractive`   | `?attr/tagDecorativeCobaltInteractive`   |
-| Decorative Amethyst Interactive| `VitaminTagDecorativeAmethystInteractive` | `?attr/tagDecorativeAmethystInteractive` |
+| Tag type                       | Kotlin Class                              | Attribute style                                   |
+| ------------------------------ | ----------------------------------------- | ------------------------------------------------- |
+| Accent                         | `VitaminTagAccent`                        | `?attr/vtmnTagAccentStyle`                        |
+| Alert                          | `VitaminTagAlert`                         | `?attr/vtmnTagAlertStyle`                         |
+| Brand                          | `VitaminTagBrand`                         | `?attr/vtmnTagBrandStyle`                         |
+| Decorative Gravel              | `VitaminTagDecorativeGravel`              | `?attr/vtmnTagDecorativeGravelStyle`              |
+| Decorative Brick               | `VitaminTagDecorativeBrick`               | `?attr/vtmnTagDecorativeBrickStyle`               |
+| Decorative Saffron             | `VitaminTagDecorativeSaffron`             | `?attr/vtmnTagDecorativeSaffronStyle`             |
+| Decorative Gold                | `VitaminTagDecorativeGold`                | `?attr/vtmnTagDecorativeGoldStyle`                |
+| Decorative Jade                | `VitaminTagDecorativeJade`                | `?attr/vtmnTagDecorativeJadeStyle`                |
+| Decorative Emerald             | `VitaminTagDecorativeEmerald`             | `?attr/vtmnTagDecorativeEmeraldStyle`             |
+| Decorative Cobalt              | `VitaminTagDecorativeCobalt`              | `?attr/vtmnTagDecorativeCobaltStyle`              |
+| Decorative Amethyst            | `VitaminTagDecorativeAmethyst`            | `?attr/vtmnTagDecorativeAmethystStyle`            |
+| Accent Interactive             | `VitaminTagAccentInteractive`             | `?attr/vtmnTagAccentInteractiveStyle`             |
+| Alert Interactive              | `VitaminTagAlertInteractive`              | `?attr/vtmnTagAlertInteractiveStyle`              |
+| Brand Interactive              | `VitaminTagBrandInteractive`              | `?attr/vtmnTagBrandInteractiveStyle`              |
+| Decorative Gravel Interactive  | `VitaminTagDecorativeGravelInteractive`   | `?attr/vtmnTagDecorativeGravelInteractiveStyle`   |
+| Decorative Brick Interactive   | `VitaminTagDecorativeBrickInteractive`    | `?attr/vtmnTagDecorativeBrickInteractiveStyle`    |
+| Decorative Saffron Interactive | `VitaminTagDecorativeSaffronInteractive`  | `?attr/vtmnTagDecorativeSaffronInteractiveStyle`  |
+| Decorative Gold Interactive    | `VitaminTagDecorativeGoldInteractive`     | `?attr/vtmnTagDecorativeGoldInteractiveStyle`     |
+| Decorative Jade Interactive    | `VitaminTagDecorativeJadeInteractive`     | `?attr/vtmnTagDecorativeJadeInteractiveStyle`     |
+| Decorative Emerald Interactive | `VitaminTagDecorativeEmeraldInteractive`  | `?attr/vtmnTagDecorativeEmeraldInteractiveStyle`  |
+| Decorative Cobalt Interactive  | `VitaminTagDecorativeCobaltInteractive`   | `?attr/vtmnTagDecorativeCobaltInteractiveStyle`   |
+| Decorative Amethyst Interactive| `VitaminTagDecorativeAmethystInteractive` | `?attr/vtmnTagDecorativeAmethystInteractiveStyle` |
 
 ## Usage in standalone
 
@@ -95,41 +95,41 @@ implementation("com.decathlon.vitamin:tags:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <!-- Tags -->
-        <item name="tagAccent">@style/Widget.Vitamin.Tag.Accent</item>
-        <item name="tagAccentInteractive">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
-        <item name="tagAlert">@style/Widget.Vitamin.Tag.Alert</item>
-        <item name="tagAlertInteractive">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
-        <item name="tagBrand">@style/Widget.Vitamin.Tag.Brand</item>
-        <item name="tagBrandInteractive">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
-        <item name="tagDecorativeGravel">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
-        <item name="tagDecorativeGravelInteractive">
+        <!-- Vitamin Tags -->
+        <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
+        <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
+        <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
+        <item name="vtmnTagAlertInteractiveStyle">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
+        <item name="vtmnTagBrandStyle">@style/Widget.Vitamin.Tag.Brand</item>
+        <item name="vtmnTagBrandInteractiveStyle">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
+        <item name="vtmnTagDecorativeGravelStyle">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
+        <item name="vtmnTagDecorativeGravelInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeGravel.Interactive
         </item>
-        <item name="tagDecorativeBrick">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
-        <item name="tagDecorativeBrickInteractive">
+        <item name="vtmnTagDecorativeBrickStyle">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
+        <item name="vtmnTagDecorativeBrickInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeBrick.Interactive
         </item>
-        <item name="tagDecorativeSaffron">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
-        <item name="tagDecorativeSaffronInteractive">
+        <item name="vtmnTagDecorativeSaffronStyle">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
+        <item name="vtmnTagDecorativeSaffronInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeSaffron.Interactive
         </item>
-        <item name="tagDecorativeGold">@style/Widget.Vitamin.Tag.DecorativeGold</item>
-        <item name="tagDecorativeGoldInteractive">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
+        <item name="vtmnTagDecorativeGoldStyle">@style/Widget.Vitamin.Tag.DecorativeGold</item>
+        <item name="vtmnTagDecorativeGoldInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
         </item>
-        <item name="tagDecorativeJade">@style/Widget.Vitamin.Tag.DecorativeJade</item>
-        <item name="tagDecorativeJadeInteractive">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
+        <item name="vtmnTagDecorativeJadeStyle">@style/Widget.Vitamin.Tag.DecorativeJade</item>
+        <item name="vtmnTagDecorativeJadeInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
         </item>
-        <item name="tagDecorativeEmerald">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
-        <item name="tagDecorativeEmeraldInteractive">
+        <item name="vtmnTagDecorativeEmeraldStyle">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
+        <item name="vtmnTagDecorativeEmeraldInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeEmerald.Interactive
         </item>
-        <item name="tagDecorativeCobalt">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
-        <item name="tagDecorativeCobaltInteractive">
+        <item name="vtmnTagDecorativeCobaltStyle">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
+        <item name="vtmnTagDecorativeCobaltInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeCobalt.Interactive
         </item>
-        <item name="tagDecorativeAmethyst">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
-        <item name="tagDecorativeAmethystInteractive">
+        <item name="vtmnTagDecorativeAmethystStyle">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
+        <item name="vtmnTagDecorativeAmethystInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
         </item>
     </style>
