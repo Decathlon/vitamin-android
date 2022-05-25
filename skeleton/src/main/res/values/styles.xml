@@ -15,11 +15,11 @@
     </style>
 
     <style name="Widget.Vitamin.SkeletonRoundedView">
-        <item name="vtmnSkeletonRoundedView_color">?attr/vtmnBackgroundTertiary</item>
+        <item name="vtmnSkeletonRoundedView_color">?attr/vtmnBackgroundColorTertiary</item>
     </style>
 
     <style name="Widget.Vitamin.SkeletonRectangularView">
-        <item name="vtmnSkeletonRectangularView_color">?attr/vtmnBackgroundTertiary</item>
+        <item name="vtmnSkeletonRectangularView_color">?attr/vtmnBackgroundColorTertiary</item>
         <item name="vtmnSkeletonRectangularView_cornerRadius">0dp</item>
     </style>
 
