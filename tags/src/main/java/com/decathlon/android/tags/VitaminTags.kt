@@ -8,7 +8,7 @@ import com.google.android.material.chip.Chip
 open class VitaminTag @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagAccent
+    defStyleAttr: Int = R.attr.vtmnTagAccentStyle
 ) : Chip(context, attrs, defStyleAttr) {
     @DrawableRes
     var tagIcon: Int = -1
@@ -42,131 +42,131 @@ open class VitaminTag @JvmOverloads constructor(
 open class VitaminTagAccent @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagAccent
+    defStyleAttr: Int = R.attr.vtmnTagAccentStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagAccentInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagAccentInteractive
+    defStyleAttr: Int = R.attr.vtmnTagAccentInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagAlert @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagAlert
+    defStyleAttr: Int = R.attr.vtmnTagAlertStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagAlertInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagAlertInteractive
+    defStyleAttr: Int = R.attr.vtmnTagAlertInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagBrand @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagBrand
+    defStyleAttr: Int = R.attr.vtmnTagBrandStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagBrandInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagBrandInteractive
+    defStyleAttr: Int = R.attr.vtmnTagBrandInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeGravel @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeGravel
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeGravelStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeGravelInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeGravelInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeGravelInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeBrick @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeBrick
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeBrickStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeBrickInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeBrickInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeBrickInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeSaffron @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeSaffron
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeSaffronStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeSaffronInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeSaffronInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeSaffronInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeGold @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeGold
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeGoldStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeGoldInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeGoldInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeGoldInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeJade @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeJade
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeJadeStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeJadeInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeJadeInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeJadeInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeEmerald @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeEmerald
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeEmeraldStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeEmeraldInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeEmeraldInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeEmeraldInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeCobalt @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeCobalt
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeCobaltStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeCobaltInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeCobaltInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeCobaltInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeAmethyst @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeAmethyst
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeAmethystStyle
 ) : VitaminTag(context, attrs, defStyleAttr)
 
 open class VitaminTagDecorativeAmethystInteractive @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.tagDecorativeAmethystInteractive
+    defStyleAttr: Int = R.attr.vtmnTagDecorativeAmethystInteractiveStyle
 ) : VitaminTag(context, attrs, defStyleAttr)

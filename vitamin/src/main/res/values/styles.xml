@@ -205,41 +205,41 @@
         <item name="materialDividerStyle">?attr/vtmnDividerFullBleedStyle</item>
         <item name="android:listDivider">?attr/vtmnBorderColorSecondary</item>
 
-        <!-- Tags -->
-        <item name="tagAccent">@style/Widget.Vitamin.Tag.Accent</item>
-        <item name="tagAccentInteractive">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
-        <item name="tagAlert">@style/Widget.Vitamin.Tag.Alert</item>
-        <item name="tagAlertInteractive">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
-        <item name="tagBrand">@style/Widget.Vitamin.Tag.Brand</item>
-        <item name="tagBrandInteractive">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
-        <item name="tagDecorativeGravel">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
-        <item name="tagDecorativeGravelInteractive">
+        <!-- Vitamin Tags -->
+        <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
+        <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
+        <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
+        <item name="vtmnTagAlertInteractiveStyle">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
+        <item name="vtmnTagBrandStyle">@style/Widget.Vitamin.Tag.Brand</item>
+        <item name="vtmnTagBrandInteractiveStyle">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
+        <item name="vtmnTagDecorativeGravelStyle">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
+        <item name="vtmnTagDecorativeGravelInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeGravel.Interactive
         </item>
-        <item name="tagDecorativeBrick">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
-        <item name="tagDecorativeBrickInteractive">
+        <item name="vtmnTagDecorativeBrickStyle">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
+        <item name="vtmnTagDecorativeBrickInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeBrick.Interactive
         </item>
-        <item name="tagDecorativeSaffron">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
-        <item name="tagDecorativeSaffronInteractive">
+        <item name="vtmnTagDecorativeSaffronStyle">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
+        <item name="vtmnTagDecorativeSaffronInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeSaffron.Interactive
         </item>
-        <item name="tagDecorativeGold">@style/Widget.Vitamin.Tag.DecorativeGold</item>
-        <item name="tagDecorativeGoldInteractive">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
+        <item name="vtmnTagDecorativeGoldStyle">@style/Widget.Vitamin.Tag.DecorativeGold</item>
+        <item name="vtmnTagDecorativeGoldInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
         </item>
-        <item name="tagDecorativeJade">@style/Widget.Vitamin.Tag.DecorativeJade</item>
-        <item name="tagDecorativeJadeInteractive">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
+        <item name="vtmnTagDecorativeJadeStyle">@style/Widget.Vitamin.Tag.DecorativeJade</item>
+        <item name="vtmnTagDecorativeJadeInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
         </item>
-        <item name="tagDecorativeEmerald">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
-        <item name="tagDecorativeEmeraldInteractive">
+        <item name="vtmnTagDecorativeEmeraldStyle">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
+        <item name="vtmnTagDecorativeEmeraldInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeEmerald.Interactive
         </item>
-        <item name="tagDecorativeCobalt">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
-        <item name="tagDecorativeCobaltInteractive">
+        <item name="vtmnTagDecorativeCobaltStyle">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
+        <item name="vtmnTagDecorativeCobaltInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeCobalt.Interactive
         </item>
-        <item name="tagDecorativeAmethyst">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
-        <item name="tagDecorativeAmethystInteractive">
+        <item name="vtmnTagDecorativeAmethystStyle">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
+        <item name="vtmnTagDecorativeAmethystInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
         </item>
     </style>
