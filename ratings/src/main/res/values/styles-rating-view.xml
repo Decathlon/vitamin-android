@@ -4,13 +4,13 @@
     <style name="Widget.Vitamin.RatingView">
         <item name="vtmnRatingView_noteTextAppearance">@style/TextAppearance.Vitamin.Ratings.Note</item>
         <item name="vtmnRatingView_commentsCountTextAppearance">@style/TextAppearance.Vitamin.Ratings.Comments</item>
-        <item name="vtmnRatingView_defaultIconsColor">?attr/vtmnContentPrimary</item>
-        <item name="vtmnRatingView_emphasisIconsColor">?attr/vtmnContentActive</item>
+        <item name="vtmnRatingView_defaultIconsColor">?attr/vtmnContentColorPrimary</item>
+        <item name="vtmnRatingView_emphasisIconsColor">?attr/vtmnContentColorActive</item>
         <item name="vtmnRatingView_compactIcon">@drawable/ic_vtmn_star_fill</item>
     </style>
 
     <style name="Widget.Vitamin.RatingView.Bar" parent="Widget.AppCompat.RatingBar.Small">
-        <item name="android:progressDrawable">@drawable/vtmn_rating_star</item>
+        <item name="android:progressDrawable">@drawable/vtmn_ratings_star</item>
         <item name="android:numStars">5</item>
         <item name="android:stepSize">0.5</item>
         <item name="android:isIndicator">true</item>
@@ -22,7 +22,7 @@
     </style>
 
     <style name="TextAppearance.Vitamin.Ratings.Comments" parent="TextAppearance.Vitamin.Body3">
-        <item name="android:textColor">?attr/vtmnContentSecondary</item>
+        <item name="android:textColor">?attr/vtmnContentColorSecondary</item>
     </style>
 
 </resources>

@@ -11,7 +11,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StyleRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.widget.TextViewCompat
-import com.decathlon.vitamin.ratings.databinding.ViewRatingBinding
+import com.decathlon.vitamin.ratings.databinding.VtmnRatingsViewBinding
 
 
 open class VitaminRatingView @JvmOverloads constructor(
@@ -77,8 +77,8 @@ open class VitaminRatingView @JvmOverloads constructor(
             updateCompactIcon()
         }
 
-    private val binding: ViewRatingBinding =
-        ViewRatingBinding.inflate(LayoutInflater.from(context), this)
+    private val binding: VtmnRatingsViewBinding =
+        VtmnRatingsViewBinding.inflate(LayoutInflater.from(context), this)
 
     init {
         retrieveAttributes(attrs, defStyleAttr)

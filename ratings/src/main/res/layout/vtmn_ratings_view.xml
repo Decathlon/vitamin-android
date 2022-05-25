@@ -15,8 +15,8 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/compactIcon"
-        android:layout_width="@dimen/vtmn_rating_compacticonsize"
-        android:layout_height="@dimen/vtmn_rating_compacticonsize"
+        android:layout_width="@dimen/vtmn_ratings_compact_icon_size"
+        android:layout_height="@dimen/vtmn_ratings_compact_icon_size"
         android:layout_gravity="center_vertical" />
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/vtmn_rating_notemarginstart"
+        android:layout_marginStart="@dimen/vtmn_ratings_note_margin_start"
         tools:text="3.41/5" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/vtmn_rating_commentscountmarginstart"
+        android:layout_marginStart="@dimen/vtmn_ratings_comments_count_margin_start"
         android:visibility="gone"
         tools:text="(115)" />
 

@@ -96,8 +96,8 @@ To be defined inside the style used for `vtmnRatingViewStyle` (the default value
 | Element                              | Attribute                                        | Related class field           | Default value                                    |
 |--------------------------------------|--------------------------------------------------|-------------------------------|--------------------------------------------------|
 | Compact icon                         | `app:vtmnRatingView_compactIcon`                 | `compactIcon`                 | `@drawable/ic_vtmn_star_fill`                    |
-| Default icons color, compact or not  | `app:vtmnRatingView_defaultIconsColor`           | `defaultIconsColor`           | `?attr/vtmnContentPrimary`                       |
-| Emphasis icons color, compact or not | `app:vtmnRatingView_emphasisIconsColor`          | `emphasisIconsColor`          | `?attr/vtmnContentActive`                        |
+| Default icons color, compact or not  | `app:vtmnRatingView_defaultIconsColor`           | `defaultIconsColor`           | `?attr/vtmnContentColorPrimary`                       |
+| Emphasis icons color, compact or not | `app:vtmnRatingView_emphasisIconsColor`          | `emphasisIconsColor`          | `?attr/vtmnContentColorActive`                        |
 | Note text appearance                 | `app:vtmnRatingView_noteTextAppearance`          | `noteTextAppearance`          | `@style/TextAppearance.Vitamin.Ratings.Note`     |
 | Comments count text appearance       | `app:vtmnRatingView_commentsCountTextAppearance` | `commentsCountTextAppearance` | `@style/TextAppearance.Vitamin.Ratings.Comments` |
 
@@ -189,5 +189,5 @@ To be defined inside the style used for `vtmnRatingViewStyle` (the default value
 
 | Element              | Attribute                                        | Related class field           | Default value                                    |
 |----------------------|--------------------------------------------------|-------------------------------|--------------------------------------------------|
-| Default icons color  | `app:vtmnInteractiveRatingView_defaultColor`     | `defaultColor`                | `?attr/vtmnContentPrimary`                       |
-| Emphasis icons color | `app:vtmnInteractiveRatingView_emphasisColor`    | `emphasisColor`               | `?attr/vtmnContentActive`                        |
+| Default icons color  | `app:vtmnInteractiveRatingView_defaultColor`     | `defaultColor`                | `?attr/vtmnContentColorPrimary`                       |
+| Emphasis icons color | `app:vtmnInteractiveRatingView_emphasisColor`    | `emphasisColor`               | `?attr/vtmnContentColorActive`                        |
