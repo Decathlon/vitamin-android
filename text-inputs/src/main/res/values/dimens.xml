@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_autocompletetextviewfilled_paddinghorizontal">0dp</dimen>
-    <dimen name="vtmn_textinputedittextfilled_paddinghorizontal">0dp</dimen>
-    <dimen name="vtmn_textinputlayout_strokewidth">1dp</dimen>
-    <dimen name="vtmn_textinputlayout_strokewidthfocused">2dp</dimen>
+    <dimen name="vtmn_textinputs_auto_complete_textview_filled_padding_horizontal">0dp</dimen>
+    <dimen name="vtmn_textinputs_filled_padding_horizontal">0dp</dimen>
+    <dimen name="vtmn_textinputs_layout_stroke_width">1dp</dimen>
+    <dimen name="vtmn_textinputs_layout_stroke_width_focused">2dp</dimen>
 </resources>

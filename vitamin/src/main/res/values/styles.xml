@@ -67,16 +67,24 @@
         <!-- Material Switches -->
         <item name="switchStyle">?attr/vtmnSwitchStyle</item>
 
-        <!-- Text Inputs -->
-        <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
-        <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
-        <item name="textInputOutlined">@style/Widget.Vitamin.TextInputLayout.OutlinedBox</item>
-        <item name="textInputDropdownFilled">
+        <!-- Vitamin Text Inputs -->
+        <item name="vtmnTextInputFilledStyle">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
+        <item name="vtmnTextInputOutlinedStyle">
+            @style/Widget.Vitamin.TextInputLayout.OutlinedBox
+        </item>
+        <item name="vtmnTextInputDropdownFilledStyle">
             @style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown
         </item>
-        <item name="textInputDropdownOutlined">
+        <item name="vtmnTextInputDropdownOutlinedStyle">
             @style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown
         </item>
+        <!-- Deprecated Vitamin Text Inputs -->
+        <item name="textInputFilled">?attr/vtmnTextInputFilledStyle</item>
+        <item name="textInputOutlined">?attr/vtmnTextInputOutlinedStyle</item>
+        <item name="textInputDropdownFilled">?attr/vtmnTextInputDropdownFilledStyle</item>
+        <item name="textInputDropdownOutlined">?attr/vtmnTextInputDropdownOutlinedStyle</item>
+        <!-- Material Text Inputs -->
+        <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
 
         <!-- Vitamin FloatingActionButtons -->
         <item name="vtmnFloatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
