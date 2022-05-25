@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_dropdown_iconwidth">20dp</dimen>
-    <dimen name="vtmn_dropdown_lefticonmarginend">34dp</dimen>
-    <dimen name="vtmn_dropdown_paddingvertical">12dp</dimen>
-    <dimen name="vtmn_dropdown_paddinghorizontal">18dp</dimen>
+    <dimen name="vtmn_dropdown_icon_width">20dp</dimen>
+    <dimen name="vtmn_dropdown_left_icon_margin_end">34dp</dimen>
+    <dimen name="vtmn_dropdown_padding_vertical">12dp</dimen>
+    <dimen name="vtmn_dropdown_padding_horizontal">18dp</dimen>
 </resources>

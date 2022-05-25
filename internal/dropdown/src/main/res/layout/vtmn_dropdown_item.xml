@@ -8,28 +8,28 @@
 
     <ImageView
         android:id="@id/vtmnDropdownLeftIcon"
-        android:layout_width="@dimen/vtmn_dropdown_iconwidth"
+        android:layout_width="@dimen/vtmn_dropdown_icon_width"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginEnd="@dimen/vtmn_dropdown_lefticonmarginend"
-        app:tint="?attr/vtmnContentTertiary"
+        android:layout_marginEnd="@dimen/vtmn_dropdown_left_icon_margin_end"
+        app:tint="?attr/vtmnContentColorTertiary"
         tools:ignore="ContentDescription" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@id/vtmnDropdownText"
-        style="?attr/textAppearanceSubtitle1"
+        style="?attr/vtmnTextAppearanceSubtitle1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:ellipsize="end"
         android:singleLine="true"
-        android:textColor="?attr/vtmnContentPrimary" />
+        android:textColor="?attr/vtmnContentColorPrimary" />
 
     <ImageView
         android:id="@id/vtmnDropdownRightIcon"
-        android:layout_width="@dimen/vtmn_dropdown_iconwidth"
+        android:layout_width="@dimen/vtmn_dropdown_icon_width"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        app:tint="?attr/vtmnContentTertiary"
+        app:tint="?attr/vtmnContentColorTertiary"
         tools:ignore="ContentDescription" />
 </androidx.appcompat.widget.LinearLayoutCompat>
