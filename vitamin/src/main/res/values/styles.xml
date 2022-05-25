@@ -62,8 +62,11 @@
         <item name="radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
         <item name="android:radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
 
-        <!-- Switches -->
-        <item name="switchStyle">@style/Widget.Vitamin.Switch</item>
+        <!-- Vitamin Switches -->
+        <item name="vtmnSwitchStyle">@style/Widget.Vitamin.Switch</item>
+        <!-- Material Switches -->
+        <item name="switchStyle">?attr/vtmnSwitchStyle</item>
+
         <!-- Text Inputs -->
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
         <item name="textInputFilled">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
