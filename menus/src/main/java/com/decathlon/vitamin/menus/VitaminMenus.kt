@@ -15,14 +15,14 @@ import com.decathlon.vitamin.dropdown.VitaminDropdownAdapter
 open class VitaminMenu @JvmOverloads constructor(
     context: Context,
     anchor: View,
-    @AttrRes attrs: Int = androidx.appcompat.R.attr.popupMenuStyle,
+    @AttrRes attrs: Int = R.attr.vtmnMenuStyle,
 ) : PopupMenu(context, anchor, Gravity.NO_GRAVITY, attrs, 0)
 
 open class VitaminListMenu @JvmOverloads constructor(
     private val context: Context,
     anchor: View,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.listPopupWindowStyle
+    defStyleAttr: Int = R.attr.vtmnListMenuStyle
 ): ListPopupWindow(context, attrs, defStyleAttr) {
     init {
         anchorView = anchor
