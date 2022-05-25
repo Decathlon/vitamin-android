@@ -135,7 +135,7 @@
         <item name="snackbarStyle">@style/Widget.Vitamin.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>
         <item name="snackbarTextViewStyle">@style/Widget.Vitamin.Snackbar.TextView</item>
-        <item name="maxActionInlineWidth">@dimen/vtmn_snackbar_maxactioninlinewidth</item>
+        <item name="maxActionInlineWidth">@dimen/vtmn_snackbars_max_action_inline_width</item>
 
         <!-- Vitamin Chips -->
         <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
