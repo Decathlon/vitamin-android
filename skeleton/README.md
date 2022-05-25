@@ -130,7 +130,7 @@ You can also customize the `VitaminSkeletonRectangularView` style but keep in mi
 
 | Option            | Attribute                               | Related class field  | Default value                  |
 |-------------------|-----------------------------------------|----------------------|--------------------------------|
-| Color             | `app:vtmnSkeletonRectangularView_color` | `color`              | `?attr/vtmnBackgroundTertiary` |
+| Color             | `app:vtmnSkeletonRectangularView_color` | `color`              | `?attr/vtmnBackgroundColorTertiary` |
 
 If you want to override the color for all your `VitaminSkeletonRectangularView` components, you can define a custom style directly in your app theme:
 
@@ -190,7 +190,7 @@ You can also customize the `VitaminSkeletonRoundedView` style but keep in mind t
 
 | Option            | Attribute                           | Related class field  | Default value                  |
 |-------------------|-------------------------------------|----------------------|--------------------------------|
-| Color             | `app:vtmnSkeletonRoundedView_color` | `color`              | `?attr/vtmnBackgroundTertiary` |
+| Color             | `app:vtmnSkeletonRoundedView_color` | `color`              | `?attr/vtmnBackgroundColorTertiary` |
 
 If you wan to override the color for all your `VitaminSkeletonRoundedView` components, you can define a custom style directly in your app theme:
 
