@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_snackbar_maxactioninlinewidth">32dp</dimen>
-    <dimen name="vtmn_snackbar_paddinghorizontal">16dp</dimen>
-    <dimen name="vtmn_snackbar_paddingvertical">8dp</dimen>
+    <dimen name="vtmn_snackbars_max_action_inline_width">32dp</dimen>
+    <dimen name="vtmn_snackbars_padding_horizontal">16dp</dimen>
+    <dimen name="vtmn_snackbars_padding_vertical">8dp</dimen>
+
+    <!-- {@deprecated check vtmn_snackbars_max_action_inline_width} -->
+    <dimen name="vtmnMaxActionInlineWidth">@dimen/vtmn_snackbars_max_action_inline_width</dimen>
+    <!-- {@deprecated check vtmn_snackbars_padding_horizontal} -->
+    <dimen name="vtmnSnackbarPaddingHorizontal">@dimen/vtmn_snackbars_padding_horizontal</dimen>
+    <!-- {@deprecated check vtmn_snackbars_padding_vertical} -->
+    <dimen name="vtmnSnackbarPaddingVertical">@dimen/vtmn_snackbars_padding_vertical</dimen>
 </resources>
