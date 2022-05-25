@@ -108,12 +108,18 @@
             @style/Widget.Vitamin.InteractiveRatingView
         </item>
 
-        <!-- Menu -->
+        <!-- Vitamin Dropdown -->
+        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
+        <!-- Material Dropdown -->
         <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
-        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
-        <item name="popupMenuStyle">@style/Widget.Vitamin.Menu</item>
-        <item name="listPopupWindowStyle">@style/Widget.Vitamin.Menu.List</item>
+
+        <!-- Vitamin Menu -->
+        <item name="vtmnMenuStyle">@style/Widget.Vitamin.Menu</item>
+        <item name="vtmnListMenuStyle">@style/Widget.Vitamin.Menu.List</item>
+        <!-- Material Menu -->
+        <item name="popupMenuStyle">?attr/vtmnMenuStyle</item>
+        <item name="listPopupWindowStyle">?attr/vtmnListMenuStyle</item>
 
         <!-- Vitamin AppBars -->
         <item name="vtmnTopBarStyle">@style/Widget.Vitamin.TopBar</item>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Widget.Vitamin.Menu" parent="@style/Widget.MaterialComponents.PopupMenu">
-        <item name="android:popupBackground">?attr/vtmnBackgroundPrimary</item>
-        <item name="textAppearanceLargePopupMenu">?attr/textAppearanceSubtitle1</item>
-        <item name="textAppearanceSmallPopupMenu">?attr/textAppearanceSubtitle1</item>
+        <item name="android:popupBackground">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="textAppearanceLargePopupMenu">?attr/vtmnTextAppearanceSubtitle1</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/vtmnTextAppearanceSubtitle1</item>
     </style>
 
     <style name="Widget.Vitamin.Menu.List" parent="@style/Widget.MaterialComponents.PopupMenu.ListPopupWindow">
-        <item name="android:popupBackground">?attr/vtmnBackgroundPrimary</item>
-        <item name="textAppearanceLargePopupMenu">?attr/textAppearanceSubtitle1</item>
-        <item name="textAppearanceSmallPopupMenu">?attr/textAppearanceSubtitle1</item>
+        <item name="android:popupBackground">?attr/vtmnBackgroundColorPrimary</item>
+        <item name="textAppearanceLargePopupMenu">?attr/vtmnTextAppearanceSubtitle1</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/vtmnTextAppearanceSubtitle1</item>
     </style>
 </resources>

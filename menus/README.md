@@ -26,7 +26,7 @@ menu.show()
 or
 
 ```kotlin
-val popup = PopupMenu(requireContext(), anchorView, Gravity.NO_GRAVITY, R.attr.popupMenuStyle, 0)
+val popup = PopupMenu(requireContext(), anchorView, Gravity.NO_GRAVITY, R.attr.vtmnMenuStyle, 0)
 popup.menuInflater.inflate(menuRes, popup.menu)
 popup.setOnMenuItemClickListener { return@setOnMenuItemClickListener false }
 popup.setOnDismissListener {}
@@ -47,7 +47,7 @@ listMenu.show()
 or
 
 ```kotlin
-val listPopupWindow = ListPopupWindow(requireContext(), null, R.attr.listPopupWindowStyle)
+val listPopupWindow = ListPopupWindow(requireContext(), null, R.attr.vtmnListMenuStyle)
 listPopupWindow.anchorView = anchorView
 listPopupWindow.setSimpleAdapter(listOf("Option 1", "Option 2", "Option 3"))
 listPopupWindow.setOnItemClickListener { _: AdapterView<*>?, _: View?, _: Int, _: Long ->
@@ -74,11 +74,18 @@ implementation("com.decathlon.vitamin:menus:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
+        <!-- Vitamin Dropdown -->
+        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
+        <!-- Material Dropdown -->
         <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
-        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
-        <item name="popupMenuStyle">@style/Widget.Vitamin.Menu</item>
-        <item name="listPopupWindowStyle">@style/Widget.Vitamin.Menu.List</item>
+
+        <!-- Vitamin Menu -->
+        <item name="vtmnMenuStyle">@style/Widget.Vitamin.Menu</item>
+        <item name="vtmnListMenuStyle">@style/Widget.Vitamin.Menu.List</item>
+        <!-- Material Menu -->
+        <item name="popupMenuStyle">?attr/vtmnMenuStyle</item>
+        <item name="listPopupWindowStyle">?attr/vtmnListMenuStyle</item>
     </style>
 </resources>
 ```
@@ -123,7 +130,7 @@ fun setAdapter(items: List<Item>, @LayoutRes layout: Int = R.layout.vtmn_dropdow
 ```
 
 An item contains a text and optionally an icon right and/or left. These drawable should be
-an icon and will be tinted with the `vtmnContentPrimary` Vitamin semantic color.
+an icon and will be tinted with the `vtmnContentColorPrimary` Vitamin semantic color.
 
 If you have a specific case, you can override the layout and specify your own one but you must
 to specify these ids for the text and two icons: `vtmnDropdownLeftIcon`, `vtmnDropdownRightIcon`
