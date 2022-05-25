@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_rating_compacticonsize">16dp</dimen>
-    <dimen name="vtmn_rating_notemarginstart">4dp</dimen>
-    <dimen name="vtmn_rating_commentscountmarginstart">4dp</dimen>
+    <dimen name="vtmn_ratings_compact_icon_size">16dp</dimen>
+    <dimen name="vtmn_ratings_note_margin_start">4dp</dimen>
+    <dimen name="vtmn_ratings_comments_count_margin_start">4dp</dimen>
 </resources>

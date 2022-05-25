@@ -98,11 +98,13 @@
         <item name="linearProgressIndicatorStyle">@style/Widget.Vitamin.LinearProgressBar</item>
         <item name="circularProgressIndicatorStyle">@style/Widget.Vitamin.CircularProgressBar</item>
 
-        <!-- Ratings -->
+        <!-- Vitamin Ratings -->
         <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
         <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
-        <item name="vtmnInteractiveRatingViewStyle">@style/Widget.Vitamin.InteractiveRatingView
+        <item name="vtmnInteractiveRatingViewStyle">
+            @style/Widget.Vitamin.InteractiveRatingView
         </item>
+
         <!-- Menu -->
         <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
