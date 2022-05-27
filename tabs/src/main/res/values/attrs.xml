@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="vtmnTabStyle" format="reference"/>
+    <attr name="vtmnTabStyleLeadingIcon" format="reference"/>
+    <attr name="vtmnTabStyleTopIcon" format="reference"/>
+</resources>

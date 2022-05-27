@@ -22,4 +22,5 @@ dependencies {
     api(project(":prices"))
     api(project(":dividers"))
     api(project(":tags"))
+    api(project(":tabs"))
 }

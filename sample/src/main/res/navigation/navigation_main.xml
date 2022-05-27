@@ -68,6 +68,9 @@
         <action
             android:id="@+id/action_main_to_tags"
             app:destination="@id/tags" />
+        <action
+            android:id="@+id/action_main_to_tabs"
+            app:destination="@id/tabs" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -149,4 +152,8 @@
         android:id="@+id/tags"
         android:name="com.decathlon.design.sample.components.screens.TagsFragment"
         android:label="@string/tags_screen_title" />
+    <fragment
+        android:id="@+id/tabs"
+        android:name="com.decathlon.design.sample.components.screens.TabsFragment"
+        android:label="@string/tabs_screen_title" />
 </navigation>
