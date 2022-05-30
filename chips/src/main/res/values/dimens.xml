@@ -1,24 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="vtmn_chip_minheight_medium">40dp</dimen>
-    <dimen name="vtmn_chip_minheight_small">32dp</dimen>
-    <dimen name="vtmn_chip_strokewidth">1dp</dimen>
-    <dimen name="vtmn_chip_textstartpadding_medium">16dp</dimen>
-    <dimen name="vtmn_chip_textstartpadding_small">12dp</dimen>
-    <dimen name="vtmn_chip_textendpadding_medium">16dp</dimen>
-    <dimen name="vtmn_chip_textendpadding_small">12dp</dimen>
-    <dimen name="vtmn_chip_iconsize">20dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_chipstartpadding_medium">8dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_chipstartpadding_small">4dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_iconstartpadding_medium">2dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_iconstartpadding_small">4dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_textstartpadding">8dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_chipendpadding_medium">10dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_chipendpadding_small">6dp</dimen>
-    <dimen name="vtmn_chipwithendicon_textendpadding">6dp</dimen>
-    <dimen name="vtmn_chipwithendicon_iconstartpadding">2dp</dimen>
-    <dimen name="vtmn_chip_verticalpadding_small">6dp</dimen>
-    <dimen name="vtmn_chip_endpadding">0dp</dimen>
-    <dimen name="vtmn_chip_startpadding">0dp</dimen>
-    <dimen name="vtmn_chipwithstarticon_iconendpadding">0dp</dimen>
+    <dimen name="vtmn_chips_min_height_medium">40dp</dimen>
+    <dimen name="vtmn_chips_min_height_small">32dp</dimen>
+    <dimen name="vtmn_chips_stroke_width">1dp</dimen>
+    <dimen name="vtmn_chips_text_start_padding_medium">16dp</dimen>
+    <dimen name="vtmn_chips_text_start_padding_small">12dp</dimen>
+    <dimen name="vtmn_chips_text_end_padding_medium">16dp</dimen>
+    <dimen name="vtmn_chips_text_end_padding_small">12dp</dimen>
+    <dimen name="vtmn_chips_icon_size">20dp</dimen>
+    <dimen name="vtmn_chips_with_start_icon_start_padding_medium">8dp</dimen>
+    <dimen name="vtmn_chips_with_start_icon_start_padding_small">4dp</dimen>
+    <dimen name="vtmn_chips_with_start_icon_icon_start_padding_medium">2dp</dimen>
+    <dimen name="vtmn_chips_with_start_icon_icon_start_padding_small">4dp</dimen>
+    <dimen name="vtmn_chips_with_start_icon_text_start_padding">8dp</dimen>
+    <dimen name="vtmn_chips_with_end_icon_end_padding_medium">10dp</dimen>
+    <dimen name="vtmn_chips_with_end_icon_end_padding_small">6dp</dimen>
+    <dimen name="vtmn_chips_with_end_icon_text_end_padding">6dp</dimen>
+    <dimen name="vtmn_chips_with_end_icon_icon_start_padding">2dp</dimen>
+    <dimen name="vtmn_chips_vertical_padding_small">6dp</dimen>
+    <dimen name="vtmn_chips_end_padding">0dp</dimen>
+    <dimen name="vtmn_chips_start_padding">0dp</dimen>
+    <dimen name="vtmn_chips_with_start_icon_icon_end_padding">0dp</dimen>
+
+    <!-- {@deprecated check vtmn_chips_min_height_medium} -->
+    <dimen name="vtmn_chip_min_height_medium">@dimen/vtmn_chips_min_height_medium</dimen>
+    <!-- {@deprecated check vtmn_chips_min_height_small} -->
+    <dimen name="vtmn_chip_min_height_small">@dimen/vtmn_chips_min_height_small</dimen>
+    <!-- {@deprecated check vtmn_chips_stroke_width} -->
+    <dimen name="vtmn_chip_stroke_width">@dimen/vtmn_chips_stroke_width</dimen>
+    <!-- {@deprecated check vtmn_chips_text_start_padding_medium} -->
+    <dimen name="vtmn_chip_text_start_padding_medium">@dimen/vtmn_chips_text_start_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_chips_text_start_padding_small} -->
+    <dimen name="vtmn_chip_text_start_padding_small">@dimen/vtmn_chips_text_start_padding_small</dimen>
+    <!-- {@deprecated check vtmn_chips_text_end_padding_medium} -->
+    <dimen name="vtmn_chip_text_end_padding_medium">@dimen/vtmn_chips_text_end_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_chips_text_end_padding_small} -->
+    <dimen name="vtmn_chip_text_end_padding_small">@dimen/vtmn_chips_text_end_padding_small</dimen>
+    <!-- {@deprecated check vtmn_chips_icon_size} -->
+    <dimen name="vtmn_chip_icon_size">@dimen/vtmn_chips_icon_size</dimen>
+    <!-- {@deprecated check vtmn_chips_with_start_icon_start_padding_medium} -->
+    <dimen name="vtmn_chip_with_start_ic_chip_start_padding_medium">@dimen/vtmn_chips_with_start_icon_start_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_chips_with_start_icon_start_padding_small} -->
+    <dimen name="vtmn_chip_with_start_ic_chip_start_padding_small">@dimen/vtmn_chips_with_start_icon_start_padding_small</dimen>
+    <!-- {@deprecated check vtmn_chips_with_start_icon_icon_start_padding_medium} -->
+    <dimen name="vtmn_chip_with_start_ic_icon_start_padding_medium">@dimen/vtmn_chips_with_start_icon_icon_start_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_chips_with_start_icon_icon_start_padding_small} -->
+    <dimen name="vtmn_chip_with_start_ic_icon_start_padding_small">@dimen/vtmn_chips_with_start_icon_icon_start_padding_small</dimen>
+    <!-- {@deprecated check vtmn_chips_with_start_icon_text_start_padding} -->
+    <dimen name="vtmn_chip_with_start_ic_text_start_padding">@dimen/vtmn_chips_with_start_icon_text_start_padding</dimen>
+    <!-- {@deprecated check vtmn_chips_with_end_icon_end_padding_medium} -->
+    <dimen name="vtmn_chip_with_end_ic_chip_end_padding_medium">@dimen/vtmn_chips_with_end_icon_end_padding_medium</dimen>
+    <!-- {@deprecated check vtmn_chips_with_end_icon_end_padding_small} -->
+    <dimen name="vtmn_chip_with_end_ic_chip_end_padding_small">@dimen/vtmn_chips_with_end_icon_end_padding_small</dimen>
+    <!-- {@deprecated check vtmn_chips_with_end_icon_text_end_padding} -->
+    <dimen name="vtmn_chip_with_end_ic_text_end_padding">@dimen/vtmn_chips_with_end_icon_text_end_padding</dimen>
+    <!-- {@deprecated check vtmn_chips_with_end_icon_icon_start_padding} -->
+    <dimen name="vtmn_chip_with_end_ic_icon_start_padding">@dimen/vtmn_chips_with_end_icon_icon_start_padding</dimen>
+    <!-- {@deprecated check vtmn_chips_vertical_padding_small} -->
+    <dimen name="vtmn_chip_small_vertical_padding">@dimen/vtmn_chips_vertical_padding_small</dimen>
 </resources>

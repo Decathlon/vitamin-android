@@ -40,13 +40,13 @@ or
     android:layout_height="wrap_content">
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipFilterMedium"
+        style="?attr/vtmnChipFilterMediumStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Filter medium" />
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipFilterSmall"
+        style="?attr/vtmnChipFilterSmallStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Filter small" />
@@ -82,13 +82,13 @@ or
     android:layout_height="wrap_content">
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipInputMedium"
+        style="?attr/vtmnChipInputMediumStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Input medium" />
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipInputSmall"
+        style="?attr/vtmnChipInputSmallStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Input small" />
@@ -142,14 +142,14 @@ or
     android:layout_height="wrap_content">
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipInputImageMedium"
+        style="?attr/vtmnChipInputImageMediumStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:chipIcon="@drawable/profile_picture"
         android:text="Input medium with image" />
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipInputImageSmall"
+        style="?attr/vtmnChipInputImageSmallStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:chipIcon="@drawable/profile_picture"
@@ -205,13 +205,13 @@ or
     app:singleSelection="true">
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipSingleChoiceMedium"
+        style="?attr/vtmnChipSingleChoiceMediumStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Single choice medium" />
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipSingleChoiceSmall"
+        style="?attr/vtmnChipSingleChoiceSmallStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Single choice small" />
@@ -248,14 +248,14 @@ or
     android:layout_height="wrap_content">
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipActionMedium"
+        style="?attr/vtmnChipActionMediumStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:chipIcon="@drawable/ic_vtmn_heart_3_fill"
         android:text="Action medium" />
 
     <com.google.android.material.chip.Chip
-        style="?attr/chipActionSmall"
+        style="?attr/vtmnChipActionSmallStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:chipIcon="@drawable/ic_vtmn_heart_3_fill"
@@ -281,18 +281,20 @@ implementation("com.decathlon.vitamin:chips:<version>")
 <resources>
     <style name="AppTheme" parent="Base.Theme.Vitamin">
         ...
-        <item name="chipSingleChoiceMedium">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
-        <item name="chipSingleChoiceSmall">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
-        <item name="chipFilterMedium">@style/Widget.Vitamin.Chip.Filter.Medium</item>
-        <item name="chipFilterSmall">@style/Widget.Vitamin.Chip.Filter.Small</item>
-        <item name="chipActionMedium">@style/Widget.Vitamin.Chip.Action.Medium</item>
-        <item name="chipActionSmall">@style/Widget.Vitamin.Chip.Action.Small</item>
-        <item name="chipInputMedium">@style/Widget.Vitamin.Chip.Input.Medium</item>
-        <item name="chipInputSmall">@style/Widget.Vitamin.Chip.Input.Small</item>
-        <item name="chipInputImageMedium">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
-        <item name="chipInputImageSmall">@style/Widget.Vitamin.Chip.InputImage.Small</item>
-        <item name="chipStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
-        <item name="chipStandaloneStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
+        <!-- Vitamin Chips -->
+        <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
+        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
+        <item name="vtmnChipFilterMediumStyle">@style/Widget.Vitamin.Chip.Filter.Medium</item>
+        <item name="vtmnChipFilterSmallStyle">@style/Widget.Vitamin.Chip.Filter.Small</item>
+        <item name="vtmnChipActionMediumStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
+        <item name="vtmnChipActionSmallStyle">@style/Widget.Vitamin.Chip.Action.Small</item>
+        <item name="vtmnChipInputMediumStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
+        <item name="vtmnChipInputSmallStyle">@style/Widget.Vitamin.Chip.Input.Small</item>
+        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
+        <item name="vtmnChipInputImageSmallStyle">@style/Widget.Vitamin.Chip.InputImage.Small</item>
+        <!-- Material Chips -->
+        <item name="chipStyle">?attr/vtmnChipActionMedium</item>
+        <item name="chipStandaloneStyle">?attr/vtmnChipInputMedium</item>
     </style>
 </resources>
 ```
