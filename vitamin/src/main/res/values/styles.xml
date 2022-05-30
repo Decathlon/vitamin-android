@@ -120,19 +120,33 @@
         <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>
         <item name="snackbarTextViewStyle">@style/Widget.Vitamin.Snackbar.TextView</item>
         <item name="maxActionInlineWidth">@dimen/vtmn_snackbar_maxactioninlinewidth</item>
-        <!-- Chips -->
-        <item name="chipSingleChoiceMedium">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
-        <item name="chipSingleChoiceSmall">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
-        <item name="chipFilterMedium">@style/Widget.Vitamin.Chip.Filter.Medium</item>
-        <item name="chipFilterSmall">@style/Widget.Vitamin.Chip.Filter.Small</item>
-        <item name="chipActionMedium">@style/Widget.Vitamin.Chip.Action.Medium</item>
-        <item name="chipActionSmall">@style/Widget.Vitamin.Chip.Action.Small</item>
-        <item name="chipInputMedium">@style/Widget.Vitamin.Chip.Input.Medium</item>
-        <item name="chipInputSmall">@style/Widget.Vitamin.Chip.Input.Small</item>
-        <item name="chipInputImageMedium">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
-        <item name="chipInputImageSmall">@style/Widget.Vitamin.Chip.InputImage.Small</item>
-        <item name="chipStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
-        <item name="chipStandaloneStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
+
+        <!-- Vitamin Chips -->
+        <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
+        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
+        <item name="vtmnChipFilterMediumStyle">@style/Widget.Vitamin.Chip.Filter.Medium</item>
+        <item name="vtmnChipFilterSmallStyle">@style/Widget.Vitamin.Chip.Filter.Small</item>
+        <item name="vtmnChipActionMediumStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
+        <item name="vtmnChipActionSmallStyle">@style/Widget.Vitamin.Chip.Action.Small</item>
+        <item name="vtmnChipInputMediumStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
+        <item name="vtmnChipInputSmallStyle">@style/Widget.Vitamin.Chip.Input.Small</item>
+        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
+        <item name="vtmnChipInputImageSmallStyle">@style/Widget.Vitamin.Chip.InputImage.Small</item>
+        <!-- Deprecated Vitamin Chips -->
+        <item name="chipSingleChoiceMedium">?attr/vtmnChipSingleChoiceMediumStyle</item>
+        <item name="chipSingleChoiceSmall">?attr/vtmnChipSingleChoiceSmallStyle</item>
+        <item name="chipFilterMedium">?attr/vtmnChipFilterMediumStyle</item>
+        <item name="chipFilterSmall">?attr/vtmnChipFilterSmallStyle</item>
+        <item name="chipActionMedium">?attr/vtmnChipActionMediumStyle</item>
+        <item name="chipActionSmall">?attr/vtmnChipActionSmallStyle</item>
+        <item name="chipInputMedium">?attr/vtmnChipInputMediumStyle</item>
+        <item name="chipInputSmall">?attr/vtmnChipInputSmallStyle</item>
+        <item name="chipInputImageMedium">?attr/vtmnChipInputImageMediumStyle</item>
+        <item name="chipInputImageSmall">?attr/vtmnChipInputImageSmallStyle</item>
+        <!-- Material Chips -->
+        <item name="chipStyle">?attr/vtmnChipActionMediumStyle</item>
+        <item name="chipStandaloneStyle">?attr/vtmnChipInputMediumStyle</item>
+
         <!-- Prices -->
         <item name="priceDefaultSmall">@style/Widget.Vitamin.Price.Default.Small</item>
         <item name="priceDefaultMedium">@style/Widget.Vitamin.Price.Default.Medium</item>

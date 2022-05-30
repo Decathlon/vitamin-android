@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:alpha="@dimen/vtmn_states_disabled" android:color="?attr/vtmnContentAction" android:state_checked="false" android:state_enabled="false" />
-    <item android:color="?attr/vtmnContentAction" android:state_checked="false" android:state_enabled="true" />
-    <item android:alpha="@dimen/vtmn_states_disabled" android:color="?attr/vtmnContentPrimaryReversed" android:state_checked="true" android:state_enabled="false" />
-    <item android:color="?attr/vtmnContentPrimaryReversed" android:state_checked="true" android:state_enabled="true" />
-</selector>
