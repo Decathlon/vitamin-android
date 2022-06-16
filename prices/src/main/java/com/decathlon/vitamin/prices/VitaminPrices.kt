@@ -65,8 +65,8 @@ open class VitaminPriceStrikethroughSmall @JvmOverloads constructor(
     attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.vtmnPriceStrikethroughSmallStyle
 ) : MaterialTextView(context, attrs, defStyleAttr) {
-    init {
-        this.text = SpannableString(this.text).setStrikethrough()
+    override fun setText(text: CharSequence?, type: BufferType?) {
+        super.setText(SpannableString(text).setStrikethrough(), type)
     }
 }
 
@@ -75,8 +75,8 @@ open class VitaminPriceStrikethroughMedium @JvmOverloads constructor(
     attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.vtmnPriceStrikethroughMediumStyle
 ) : MaterialTextView(context, attrs, defStyleAttr) {
-    init {
-        this.text = SpannableString(this.text).setStrikethrough()
+    override fun setText(text: CharSequence?, type: BufferType?) {
+        super.setText(SpannableString(text).setStrikethrough(), type)
     }
 }
 
@@ -85,7 +85,7 @@ open class VitaminPriceStrikethroughLarge @JvmOverloads constructor(
     attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.vtmnPriceStrikethroughLargeStyle
 ) : MaterialTextView(context, attrs, defStyleAttr) {
-    init {
-        this.text = SpannableString(this.text).setStrikethrough()
+    override fun setText(text: CharSequence?, type: BufferType?) {
+        super.setText(SpannableString(text).setStrikethrough(), type)
     }
 }
