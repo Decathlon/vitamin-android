@@ -108,7 +108,7 @@ object ComponentProvider {
             ),
             Component(
                 R.string.tabs_screen_title,
-                R.drawable.ic_placeholder,
+                R.drawable.ic_tabs,
                 R.id.action_main_to_tabs
             )
         )

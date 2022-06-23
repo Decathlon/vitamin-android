@@ -22,13 +22,13 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
         android:layout_height="wrap_content"
         android:text="Label" />
 
-    </com.decathlon.vitamin.tabs.VitaminTabLayout>
+</com.decathlon.vitamin.tabs.VitaminTabLayout>
 ```
 
 or
 
 ```xml
-    <com.google.android.material.tabs.TabLayout
+<com.google.android.material.tabs.TabLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     style="?attr/vtmnTabStyle">
@@ -46,9 +46,9 @@ With the same usage as above, you have multiple TabLayout types available:
 
 | Button type             | Kotlin Class                         | Attribute style                              |
 |-------------------------|--------------------------------------|----------------------------------------------|
-| Tab Layout              | `TabLayout`                          | `?attr/vtmnTabStyle`                         |
-| Tab Layout Leading Icon | `VitaminTabLayoutLeadingIcon`        | `?attr/vtmnTabStyleLeadingIcon`              |
-| Tab Layout Top Icon     | `VitaminTabLayoutTopIcon`            | `?attr/vtmnTabStyleTopIcon`                  |
+| Tab Layout              | `VitaminTabLayout`                   | `?attr/vtmnTabStyle`                         |
+| Tab Layout Leading Icon | `VitaminTabLayoutLeadingIcon`        | `?attr/vtmnTabLeadingIconStyle`              |
+| Tab Layout Top Icon     | `VitaminTabLayoutTopIcon`            | `?attr/vtmnTabTopIconStyle`                  |
 
 
 ## Usage in standalone
@@ -70,11 +70,11 @@ implementation("com.decathlon.vitamin:tabs:<version>")
         ...
         <!-- Vitamin Tabs -->
         <item name="vtmnTabStyle">@style/Widget.Vitamin.TabLayout</item>
-        <item name="vtmnTabStyleLeadingIcon">@style/Widget.Vitamin.TabLayout.LeadingIcon</item>
-        <item name="vtmnTabStyleTopIcon">@style/Widget.Vitamin.TabLayout.TopIcon</item>
+        <item name="vtmnTabLeadingIconStyle">@style/Widget.Vitamin.TabLayout.LeadingIcon</item>
+        <item name="vtmnTabTopIconStyle">@style/Widget.Vitamin.TabLayout.TopIcon</item>
 
         <!-- Material Tabs -->
-        <item name="tabStyle">@style/Widget.Vitamin.TabLayout</item>
+        <item name="tabStyle">?attr/vtmnTabStyle</item>
     </style>
 </resources>
 ```

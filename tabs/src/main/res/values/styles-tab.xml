@@ -2,9 +2,9 @@
 <resources>
 
     <style name="Widget.Vitamin.TabLayout" parent="Widget.MaterialComponents.TabLayout">
-        <item name="tabIconTint">@color/vtmn_tabs_icon_color</item>
+        <item name="tabIconTint">@color/vtmn_tabs_icon</item>
         <item name="tabIndicatorColor">?attr/vtmnContentActive</item>
-        <item name="tabTextColor">@color/vtmn_tabs_icon_color</item>
+        <item name="tabTextColor">@color/vtmn_tabs_icon</item>
         <item name="tabTextAppearance">@style/TextAppearance.Vitamin.Body2.Tab</item>
     </style>
 

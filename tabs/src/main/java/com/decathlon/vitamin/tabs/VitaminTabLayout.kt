@@ -13,12 +13,12 @@ open class VitaminTabLayout @JvmOverloads constructor(
 open class VitaminTabLayoutLeadingIcon @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.vtmnTabStyleLeadingIcon
+    defStyleAttr: Int = R.attr.vtmnTabLeadingIconStyle
 ) : TabLayout(context, attrs, defStyleAttr)
 
 open class VitaminTabLayoutTopIcon @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = R.attr.vtmnTabStyleTopIcon
+    defStyleAttr: Int = R.attr.vtmnTabTopIconStyle
 ) : TabLayout(context, attrs, defStyleAttr)
 
