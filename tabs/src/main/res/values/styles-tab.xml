@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Vitamin.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIconTint">@color/vtmn_tabs_icon</item>
+        <item name="tabIndicatorColor">?attr/vtmnContentActive</item>
+        <item name="tabTextColor">@color/vtmn_tabs_icon</item>
+        <item name="tabTextAppearance">@style/TextAppearance.Vitamin.Body2.Tab</item>
+    </style>
+
+    <style name="Widget.Vitamin.TabLayout.LeadingIcon">
+        <item name="tabInlineLabel">true</item>
+    </style>
+
+    <style name="Widget.Vitamin.TabLayout.TopIcon">
+        <item name="tabInlineLabel">false</item>
+    </style>
+
+    <style name="TextAppearance.Vitamin.Body2.Tab">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

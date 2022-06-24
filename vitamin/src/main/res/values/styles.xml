@@ -256,5 +256,13 @@
         <item name="vtmnTagDecorativeAmethystInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
         </item>
+
+        <!-- Vitamin Tabs -->
+        <item name="vtmnTabStyle">@style/Widget.Vitamin.TabLayout</item>
+        <item name="vtmnTabLeadingIconStyle">@style/Widget.Vitamin.TabLayout.LeadingIcon</item>
+        <item name="vtmnTabTopIconStyle">@style/Widget.Vitamin.TabLayout.TopIcon</item>
+
+        <!-- Material Tabs -->
+        <item name="tabStyle">?attr/vtmnTabStyle</item>
     </style>
 </resources>
