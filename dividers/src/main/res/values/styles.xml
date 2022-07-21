@@ -2,7 +2,7 @@
 <resources>
 
     <style name="Widget.Vitamin.Divider" parent="Widget.MaterialComponents.MaterialDivider">
-        <item name="dividerColor">?attr/vtmnBorderColorSecondary</item>
+        <item name="dividerColor">?attr/vtmnBorderColorPrimary</item>
     </style>
 
     <style name="Widget.Vitamin.Divider.FullBleed"/>
