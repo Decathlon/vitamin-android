@@ -138,14 +138,14 @@
         <item name="vtmnContentColorPrimaryReversed">@color/vtmn_white</item>
         <item name="vtmnContentColorActionReversed">@color/vtmn_white</item>
 
-        <item name="vtmnBorderColorPrimary">@color/vtmn_white</item>
-        <item name="vtmnBorderColorSecondary">@color/vtmn_grey200</item>
-        <item name="vtmnBorderColorTertiary">@color/vtmn_grey100</item>
+        <item name="vtmnBorderColorPrimary">@color/vtmn_grey200</item>
+        <item name="vtmnBorderColorSecondary">@color/vtmn_grey100</item>
+        <item name="vtmnBorderColorTertiary">@color/vtmn_white</item>
         <item name="vtmnBorderColorActive">@color/vtmn_blue400</item>
         <item name="vtmnBorderColorInactive">@color/vtmn_grey400</item>
         <item name="vtmnBorderColorNegative">@color/vtmn_red400</item>
         <item name="vtmnBorderColorWarning">@color/vtmn_orange400</item>
-        <item name="vtmnBorderColorPositive">@color/vtmn_green400</item>
+        <item name="vtmnBorderColorPositive">@color/vtmn_conifer400</item>
         <item name="vtmnBorderColorInformation">@color/vtmn_blue400</item>
         <item name="vtmnBorderColorPrimaryReversed">@color/vtmn_black</item>
 
