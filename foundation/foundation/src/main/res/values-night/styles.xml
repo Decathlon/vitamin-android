@@ -29,9 +29,9 @@
         <item name="vtmnContentColorPrimaryReversed">@color/vtmn_black</item>
         <item name="vtmnContentColorActionReversed">@color/vtmn_black</item>
 
-        <item name="vtmnBorderColorPrimary">@color/vtmn_grey800</item>
-        <item name="vtmnBorderColorSecondary">@color/vtmn_grey700</item>
-        <item name="vtmnBorderColorTertiary">@color/vtmn_black</item>
+        <item name="vtmnBorderColorPrimary">@color/vtmn_grey700</item>
+        <item name="vtmnBorderColorSecondary">@color/vtmn_black</item>
+        <item name="vtmnBorderColorTertiary">@color/vtmn_grey800</item>
         <item name="vtmnBorderColorActive">@color/vtmn_blue300</item>
         <item name="vtmnBorderColorInactive">@color/vtmn_grey500</item>
         <item name="vtmnBorderColorNegative">@color/vtmn_red300</item>
