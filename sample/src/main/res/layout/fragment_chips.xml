@@ -327,14 +327,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Action 3"
-                app:chipIcon="@drawable/ic_vtmn_heart_3_fill"
+                app:chipIcon="@drawable/ic_vtmn_heart_fill"
                 tools:ignore="HardcodedText" />
 
             <com.decathlon.vitamin.chips.VitaminActionMediumChip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Choice 4"
-                app:chipIcon="@drawable/ic_vtmn_settings_3_line"
+                app:chipIcon="@drawable/ic_vtmn_settings_line"
                 tools:ignore="HardcodedText" />
 
         </com.google.android.material.chip.ChipGroup>
@@ -371,14 +371,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Action 3"
-                app:chipIcon="@drawable/ic_vtmn_heart_3_fill"
+                app:chipIcon="@drawable/ic_vtmn_heart_fill"
                 tools:ignore="HardcodedText" />
 
             <com.decathlon.vitamin.chips.VitaminActionSmallChip
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Choice 4"
-                app:chipIcon="@drawable/ic_vtmn_settings_3_line"
+                app:chipIcon="@drawable/ic_vtmn_settings_line"
                 tools:ignore="HardcodedText" />
 
         </com.google.android.material.chip.ChipGroup>

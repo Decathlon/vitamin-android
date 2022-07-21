@@ -5,7 +5,7 @@
     android:viewportHeight="16"
     android:tint="?attr/colorControlNormal">
   <path
-      android:fillColor="#000000"
-      android:pathData="M6.243,5.619 L5.3,4.667 2,8l3.3,3.333 0.943,-0.952 -1.691,-1.708h6.896l-1.69,1.708 0.942,0.952L14,8l-3.3,-3.333 -0.943,0.952 1.691,1.708H4.552l1.69,-1.708Z"
+      android:pathData="M6.243,5.619L5.3,4.667L2,8L5.3,11.333L6.243,10.381L4.552,8.673H6H10.667V8.673L11.448,8.673L9.757,10.381L10.7,11.333L14,8L10.7,4.667L9.757,5.619L11.448,7.327L10.667,7.327L6,7.327L4.552,7.327L6.243,5.619Z"
+      android:fillColor="#001018"
       android:fillType="evenOdd"/>
 </vector>

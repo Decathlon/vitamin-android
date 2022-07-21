@@ -42,19 +42,19 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
     </com.decathlon.vitamin.tabs.VitaminTabLayoutTopIcon>
 
@@ -69,19 +69,19 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
     </com.decathlon.vitamin.tabs.VitaminTabLayoutLeadingIcon>
 
@@ -98,31 +98,31 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:icon="@drawable/ic_vtmn_heart_3_line"
+            android:icon="@drawable/ic_vtmn_heart_line"
             android:text="Label" />
     </com.decathlon.vitamin.tabs.VitaminTabLayoutLeadingIcon>
 
