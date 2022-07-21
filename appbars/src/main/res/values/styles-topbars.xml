@@ -70,7 +70,7 @@
         <item name="searchIcon">@drawable/ic_vtmn_search_line</item>
         <item name="searchHintIcon">@drawable/ic_vtmn_search_line</item>
         <item name="goIcon">@drawable/ic_vtmn_check_line</item>
-        <item name="voiceIcon">@drawable/ic_vtmn_mic_vtmn_line</item>
+        <item name="voiceIcon">@drawable/ic_vtmn_mic_line</item>
         <item name="iconifiedByDefault">false</item>
     </style>
 </resources>

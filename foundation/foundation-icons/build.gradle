@@ -7,7 +7,32 @@ plugins {
     id("VitaminLibraryPlugin")
 }
 
-tasks.create("generateDynamicIcons") {
+tasks.create("generateIcons") {
+    doFirst {
+        def drawableFolder = file("src/main/res/drawable")
+        def importedIcons = drawableFolder.listFiles(new FileFilter() {
+            @Override
+            boolean accept(File file) {
+                return !file.name.startsWith("ic_vtmn") && file.name.endsWith(".xml")
+            }
+        })
+        def icons = drawableFolder.listFiles(new FileFilter() {
+            @Override
+            boolean accept(File file) {
+                return file.name.startsWith("ic_vtmn") &&
+                        (file.name.endsWith(".xml") || file.name.endsWith(".xml"))
+            }
+        })
+
+        icons.each {
+            it.delete()
+        }
+
+        importedIcons.each { importedFile ->
+            importedFile.renameTo(file("src/main/res/drawable/ic_vtmn_${importedFile.name}"))
+        }
+    }
+
     doLast {
         def drawableFolder = file("src/main/res/drawable")
         def iconsLine = drawableFolder.listFiles(new FileFilter() {

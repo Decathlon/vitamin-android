@@ -32,9 +32,9 @@ class TextInputsFragment : ComponentFragment() {
                 .show()
         }
         binding.textInputLayoutOutlined6.editText.setAdapter(listOf(
-            Item(R.drawable.ic_vtmn_heart_3_fill, R.drawable.ic_vtmn_heart_3_fill, "Option 1"),
-            Item(R.drawable.ic_vtmn_heart_3_fill, null, "Option 2"),
-            Item(null, R.drawable.ic_vtmn_heart_3_fill, "Option 3"),
+            Item(R.drawable.ic_vtmn_heart_fill, R.drawable.ic_vtmn_heart_fill, "Option 1"),
+            Item(R.drawable.ic_vtmn_heart_fill, null, "Option 2"),
+            Item(null, R.drawable.ic_vtmn_heart_fill, "Option 3"),
             Item(null, null, "Option 4")
         ))
         binding.textInputLayoutFilled2.error = "Error message"
@@ -43,9 +43,9 @@ class TextInputsFragment : ComponentFragment() {
                 .show()
         }
         binding.textInputLayoutFilled6.editText.setAdapter(listOf(
-            Item(R.drawable.ic_vtmn_heart_3_fill, R.drawable.ic_vtmn_heart_3_fill, "Option 1"),
-            Item(R.drawable.ic_vtmn_heart_3_fill, null, "Option 2"),
-            Item(null, R.drawable.ic_vtmn_heart_3_fill, "Option 3"),
+            Item(R.drawable.ic_vtmn_heart_fill, R.drawable.ic_vtmn_heart_fill, "Option 1"),
+            Item(R.drawable.ic_vtmn_heart_fill, null, "Option 2"),
+            Item(null, R.drawable.ic_vtmn_heart_fill, "Option 3"),
             Item(null, null, "Option 4")
         ))
     }
