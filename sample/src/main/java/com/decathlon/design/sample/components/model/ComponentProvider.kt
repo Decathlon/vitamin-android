@@ -17,6 +17,11 @@ object ComponentProvider {
                 R.id.action_main_to_typography
             ),
             Component(
+                R.string.themes_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_themes
+            ),
+            Component(
                 R.string.button_screen_title,
                 R.drawable.ic_button,
                 R.id.action_main_to_button

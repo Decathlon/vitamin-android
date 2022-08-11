@@ -71,6 +71,9 @@
         <action
             android:id="@+id/action_main_to_tabs"
             app:destination="@id/tabs" />
+        <action
+            android:id="@+id/action_main_to_themes"
+            app:destination="@id/themes" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -156,4 +159,8 @@
         android:id="@+id/tabs"
         android:name="com.decathlon.design.sample.components.screens.TabsFragment"
         android:label="@string/tabs_screen_title" />
+    <fragment
+        android:id="@+id/themes"
+        android:name="com.decathlon.design.sample.components.screens.ThemesFragment"
+        android:label="@string/themes_screen_title" />
 </navigation>
