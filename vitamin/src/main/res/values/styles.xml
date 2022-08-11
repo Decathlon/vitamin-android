@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Vitamin" parent="Base.Theme.Vitamin">
-        <!-- Vitamin Buttons -->
+    <style name="Theme.Vitamin.Light" parent="Base.Theme.Vitamin.Foundation.Light">
+        <!--region Buttons -->
+        <!-- region Vitamin Buttons -->
         <item name="vtmnButtonPrimaryMediumStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
         <item name="vtmnButtonPrimaryLargeStyle">@style/Widget.Vitamin.Button.Primary.Large</item>
         <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
@@ -24,7 +25,8 @@
         <item name="vtmnButtonGhostReversedLargeStyle">
             @style/Widget.Vitamin.Button.GhostReversed.Large
         </item>
-        <!-- Vitamin Icon Buttons -->
+        <!-- endregion -->
+        <!-- region Vitamin Icon Buttons -->
         <item name="vtmnIconButtonPrimaryMediumStyle">
             @style/Widget.Vitamin.IconButton.Primary.Medium
         </item>
@@ -67,7 +69,8 @@
         <item name="vtmnIconButtonGhostReversedLargeStyle">
             @style/Widget.Vitamin.IconButton.GhostReversed.Large
         </item>
-        <!-- Deprecated Vitamin Buttons -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Buttons -->
         <item name="buttonPrimaryMedium">?attr/vtmnButtonPrimaryMediumStyle</item>
         <item name="buttonPrimaryLarge">?attr/vtmnButtonPrimaryLargeStyle</item>
         <item name="buttonSecondaryMedium">?attr/vtmnButtonSecondaryMediumStyle</item>
@@ -87,29 +90,45 @@
         <item name="buttonSecondary">?attr/buttonSecondaryMedium</item>
         <item name="buttonGhost">?attr/buttonGhostMedium</item>
         <item name="buttonGhostReversed">?attr/buttonGhostReversedMedium</item>
-        <!-- Material Buttons -->
+        <!-- endregion -->
+        <!-- region Material Buttons -->
         <item name="buttonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
         <item name="materialButtonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
         <item name="materialButtonOutlinedStyle">?attr/vtmnButtonSecondaryMediumStyle</item>
         <item name="borderlessButtonStyle">?attr/vtmnButtonGhostMediumStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!--  Vitamin Checkboxes -->
+        <!-- region Checkboxes -->
+        <!-- region Vitamin Checkboxes -->
         <item name="vtmnCheckboxStyle">@style/Widget.Vitamin.Checkbox</item>
-        <!--  Material Checkboxes -->
+        <!-- endregion -->
+        <!-- region Material Checkboxes -->
         <item name="checkboxStyle">?attr/vtmnCheckboxStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin RadioButtons -->
+        <!-- region RadioButtons -->
+        <!-- region Vitamin RadioButtons -->
         <item name="vtmnRadioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
-        <!--  Material RadioButtons -->
+        <!-- endregion -->
+        <!-- region Material RadioButtons -->
         <item name="radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
         <item name="android:radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin Switches -->
+        <!-- region Switches -->
+        <!-- region Vitamin Switches -->
         <item name="vtmnSwitchStyle">@style/Widget.Vitamin.Switch</item>
-        <!-- Material Switches -->
+        <!-- endregion -->
+        <!-- region Material Switches -->
         <item name="switchStyle">?attr/vtmnSwitchStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin Text Inputs -->
+        <!-- region Text Inputs -->
+        <!-- region Vitamin Text Inputs -->
         <item name="vtmnTextInputFilledStyle">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
         <item name="vtmnTextInputOutlinedStyle">
             @style/Widget.Vitamin.TextInputLayout.OutlinedBox
@@ -120,15 +139,20 @@
         <item name="vtmnTextInputDropdownOutlinedStyle">
             @style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown
         </item>
-        <!-- Deprecated Vitamin Text Inputs -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Text Inputs -->
         <item name="textInputFilled">?attr/vtmnTextInputFilledStyle</item>
         <item name="textInputOutlined">?attr/vtmnTextInputOutlinedStyle</item>
         <item name="textInputDropdownFilled">?attr/vtmnTextInputDropdownFilledStyle</item>
         <item name="textInputDropdownOutlined">?attr/vtmnTextInputDropdownOutlinedStyle</item>
-        <!-- Material Text Inputs -->
+        <!-- endregion -->
+        <!-- region Material Text Inputs -->
         <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin FloatingActionButtons -->
+        <!-- region FloatingActionButtons -->
+        <!-- region Vitamin FloatingActionButtons -->
         <item name="vtmnFloatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
         <item name="vtmnMiniFloatingActionButtonStyle">
             @style/Widget.Vitamin.MiniFloatingActionButton
@@ -136,48 +160,65 @@
         <item name="vtmnExtendedFloatingActionButtonStyle">
             @style/Widget.Vitamin.ExtendedFloatingActionButton
         </item>
-        <!-- Deprecated Vitamin FloatingActionButtons -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin FloatingActionButtons -->
         <item name="miniFloatingActionButtonStyle">?attr/vtmnMiniFloatingActionButtonStyle</item>
         <!-- Material FloatingActionButtons -->
         <item name="floatingActionButtonStyle">?attr/vtmnFloatingActionButtonStyle</item>
         <item name="extendedFloatingActionButtonStyle">
             ?attr/vtmnExtendedFloatingActionButtonStyle
         </item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Material Modal -->
+        <!-- region Material Modal -->
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
+        <!-- endregion -->
 
-        <!-- ProgressBar -->
+        <!-- region ProgressBar -->
         <item name="linearProgressIndicatorStyle">@style/Widget.Vitamin.LinearProgressBar</item>
         <item name="circularProgressIndicatorStyle">@style/Widget.Vitamin.CircularProgressBar</item>
+        <!-- endregion -->
 
-        <!-- Vitamin Ratings -->
+        <!-- region Vitamin Ratings -->
         <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
         <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
         <item name="vtmnInteractiveRatingViewStyle">
             @style/Widget.Vitamin.InteractiveRatingView
         </item>
+        <!-- endregion -->
 
-        <!-- Vitamin Dropdown -->
+        <!-- region Dropdown -->
+        <!-- region Vitamin Dropdown -->
         <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
-        <!-- Material Dropdown -->
+        <!-- endregion -->
+        <!-- region Material Dropdown -->
         <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
         <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin Menu -->
+        <!-- region Menu -->
+        <!-- region Vitamin Menu -->
         <item name="vtmnMenuStyle">@style/Widget.Vitamin.Menu</item>
         <item name="vtmnListMenuStyle">@style/Widget.Vitamin.Menu.List</item>
-        <!-- Material Menu -->
+        <!-- endregion -->
+        <!-- region Material Menu -->
         <item name="popupMenuStyle">?attr/vtmnMenuStyle</item>
         <item name="listPopupWindowStyle">?attr/vtmnListMenuStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin AppBars -->
+        <!-- region AppBars -->
+        <!-- region Vitamin AppBars -->
         <item name="vtmnTopBarStyle">@style/Widget.Vitamin.TopBar</item>
         <item name="vtmnSearchTopBarStyle">@style/Widget.Vitamin.TopBar.Search</item>
         <item name="vtmnBottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
-        <!-- Deprecated Vitamin AppBars -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin AppBars -->
         <item name="toolbarSearchStyle">?attr/vtmnSearchTopBarStyle</item>
-        <!-- Material AppBars -->
+        <!-- endregion -->
+        <!-- region Material AppBars -->
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeCloseDrawable">@drawable/ic_vtmn_close_line</item>
         <item name="appBarLayoutStyle">@style/Widget.Vitamin.AppBarLayout</item>
@@ -189,14 +230,18 @@
         <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
         <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
         <item name="bottomNavigationStyle">?attr/vtmnBottomNavigationStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Snackbar -->
+        <!-- region Snackbar -->
         <item name="snackbarStyle">@style/Widget.Vitamin.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>
         <item name="snackbarTextViewStyle">@style/Widget.Vitamin.Snackbar.TextView</item>
         <item name="maxActionInlineWidth">@dimen/vtmn_snackbars_max_action_inline_width</item>
+        <!-- endregion -->
 
-        <!-- Vitamin Chips -->
+        <!-- region Chips -->
+        <!-- region Vitamin Chips -->
         <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
         <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
         <item name="vtmnChipFilterMediumStyle">@style/Widget.Vitamin.Chip.Filter.Medium</item>
@@ -207,7 +252,8 @@
         <item name="vtmnChipInputSmallStyle">@style/Widget.Vitamin.Chip.Input.Small</item>
         <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
         <item name="vtmnChipInputImageSmallStyle">@style/Widget.Vitamin.Chip.InputImage.Small</item>
-        <!-- Deprecated Vitamin Chips -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Chips -->
         <item name="chipSingleChoiceMedium">?attr/vtmnChipSingleChoiceMediumStyle</item>
         <item name="chipSingleChoiceSmall">?attr/vtmnChipSingleChoiceSmallStyle</item>
         <item name="chipFilterMedium">?attr/vtmnChipFilterMediumStyle</item>
@@ -218,11 +264,15 @@
         <item name="chipInputSmall">?attr/vtmnChipInputSmallStyle</item>
         <item name="chipInputImageMedium">?attr/vtmnChipInputImageMediumStyle</item>
         <item name="chipInputImageSmall">?attr/vtmnChipInputImageSmallStyle</item>
-        <!-- Material Chips -->
+        <!-- endregion -->
+        <!-- region Material Chips -->
         <item name="chipStyle">?attr/vtmnChipActionMediumStyle</item>
         <item name="chipStandaloneStyle">?attr/vtmnChipInputMediumStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin Prices -->
+        <!-- region Prices -->
+        <!-- region Vitamin Prices -->
         <item name="vtmnPriceDefaultSmallStyle">@style/Widget.Vitamin.Price.Default.Small</item>
         <item name="vtmnPriceDefaultMediumStyle">@style/Widget.Vitamin.Price.Default.Medium</item>
         <item name="vtmnPriceDefaultLargeStyle">@style/Widget.Vitamin.Price.Default.Large</item>
@@ -235,7 +285,8 @@
         <item name="vtmnPriceStrikethroughSmallStyle">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
         <item name="vtmnPriceStrikethroughMediumStyle">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
         <item name="vtmnPriceStrikethroughLargeStyle">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
-        <!-- Deprecated Vitamin Prices -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Prices -->
         <item name="priceDefaultSmall">?attr/vtmnPriceDefaultSmallStyle</item>
         <item name="priceDefaultMedium">?attr/vtmnPriceDefaultMediumStyle</item>
         <item name="priceDefaultLarge">?attr/vtmnPriceDefaultLargeStyle</item>
@@ -248,20 +299,27 @@
         <item name="priceStrikethroughSmall">?attr/vtmnPriceStrikethroughSmallStyle</item>
         <item name="priceStrikethroughMedium">?attr/vtmnPriceStrikethroughMediumStyle</item>
         <item name="priceStrikethroughLarge">?attr/vtmnPriceStrikethroughLargeStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin Dividers -->
+        <!-- region Dividers -->
+        <!-- region Vitamin Dividers -->
         <item name="vtmnDividerFullBleedStyle">@style/Widget.Vitamin.Divider.FullBleed</item>
         <item name="vtmnDividerInsetStyle">@style/Widget.Vitamin.Divider.Inset</item>
         <item name="vtmnDividerMiddleStyle">@style/Widget.Vitamin.Divider.Middle</item>
-        <!-- Deprecated Vitamin Chips -->
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Dividers -->
         <item name="dividerFullBleed">?attr/vtmnDividerFullBleedStyle</item>
         <item name="dividerInset">?attr/vtmnDividerInsetStyle</item>
         <item name="dividerMiddle">?attr/vtmnDividerMiddleStyle</item>
-        <!-- Material Dividers -->
+        <!-- endregion -->
+        <!-- region Material Dividers -->
         <item name="materialDividerStyle">?attr/vtmnDividerFullBleedStyle</item>
         <item name="android:listDivider">?attr/vtmnBorderColorSecondary</item>
+        <!-- endregion -->
+        <!-- endregion -->
 
-        <!-- Vitamin Tags -->
+        <!-- region Vitamin Tags -->
         <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
         <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
         <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
@@ -298,13 +356,392 @@
         <item name="vtmnTagDecorativeAmethystInteractiveStyle">
             @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
         </item>
+        <!-- endregion -->
 
-        <!-- Vitamin Tabs -->
+        <!-- region Tabs -->
+        <!-- region Vitamin Tabs -->
         <item name="vtmnTabStyle">@style/Widget.Vitamin.TabLayout</item>
         <item name="vtmnTabLeadingIconStyle">@style/Widget.Vitamin.TabLayout.LeadingIcon</item>
         <item name="vtmnTabTopIconStyle">@style/Widget.Vitamin.TabLayout.TopIcon</item>
-
-        <!-- Material Tabs -->
+        <!-- endregion -->
+        <!-- region Material Tabs -->
         <item name="tabStyle">?attr/vtmnTabStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
     </style>
+
+    <style name="Theme.Vitamin.Dark" parent="Base.Theme.Vitamin.Foundation.Dark">
+        <!--region Buttons -->
+        <!-- region Vitamin Buttons -->
+        <item name="vtmnButtonPrimaryMediumStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
+        <item name="vtmnButtonPrimaryLargeStyle">@style/Widget.Vitamin.Button.Primary.Large</item>
+        <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
+        <item name="vtmnButtonSecondaryLargeStyle">@style/Widget.Vitamin.Button.Secondary.Large</item>
+        <item name="vtmnButtonTertiaryMediumStyle">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
+        <item name="vtmnButtonTertiaryLargeStyle">@style/Widget.Vitamin.Button.Tertiary.Large</item>
+        <item name="vtmnButtonConversionMediumStyle">@style/Widget.Vitamin.Button.Conversion.Medium</item>
+        <item name="vtmnButtonConversionLargeStyle">@style/Widget.Vitamin.Button.Conversion.Large</item>
+        <item name="vtmnButtonPrimaryReversedMediumStyle">
+            @style/Widget.Vitamin.Button.PrimaryReversed.Medium
+        </item>
+        <item name="vtmnButtonPrimaryReversedLargeStyle">
+            @style/Widget.Vitamin.Button.PrimaryReversed.Large
+        </item>
+        <item name="vtmnButtonGhostMediumStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
+        <item name="vtmnButtonGhostLargeStyle">@style/Widget.Vitamin.Button.Ghost.Large</item>
+        <item name="vtmnButtonGhostReversedMediumStyle">@style/Widget.Vitamin.Button.GhostReversed.Medium
+        </item>
+        <item name="vtmnButtonGhostReversedLargeStyle">
+            @style/Widget.Vitamin.Button.GhostReversed.Large
+        </item>
+        <!-- endregion -->
+        <!-- region Vitamin Icon Buttons -->
+        <item name="vtmnIconButtonPrimaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Primary.Medium
+        </item>
+        <item name="vtmnIconButtonPrimaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Primary.Large
+        </item>
+        <item name="vtmnIconButtonSecondaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Secondary.Medium
+        </item>
+        <item name="vtmnIconButtonSecondaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Secondary.Large
+        </item>
+        <item name="vtmnIconButtonTertiaryMediumStyle">
+            @style/Widget.Vitamin.IconButton.Tertiary.Medium
+        </item>
+        <item name="vtmnIconButtonTertiaryLargeStyle">
+            @style/Widget.Vitamin.IconButton.Tertiary.Large
+        </item>
+        <item name="vtmnIconButtonConversionMediumStyle">
+            @style/Widget.Vitamin.IconButton.Conversion.Medium
+        </item>
+        <item name="vtmnIconButtonConversionLargeStyle">
+            @style/Widget.Vitamin.IconButton.Conversion.Large
+        </item>
+        <item name="vtmnIconButtonPrimaryReversedMediumStyle">
+            @style/Widget.Vitamin.IconButton.PrimaryReversed.Medium
+        </item>
+        <item name="vtmnIconButtonPrimaryReversedLargeStyle">
+            @style/Widget.Vitamin.IconButton.PrimaryReversed.Large
+        </item>
+        <item name="vtmnIconButtonGhostMediumStyle">
+            @style/Widget.Vitamin.IconButton.Ghost.Medium
+        </item>
+        <item name="vtmnIconButtonGhostLargeStyle">
+            @style/Widget.Vitamin.IconButton.Ghost.Large
+        </item>
+        <item name="vtmnIconButtonGhostReversedMediumStyle">
+            @style/Widget.Vitamin.IconButton.GhostReversed.Medium
+        </item>
+        <item name="vtmnIconButtonGhostReversedLargeStyle">
+            @style/Widget.Vitamin.IconButton.GhostReversed.Large
+        </item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Buttons -->
+        <item name="buttonPrimaryMedium">?attr/vtmnButtonPrimaryMediumStyle</item>
+        <item name="buttonPrimaryLarge">?attr/vtmnButtonPrimaryLargeStyle</item>
+        <item name="buttonSecondaryMedium">?attr/vtmnButtonSecondaryMediumStyle</item>
+        <item name="buttonSecondaryLarge">?attr/vtmnButtonSecondaryLargeStyle</item>
+        <item name="buttonTertiaryMedium">?attr/vtmnButtonTertiaryMediumStyle</item>
+        <item name="buttonTertiaryLarge">?attr/vtmnButtonTertiaryLargeStyle</item>
+        <item name="buttonConversionMedium">?attr/vtmnButtonConversionMediumStyle</item>
+        <item name="buttonConversionLarge">?attr/vtmnButtonConversionLargeStyle</item>
+        <item name="buttonPrimaryReversedMedium">?attr/vtmnButtonPrimaryReversedMediumStyle</item>
+        <item name="buttonPrimaryReversedLarge">?attr/vtmnButtonPrimaryReversedLargeStyle</item>
+        <item name="buttonGhostMedium">?attr/vtmnButtonGhostMediumStyle</item>
+        <item name="buttonGhostLarge">?attr/vtmnButtonGhostLargeStyle</item>
+        <item name="buttonGhostReversedMedium">?attr/vtmnButtonGhostReversedMediumStyle</item>
+        <item name="buttonGhostReversedLarge">?attr/vtmnButtonGhostReversedLargeStyle</item>
+        <item name="buttonReverseStyle">?attr/buttonPrimaryReversedMedium</item>
+        <item name="buttonConversionStyle">?attr/buttonConversionMedium</item>
+        <item name="buttonSecondary">?attr/buttonSecondaryMedium</item>
+        <item name="buttonGhost">?attr/buttonGhostMedium</item>
+        <item name="buttonGhostReversed">?attr/buttonGhostReversedMedium</item>
+        <!-- endregion -->
+        <!-- region Material Buttons -->
+        <item name="buttonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
+        <item name="materialButtonStyle">?attr/vtmnButtonPrimaryMediumStyle</item>
+        <item name="materialButtonOutlinedStyle">?attr/vtmnButtonSecondaryMediumStyle</item>
+        <item name="borderlessButtonStyle">?attr/vtmnButtonGhostMediumStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Checkboxes -->
+        <!-- region Vitamin Checkboxes -->
+        <item name="vtmnCheckboxStyle">@style/Widget.Vitamin.Checkbox</item>
+        <!-- endregion -->
+        <!-- region Material Checkboxes -->
+        <item name="checkboxStyle">?attr/vtmnCheckboxStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region RadioButtons -->
+        <!-- region Vitamin RadioButtons -->
+        <item name="vtmnRadioButtonStyle">@style/Widget.Vitamin.RadioButton</item>
+        <!-- endregion -->
+        <!-- region Material RadioButtons -->
+        <item name="radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
+        <item name="android:radioButtonStyle">?attr/vtmnRadioButtonStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Switches -->
+        <!-- region Vitamin Switches -->
+        <item name="vtmnSwitchStyle">@style/Widget.Vitamin.Switch</item>
+        <!-- endregion -->
+        <!-- region Material Switches -->
+        <item name="switchStyle">?attr/vtmnSwitchStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Text Inputs -->
+        <!-- region Vitamin Text Inputs -->
+        <item name="vtmnTextInputFilledStyle">@style/Widget.Vitamin.TextInputLayout.FilledBox</item>
+        <item name="vtmnTextInputOutlinedStyle">
+            @style/Widget.Vitamin.TextInputLayout.OutlinedBox
+        </item>
+        <item name="vtmnTextInputDropdownFilledStyle">
+            @style/Widget.Vitamin.TextInputLayout.FilledBox.Dropdown
+        </item>
+        <item name="vtmnTextInputDropdownOutlinedStyle">
+            @style/Widget.Vitamin.TextInputLayout.OutlinedBox.Dropdown
+        </item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Text Inputs -->
+        <item name="textInputFilled">?attr/vtmnTextInputFilledStyle</item>
+        <item name="textInputOutlined">?attr/vtmnTextInputOutlinedStyle</item>
+        <item name="textInputDropdownFilled">?attr/vtmnTextInputDropdownFilledStyle</item>
+        <item name="textInputDropdownOutlined">?attr/vtmnTextInputDropdownOutlinedStyle</item>
+        <!-- endregion -->
+        <!-- region Material Text Inputs -->
+        <item name="textInputStyle">@style/Widget.Vitamin.TextInputLayout</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region FloatingActionButtons -->
+        <!-- region Vitamin FloatingActionButtons -->
+        <item name="vtmnFloatingActionButtonStyle">@style/Widget.Vitamin.FloatingActionButton</item>
+        <item name="vtmnMiniFloatingActionButtonStyle">
+            @style/Widget.Vitamin.MiniFloatingActionButton
+        </item>
+        <item name="vtmnExtendedFloatingActionButtonStyle">
+            @style/Widget.Vitamin.ExtendedFloatingActionButton
+        </item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin FloatingActionButtons -->
+        <item name="miniFloatingActionButtonStyle">?attr/vtmnMiniFloatingActionButtonStyle</item>
+        <!-- Material FloatingActionButtons -->
+        <item name="floatingActionButtonStyle">?attr/vtmnFloatingActionButtonStyle</item>
+        <item name="extendedFloatingActionButtonStyle">
+            ?attr/vtmnExtendedFloatingActionButtonStyle
+        </item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Material Modal -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
+        <!-- endregion -->
+
+        <!-- region ProgressBar -->
+        <item name="linearProgressIndicatorStyle">@style/Widget.Vitamin.LinearProgressBar</item>
+        <item name="circularProgressIndicatorStyle">@style/Widget.Vitamin.CircularProgressBar</item>
+        <!-- endregion -->
+
+        <!-- region Vitamin Ratings -->
+        <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
+        <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
+        <item name="vtmnInteractiveRatingViewStyle">
+            @style/Widget.Vitamin.InteractiveRatingView
+        </item>
+        <!-- endregion -->
+
+        <!-- region Dropdown -->
+        <!-- region Vitamin Dropdown -->
+        <item name="vtmnDropDownItemStyle">@style/Widget.Vitamin.Dropdown.Text</item>
+        <!-- endregion -->
+        <!-- region Material Dropdown -->
+        <item name="android:spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
+        <item name="spinnerDropDownItemStyle">?attr/vtmnDropDownItemStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Menu -->
+        <!-- region Vitamin Menu -->
+        <item name="vtmnMenuStyle">@style/Widget.Vitamin.Menu</item>
+        <item name="vtmnListMenuStyle">@style/Widget.Vitamin.Menu.List</item>
+        <!-- endregion -->
+        <!-- region Material Menu -->
+        <item name="popupMenuStyle">?attr/vtmnMenuStyle</item>
+        <item name="listPopupWindowStyle">?attr/vtmnListMenuStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region AppBars -->
+        <!-- region Vitamin AppBars -->
+        <item name="vtmnTopBarStyle">@style/Widget.Vitamin.TopBar</item>
+        <item name="vtmnSearchTopBarStyle">@style/Widget.Vitamin.TopBar.Search</item>
+        <item name="vtmnBottomNavigationStyle">@style/Widget.Vitamin.BottomNavigation</item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin AppBars -->
+        <item name="toolbarSearchStyle">?attr/vtmnSearchTopBarStyle</item>
+        <!-- endregion -->
+        <!-- region Material AppBars -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_vtmn_close_line</item>
+        <item name="appBarLayoutStyle">@style/Widget.Vitamin.AppBarLayout</item>
+        <item name="toolbarStyle">?attr/vtmnTopBarStyle</item>
+        <item name="actionBarStyle">?attr/vtmnTopBarStyle</item>
+        <item name="actionModeStyle">@style/Widget.Vitamin.ActionMode</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
+        <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
+        <item name="bottomNavigationStyle">?attr/vtmnBottomNavigationStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Snackbar -->
+        <item name="snackbarStyle">@style/Widget.Vitamin.Snackbar</item>
+        <item name="snackbarButtonStyle">@style/Widget.Vitamin.SnackbarButton</item>
+        <item name="snackbarTextViewStyle">@style/Widget.Vitamin.Snackbar.TextView</item>
+        <item name="maxActionInlineWidth">@dimen/vtmn_snackbars_max_action_inline_width</item>
+        <!-- endregion -->
+
+        <!-- region Chips -->
+        <!-- region Vitamin Chips -->
+        <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
+        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
+        <item name="vtmnChipFilterMediumStyle">@style/Widget.Vitamin.Chip.Filter.Medium</item>
+        <item name="vtmnChipFilterSmallStyle">@style/Widget.Vitamin.Chip.Filter.Small</item>
+        <item name="vtmnChipActionMediumStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
+        <item name="vtmnChipActionSmallStyle">@style/Widget.Vitamin.Chip.Action.Small</item>
+        <item name="vtmnChipInputMediumStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
+        <item name="vtmnChipInputSmallStyle">@style/Widget.Vitamin.Chip.Input.Small</item>
+        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
+        <item name="vtmnChipInputImageSmallStyle">@style/Widget.Vitamin.Chip.InputImage.Small</item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Chips -->
+        <item name="chipSingleChoiceMedium">?attr/vtmnChipSingleChoiceMediumStyle</item>
+        <item name="chipSingleChoiceSmall">?attr/vtmnChipSingleChoiceSmallStyle</item>
+        <item name="chipFilterMedium">?attr/vtmnChipFilterMediumStyle</item>
+        <item name="chipFilterSmall">?attr/vtmnChipFilterSmallStyle</item>
+        <item name="chipActionMedium">?attr/vtmnChipActionMediumStyle</item>
+        <item name="chipActionSmall">?attr/vtmnChipActionSmallStyle</item>
+        <item name="chipInputMedium">?attr/vtmnChipInputMediumStyle</item>
+        <item name="chipInputSmall">?attr/vtmnChipInputSmallStyle</item>
+        <item name="chipInputImageMedium">?attr/vtmnChipInputImageMediumStyle</item>
+        <item name="chipInputImageSmall">?attr/vtmnChipInputImageSmallStyle</item>
+        <!-- endregion -->
+        <!-- region Material Chips -->
+        <item name="chipStyle">?attr/vtmnChipActionMediumStyle</item>
+        <item name="chipStandaloneStyle">?attr/vtmnChipInputMediumStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Prices -->
+        <!-- region Vitamin Prices -->
+        <item name="vtmnPriceDefaultSmallStyle">@style/Widget.Vitamin.Price.Default.Small</item>
+        <item name="vtmnPriceDefaultMediumStyle">@style/Widget.Vitamin.Price.Default.Medium</item>
+        <item name="vtmnPriceDefaultLargeStyle">@style/Widget.Vitamin.Price.Default.Large</item>
+        <item name="vtmnPriceAccentSmallStyle">@style/Widget.Vitamin.Price.Accent.Small</item>
+        <item name="vtmnPriceAccentMediumStyle">@style/Widget.Vitamin.Price.Accent.Medium</item>
+        <item name="vtmnPriceAccentLargeStyle">@style/Widget.Vitamin.Price.Accent.Large</item>
+        <item name="vtmnPriceAlertSmallStyle">@style/Widget.Vitamin.Price.Alert.Small</item>
+        <item name="vtmnPriceAlertMediumStyle">@style/Widget.Vitamin.Price.Alert.Medium</item>
+        <item name="vtmnPriceAlertLargeStyle">@style/Widget.Vitamin.Price.Alert.Large</item>
+        <item name="vtmnPriceStrikethroughSmallStyle">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
+        <item name="vtmnPriceStrikethroughMediumStyle">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
+        <item name="vtmnPriceStrikethroughLargeStyle">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Prices -->
+        <item name="priceDefaultSmall">?attr/vtmnPriceDefaultSmallStyle</item>
+        <item name="priceDefaultMedium">?attr/vtmnPriceDefaultMediumStyle</item>
+        <item name="priceDefaultLarge">?attr/vtmnPriceDefaultLargeStyle</item>
+        <item name="priceAccentSmall">?attr/vtmnPriceAccentSmallStyle</item>
+        <item name="priceAccentMedium">?attr/vtmnPriceAccentMediumStyle</item>
+        <item name="priceAccentLarge">?attr/vtmnPriceAccentLargeStyle</item>
+        <item name="priceAlertSmall">?attr/vtmnPriceAlertSmallStyle</item>
+        <item name="priceAlertMedium">?attr/vtmnPriceAlertMediumStyle</item>
+        <item name="priceAlertLarge">?attr/vtmnPriceAlertLargeStyle</item>
+        <item name="priceStrikethroughSmall">?attr/vtmnPriceStrikethroughSmallStyle</item>
+        <item name="priceStrikethroughMedium">?attr/vtmnPriceStrikethroughMediumStyle</item>
+        <item name="priceStrikethroughLarge">?attr/vtmnPriceStrikethroughLargeStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Dividers -->
+        <!-- region Vitamin Dividers -->
+        <item name="vtmnDividerFullBleedStyle">@style/Widget.Vitamin.Divider.FullBleed</item>
+        <item name="vtmnDividerInsetStyle">@style/Widget.Vitamin.Divider.Inset</item>
+        <item name="vtmnDividerMiddleStyle">@style/Widget.Vitamin.Divider.Middle</item>
+        <!-- endregion -->
+        <!-- region Deprecated Vitamin Dividers -->
+        <item name="dividerFullBleed">?attr/vtmnDividerFullBleedStyle</item>
+        <item name="dividerInset">?attr/vtmnDividerInsetStyle</item>
+        <item name="dividerMiddle">?attr/vtmnDividerMiddleStyle</item>
+        <!-- endregion -->
+        <!-- region Material Dividers -->
+        <item name="materialDividerStyle">?attr/vtmnDividerFullBleedStyle</item>
+        <item name="android:listDivider">?attr/vtmnBorderColorSecondary</item>
+        <!-- endregion -->
+        <!-- endregion -->
+
+        <!-- region Vitamin Tags -->
+        <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
+        <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
+        <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
+        <item name="vtmnTagAlertInteractiveStyle">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
+        <item name="vtmnTagBrandStyle">@style/Widget.Vitamin.Tag.Brand</item>
+        <item name="vtmnTagBrandInteractiveStyle">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
+        <item name="vtmnTagDecorativeGravelStyle">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
+        <item name="vtmnTagDecorativeGravelInteractiveStyle">
+            @style/Widget.Vitamin.Tag.DecorativeGravel.Interactive
+        </item>
+        <item name="vtmnTagDecorativeBrickStyle">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
+        <item name="vtmnTagDecorativeBrickInteractiveStyle">
+            @style/Widget.Vitamin.Tag.DecorativeBrick.Interactive
+        </item>
+        <item name="vtmnTagDecorativeSaffronStyle">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
+        <item name="vtmnTagDecorativeSaffronInteractiveStyle">
+            @style/Widget.Vitamin.Tag.DecorativeSaffron.Interactive
+        </item>
+        <item name="vtmnTagDecorativeGoldStyle">@style/Widget.Vitamin.Tag.DecorativeGold</item>
+        <item name="vtmnTagDecorativeGoldInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
+        </item>
+        <item name="vtmnTagDecorativeJadeStyle">@style/Widget.Vitamin.Tag.DecorativeJade</item>
+        <item name="vtmnTagDecorativeJadeInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
+        </item>
+        <item name="vtmnTagDecorativeEmeraldStyle">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
+        <item name="vtmnTagDecorativeEmeraldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.DecorativeEmerald.Interactive
+        </item>
+        <item name="vtmnTagDecorativeCobaltStyle">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
+        <item name="vtmnTagDecorativeCobaltInteractiveStyle">
+            @style/Widget.Vitamin.Tag.DecorativeCobalt.Interactive
+        </item>
+        <item name="vtmnTagDecorativeAmethystStyle">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
+        <item name="vtmnTagDecorativeAmethystInteractiveStyle">
+            @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
+        </item>
+        <!-- endregion -->
+
+        <!-- region Tabs -->
+        <!-- region Vitamin Tabs -->
+        <item name="vtmnTabStyle">@style/Widget.Vitamin.TabLayout</item>
+        <item name="vtmnTabLeadingIconStyle">@style/Widget.Vitamin.TabLayout.LeadingIcon</item>
+        <item name="vtmnTabTopIconStyle">@style/Widget.Vitamin.TabLayout.TopIcon</item>
+        <!-- endregion -->
+        <!-- region Material Tabs -->
+        <item name="tabStyle">?attr/vtmnTabStyle</item>
+        <!-- endregion -->
+        <!-- endregion -->
+    </style>
+
+    <style name="Theme.Vitamin.DayNight" parent="Theme.Vitamin.Light"/>
+
+    <!-- {@deprecated Use Theme.Vitamin.DayNight instead.} -->
+    <style name="Theme.Vitamin" parent="Theme.Vitamin.DayNight"/>
+
 </resources>
