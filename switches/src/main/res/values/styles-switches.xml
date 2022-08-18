@@ -3,7 +3,7 @@
 
     <style name="Widget.Vitamin.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
         <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.Switch</item>
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText2</item>
         <item name="android:textColor">@color/vtmn_switches_text</item>
     </style>
 

@@ -16,29 +16,29 @@
     </style>
 
     <style name="Widget.Vitamin.Price.Accent.Small">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Accent.Medium">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Accent.Large">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText1</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Default" />
 
     <style name="Widget.Vitamin.Price.Default.Small">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Default.Medium">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Default.Large">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText1</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert">
@@ -48,15 +48,15 @@
     </style>
 
     <style name="Widget.Vitamin.Price.Alert.Small">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert.Medium">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Alert.Large">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText1</item>
     </style>
 
 
@@ -65,14 +65,14 @@
     </style>
 
     <style name="Widget.Vitamin.Price.Strikethrough.Small">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Strikethrough.Medium">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody2</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText2</item>
     </style>
 
     <style name="Widget.Vitamin.Price.Strikethrough.Large">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText1</item>
     </style>
 </resources>

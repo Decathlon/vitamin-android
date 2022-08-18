@@ -2,7 +2,7 @@
 <resources>
 
     <style name="Widget.Vitamin.RatingView">
-        <item name="vtmnRatingView_noteTextAppearance">@style/TextAppearance.Vitamin.Ratings.Note</item>
+        <item name="vtmnRatingView_noteTextAppearance">?attr/vtmnTextAppearanceBodyBoldText3</item>
         <item name="vtmnRatingView_commentsCountTextAppearance">@style/TextAppearance.Vitamin.Ratings.Comments</item>
         <item name="vtmnRatingView_defaultIconsColor">?attr/vtmnContentColorPrimary</item>
         <item name="vtmnRatingView_emphasisIconsColor">?attr/vtmnContentColorActive</item>
@@ -16,12 +16,7 @@
         <item name="android:isIndicator">true</item>
     </style>
 
-    <style name="TextAppearance.Vitamin.Ratings.Note" parent="TextAppearance.Vitamin.Body3">
-        <item name="android:textStyle">bold</item>
-        <item name="fontWeight">700</item>
-    </style>
-
-    <style name="TextAppearance.Vitamin.Ratings.Comments" parent="TextAppearance.Vitamin.Body3">
+    <style name="TextAppearance.Vitamin.Ratings.Comments" parent="TextAppearance.Vitamin.Body.Regular.Text3">
         <item name="android:textColor">?attr/vtmnContentColorSecondary</item>
     </style>
 

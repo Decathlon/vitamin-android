@@ -30,7 +30,7 @@
     </style>
 
     <style name="Widget.Vitamin.TextInputEditText.FilledBox" parent="@style/Widget.MaterialComponents.TextInputEditText.FilledBox">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText1</item>
         <item name="android:textColor">@color/vtmn_textinputs_filled_text</item>
         <item name="android:paddingStart">@dimen/vtmn_textinputs_filled_padding_horizontal</item>
         <item name="android:paddingEnd">@dimen/vtmn_textinputs_filled_padding_horizontal</item>
