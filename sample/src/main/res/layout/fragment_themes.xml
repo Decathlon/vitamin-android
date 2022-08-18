@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_medium"
                 android:text="@string/lorem_ipsum"
-                android:textAppearance="?attr/vtmnTextAppearanceBody1" />
+                android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText1" />
 
             <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
                 android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_medium"
                 android:text="@string/lorem_ipsum"
-                android:textAppearance="?attr/vtmnTextAppearanceBody1" />
+                android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText1" />
 
             <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
                 android:layout_width="wrap_content"
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/spacing_medium"
                 android:text="@string/lorem_ipsum"
-                android:textAppearance="?attr/vtmnTextAppearanceBody1" />
+                android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText1" />
 
             <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
                 android:layout_width="wrap_content"

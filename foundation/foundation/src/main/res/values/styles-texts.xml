@@ -74,7 +74,7 @@
         <item name="android:textColor">?attr/vtmnContentColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.Vitamin.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
+    <style name="TextAppearance.Vitamin.Body.Regular.Text1" parent="@style/TextAppearance.MaterialComponents.Body1">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body1</item>
@@ -83,7 +83,7 @@
         <item name="android:textColor">?attr/vtmnContentColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.Vitamin.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
+    <style name="TextAppearance.Vitamin.Body.Regular.Text2" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body2</item>
@@ -92,13 +92,25 @@
         <item name="android:textColor">?attr/vtmnContentColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.Vitamin.Body3" parent="@style/TextAppearance.MaterialComponents.Body2">
+    <style name="TextAppearance.Vitamin.Body.Regular.Text3" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="fontFamily">@font/roboto_family</item>
         <item name="android:fontFamily">@font/roboto_family</item>
         <item name="android:textSize">@dimen/vtmn_text_size_body3</item>
         <item name="lineHeight">@dimen/vtmn_line_height_body3</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?attr/vtmnContentColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Vitamin.Body.Bold.Text1" parent="TextAppearance.Vitamin.Body.Regular.Text1">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Vitamin.Body.Bold.Text2" parent="TextAppearance.Vitamin.Body.Regular.Text2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Vitamin.Body.Bold.Text3" parent="TextAppearance.Vitamin.Body.Regular.Text3">
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextAppearance.Vitamin.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">

@@ -77,24 +77,48 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
-            android:text="Body 1"
-            android:textAppearance="?attr/vtmnTextAppearanceBody1"
+            android:text="Body/Regular/Text1"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText1"
             tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
-            android:text="Body 2"
-            android:textAppearance="?attr/vtmnTextAppearanceBody2"
+            android:text="Body/Regular/Text2"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText2"
             tools:ignore="HardcodedText" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/spacing_small"
-            android:text="Body 3"
-            android:textAppearance="?attr/vtmnTextAppearanceBody3"
+            android:text="Body/Regular/Text3"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText3"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="Body/Bold/Text1"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyBoldText1"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="Body/Bold/Text2"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyBoldText2"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:text="Body/Bold/Text3"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyBoldText3"
             tools:ignore="HardcodedText" />
 
         <TextView

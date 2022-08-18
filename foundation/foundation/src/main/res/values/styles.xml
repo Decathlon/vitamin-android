@@ -98,13 +98,13 @@
         <item name="textAppearanceHeadline6">?attr/vtmnTextAppearanceHeadline6</item>
         <item name="textAppearanceSubtitle1">?attr/vtmnTextAppearanceSubtitle1</item>
         <item name="textAppearanceSubtitle2">?attr/vtmnTextAppearanceSubtitle2</item>
-        <item name="textAppearanceBody1">?attr/vtmnTextAppearanceBody1</item>
-        <item name="textAppearanceBody2">?attr/vtmnTextAppearanceBody2</item>
+        <item name="textAppearanceBody1">?attr/vtmnTextAppearanceBodyRegularText1</item>
+        <item name="textAppearanceBody2">?attr/vtmnTextAppearanceBodyRegularText2</item>
         <item name="textAppearanceButton">?attr/vtmnTextAppearanceButton</item>
         <item name="textAppearanceCaption">?attr/vtmnTextAppearanceCaption</item>
         <item name="textAppearanceOverline">?attr/vtmnTextAppearanceOverline</item>
-        <item name="android:textAppearanceMedium">?attr/vtmnTextAppearanceBody1</item>
-        <item name="android:textAppearanceSmall">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearanceMedium">?attr/vtmnTextAppearanceBodyRegularText1</item>
+        <item name="android:textAppearanceSmall">?attr/vtmnTextAppearanceBodyRegularText1</item>
         <!-- endregion -->
     </style>
 
@@ -118,16 +118,22 @@
         <item name="vtmnTextAppearanceHeadline6">@style/TextAppearance.Vitamin.Headline6</item>
         <item name="vtmnTextAppearanceSubtitle1">@style/TextAppearance.Vitamin.Subtitle1</item>
         <item name="vtmnTextAppearanceSubtitle2">@style/TextAppearance.Vitamin.Subtitle2</item>
-        <item name="vtmnTextAppearanceBody1">@style/TextAppearance.Vitamin.Body1</item>
-        <item name="vtmnTextAppearanceBody2">@style/TextAppearance.Vitamin.Body2</item>
-        <item name="vtmnTextAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
+        <item name="vtmnTextAppearanceBodyRegularText1">@style/TextAppearance.Vitamin.Body.Regular.Text1</item>
+        <item name="vtmnTextAppearanceBodyRegularText2">@style/TextAppearance.Vitamin.Body.Regular.Text2</item>
+        <item name="vtmnTextAppearanceBodyRegularText3">@style/TextAppearance.Vitamin.Body.Regular.Text3</item>
+        <item name="vtmnTextAppearanceBodyBoldText1">@style/TextAppearance.Vitamin.Body.Bold.Text1</item>
+        <item name="vtmnTextAppearanceBodyBoldText2">@style/TextAppearance.Vitamin.Body.Bold.Text2</item>
+        <item name="vtmnTextAppearanceBodyBoldText3">@style/TextAppearance.Vitamin.Body.Bold.Text3</item>
         <item name="vtmnTextAppearanceButton">@style/TextAppearance.Vitamin.Button</item>
         <item name="vtmnTextAppearanceCaption">@style/TextAppearance.Vitamin.Caption</item>
         <item name="vtmnTextAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
         <!-- endregion -->
 
         <!-- region Deprecated Vitamin Typographies filling -->
-        <item name="textAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
+        <item name="vtmnTextAppearanceBody1">@style/TextAppearance.Vitamin.Body.Regular.Text1</item>
+        <item name="vtmnTextAppearanceBody2">@style/TextAppearance.Vitamin.Body.Regular.Text2</item>
+        <item name="vtmnTextAppearanceBody3">@style/TextAppearance.Vitamin.Body.Regular.Text3</item>
+        <item name="textAppearanceBody3">@style/TextAppearance.Vitamin.Body.Regular.Text3</item>
         <!-- endregion-->
 
         <!-- region System colors filling -->
@@ -305,13 +311,13 @@
         <item name="textAppearanceHeadline6">?attr/vtmnTextAppearanceHeadline6</item>
         <item name="textAppearanceSubtitle1">?attr/vtmnTextAppearanceSubtitle1</item>
         <item name="textAppearanceSubtitle2">?attr/vtmnTextAppearanceSubtitle2</item>
-        <item name="textAppearanceBody1">?attr/vtmnTextAppearanceBody1</item>
-        <item name="textAppearanceBody2">?attr/vtmnTextAppearanceBody2</item>
+        <item name="textAppearanceBody1">?attr/vtmnTextAppearanceBodyRegularText1</item>
+        <item name="textAppearanceBody2">?attr/vtmnTextAppearanceBodyRegularText2</item>
         <item name="textAppearanceButton">?attr/vtmnTextAppearanceButton</item>
         <item name="textAppearanceCaption">?attr/vtmnTextAppearanceCaption</item>
         <item name="textAppearanceOverline">?attr/vtmnTextAppearanceOverline</item>
-        <item name="android:textAppearanceMedium">?attr/vtmnTextAppearanceBody1</item>
-        <item name="android:textAppearanceSmall">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearanceMedium">?attr/vtmnTextAppearanceBodyRegularText1</item>
+        <item name="android:textAppearanceSmall">?attr/vtmnTextAppearanceBodyRegularText1</item>
         <!-- endregion -->
     </style>
 
@@ -325,16 +331,22 @@
         <item name="vtmnTextAppearanceHeadline6">@style/TextAppearance.Vitamin.Headline6</item>
         <item name="vtmnTextAppearanceSubtitle1">@style/TextAppearance.Vitamin.Subtitle1</item>
         <item name="vtmnTextAppearanceSubtitle2">@style/TextAppearance.Vitamin.Subtitle2</item>
-        <item name="vtmnTextAppearanceBody1">@style/TextAppearance.Vitamin.Body1</item>
-        <item name="vtmnTextAppearanceBody2">@style/TextAppearance.Vitamin.Body2</item>
-        <item name="vtmnTextAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
+        <item name="vtmnTextAppearanceBodyRegularText1">@style/TextAppearance.Vitamin.Body.Regular.Text1</item>
+        <item name="vtmnTextAppearanceBodyRegularText2">@style/TextAppearance.Vitamin.Body.Regular.Text2</item>
+        <item name="vtmnTextAppearanceBodyRegularText3">@style/TextAppearance.Vitamin.Body.Regular.Text3</item>
+        <item name="vtmnTextAppearanceBodyBoldText1">@style/TextAppearance.Vitamin.Body.Bold.Text1</item>
+        <item name="vtmnTextAppearanceBodyBoldText2">@style/TextAppearance.Vitamin.Body.Bold.Text2</item>
+        <item name="vtmnTextAppearanceBodyBoldText3">@style/TextAppearance.Vitamin.Body.Bold.Text3</item>
         <item name="vtmnTextAppearanceButton">@style/TextAppearance.Vitamin.Button</item>
         <item name="vtmnTextAppearanceCaption">@style/TextAppearance.Vitamin.Caption</item>
         <item name="vtmnTextAppearanceOverline">@style/TextAppearance.Vitamin.Overline</item>
         <!-- endregion -->
 
         <!-- region Deprecated Vitamin Typographies filling -->
-        <item name="textAppearanceBody3">@style/TextAppearance.Vitamin.Body3</item>
+        <item name="vtmnTextAppearanceBody1">@style/TextAppearance.Vitamin.Body.Regular.Text1</item>
+        <item name="vtmnTextAppearanceBody2">@style/TextAppearance.Vitamin.Body.Regular.Text2</item>
+        <item name="vtmnTextAppearanceBody3">@style/TextAppearance.Vitamin.Body.Regular.Text3</item>
+        <item name="textAppearanceBody3">@style/TextAppearance.Vitamin.Body.Regular.Text3</item>
         <!-- endregion-->
 
         <!-- region System colors filling -->

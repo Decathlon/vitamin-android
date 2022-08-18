@@ -7,7 +7,7 @@
         <item name="android:paddingRight">@dimen/vtmn_snackbars_padding_horizontal</item>
     </style>
 
-    <style name="Widget.Vitamin.Snackbar.TextView" parent="TextAppearance.Vitamin.Body3">
+    <style name="Widget.Vitamin.Snackbar.TextView" parent="TextAppearance.Vitamin.Body.Regular.Text3">
         <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
         <item name="android:paddingTop">@dimen/vtmn_snackbars_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/vtmn_snackbars_padding_vertical</item>

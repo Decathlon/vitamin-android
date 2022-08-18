@@ -6,7 +6,7 @@
         <item name="rippleColor">@color/vtmn_chips_ripple</item>
         <item name="chipStrokeWidth">@dimen/vtmn_chips_stroke_width</item>
         <item name="chipStrokeColor">@color/vtmn_chips_stroke</item>
-        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyBoldText2</item>
         <item name="android:textColor">@color/vtmn_chips_text</item>
         <item name="checkedIcon">@drawable/ic_vtmn_check_line</item>
         <item name="checkedIconTint">@color/vtmn_chips_icon</item>
@@ -39,7 +39,7 @@
         <item name="rippleColor">@color/vtmn_chips_ripple</item>
         <item name="chipStrokeWidth">@dimen/vtmn_chips_stroke_width</item>
         <item name="chipStrokeColor">@color/vtmn_chips_stroke</item>
-        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyBoldText2</item>
         <item name="android:textColor">@color/vtmn_chips_text</item>
         <item name="chipIconTint">@color/vtmn_chips_icon</item>
         <item name="chipIconSize">@dimen/vtmn_chips_icon_size</item>
@@ -86,7 +86,7 @@
         <item name="rippleColor">@color/vtmn_chips_ripple</item>
         <item name="chipStrokeWidth">@dimen/vtmn_chips_stroke_width</item>
         <item name="chipStrokeColor">@color/vtmn_chips_stroke</item>
-        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyBoldText2</item>
         <item name="android:textColor">@color/vtmn_chips_text</item>
         <item name="chipStartPadding">@dimen/vtmn_chips_start_padding</item>
         <item name="chipEndPadding">@dimen/vtmn_chips_end_padding</item>
@@ -108,7 +108,7 @@
         <item name="rippleColor">@color/vtmn_chips_ripple</item>
         <item name="chipStrokeWidth">@dimen/vtmn_chips_stroke_width</item>
         <item name="chipStrokeColor">@color/vtmn_chips_stroke</item>
-        <item name="android:textAppearance">@style/TextAppearance.Vitamin.Chip</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyBoldText2</item>
         <item name="android:textColor">@color/vtmn_chips_text</item>
         <item name="chipIconTint">@color/vtmn_chips_icon</item>
         <item name="chipIconSize">@dimen/vtmn_chips_icon_size</item>
@@ -133,9 +133,5 @@
         <item name="chipMinHeight">@dimen/vtmn_chips_min_height_small</item>
         <item name="android:paddingTop">@dimen/vtmn_chips_vertical_padding_small</item>
         <item name="android:paddingBottom">@dimen/vtmn_chips_vertical_padding_small</item>
-    </style>
-
-    <style name="TextAppearance.Vitamin.Chip" parent="@style/TextAppearance.Vitamin.Body2">
-        <item name="android:textStyle">bold</item>
     </style>
 </resources>

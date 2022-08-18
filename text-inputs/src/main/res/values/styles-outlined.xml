@@ -27,7 +27,7 @@
     </style>
 
     <style name="Widget.Vitamin.TextInputEditText.OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody1</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText1</item>
         <item name="android:textColor">@color/vtmn_textinputs_outlined_text</item>
     </style>
 </resources>

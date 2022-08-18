@@ -70,9 +70,12 @@
     <attr name="vtmnTextAppearanceHeadline6" format="reference" />
     <attr name="vtmnTextAppearanceSubtitle1" format="reference" />
     <attr name="vtmnTextAppearanceSubtitle2" format="reference" />
-    <attr name="vtmnTextAppearanceBody1" format="reference" />
-    <attr name="vtmnTextAppearanceBody2" format="reference" />
-    <attr name="vtmnTextAppearanceBody3" format="reference" />
+    <attr name="vtmnTextAppearanceBodyRegularText1" format="reference" />
+    <attr name="vtmnTextAppearanceBodyRegularText2" format="reference" />
+    <attr name="vtmnTextAppearanceBodyRegularText3" format="reference" />
+    <attr name="vtmnTextAppearanceBodyBoldText1" format="reference" />
+    <attr name="vtmnTextAppearanceBodyBoldText2" format="reference" />
+    <attr name="vtmnTextAppearanceBodyBoldText3" format="reference" />
     <attr name="vtmnTextAppearanceButton" format="reference" />
     <attr name="vtmnTextAppearanceCaption" format="reference" />
     <attr name="vtmnTextAppearanceOverline" format="reference" />
@@ -192,6 +195,12 @@
     <attr name="vtmnActiveBrandReversedTransparent" format="color" />
 
     <!-- Typography -->
-    <!-- @deprecated check vtmnTextAppearanceBody3 -->
+    <!-- @deprecated check vtmnTextAppearanceBodyRegularText3 -->
     <attr name="textAppearanceBody3" format="reference" />
+    <!-- @deprecated check vtmnTextAppearanceBodyRegularText1 -->
+    <attr name="vtmnTextAppearanceBody1" format="reference" />
+    <!-- @deprecated check vtmnTextAppearanceBodyRegularText2 -->
+    <attr name="vtmnTextAppearanceBody2" format="reference" />
+    <!-- @deprecated check vtmnTextAppearanceBodyRegularText3 -->
+    <attr name="vtmnTextAppearanceBody3" format="reference" />
 </resources>

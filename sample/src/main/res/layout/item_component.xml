@@ -30,7 +30,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAppearance="?attr/vtmnTextAppearanceBody1"
+            android:textAppearance="?attr/vtmnTextAppearanceBodyRegularText1"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:text="Component Name" />
 

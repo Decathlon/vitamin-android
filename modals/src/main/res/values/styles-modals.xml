@@ -41,7 +41,7 @@
     </style>
 
     <style name="Modal.Vitamin.Body.Text" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
-        <item name="android:textAppearance">?attr/vtmnTextAppearanceBody3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
         <item name="android:textColor">?attr/vtmnContentColorSecondary</item>
     </style>
 
