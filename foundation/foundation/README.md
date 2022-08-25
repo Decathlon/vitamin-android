@@ -28,7 +28,13 @@ components are mapped in the base theme. It is your responsibility to make all c
 bindings in your custom theme.
 
 ```xml
-<style name="Your.AppTheme" parent="Base.Theme.Vitamin">
+<style name="Your.AppTheme" parent="Base.Theme.Vitamin.Foundation.Light">
+    <!-- Components mapping here... -->
+</style>
+```
+
+```xml
+<style name="Your.AppTheme" parent="Base.Theme.Vitamin.Foundation.Dark">
     <!-- Components mapping here... -->
 </style>
 ```
@@ -39,4 +45,10 @@ website.
 
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
+```
+
+```xml
+<style name="Your.AppTheme" parent="Theme.Vitamin.<ThemeName>">
+    <!-- Components mapping here... -->
+</style>
 ```

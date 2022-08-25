@@ -6,6 +6,10 @@
 
 You can find the design specs on [www.decathlon.design](https://www.decathlon.design)
 
+> **Disclaimer**
+In this file, `Theme.Vitamin.<ThemeName>` will be used to indicate the different Vitamin themes. You
+can retrieve [the Vitamin themes list here](../vitamin/README.md).
+
 ### Rating usage specs
 
 As this components is a Vitamin custom one, you can find here the main available options to use it :
@@ -25,6 +29,11 @@ By inheriting the Vitamin theme in your app, you just have to use the `VitaminRa
 ```kotlin 
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
+
+```xml
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
+```
+
 ```xml
 <com.decathlon.vitamin.ratings.VitaminRatingView
     android:layout_width="wrap_content"
@@ -35,35 +44,6 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 If you don't want to inherit the full Vitamin theme (and all the Vitamin components) on your entire app, you can use this component in standalone.
 
-#### Version 1
-
-Inherit the Base Vitamin theme in your app to have the right colors and fonts and link the Vitamin ratingBar styles.
-You can now use the rating component as seen previously.
-
-```kotlin
-implementation("com.decathlon.vitamin:vitamin:<version>")
-```
-
-```xml
-<resources>
-    <style name="AppTheme" parent="Base.Theme.Vitamin">
-        ...
-        <item name="vtmnRatingViewStyle">@style/Widget.Vitamin.RatingView</item>
-        <item name="vtmnRatingViewBarStyle">@style/Widget.Vitamin.RatingView.Bar</item>
-    </style>
-</resources>
-```
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminRatingView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
-```
-
-#### Version 2
-
-If you don't want to use Vitamin colors and font on all your app, you can directly use the Vitamin theme on the component's parent view.
-
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
@@ -72,7 +52,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:theme="@style/Theme.Vitamin">
+    android:theme="@style/Theme.Vitamin.<ThemeName>">
 
     <com.decathlon.vitamin.ratings.VitaminRatingView
         android:layout_width="wrap_content"
@@ -122,6 +102,11 @@ By inheriting the Vitamin theme in your app, you just have to use the `VitaminIn
 ```kotlin 
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
+
+```xml
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
+```
+
 ```xml
 <com.decathlon.vitamin.ratings.VitaminInteractiveRatingView
     android:layout_width="wrap_content"
@@ -132,33 +117,6 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 If you don't want to inherit the full Vitamin theme (and all the Vitamin components) on your entire app, you can use this component in standalone.
 
-#### Version 1
-
-Inherit the Base Vitamin theme in your app to have the right colors and fonts and link the Vitamin ratingBar style.
-You can now use the rating component as seen previously.
-
-```kotlin
-implementation("com.decathlon.vitamin:vitamin:<version>")
-```
-
-```xml
-<resources>
-    <style name="AppTheme" parent="Base.Theme.Vitamin">
-        ...
-        <item name="vtmnInteractiveRatingViewStyle">@style/Widget.Vitamin.InteractiveRatingView</item>
-    </style>
-</resources>
-```
-
-```xml
-<com.decathlon.vitamin.ratings.VitaminInteractiveRatingView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
-```
-#### Version 2
-
-If you don't want to use Vitamin colors and font on all your app, you can directly use the Vitamin theme on the component's parent view.
-
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
@@ -167,7 +125,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:theme="@style/Theme.Vitamin">
+    android:theme="@style/Theme.Vitamin.<ThemeName>">
 
     <com.decathlon.vitamin.ratings.VitaminInteractiveRatingView
         android:layout_width="wrap_content"

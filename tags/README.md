@@ -8,8 +8,16 @@ You can find the design specs on [www.decathlon.design](https://www.decathlon.de
 
 By inheriting the Vitamin theme in your app, you have the `VitaminTag` component or the `Material Chip` component.
 
+> **Disclaimer**
+In this file, `Theme.Vitamin.<ThemeName>` will be used to indicate the different Vitamin themes. You
+can retrieve [the Vitamin themes list here](../vitamin/README.md).
+
 ```kotlin
-implementation("com.decathlon.vitamin:tags:<version>")
+implementation("com.decathlon.vitamin:vitamin:<version>")
+```
+
+```xml
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
 ```
 
 ```xml
@@ -82,71 +90,6 @@ With the same usage as above, you have multiple tag types available:
 
 If you don't want to inherit the full Vitamin theme (and all the Vitamin components) on your entire app, you can use this component in standalone.
 
-### Version 1
-
-Inherit the Base Vitamin theme in your app to have the right colors and fonts and link the Vitamin tags styles.
-You can now use the tag component as seen previously.
-
-```kotlin
-implementation("com.decathlon.vitamin:tags:<version>")
-```
-
-```xml
-<resources>
-    <style name="AppTheme" parent="Base.Theme.Vitamin">
-        ...
-        <!-- Vitamin Tags -->
-        <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
-        <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
-        <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
-        <item name="vtmnTagAlertInteractiveStyle">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
-        <item name="vtmnTagBrandStyle">@style/Widget.Vitamin.Tag.Brand</item>
-        <item name="vtmnTagBrandInteractiveStyle">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
-        <item name="vtmnTagDecorativeGravelStyle">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
-        <item name="vtmnTagDecorativeGravelInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeGravel.Interactive
-        </item>
-        <item name="vtmnTagDecorativeBrickStyle">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
-        <item name="vtmnTagDecorativeBrickInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeBrick.Interactive
-        </item>
-        <item name="vtmnTagDecorativeSaffronStyle">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
-        <item name="vtmnTagDecorativeSaffronInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeSaffron.Interactive
-        </item>
-        <item name="vtmnTagDecorativeGoldStyle">@style/Widget.Vitamin.Tag.DecorativeGold</item>
-        <item name="vtmnTagDecorativeGoldInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
-        </item>
-        <item name="vtmnTagDecorativeJadeStyle">@style/Widget.Vitamin.Tag.DecorativeJade</item>
-        <item name="vtmnTagDecorativeJadeInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
-        </item>
-        <item name="vtmnTagDecorativeEmeraldStyle">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
-        <item name="vtmnTagDecorativeEmeraldInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeEmerald.Interactive
-        </item>
-        <item name="vtmnTagDecorativeCobaltStyle">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
-        <item name="vtmnTagDecorativeCobaltInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeCobalt.Interactive
-        </item>
-        <item name="vtmnTagDecorativeAmethystStyle">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
-        <item name="vtmnTagDecorativeAmethystInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
-        </item>
-    </style>
-</resources>
-```
-
-```xml
-<com.decathlon.android.tags.VitaminTagAccent
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Tag" />
-```
-
-### Version 2
-
-If you don't want to use Vitamin colors and font on all your app, you can directly use the Vitamin theme on the component's parent view.
-
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
@@ -155,7 +98,7 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:theme="@style/Theme.Vitamin">
+    android:theme="@style/Theme.Vitamin.<ThemeName>">
 
     <com.decathlon.android.tags.VitaminTagAccent
         android:layout_width="wrap_content"

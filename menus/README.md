@@ -9,6 +9,10 @@ You can find the design specs on [www.decathlon.design](https://www.decathlon.de
 By inheriting the Vitamin theme in your app, you just have to use the default 
 `PopupMenu`/`ListPopupWindow` components or the `VitaminMenu`/`VitaminListMenu` components.
 
+> **Disclaimer**
+In this file, `Theme.Vitamin.<ThemeName>` will be used to indicate the different Vitamin themes. You
+can retrieve [the Vitamin themes list here](../vitamin/README.md).
+
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
