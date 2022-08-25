@@ -21,4 +21,6 @@
     <string name="dividers_screen_title">Dividers</string>
     <string name="tags_screen_title">Tags</string>
     <string name="tabs_screen_title">Tabs</string>
+    <string name="themes_screen_title">Themes</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
 </resources>

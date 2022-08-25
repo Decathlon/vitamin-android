@@ -6,6 +6,9 @@ The skeleton component is split in 3 different views. The `VitaminSkeletonRectan
 
 You can find the design specs on [www.decathlon.design](https://www.decathlon.design)
 
+> **Disclaimer**
+In this file, `Theme.Vitamin.<ThemeName>` will be used to indicate the different Vitamin themes. You
+can retrieve [the Vitamin themes list here](../vitamin/README.md).
 
 ## VitaminSkeletonFrameLayout
 
@@ -24,7 +27,7 @@ implementation("com.decathlon.vitamin:skeleton:<version>")
 ```
 
 ```xml
-<style name="AppTheme" parent="Theme.Vitamin" />
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
 ```
    
 ```xml
@@ -52,7 +55,7 @@ implementation("com.decathlon.vitamin:skeleton:<version>")
 <com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.Vitamin">
+    android:theme="@style/Theme.Vitamin.<ThemeName>">
 
     <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
     ...
@@ -86,7 +89,7 @@ implementation("com.decathlon.vitamin:skeleton:<version>")
 ```
 
 ```xml
-<style name="AppTheme" parent="Theme.Vitamin" />
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
 ```
 
 ```xml
@@ -115,7 +118,7 @@ implementation("com.decathlon.vitamin:skeleton:<version>")
 <com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.Vitamin">
+    android:theme="@style/Theme.Vitamin.<ThemeName>">
 
     <com.decathlon.vitamin.skeleton.VitaminSkeletonRectangularView
         android:layout_width="80dp"
@@ -153,7 +156,7 @@ implementation("com.decathlon.vitamin:skeleton:<version>")
 ```
 
 ```xml
-<style name="AppTheme" parent="Theme.Vitamin" />
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
 ```
 
 ```xml
@@ -175,7 +178,7 @@ implementation("com.decathlon.vitamin:skeleton:<version>")
 <com.decathlon.vitamin.skeleton.VitaminSkeletonFrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.Vitamin">
+    android:theme="@style/Theme.Vitamin.<ThemeName>">
 
     <com.decathlon.vitamin.skeleton.VitaminSkeletonRoundedView
         android:layout_width="80dp"

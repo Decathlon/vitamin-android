@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/vtmnBackgroundColorPrimary"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_screen"
+            android:theme="@style/Theme.Vitamin.Light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitamin Light Theme"
+                android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.android.tags.VitaminTagAlert
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Lorem Ipsum"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="@string/lorem_ipsum"
+                android:textAppearance="?attr/vtmnTextAppearanceBody1" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                tools:ignore="HardcodedText" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/vtmnBackgroundColorPrimary"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_screen"
+            android:theme="@style/Theme.Vitamin.Dark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitamin Dark Theme"
+                android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.android.tags.VitaminTagAlert
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Lorem Ipsum"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="@string/lorem_ipsum"
+                android:textAppearance="?attr/vtmnTextAppearanceBody1" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                tools:ignore="HardcodedText" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/vtmnBackgroundColorPrimary"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_screen"
+            android:theme="@style/Theme.Vitamin.DayNight">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vitamin DayNight Theme"
+                android:textAppearance="?attr/vtmnTextAppearanceHeadline6"
+                tools:ignore="HardcodedText" />
+
+            <com.decathlon.android.tags.VitaminTagAlert
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Lorem Ipsum"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="@string/lorem_ipsum"
+                android:textAppearance="?attr/vtmnTextAppearanceBody1" />
+
+            <com.decathlon.vitamin.buttons.VitaminPrimaryMediumButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="Button"
+                tools:ignore="HardcodedText" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

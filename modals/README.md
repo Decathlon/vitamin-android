@@ -5,10 +5,18 @@ You can find the design specs on [www.decathlon.design](https://www.decathlon.de
 
 ## Usage with Vitamin Theme
 
-By inheriting the Vitamin theme in your app, you just have to use the default `MaterialAlertDialogBuilder` class or the `VitaminModalBuilder` class. 
+By inheriting the Vitamin theme in your app, you just have to use the default `MaterialAlertDialogBuilder` class or the `VitaminModalBuilder` class.
+
+> **Disclaimer**
+In this file, `Theme.Vitamin.<ThemeName>` will be used to indicate the different Vitamin themes. You
+can retrieve [the Vitamin themes list here](../vitamin/README.md).
 
 ```kotlin
 implementation("com.decathlon.vitamin:vitamin:<version>")
+```
+
+```xml
+<style name="AppTheme" parent="Theme.Vitamin.<ThemeName>" />
 ```
 
 ### Standard modal
@@ -59,62 +67,14 @@ MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Vitamin_Modal_Centered)
 
 If you don't want to inherit the full Vitamin theme (and all the Vitamin components) on your entire app, you can use this component in standalone.
 
-### Version 1
-
-Inherit the Base Vitamin theme in your app to have the right colors and fonts and link the Vitamin modal style.
-You can now use the modal builder class as seen previously.
-
 ```kotlin
-implementation("com.decathlon.vitamin:modals:<version>")
-```
-
-```xml
-<resources>
-    <style name="AppTheme" parent="Base.Theme.Vitamin">
-        ...
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vitamin.Modal</item>
-    </style>
-</resources>
+implementation("com.decathlon.vitamin:vitamin:<version>")
 ```
 
 ```kotlin
-VitaminModalBuilder(context)
-    .setTitle("Title")
-    .setMessage("Message")
-    .setNegativeButton("Decline", null)
-    .setPositiveButton("Accept", null)
-    .show()
-```
+val vitaminContext = ContextThemeWrapper(context, R.style.Theme_Vitamin_<ThemeName>)
 
-or
-
-```kotlin
-MaterialAlertDialogBuilder(context)
-    .setTitle("Title")
-    .setMessage("Message")
-    .setNegativeButton("Decline", null)
-    .setPositiveButton("Accept", null)
-    .show()
-```
-
-### Version 2
-
-If you don't want to override all the modals or your app, you can inherit the Base Vitamin theme but only style the components you want.
-
-```kotlin
-implementation("com.decathlon.vitamin:modals:<version>")
-```
-
-```xml
-<resources>
-    <style name="AppTheme" parent="Base.Theme.Vitamin">
-        ...
-    </style>
-</resources>
-```
-
-```kotlin
-MaterialAlertDialogBuilder(context, R.style.ThemeOverlay_Vitamin_Modal)
+VitaminModalBuilder(context, R.style.ThemeOverlay_Vitamin_Modal)
     .setTitle("Title")
     .setMessage("Message")
     .setNegativeButton("Decline", null)
