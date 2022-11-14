@@ -4,8 +4,8 @@
     android:viewportWidth="16"
     android:viewportHeight="16"
     android:tint="?attr/colorControlNormal">
-  <path
-      android:pathData="M14,1.995V14.005C13.997,14.37 13.702,14.664 13.338,14.667H2.662C2.297,14.667 2,14.371 2,14.005V1.995C2.003,1.63 2.298,1.336 2.662,1.333H13.338C13.703,1.333 14,1.629 14,1.995ZM12.667,2.667H3.333V13.333H12.667V2.667ZM10.357,5.919L7.529,8.747L5.879,7.097L4.935,8.04L7.529,10.633L11.3,6.862L10.357,5.919Z"
-      android:fillColor="#001018"
-      android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M14 1.99V14.01C14 14.37 13.7 14.66 13.34 14.67H2.66C2.3 14.67 2 14.37 2 14.01V1.99C2 1.63 2.3 1.34 2.66 1.33H13.34C13.7 1.33 14 1.63 14 1.99ZM12.67 2.67H3.33V13.33H12.67V2.67ZM10.36 5.92L7.53 8.75 5.88 7.1 4.94 8.04 7.53 10.63 11.3 6.86 10.36 5.92Z"/>
 </vector>
