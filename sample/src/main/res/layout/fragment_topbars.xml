@@ -12,18 +12,19 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="8dp" />
+            android:layout_height="@dimen/spacing_medium" />
 
         <com.decathlon.vitamin.buttons.VitaminPrimaryButton
             android:id="@+id/btnToggleActionMode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/padding_screen"
             android:text="Toggle Action Mode"
             tools:ignore="HardcodedText" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="8dp" />
+            android:layout_height="@dimen/spacing_medium" />
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
@@ -42,7 +43,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="8dp" />
+            android:layout_height="@dimen/spacing_medium" />
 
         <com.decathlon.vitamin.appbars.VitaminTopBar
             android:id="@+id/topbar2"
@@ -53,7 +54,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="8dp" />
+            android:layout_height="@dimen/spacing_medium" />
 
         <com.decathlon.vitamin.appbars.VitaminSearchTopBar
             android:id="@+id/topbar3"
@@ -64,12 +65,13 @@
             <androidx.appcompat.widget.SearchView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:queryHint="Placeholder" />
+                app:queryHint="Search something..." />
+
         </com.decathlon.vitamin.appbars.VitaminSearchTopBar>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="8dp" />
+            android:layout_height="@dimen/spacing_medium" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.core.widget.NestedScrollView>

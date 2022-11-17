@@ -57,20 +57,25 @@
     <eat-comment />
 
     <style name="Widget.Vitamin.TopBar.Search" parent="@style/Widget.Vitamin.TopBar">
-        <item name="contentInsetStart">@dimen/vtmn_appbars_topbar_search_content_inset_start</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.TopBar.Search</item>
     </style>
 
     <style name="ThemeOverlay.Vitamin.TopBar.Search" parent="">
-        <item name="colorOnPrimary">?attr/vtmnContentColorTertiary</item>
+        <item name="colorOnPrimary">?attr/vtmnContentColorPrimary</item>
+        <item name="android:textColorHint">?attr/vtmnContentColorTertiary</item>
     </style>
 
     <style name="Widget.Vitamin.SearchView" parent="@style/Widget.AppCompat.SearchView">
         <item name="closeIcon">@drawable/ic_vtmn_close_line</item>
-        <item name="searchIcon">@drawable/ic_vtmn_search_line</item>
+        <item name="searchIcon">@null</item>
         <item name="searchHintIcon">@drawable/ic_vtmn_search_line</item>
         <item name="goIcon">@drawable/ic_vtmn_check_line</item>
         <item name="voiceIcon">@drawable/ic_vtmn_mic_line</item>
         <item name="iconifiedByDefault">false</item>
+        <item name="android:queryBackground">@android:color/transparent</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <!-- This negative padding should be removed when a clean way to remove start space will be found -->
+        <!-- https://github.com/Decathlon/vitamin-android/issues/146 -->
+        <item name="android:paddingLeft">-8dp</item>
     </style>
 </resources>
