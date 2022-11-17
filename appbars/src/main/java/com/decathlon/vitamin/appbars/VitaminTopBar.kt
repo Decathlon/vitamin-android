@@ -22,4 +22,9 @@ open class VitaminSearchTopBar @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.vtmnSearchTopBarStyle
-) : VitaminTopBar(context, attrs, defStyleAttr)
+) : VitaminTopBar(context, attrs, defStyleAttr) {
+
+    init {
+        setNavigationContext()
+    }
+}
