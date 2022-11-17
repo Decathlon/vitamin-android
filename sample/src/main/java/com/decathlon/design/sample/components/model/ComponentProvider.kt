@@ -12,6 +12,16 @@ object ComponentProvider {
                 R.id.action_main_to_colors
             ),
             Component(
+                R.string.icons_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_icons
+            ),
+            Component(
+                R.string.assets_screen_title,
+                R.drawable.ic_placeholder,
+                R.id.action_main_to_assets
+            ),
+            Component(
                 R.string.typography_screen_title,
                 R.drawable.ic_fonts,
                 R.id.action_main_to_typography

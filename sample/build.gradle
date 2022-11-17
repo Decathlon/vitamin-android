@@ -41,4 +41,5 @@ dependencies {
     implementation(Dependencies.constraint)
 
     implementation(Dependencies.NavigationComponents.fragment)
+    implementation(Dependencies.fragment)
 }

@@ -13,19 +13,23 @@ abstract class ComponentFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enterTransition = MaterialSharedAxis(MaterialSharedAxis.Z, true)
-        returnTransition = MaterialSharedAxis(MaterialSharedAxis.Z, false)
+        if (playScreenAnimation()) {
+            enterTransition = MaterialSharedAxis(MaterialSharedAxis.Z, true)
+            returnTransition = MaterialSharedAxis(MaterialSharedAxis.Z, false)
+        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setHasOptionsMenu(showResetOption())
+        setHasOptionsMenu(showResetOption() || showSearchOption())
     }
 
-    //region Reset menu
-
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.menu_reset, menu)
+        if (showResetOption()) {
+            inflater.inflate(R.menu.menu_reset, menu)
+        } else if (showSearchOption()) {
+            inflater.inflate(R.menu.menu_search, menu)
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -34,9 +38,15 @@ abstract class ComponentFragment : Fragment() {
                 onResetClick()
                 true
             }
+            R.id.search -> {
+                onSearchClick()
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+    //region Reset menu
 
     /**
      * Override this function and return true if you want to see the option "Reset" in the toolbar
@@ -52,5 +62,33 @@ abstract class ComponentFragment : Fragment() {
     }
 
     //endregion
+
+    //region Search menu
+
+    /**
+     * Override this function and return true if you want to see the option "Search" in the toolbar
+     */
+    protected open fun showSearchOption(): Boolean {
+        return false
+    }
+
+    /**
+     * Override this function to catch the click of the "Search" option
+     */
+    protected open fun onSearchClick() {
+    }
+
+    //endregion
+
+    // region Animation
+
+    /**
+     * Override this function to play or not the screen animation
+     */
+    protected open fun playScreenAnimation(): Boolean {
+        return true
+    }
+
+    // endregion
 
 }

@@ -10,6 +10,7 @@ object Versions {
     const val appCompat = "1.2.0"
     const val constraint = "2.0.1"
     const val navigation = "2.1.0"
+    const val fragment = "1.1.0"
 }
 
 object Dependencies {
@@ -17,6 +18,7 @@ object Dependencies {
     const val material = "com.google.android.material:material:${Versions.material}"
     const val appcompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     const val constraint = "androidx.constraintlayout:constraintlayout:${Versions.constraint}"
+    const val fragment = "androidx.fragment:fragment-ktx:${Versions.fragment}"
     object NavigationComponents {
         const val fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     }
