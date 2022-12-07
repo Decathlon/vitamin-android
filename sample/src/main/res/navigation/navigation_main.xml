@@ -74,6 +74,12 @@
         <action
             android:id="@+id/action_main_to_themes"
             app:destination="@id/themes" />
+        <action
+            android:id="@+id/action_main_to_icons"
+            app:destination="@id/icons" />
+        <action
+            android:id="@+id/action_main_to_assets"
+            app:destination="@id/assets" />
     </fragment>
     <fragment
         android:id="@+id/colors"
@@ -163,4 +169,28 @@
         android:id="@+id/themes"
         android:name="com.decathlon.design.sample.components.screens.ThemesFragment"
         android:label="@string/themes_screen_title" />
+    <fragment
+        android:id="@+id/icons"
+        android:name="com.decathlon.design.sample.components.screens.resources.icons.IconsFragment"
+        android:label="@string/icons_screen_title">
+        <action
+            android:id="@+id/action_icons_to_icons_search"
+            app:destination="@id/icons_search" />
+    </fragment>
+    <fragment
+        android:id="@+id/icons_search"
+        android:name="com.decathlon.design.sample.components.screens.resources.icons.IconsSearchFragment"
+        android:label="@string/resources_search_screen_title" />
+    <fragment
+        android:id="@+id/assets"
+        android:name="com.decathlon.design.sample.components.screens.resources.assets.AssetsFragment"
+        android:label="@string/assets_screen_title">
+        <action
+            android:id="@+id/action_assets_to_assets_search"
+            app:destination="@id/assets_search" />
+    </fragment>
+    <fragment
+        android:id="@+id/assets_search"
+        android:name="com.decathlon.design.sample.components.screens.resources.assets.AssetsSearchFragment"
+        android:label="@string/resources_search_screen_title" />
 </navigation>
