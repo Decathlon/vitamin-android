@@ -137,3 +137,14 @@ implementation("com.decathlon.vitamin:vitamin:<version>")
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
+**Button with text & icon**
+
+```xml
+ <com.decathlon.vitamin.buttons.VitaminGhostMediumButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My button"
+            app:icon="@drawable/ic_scan"
+            app:iconGravity="textStart" />
+```
