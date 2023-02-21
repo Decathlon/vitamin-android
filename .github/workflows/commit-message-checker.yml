@@ -1,0 +1,18 @@
+name: 'Commit Message Checker'
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Check Conventional Commits specification
+        uses: wagoid/commitlint-github-action@v5
