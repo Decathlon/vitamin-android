@@ -12,7 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - name: Check Conventional Commits specification
         uses: wagoid/commitlint-github-action@v5
