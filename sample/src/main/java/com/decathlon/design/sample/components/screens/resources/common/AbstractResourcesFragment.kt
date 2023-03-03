@@ -3,6 +3,7 @@ package com.decathlon.design.sample.components.screens.resources.common
 import android.annotation.SuppressLint
 import android.content.res.Configuration
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,6 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.decathlon.design.sample.R
 import com.decathlon.design.sample.components.screens.ComponentFragment
 import com.decathlon.design.sample.databinding.FragmentResourceSearchBinding
 import com.decathlon.design.sample.databinding.ItemResourceBinding
@@ -83,14 +85,26 @@ abstract class AbstractResourcesFragment : ComponentFragment() {
         override fun getItemCount(): Int {
             return resources.size
         }
-
     }
 
     inner class ResourceViewHolder(
         val binding: ItemResourceBinding
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(resource: ResourceModel) {
-            binding.image.setImageDrawable(resource.src)
+            val drawable = if (resource.type == ResourceType.Icon) {
+                resource.src.apply {
+                    val contentColor = TypedValue()
+                    itemView.context.theme.resolveAttribute(
+                        R.attr.vtmnContentColorPrimary,
+                        contentColor,
+                        true
+                    )
+                    setTint(contentColor.data)
+                }
+            } else {
+                resource.src
+            }
+            binding.image.setImageDrawable(drawable)
             binding.label.text = resource.name
         }
     }

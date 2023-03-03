@@ -31,7 +31,8 @@ class ResourcesViewModel(val app: Application) : AndroidViewModel(app) {
 
     private fun retrieveAllIcons(): List<ResourceModel> {
         return retrieveAllResources(
-            com.decathlon.vitamin.foundation.icons.R.drawable::class.java.fields
+            com.decathlon.vitamin.foundation.icons.R.drawable::class.java.fields,
+            ResourceType.Icon
         ).filter { // Add a filter here to avoid having sdk built-in icons like "mtrl_dropdown_arrow"
             it.name.startsWith(
                 "ic_vtmn_"
@@ -62,7 +63,8 @@ class ResourcesViewModel(val app: Application) : AndroidViewModel(app) {
 
     private fun retrieveAllAssets(): List<ResourceModel> {
         return retrieveAllResources(
-            com.decathlon.vitamin.foundation.assets.R.drawable::class.java.fields
+            com.decathlon.vitamin.foundation.assets.R.drawable::class.java.fields,
+            ResourceType.Asset
         ).filter {
             it.name.startsWith(
                 "vtmn_"
@@ -72,7 +74,10 @@ class ResourcesViewModel(val app: Application) : AndroidViewModel(app) {
 
     //endregion
 
-    private fun retrieveAllResources(fields: Array<Field>): MutableList<ResourceModel> {
+    private fun retrieveAllResources(
+        fields: Array<Field>,
+        type: ResourceType
+    ): MutableList<ResourceModel> {
         val resources = mutableListOf<ResourceModel>()
         for (field in fields) {
             try {
@@ -81,12 +86,16 @@ class ResourcesViewModel(val app: Application) : AndroidViewModel(app) {
                         resources.add(
                             ResourceModel(
                                 name = field.name,
-                                src = drawable
+                                src = drawable,
+                                type
                             )
                         )
                     }
             } catch (e: Exception) {
-                Log.e("Extracting resources", "Error when trying to get the drawable of ${field.name}")
+                Log.e(
+                    "Extracting resources",
+                    "Error when trying to get the drawable of ${field.name}"
+                )
             }
         }
         return resources
