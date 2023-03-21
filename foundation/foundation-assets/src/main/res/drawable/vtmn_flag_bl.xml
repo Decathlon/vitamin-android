@@ -1,0 +1,127 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="28dp"
+    android:height="20dp"
+    android:viewportWidth="28"
+    android:viewportHeight="20">
+    <group>
+        <path
+            android:pathData="M28 0H0V20H28V0Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="0"
+                    android:endX="14"
+                    android:endY="20">
+                    <item
+                        android:color="#FF000000"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FFF0F0F0"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M9.33 6.67H18.67V12.65C18.67 13.4 18.22 14.38 17.65 14.87L15.53 16.69C14.68 17.41 13.31 17.41 12.47 16.69L10.35 14.87C9.79 14.39 9.33 13.4 9.33 12.65V6.67Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="6.67"
+                    android:endX="14"
+                    android:endY="17.23">
+                    <item
+                        android:color="#FF216CD3"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FF1557B2"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillType="evenOdd"
+            android:pathData="M11.33 9.33C10.97 9.33 10.67 9.03 10.67 8.67 10.67 8.3 10.97 8 11.33 8 11.7 8 12 8.3 12 8.67 12 9.03 11.7 9.33 11.33 9.33ZM14 9.33C13.63 9.33 13.33 9.03 13.33 8.67 13.33 8.3 13.63 8 14 8 14.37 8 14.67 8.3 14.67 8.67 14.67 9.03 14.37 9.33 14 9.33ZM16.67 9.33C16.3 9.33 16 9.03 16 8.67 16 8.3 16.3 8 16.67 8 17.03 8 17.33 8.3 17.33 8.67 17.33 9.03 17.03 9.33 16.67 9.33Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="8"
+                    android:endX="14"
+                    android:endY="9.33">
+                    <item
+                        android:color="#FFF7E14B"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FFF7DF3E"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillType="evenOdd"
+            android:pathData="M12 15.33C11.63 15.33 11.33 15.03 11.33 14.67 11.33 14.3 11.63 14 12 14 12.37 14 12.67 14.3 12.67 14.67 12.67 15.03 12.37 15.33 12 15.33ZM14 16C13.63 16 13.33 15.7 13.33 15.33 13.33 14.97 13.63 14.67 14 14.67 14.37 14.67 14.67 14.97 14.67 15.33 14.67 15.7 14.37 16 14 16ZM16 15.33C15.63 15.33 15.33 15.03 15.33 14.67 15.33 14.3 15.63 14 16 14 16.37 14 16.67 14.3 16.67 14.67 16.67 15.03 16.37 15.33 16 15.33Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="14"
+                    android:endX="14"
+                    android:endY="16">
+                    <item
+                        android:color="#FFF7E14B"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FFF7DF3E"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M18.67 10.67H9.33V13.33H18.67V10.67Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="10.67"
+                    android:endX="14"
+                    android:endY="13.33">
+                    <item
+                        android:color="#FFE12539"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FFCA192C"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M14 13.33C14.74 13.33 15.33 12.74 15.33 12 15.33 11.26 14.74 10.67 14 10.67 13.26 10.67 12.67 11.26 12.67 12 12.67 12.74 13.26 13.33 14 13.33Z"/>
+        <path
+            android:fillType="evenOdd"
+            android:pathData="M8.67 4.67C8.67 4.67 11.33 4 14 4 16.67 4 19.33 4.67 19.33 4.67L18.67 7.33C18.67 7.33 16.33 6.67 14 6.67 11.67 6.67 9.33 7.33 9.33 7.33L8.67 4.67Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="4"
+                    android:endX="14"
+                    android:endY="7.33">
+                    <item
+                        android:color="#FFF7E14B"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FFF7DF3E"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="#FF5E5216"
+            android:fillType="evenOdd"
+            android:pathData="M14 6C13.63 6 13.33 5.7 13.33 5.33 13.33 4.97 13.63 4.67 14 4.67 14.37 4.67 14.67 4.97 14.67 5.33 14.67 5.7 14.37 6 14 6ZM16.67 6C16.3 6 16 5.7 16 5.33 16 4.97 16.3 4.67 16.67 4.67 17.03 4.67 17.33 4.97 17.33 5.33 17.33 5.7 17.03 6 16.67 6ZM11.33 6C10.97 6 10.67 5.7 10.67 5.33 10.67 4.97 10.97 4.67 11.33 4.67 11.7 4.67 12 4.97 12 5.33 12 5.7 11.7 6 11.33 6Z"/>
+    </group>
+</vector>
