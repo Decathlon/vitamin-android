@@ -74,8 +74,5 @@
         <item name="iconifiedByDefault">false</item>
         <item name="android:queryBackground">@android:color/transparent</item>
         <item name="queryBackground">@android:color/transparent</item>
-        <!-- This negative padding should be removed when a clean way to remove start space will be found -->
-        <!-- https://github.com/Decathlon/vitamin-android/issues/146 -->
-        <item name="android:paddingLeft">-8dp</item>
     </style>
 </resources>
