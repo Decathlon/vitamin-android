@@ -3,25 +3,23 @@
     android:height="20dp"
     android:viewportWidth="28"
     android:viewportHeight="20">
-  <path
-      android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"
-      android:fillColor="#fff"/>
-  <group>
-    <clip-path
-        android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"/>
-    <path
-        android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"
-        android:fillColor="#158AFF"/>
-    <path
-        android:pathData="M32.36,5.205 L-2.094,22.759l-3.632,-7.128L28.728,-1.924l3.631,7.129Z"
-        android:fillColor="#FDD216"
-        android:fillType="evenOdd"/>
-    <path
-        android:pathData="M32.121,3.774 L-2.33,21.328l-2.422,-4.751L29.7,-0.978z"
-        android:fillColor="#CE1120"/>
-    <path
-        android:pathData="m4.667,5.967 l-1.96,1.396 0.723,-2.295 -1.933,-1.431 2.406,-0.022 0.764,-2.282 0.764,2.282 2.406,0.022 -1.934,1.431 0.723,2.295 -1.96,-1.396Z"
-        android:fillColor="#FDD216"
-        android:fillType="evenOdd"/>
-  </group>
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M0 0C8.67 0 19.33 0 28 0 28 6.67 28 13.33 28 20 18.67 20 9.33 20 0 20V0Z"/>
+        <path
+            android:fillColor="#FF158AFF"
+            android:pathData="M0 0C8.67 0 19.33 0 28 0 28 6.67 28 13.33 28 20 18.67 20 9.33 20 0 20V0Z"/>
+        <path
+            android:fillColor="#FFFDD216"
+            android:fillType="evenOdd"
+            android:pathData="M28 7.5L3.5 20H0L0 12.5 25 0 28 0V7.5Z"/>
+        <path
+            android:fillColor="#FFCE1120"
+            android:pathData="M28 6L0.5 20H0L0 14 27.5 0 28 0V6Z"/>
+        <path
+            android:fillColor="#FFFDD216"
+            android:fillType="evenOdd"
+            android:pathData="M4.67 5.97L2.71 7.36 3.43 5.07 1.5 3.64 3.9 3.61 4.67 1.33 5.43 3.61 7.84 3.64 5.9 5.07 6.63 7.36 4.67 5.97Z"/>
+    </group>
 </vector>

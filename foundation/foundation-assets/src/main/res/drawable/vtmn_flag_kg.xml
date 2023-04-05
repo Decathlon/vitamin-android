@@ -3,22 +3,20 @@
     android:height="20dp"
     android:viewportWidth="28"
     android:viewportHeight="20">
-  <path
-      android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"
-      android:fillColor="#fff"/>
-  <group>
-    <clip-path
-        android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"/>
-    <path
-        android:pathData="M0,0h28v20H0z"
-        android:fillColor="#F22A46"/>
-    <path
-        android:pathData="M14,13.333a3.333,3.333 0,1 0,0 -6.666,3.333 3.333,0 0,0 0,6.666Z"
-        android:fillColor="#FFF04D"
-        android:fillType="evenOdd"/>
-    <path
-        android:pathData="M12.368,17.15 L14,14.713l1.632,2.435 0.413,-2.902 2.527,1.486 -0.887,-2.794 2.922,0.243 -2.011,-2.133L21.333,10l-2.737,-1.049 2.011,-2.133 -2.922,0.243 0.887,-2.794 -2.527,1.486 -0.413,-2.902L14,5.286l-1.632,-2.435 -0.413,2.902 -2.527,-1.486 0.887,2.794 -2.922,-0.243 2.012,2.133L6.667,10l2.738,1.049 -2.012,2.133 2.922,-0.243 -0.887,2.794 2.527,-1.486 0.413,2.902ZM18.667,10a4.667,4.667 0,1 1,-9.334 0,4.667 4.667,0 0,1 9.334,0Z"
-        android:fillColor="#FFF04D"
-        android:fillType="evenOdd"/>
-  </group>
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M0 0H28C28 6.67 28 13.33 28 20 18.67 20 9.33 20 0 20 0 13.33 0 6.67 0 0Z"/>
+        <path
+            android:fillColor="#FFF22A46"
+            android:pathData="M0 0H28V20H0L0 0Z"/>
+        <path
+            android:fillColor="#FFFFF04D"
+            android:fillType="evenOdd"
+            android:pathData="M14 13.33C15.84 13.33 17.33 11.84 17.33 10 17.33 8.16 15.84 6.67 14 6.67 12.16 6.67 10.67 8.16 10.67 10 10.67 11.84 12.16 13.33 14 13.33Z"/>
+        <path
+            android:fillColor="#FFFFF04D"
+            android:fillType="evenOdd"
+            android:pathData="M12.37 17.15L14 14.71 15.63 17.15 16.05 14.25 18.57 15.73 17.69 12.94 20.61 13.18 18.6 11.05 21.33 10 18.6 8.95 20.61 6.82 17.69 7.06 18.57 4.27 16.05 5.75 15.63 2.85 14 5.29 12.37 2.85 11.95 5.75 9.43 4.27 10.31 7.06 7.39 6.82 9.4 8.95 6.67 10 9.4 11.05 7.39 13.18 10.31 12.94 9.43 15.73 11.95 14.25 12.37 17.15ZM18.67 10C18.67 12.58 16.58 14.67 14 14.67 11.42 14.67 9.33 12.58 9.33 10 9.33 7.42 11.42 5.33 14 5.33 16.58 5.33 18.67 7.42 18.67 10Z"/>
+    </group>
 </vector>
