@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="28dp"
+    android:height="20dp"
+    android:viewportWidth="28"
+    android:viewportHeight="20">
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M28 0H0V20H28V0Z"/>
+        <path
+            android:pathData="M28 13.33H0L0 20H28L28 13.33Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="14"
+                    android:startY="-0.02"
+                    android:endX="14"
+                    android:endY="20">
+                    <item
+                        android:color="#FF138E16"
+                        android:offset="0"/>
+                    <item
+                        android:color="#FF0F7F12"
+                        android:offset="1"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="#FF26A7DC"
+            android:fillType="evenOdd"
+            android:pathData="M0 20H28V0L9.33 0 0 0V20Z"/>
+        <path
+            android:fillColor="#FFF03633"
+            android:pathData="M9.33 0L0 0 0 6.67H9.33L9.33 0Z"/>
+        <path
+            android:fillColor="#FF2AA854"
+            android:fillType="evenOdd"
+            android:pathData="M4.67 2.39L2.25-0.02 0.38-0.01 3.72 3.33 0.41 6.67H2.18L4.67 4.28 7.12 6.68H9.02L5.61 3.33 9.01 0.01 7.07-0.01 4.67 2.39Z"/>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M5.33 2.67V-0.02H4V2.67H0V4H4V6.67H5.33V4H9.33V2.67H5.33Z"/>
+        <path
+            android:fillColor="#FFFBCD3F"
+            android:fillType="evenOdd"
+            android:pathData="M23.1 8.57C24.47 8.23 25.33 8.15 25.33 9.33 25.33 11.54 22.35 13.33 18.67 13.33 14.98 13.33 12 11.54 12 9.33 12 8.15 12.86 8.23 14.23 8.57 14.15 8.33 14.07 8.08 14.02 7.82 13.63 6.02 14.2 4.38 15.28 4.15 16.36 3.92 17.55 5.19 17.93 6.99 18.11 7.84 18.08 8.65 17.88 9.3 18.14 9.32 18.4 9.33 18.67 9.33 18.93 9.33 19.19 9.32 19.45 9.3 19.25 8.65 19.22 7.84 19.4 6.99 19.79 5.19 20.97 3.92 22.05 4.15 23.13 4.38 23.7 6.02 23.32 7.82 23.26 8.08 23.19 8.33 23.1 8.57Z"/>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M21.04 17.26C21.22 17.36 21.44 17.36 21.63 17.26L24.3 15.93C24.63 15.76 24.76 15.36 24.6 15.04 24.43 14.71 24.03 14.57 23.7 14.74L21.33 15.92 18.96 14.74C18.78 14.64 18.56 14.64 18.37 14.74L16 15.92 13.63 14.74C13.3 14.57 12.9 14.71 12.74 15.04 12.57 15.36 12.71 15.76 13.04 15.93L15.7 17.26C15.89 17.36 16.11 17.36 16.3 17.26L18.67 16.08 21.04 17.26Z"/>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M9.33 6.67H0L0 13.33 9.33 13.33 9.33 6.67Z"/>
+        <path
+            android:fillColor="#FF262626"
+            android:fillType="evenOdd"
+            android:pathData="M2 9.33C1.63 9.33 1.33 9.03 1.33 8.67 1.33 8.3 1.63 8 2 8 2.37 8 2.67 8.3 2.67 8.67 2.67 9.03 2.37 9.33 2 9.33ZM4.67 9.33C4.3 9.33 4 9.03 4 8.67 4 8.3 4.3 8 4.67 8 5.03 8 5.33 8.3 5.33 8.67 5.33 9.03 5.03 9.33 4.67 9.33ZM7.33 9.33C6.96 9.33 6.67 9.03 6.67 8.67 6.67 8.3 6.96 8 7.33 8 7.7 8 8 8.3 8 8.67 8 9.03 7.7 9.33 7.33 9.33ZM6 12C5.63 12 5.33 11.7 5.33 11.33 5.33 10.97 5.63 10.67 6 10.67 6.37 10.67 6.67 10.97 6.67 11.33 6.67 11.7 6.37 12 6 12ZM3.33 12C2.96 12 2.67 11.7 2.67 11.33 2.67 10.97 2.96 10.67 3.33 10.67 3.7 10.67 4 10.97 4 11.33 4 11.7 3.7 12 3.33 12Z"/>
+        <path
+            android:fillColor="#FFD7181D"
+            android:pathData="M9.33 13.33L0 13.33 0 20 9.33 20 9.33 13.33Z"/>
+        <path
+            android:fillColor="#FFFBCD3F"
+            android:fillType="evenOdd"
+            android:pathData="M4.67 16C2.83 16 1.33 15.7 1.33 15.33 1.33 14.97 2.83 14.67 4.67 14.67 6.51 14.67 8 14.97 8 15.33 8 15.7 6.51 16 4.67 16ZM4.67 18.67C2.83 18.67 1.33 18.37 1.33 18 1.33 17.63 2.83 17.33 4.67 17.33 6.51 17.33 8 17.63 8 18 8 18.37 6.51 18.67 4.67 18.67Z"/>
+    </group>
+</vector>

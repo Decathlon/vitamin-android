@@ -3,27 +3,21 @@
     android:height="20dp"
     android:viewportWidth="28"
     android:viewportHeight="20">
-  <path
-      android:pathData="M2,0.25L26,0.25A1.75,1.75 0,0 1,27.75 2L27.75,18A1.75,1.75 0,0 1,26 19.75L2,19.75A1.75,1.75 0,0 1,0.25 18L0.25,2A1.75,1.75 0,0 1,2 0.25z"
-      android:strokeWidth=".5"
-      android:fillColor="#fff"
-      android:strokeColor="#F5F5F5"/>
-  <group>
-    <clip-path
-        android:pathData="M2,0.25L26,0.25A1.75,1.75 0,0 1,27.75 2L27.75,18A1.75,1.75 0,0 1,26 19.75L2,19.75A1.75,1.75 0,0 1,0.25 18L0.25,2A1.75,1.75 0,0 1,2 0.25z"/>
-    <path
-        android:pathData="M0,4h28L28,0L0,0v4ZM0,20h28v-4L0,16v4Z"
-        android:fillColor="#0E46D4"
-        android:fillType="evenOdd"/>
-    <path
-        android:pathData="m10.375,11.838 l-0.275,0.495h7.8l-0.275,-0.495 -3.334,-6L14,5.314l-0.291,0.524 -3.334,6Z"
-        android:strokeWidth=".667"
-        android:fillColor="#00000000"
-        android:strokeColor="#093EC5"/>
-    <path
-        android:pathData="m10.375,8.162 l-0.275,-0.495h7.8l-0.275,0.495 -3.334,6 -0.291,0.524 -0.291,-0.524 -3.334,-6Z"
-        android:strokeWidth=".667"
-        android:fillColor="#00000000"
-        android:strokeColor="#093EC5"/>
-  </group>
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M0 0L28 0C28 6.67 28 13.33 28 20H0C0 13.33 0 6.67 0 0Z"/>
+        <path
+            android:fillColor="#FF0E46D4"
+            android:fillType="evenOdd"
+            android:pathData="M0 4H28V0L0 0C0 1.33 0 2.67 0 4Z"/>
+        <path
+            android:fillColor="#FF0E46D4"
+            android:fillType="evenOdd"
+            android:pathData="M0 20H28V16H0L0 20Z"/>
+        <path
+            android:fillColor="#FF093EC5"
+            android:fillType="evenOdd"
+            android:pathData="M11.02 10L9.53 12.67H12.5L14 15.37 15.5 12.67H18.47L16.98 10 18.47 7.33H15.5L14 4.63 12.5 7.33 9.53 7.33 11.02 10ZM11.4 10.69L10.67 12H12.13L11.4 10.69ZM12.89 12L11.78 10 12.89 8H15.11L16.22 10 15.11 12H12.89ZM13.26 12.67L14 14 14.74 12.67 13.26 12.67ZM16.6 10.69L15.87 12H17.33L16.6 10.69ZM16.6 9.31L17.33 8H15.87L16.6 9.31ZM14.74 7.33L14 6 13.26 7.33H14.74ZM12.13 8L11.4 9.31 10.67 8H12.13Z"/>
+    </group>
 </vector>

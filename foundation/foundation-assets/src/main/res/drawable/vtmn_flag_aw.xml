@@ -3,22 +3,26 @@
     android:height="20dp"
     android:viewportWidth="28"
     android:viewportHeight="20">
-  <path
-      android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"
-      android:fillColor="#fff"/>
-  <group>
-    <clip-path
-        android:pathData="M2,0L26,0A2,2 0,0 1,28 2L28,18A2,2 0,0 1,26 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z"/>
-    <path
-        android:pathData="M0,0h28v20H0z"
-        android:fillColor="#4189DD"/>
-    <path
-        android:pathData="m5.63,2.512 l-0.295,-0.566 -0.295,0.566 -0.638,1.222 -1.221,0.637 -0.566,0.296 0.566,0.295 1.221,0.637 0.638,1.222 0.295,0.566 0.296,-0.566 0.637,-1.222 1.221,-0.637 0.567,-0.295 -0.567,-0.296 -1.221,-0.637 -0.637,-1.222Z"
-        android:strokeWidth=".667"
-        android:fillColor="#D21034"
-        android:strokeColor="#fff"/>
-    <path
-        android:pathData="M0,14.667h28V16H0zM0,12h28v1.333H0z"
-        android:fillColor="#F9D616"/>
-  </group>
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M0 0C9.33 0 18.67 0 28 0V20C18.67 20 9.33 20 0 20 0 13.33 0 6.67 0 0Z"/>
+        <path
+            android:fillColor="#FF4189DD"
+            android:pathData="M0 0L28 0V20H0L0 0Z"/>
+        <path
+            android:fillColor="#FFD21034"
+            android:fillType="evenOdd"
+            android:pathData="M4.65 3.98L5.34 2.67 6.02 3.98 7.34 4.67 6.02 5.35 5.34 6.67 4.65 5.35 3.34 4.67 4.65 3.98Z"/>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M4.65 3.98L5.34 2.67 6.02 3.98 7.34 4.67 6.02 5.35 5.34 6.67 4.65 5.35 3.34 4.67 4.65 3.98ZM4.16 5.85L5.34 8.11 6.52 5.85 8.78 4.67 6.52 3.49 5.34 1.23 4.16 3.49 1.89 4.67 4.16 5.85Z"/>
+        <path
+            android:fillColor="#FFF9D616"
+            android:pathData="M0 14.67H28V16H0V14.67Z"/>
+        <path
+            android:fillColor="#FFF9D616"
+            android:pathData="M0 12H28V13.33H0V12Z"/>
+    </group>
 </vector>
