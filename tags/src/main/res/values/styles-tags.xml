@@ -8,7 +8,7 @@
         <item name="android:stateListAnimator">@null</item>
         <item name="android:paddingTop">@dimen/vtmn_tags_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/vtmn_tags_padding_vertical</item>
-        <item name="textInputStyle">?attr/vtmnTextAppearanceBodyRegularText3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
         <item name="chipIconTint">?attr/vtmnContentColorPrimary</item>
         <item name="chipIconSize">@dimen/vtmn_tags_icon_size</item>
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_height</item>
