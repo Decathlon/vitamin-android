@@ -17,6 +17,7 @@
         <item name="rippleColor">?attr/vtmnActiveColorBrand</item>
         <item name="iconTint">@color/vtmn_fabs_icon</item>
         <item name="android:textColor">@color/vtmn_fabs_text</item>
+        <item name="iconGravity">textStart</item>
     </style>
 
 </resources>
