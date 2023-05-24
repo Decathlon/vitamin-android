@@ -8,3 +8,7 @@ plugins {
 dependencies {
     api(project(":foundation:foundation"))
 }
+
+android {
+    namespace = "com.decathlon.vitamin.dividers"
+}

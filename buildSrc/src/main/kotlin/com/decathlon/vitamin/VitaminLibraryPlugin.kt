@@ -7,7 +7,7 @@ import org.gradle.api.Project
 import org.gradle.kotlin.dsl.getByType
 import org.gradle.kotlin.dsl.repositories
 
-class VitaminLibraryPlugin: Plugin<Project> {
+class VitaminLibraryPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         target.repositories {
             google()
@@ -17,7 +17,6 @@ class VitaminLibraryPlugin: Plugin<Project> {
     }
 }
 
-@Suppress("UnstableApiUsage")
 internal fun Project.configureAndroid() = this.extensions.getByType(LibraryExtension::class).run {
     compileSdk = Versions.AndroidConfig.compileSdk
     defaultConfig {
@@ -27,10 +26,12 @@ internal fun Project.configureAndroid() = this.extensions.getByType(LibraryExten
             useSupportLibrary = true
         }
     }
+
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
+
     buildFeatures {
         viewBinding = true
     }

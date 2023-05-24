@@ -10,3 +10,7 @@ plugins {
 dependencies {
     implementation(Dependencies.material)
 }
+
+android {
+    namespace = "com.decathlon.vitamin.foundation.icons"
+}

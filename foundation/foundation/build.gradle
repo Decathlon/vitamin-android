@@ -12,3 +12,7 @@ dependencies {
     api(project(":foundation:foundation-assets"))
     api(Dependencies.material)
 }
+
+android {
+    namespace = "com.decathlon.vitamin.foundation"
+}

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.decathlon.design.sample.databinding.FragmentRatingsBinding
 import java.math.BigDecimal
+import java.math.RoundingMode
 import kotlin.random.Random
 
 class RatingsFragment : ComponentFragment() {
@@ -64,7 +65,7 @@ class RatingsFragment : ComponentFragment() {
 
     private fun updateReadOnlyNote() {
         val rawNote = Random.nextDouble(0.0, 5.0)
-        note = BigDecimal(rawNote).setScale(1, BigDecimal.ROUND_HALF_UP).toFloat()
+        note = BigDecimal(rawNote).setScale(1, RoundingMode.HALF_UP).toFloat()
         commentsCount = Random.nextInt(0, 1000)
         binding.readOnlyRatingView.note = note
         binding.readOnlyRatingView.commentsCount = commentsCount
