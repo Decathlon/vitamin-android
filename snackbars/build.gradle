@@ -9,3 +9,7 @@ dependencies {
     api(project(":foundation:foundation"))
     api(project(":buttons"))
 }
+
+android {
+    namespace = "com.decathlon.vitamin.snackbars"
+}

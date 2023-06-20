@@ -9,3 +9,7 @@ dependencies {
     api(project(":foundation:foundation"))
     api 'com.facebook.shimmer:shimmer:0.5.0'
 }
+
+android {
+    namespace = "com.decathlon.vitamin.skeleton"
+}

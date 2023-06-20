@@ -5,6 +5,10 @@ plugins {
     id("VitaminLibraryPlugin")
 }
 
+android {
+    namespace = "com.decathlon.vitamin.foundation.assets"
+}
+
 tasks.create("renameMalformedAssets") {
     doLast {
         def drawableFolder = file("src/main/res/drawable")

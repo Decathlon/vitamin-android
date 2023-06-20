@@ -24,3 +24,7 @@ dependencies {
     api(project(":tags"))
     api(project(":tabs"))
 }
+
+android {
+    namespace = "com.decathlon.vitamin"
+}

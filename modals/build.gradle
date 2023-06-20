@@ -9,3 +9,7 @@ dependencies {
     api(project(":foundation:foundation"))
     implementation(project(":buttons"))
 }
+
+android {
+    namespace = "com.decathlon.vitamin.modals"
+}
