@@ -22,6 +22,56 @@
     <attr name="vtmnTagDecorativeCobaltInteractiveStyle" format="reference" />
     <attr name="vtmnTagDecorativeAmethystStyle" format="reference" />
     <attr name="vtmnTagDecorativeAmethystInteractiveStyle" format="reference" />
+    
+    <!-- region medium tags -->
+    <attr name="vtmnTagMediumAccentStyle" format="reference" />
+    <attr name="vtmnTagMediumAccentInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumAlertStyle" format="reference" />
+    <attr name="vtmnTagMediumAlertInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumBrandStyle" format="reference" />
+    <attr name="vtmnTagMediumBrandInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeGravelStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeGravelInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeBrickStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeBrickInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeSaffronStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeSaffronInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeGoldStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeGoldInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeJadeStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeJadeInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeEmeraldStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeEmeraldInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeCobaltStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeCobaltInteractiveStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeAmethystStyle" format="reference" />
+    <attr name="vtmnTagMediumDecorativeAmethystInteractiveStyle" format="reference" />
+    <!-- endregion -->
+
+    <!-- region small tags -->
+    <attr name="vtmnTagSmallAccentStyle" format="reference" />
+    <attr name="vtmnTagSmallAccentInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallAlertStyle" format="reference" />
+    <attr name="vtmnTagSmallAlertInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallBrandStyle" format="reference" />
+    <attr name="vtmnTagSmallBrandInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeGravelStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeGravelInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeBrickStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeBrickInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeSaffronStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeSaffronInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeGoldStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeGoldInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeJadeStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeJadeInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeEmeraldStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeEmeraldInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeCobaltStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeCobaltInteractiveStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeAmethystStyle" format="reference" />
+    <attr name="vtmnTagSmallDecorativeAmethystInteractiveStyle" format="reference" />
+    <!-- endregion -->
 
     <declare-styleable name="VitaminTag">
         <attr name="tagIcon" format="reference"/>

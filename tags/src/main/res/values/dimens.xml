@@ -2,7 +2,8 @@
 <resources>
     <dimen name="vtmn_tags_padding_vertical">2dp</dimen>
     <dimen name="vtmn_tags_icon_size">16dp</dimen>
-    <dimen name="vtmn_tags_height">24dp</dimen>
+    <dimen name="vtmn_tags_height_medium">24dp</dimen>
+    <dimen name="vtmn_tags_height_small">20dp</dimen>
     <dimen name="vtmn_tags_interactive_min_touch_size">40dp</dimen>
     <dimen name="vtmn_tags_padding_horizontal_start">4dp</dimen>
     <dimen name="vtmn_tags_padding_horizontal_end">8dp</dimen>

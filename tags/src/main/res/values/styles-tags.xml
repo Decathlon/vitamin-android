@@ -8,11 +8,11 @@
         <item name="android:stateListAnimator">@null</item>
         <item name="android:paddingTop">@dimen/vtmn_tags_padding_vertical</item>
         <item name="android:paddingBottom">@dimen/vtmn_tags_padding_vertical</item>
-        <item name="textInputStyle">?attr/vtmnTextAppearanceBodyRegularText3</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText3</item>
         <item name="chipIconTint">?attr/vtmnContentColorPrimary</item>
         <item name="chipIconSize">@dimen/vtmn_tags_icon_size</item>
-        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_height</item>
-        <item name="chipMinHeight">@dimen/vtmn_tags_height</item>
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_height_medium</item>
+        <item name="chipMinHeight">@dimen/vtmn_tags_height_medium</item>
         <item name="chipStartPadding">@dimen/vtmn_tags_padding_horizontal_start</item>
         <item name="chipEndPadding">@dimen/vtmn_tags_chip_end_padding</item>
         <item name="textStartPadding">@dimen/vtmn_tags_padding_horizontal_start</item>
@@ -20,98 +20,210 @@
         <item name="iconStartPadding">@dimen/vtmn_tags_icon_start_padding</item>
         <item name="iconEndPadding">@dimen/vtmn_tags_icon_end_padding</item>
     </style>
+    
+    <style name="Widget.Vitamin.Tag.Medium">
+        
+    </style>
 
-    <style name="Widget.Vitamin.Tag.Accent">
+    <style name="Widget.Vitamin.Tag.Small">
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceCaption</item>
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_height_small</item>
+        <item name="chipMinHeight">@dimen/vtmn_tags_height_small</item>
+    </style>
+
+    <!-- region Medium Tags -->
+
+    <style name="Widget.Vitamin.Tag.Medium.Accent">
         <item name="chipBackgroundColor">?attr/vtmnBackgroundColorAccent</item>
         <item name="chipIconTint">?attr/vtmnContentColorAccent</item>
         <item name="android:textColor">?attr/vtmnContentColorAccent</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.Accent.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.Accent.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.Alert">
+    <style name="Widget.Vitamin.Tag.Medium.Alert">
         <item name="chipBackgroundColor">?attr/vtmnBackgroundColorAlert</item>
         <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
         <item name="chipIconTint">?attr/vtmnContentColorPrimaryReversed</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.Alert.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.Alert.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.Brand">
+    <style name="Widget.Vitamin.Tag.Medium.Brand">
         <item name="chipBackgroundColor">?attr/vtmnBackgroundColorBrandPrimary</item>
         <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
         <item name="chipIconTint">?attr/vtmnContentColorPrimaryReversed</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.Brand.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.Brand.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeGravel">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeGravel">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorGravel</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeGravel.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeGravel.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeBrick">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeBrick">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorBrick</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeBrick.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeBrick.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeSaffron">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeSaffron">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorSaffron</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeSaffron.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeSaffron.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeGold">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeGold">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorGold</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeGold.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeGold.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeJade">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeJade">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorJade</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeJade.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeJade.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeEmerald">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeEmerald">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorEmerald</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeEmerald.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeEmerald.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeCobalt">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeCobalt">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorCobalt</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeCobalt.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeCobalt.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeAmethyst">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeAmethyst">
         <item name="chipBackgroundColor">?attr/vtmnDecorativeColorAmethyst</item>
     </style>
 
-    <style name="Widget.Vitamin.Tag.DecorativeAmethyst.Interactive">
+    <style name="Widget.Vitamin.Tag.Medium.DecorativeAmethyst.Interactive">
         <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
     </style>
+
+    <!-- endregion -->
+
+    <!-- region Small tags -->
+
+    <style name="Widget.Vitamin.Tag.Small.Accent">
+        <item name="chipBackgroundColor">?attr/vtmnBackgroundColorAccent</item>
+        <item name="chipIconTint">?attr/vtmnContentColorAccent</item>
+        <item name="android:textColor">?attr/vtmnContentColorAccent</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.Accent.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.Alert">
+        <item name="chipBackgroundColor">?attr/vtmnBackgroundColorAlert</item>
+        <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="chipIconTint">?attr/vtmnContentColorPrimaryReversed</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.Alert.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.Brand">
+        <item name="chipBackgroundColor">?attr/vtmnBackgroundColorBrandPrimary</item>
+        <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
+        <item name="chipIconTint">?attr/vtmnContentColorPrimaryReversed</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.Brand.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeGravel">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorGravel</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeGravel.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeBrick">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorBrick</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeBrick.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeSaffron">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorSaffron</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeSaffron.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeGold">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorGold</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeGold.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeJade">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorJade</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeJade.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeEmerald">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorEmerald</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeEmerald.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeCobalt">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorCobalt</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeCobalt.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeAmethyst">
+        <item name="chipBackgroundColor">?attr/vtmnDecorativeColorAmethyst</item>
+    </style>
+
+    <style name="Widget.Vitamin.Tag.Small.DecorativeAmethyst.Interactive">
+        <item name="chipMinTouchTargetSize">@dimen/vtmn_tags_interactive_min_touch_size</item>
+    </style>
+
+    <!-- endregion Small tags -->
 </resources>
