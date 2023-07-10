@@ -9,9 +9,6 @@
 
     <style name="Widget.Vitamin.Snackbar.TextView" parent="TextAppearance.Vitamin.Body.Regular.Text3">
         <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
-        <item name="android:paddingTop">@dimen/vtmn_snackbars_padding_vertical</item>
-        <item name="android:paddingBottom">@dimen/vtmn_snackbars_padding_vertical</item>
-        <item name="android:paddingStart">@dimen/vtmn_snackbars_padding_start</item>
         <item name="android:paddingEnd">@dimen/vtmn_snackbars_padding_end</item>
     </style>
 
