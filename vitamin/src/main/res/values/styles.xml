@@ -489,7 +489,7 @@
 
         <!-- region Switches -->
         <!-- region Vitamin Switches -->
-        <item name="vtmnSwitchStyle">@style/Widget.Vitamin.Switch</item>
+        <item name="vtmnSwitchStyle">@style/Widget.Vitamin.Switch.Dark</item>
         <!-- endregion -->
         <!-- region Material Switches -->
         <item name="switchStyle">?attr/vtmnSwitchStyle</item>

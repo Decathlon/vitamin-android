@@ -16,4 +16,18 @@
         <item name="colorControlActivated">?attr/vtmnContentColorActive</item>
     </style>
 
+    <style name="Widget.Vitamin.Switch.Dark" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Vitamin.Switch.Dark</item>
+        <item name="android:textAppearance">?attr/vtmnTextAppearanceBodyRegularText2</item>
+        <item name="android:textColor">@color/vtmn_switches_text</item>
+
+    </style>
+
+    <style name="ThemeOverlay.Vitamin.Switch.Dark" parent="">
+
+        <!-- Used by SwitchMaterial for the Track -->
+        <item name="trackTint">@color/track_selector</item>
+        <item name="thumbTint">@color/thumb_selector</item>
+    </style>
+
 </resources>
