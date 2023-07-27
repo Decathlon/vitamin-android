@@ -9,10 +9,22 @@
 
     <style name="Widget.Vitamin.Snackbar.TextView" parent="TextAppearance.Vitamin.Body.Regular.Text3">
         <item name="android:textColor">?attr/vtmnContentColorPrimaryReversed</item>
-        <item name="android:paddingTop">@dimen/vtmn_snackbars_padding_vertical</item>
-        <item name="android:paddingBottom">@dimen/vtmn_snackbars_padding_vertical</item>
+        <item name="android:paddingEnd">@dimen/vtmn_snackbars_padding_end</item>
     </style>
 
-    <style name="Widget.Vitamin.SnackbarButton" parent="Widget.Vitamin.Button.GhostReversed.Medium">
+    <style name="Widget.Vitamin.SnackbarButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="cornerRadius">@dimen/vtmn_radius_100</item>
+        <item name="android:maxLines">1</item>
+        <item name="iconEndPadding">@dimen/vtmn_buttons_icon_end_padding_medium</item>
+        <item name="iconStartPadding">@dimen/vtmn_buttons_icon_start_padding_medium</item>
+        <item name="iconSize">@dimen/vtmn_buttons_icon_size_medium</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/vtmn_buttons_ghost_reversed_text</item>
+        <item name="iconTint">@color/vtmn_buttons_ghost_reversed_text</item>
+        <item name="rippleColor">?attr/vtmnActiveColorPrimaryReversedTransparent</item>
+        <item name="android:paddingStart">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingEnd">@dimen/vtmn_buttons_horizontal_padding_medium</item>
+        <item name="android:paddingTop">@dimen/vtmn_buttons_vertical_padding_medium</item>
+        <item name="android:paddingBottom">@dimen/vtmn_buttons_vertical_padding_medium</item>
     </style>
 </resources>

@@ -6,12 +6,18 @@
         <!-- region Vitamin Buttons -->
         <item name="vtmnButtonPrimaryMediumStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
         <item name="vtmnButtonPrimaryLargeStyle">@style/Widget.Vitamin.Button.Primary.Large</item>
-        <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
-        <item name="vtmnButtonSecondaryLargeStyle">@style/Widget.Vitamin.Button.Secondary.Large</item>
-        <item name="vtmnButtonTertiaryMediumStyle">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
+        <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium
+        </item>
+        <item name="vtmnButtonSecondaryLargeStyle">@style/Widget.Vitamin.Button.Secondary.Large
+        </item>
+        <item name="vtmnButtonTertiaryMediumStyle">@style/Widget.Vitamin.Button.Tertiary.Medium
+        </item>
         <item name="vtmnButtonTertiaryLargeStyle">@style/Widget.Vitamin.Button.Tertiary.Large</item>
-        <item name="vtmnButtonConversionMediumStyle">@style/Widget.Vitamin.Button.Conversion.Medium</item>
-        <item name="vtmnButtonConversionLargeStyle">@style/Widget.Vitamin.Button.Conversion.Large</item>
+        <item name="vtmnButtonConversionMediumStyle">
+            @style/Widget.Vitamin.Button.Conversion.Medium
+        </item>
+        <item name="vtmnButtonConversionLargeStyle">@style/Widget.Vitamin.Button.Conversion.Large
+        </item>
         <item name="vtmnButtonPrimaryReversedMediumStyle">
             @style/Widget.Vitamin.Button.PrimaryReversed.Medium
         </item>
@@ -20,7 +26,8 @@
         </item>
         <item name="vtmnButtonGhostMediumStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
         <item name="vtmnButtonGhostLargeStyle">@style/Widget.Vitamin.Button.Ghost.Large</item>
-        <item name="vtmnButtonGhostReversedMediumStyle">@style/Widget.Vitamin.Button.GhostReversed.Medium
+        <item name="vtmnButtonGhostReversedMediumStyle">
+            @style/Widget.Vitamin.Button.GhostReversed.Medium
         </item>
         <item name="vtmnButtonGhostReversedLargeStyle">
             @style/Widget.Vitamin.Button.GhostReversed.Large
@@ -226,7 +233,8 @@
         <item name="actionBarStyle">?attr/vtmnTopBarStyle</item>
         <item name="actionModeStyle">@style/Widget.Vitamin.ActionMode</item>
         <item name="actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
-        <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow
+        </item>
         <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
         <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
         <item name="bottomNavigationStyle">?attr/vtmnBottomNavigationStyle</item>
@@ -242,15 +250,19 @@
 
         <!-- region Chips -->
         <!-- region Vitamin Chips -->
-        <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
-        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
+        <item name="vtmnChipSingleChoiceMediumStyle">
+            @style/Widget.Vitamin.Chip.SingleChoice.Medium
+        </item>
+        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small
+        </item>
         <item name="vtmnChipFilterMediumStyle">@style/Widget.Vitamin.Chip.Filter.Medium</item>
         <item name="vtmnChipFilterSmallStyle">@style/Widget.Vitamin.Chip.Filter.Small</item>
         <item name="vtmnChipActionMediumStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
         <item name="vtmnChipActionSmallStyle">@style/Widget.Vitamin.Chip.Action.Small</item>
         <item name="vtmnChipInputMediumStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
         <item name="vtmnChipInputSmallStyle">@style/Widget.Vitamin.Chip.Input.Small</item>
-        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
+        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium
+        </item>
         <item name="vtmnChipInputImageSmallStyle">@style/Widget.Vitamin.Chip.InputImage.Small</item>
         <!-- endregion -->
         <!-- region Deprecated Vitamin Chips -->
@@ -282,9 +294,15 @@
         <item name="vtmnPriceAlertSmallStyle">@style/Widget.Vitamin.Price.Alert.Small</item>
         <item name="vtmnPriceAlertMediumStyle">@style/Widget.Vitamin.Price.Alert.Medium</item>
         <item name="vtmnPriceAlertLargeStyle">@style/Widget.Vitamin.Price.Alert.Large</item>
-        <item name="vtmnPriceStrikethroughSmallStyle">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
-        <item name="vtmnPriceStrikethroughMediumStyle">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
-        <item name="vtmnPriceStrikethroughLargeStyle">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <item name="vtmnPriceStrikethroughSmallStyle">
+            @style/Widget.Vitamin.Price.Strikethrough.Small
+        </item>
+        <item name="vtmnPriceStrikethroughMediumStyle">
+            @style/Widget.Vitamin.Price.Strikethrough.Medium
+        </item>
+        <item name="vtmnPriceStrikethroughLargeStyle">
+            @style/Widget.Vitamin.Price.Strikethrough.Large
+        </item>
         <!-- endregion -->
         <!-- region Deprecated Vitamin Prices -->
         <item name="priceDefaultSmall">?attr/vtmnPriceDefaultSmallStyle</item>
@@ -320,42 +338,173 @@
         <!-- endregion -->
 
         <!-- region Vitamin Tags -->
-        <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
-        <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
-        <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
-        <item name="vtmnTagAlertInteractiveStyle">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
-        <item name="vtmnTagBrandStyle">@style/Widget.Vitamin.Tag.Brand</item>
-        <item name="vtmnTagBrandInteractiveStyle">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
-        <item name="vtmnTagDecorativeGravelStyle">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
+        <!-- region default Vitamin Tags -->
+        <item name="vtmnTagAccentStyle">?attr/vtmnTagMediumAccentStyle</item>
+        <item name="vtmnTagAccentInteractiveStyle">?attr/vtmnTagMediumAccentInteractiveStyle</item>
+        <item name="vtmnTagAlertStyle">?attr/vtmnTagMediumAlertStyle</item>
+        <item name="vtmnTagAlertInteractiveStyle">?attr/vtmnTagMediumAlertInteractiveStyle</item>
+        <item name="vtmnTagBrandStyle">?attr/vtmnTagMediumBrandStyle</item>
+        <item name="vtmnTagBrandInteractiveStyle">?attr/vtmnTagMediumBrandInteractiveStyle</item>
+        <item name="vtmnTagDecorativeGravelStyle">?attr/vtmnTagMediumDecorativeGravelStyle</item>
         <item name="vtmnTagDecorativeGravelInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeGravel.Interactive
+            ?attr/vtmnTagMediumDecorativeGravelInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeBrickStyle">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
+        <item name="vtmnTagDecorativeBrickStyle">?attr/vtmnTagMediumDecorativeBrickStyle</item>
         <item name="vtmnTagDecorativeBrickInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeBrick.Interactive
+            ?attr/vtmnTagMediumDecorativeBrickInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeSaffronStyle">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
+        <item name="vtmnTagDecorativeSaffronStyle">?attr/vtmnTagMediumDecorativeSaffronStyle</item>
         <item name="vtmnTagDecorativeSaffronInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeSaffron.Interactive
+            ?attr/vtmnTagMediumDecorativeSaffronInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeGoldStyle">@style/Widget.Vitamin.Tag.DecorativeGold</item>
-        <item name="vtmnTagDecorativeGoldInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
+        <item name="vtmnTagDecorativeGoldStyle">?attr/vtmnTagMediumDecorativeGoldStyle</item>
+        <item name="vtmnTagDecorativeGoldInteractiveStyle">
+            ?attr/vtmnTagMediumDecorativeGoldInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeJadeStyle">@style/Widget.Vitamin.Tag.DecorativeJade</item>
-        <item name="vtmnTagDecorativeJadeInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
+        <item name="vtmnTagDecorativeJadeStyle">?attr/vtmnTagMediumDecorativeJadeStyle</item>
+        <item name="vtmnTagDecorativeJadeInteractiveStyle">
+            ?attr/vtmnTagMediumDecorativeJadeInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeEmeraldStyle">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
+        <item name="vtmnTagDecorativeEmeraldStyle">?attr/vtmnTagMediumDecorativeEmeraldStyle</item>
         <item name="vtmnTagDecorativeEmeraldInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeEmerald.Interactive
+            ?attr/vtmnTagMediumDecorativeEmeraldInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeCobaltStyle">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
+        <item name="vtmnTagDecorativeCobaltStyle">?attr/vtmnTagMediumDecorativeCobaltStyle</item>
         <item name="vtmnTagDecorativeCobaltInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeCobalt.Interactive
+            ?attr/vtmnTagMediumDecorativeCobaltInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeAmethystStyle">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
+        <item name="vtmnTagDecorativeAmethystStyle">?attr/vtmnTagMediumDecorativeAmethystStyle
+        </item>
         <item name="vtmnTagDecorativeAmethystInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
+            ?attr/vtmnTagMediumDecorativeAmethystInteractiveStyle
         </item>
+        <!-- endregion-->
+
+        <!-- region Vitamin medium Tags -->
+        <item name="vtmnTagMediumAccentStyle">@style/Widget.Vitamin.Tag.Medium.Accent</item>
+        <item name="vtmnTagMediumAccentInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.Accent.Interactive
+        </item>
+        <item name="vtmnTagMediumAlertStyle">@style/Widget.Vitamin.Tag.Medium.Alert</item>
+        <item name="vtmnTagMediumAlertInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.Alert.Interactive
+        </item>
+        <item name="vtmnTagMediumBrandStyle">@style/Widget.Vitamin.Tag.Medium.Brand</item>
+        <item name="vtmnTagMediumBrandInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.Brand.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeGravelStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGravel
+        </item>
+        <item name="vtmnTagMediumDecorativeGravelInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGravel.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeBrickStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeBrick
+        </item>
+        <item name="vtmnTagMediumDecorativeBrickInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeBrick.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeSaffronStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeSaffron
+        </item>
+        <item name="vtmnTagMediumDecorativeSaffronInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeSaffron.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeGoldStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGold
+        </item>
+        <item name="vtmnTagMediumDecorativeGoldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGold.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeJadeStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeJade
+        </item>
+        <item name="vtmnTagMediumDecorativeJadeInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeJade.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeEmeraldStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeEmerald
+        </item>
+        <item name="vtmnTagMediumDecorativeEmeraldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeEmerald.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeCobaltStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeCobalt
+        </item>
+        <item name="vtmnTagMediumDecorativeCobaltInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeCobalt.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeAmethystStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeAmethyst
+        </item>
+        <item name="vtmnTagMediumDecorativeAmethystInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeAmethyst.Interactive
+        </item>
+        <!-- endregion-->
+
+        <!-- region Vitamin small Tags -->
+        <item name="vtmnTagSmallAccentStyle">@style/Widget.Vitamin.Tag.Small.Accent</item>
+        <item name="vtmnTagSmallAccentInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.Accent.Interactive
+        </item>
+        <item name="vtmnTagSmallAlertStyle">@style/Widget.Vitamin.Tag.Small.Alert</item>
+        <item name="vtmnTagSmallAlertInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.Alert.Interactive
+        </item>
+        <item name="vtmnTagSmallBrandStyle">@style/Widget.Vitamin.Tag.Small.Brand</item>
+        <item name="vtmnTagSmallBrandInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.Brand.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeGravelStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGravel
+        </item>
+        <item name="vtmnTagSmallDecorativeGravelInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGravel.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeBrickStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeBrick
+        </item>
+        <item name="vtmnTagSmallDecorativeBrickInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeBrick.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeSaffronStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeSaffron
+        </item>
+        <item name="vtmnTagSmallDecorativeSaffronInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeSaffron.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeGoldStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGold
+        </item>
+        <item name="vtmnTagSmallDecorativeGoldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGold.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeJadeStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeJade
+        </item>
+        <item name="vtmnTagSmallDecorativeJadeInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeJade.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeEmeraldStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeEmerald
+        </item>
+        <item name="vtmnTagSmallDecorativeEmeraldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeEmerald.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeCobaltStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeCobalt
+        </item>
+        <item name="vtmnTagSmallDecorativeCobaltInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeCobalt.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeAmethystStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeAmethyst
+        </item>
+        <item name="vtmnTagSmallDecorativeAmethystInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeAmethyst.Interactive
+        </item>
+        <!-- endregion-->
         <!-- endregion -->
 
         <!-- region Tabs -->
@@ -375,12 +524,18 @@
         <!-- region Vitamin Buttons -->
         <item name="vtmnButtonPrimaryMediumStyle">@style/Widget.Vitamin.Button.Primary.Medium</item>
         <item name="vtmnButtonPrimaryLargeStyle">@style/Widget.Vitamin.Button.Primary.Large</item>
-        <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium</item>
-        <item name="vtmnButtonSecondaryLargeStyle">@style/Widget.Vitamin.Button.Secondary.Large</item>
-        <item name="vtmnButtonTertiaryMediumStyle">@style/Widget.Vitamin.Button.Tertiary.Medium</item>
+        <item name="vtmnButtonSecondaryMediumStyle">@style/Widget.Vitamin.Button.Secondary.Medium
+        </item>
+        <item name="vtmnButtonSecondaryLargeStyle">@style/Widget.Vitamin.Button.Secondary.Large
+        </item>
+        <item name="vtmnButtonTertiaryMediumStyle">@style/Widget.Vitamin.Button.Tertiary.Medium
+        </item>
         <item name="vtmnButtonTertiaryLargeStyle">@style/Widget.Vitamin.Button.Tertiary.Large</item>
-        <item name="vtmnButtonConversionMediumStyle">@style/Widget.Vitamin.Button.Conversion.Medium</item>
-        <item name="vtmnButtonConversionLargeStyle">@style/Widget.Vitamin.Button.Conversion.Large</item>
+        <item name="vtmnButtonConversionMediumStyle">
+            @style/Widget.Vitamin.Button.Conversion.Medium
+        </item>
+        <item name="vtmnButtonConversionLargeStyle">@style/Widget.Vitamin.Button.Conversion.Large
+        </item>
         <item name="vtmnButtonPrimaryReversedMediumStyle">
             @style/Widget.Vitamin.Button.PrimaryReversed.Medium
         </item>
@@ -389,7 +544,8 @@
         </item>
         <item name="vtmnButtonGhostMediumStyle">@style/Widget.Vitamin.Button.Ghost.Medium</item>
         <item name="vtmnButtonGhostLargeStyle">@style/Widget.Vitamin.Button.Ghost.Large</item>
-        <item name="vtmnButtonGhostReversedMediumStyle">@style/Widget.Vitamin.Button.GhostReversed.Medium
+        <item name="vtmnButtonGhostReversedMediumStyle">
+            @style/Widget.Vitamin.Button.GhostReversed.Medium
         </item>
         <item name="vtmnButtonGhostReversedLargeStyle">
             @style/Widget.Vitamin.Button.GhostReversed.Large
@@ -595,7 +751,8 @@
         <item name="actionBarStyle">?attr/vtmnTopBarStyle</item>
         <item name="actionModeStyle">@style/Widget.Vitamin.ActionMode</item>
         <item name="actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
-        <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Vitamin.ActionButton.Overflow
+        </item>
         <item name="actionBarTheme">@style/ThemeOverlay.Vitamin.ActionBar</item>
         <item name="searchViewStyle">@style/Widget.Vitamin.SearchView</item>
         <item name="bottomNavigationStyle">?attr/vtmnBottomNavigationStyle</item>
@@ -611,15 +768,19 @@
 
         <!-- region Chips -->
         <!-- region Vitamin Chips -->
-        <item name="vtmnChipSingleChoiceMediumStyle">@style/Widget.Vitamin.Chip.SingleChoice.Medium</item>
-        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small</item>
+        <item name="vtmnChipSingleChoiceMediumStyle">
+            @style/Widget.Vitamin.Chip.SingleChoice.Medium
+        </item>
+        <item name="vtmnChipSingleChoiceSmallStyle">@style/Widget.Vitamin.Chip.SingleChoice.Small
+        </item>
         <item name="vtmnChipFilterMediumStyle">@style/Widget.Vitamin.Chip.Filter.Medium</item>
         <item name="vtmnChipFilterSmallStyle">@style/Widget.Vitamin.Chip.Filter.Small</item>
         <item name="vtmnChipActionMediumStyle">@style/Widget.Vitamin.Chip.Action.Medium</item>
         <item name="vtmnChipActionSmallStyle">@style/Widget.Vitamin.Chip.Action.Small</item>
         <item name="vtmnChipInputMediumStyle">@style/Widget.Vitamin.Chip.Input.Medium</item>
         <item name="vtmnChipInputSmallStyle">@style/Widget.Vitamin.Chip.Input.Small</item>
-        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium</item>
+        <item name="vtmnChipInputImageMediumStyle">@style/Widget.Vitamin.Chip.InputImage.Medium
+        </item>
         <item name="vtmnChipInputImageSmallStyle">@style/Widget.Vitamin.Chip.InputImage.Small</item>
         <!-- endregion -->
         <!-- region Deprecated Vitamin Chips -->
@@ -651,9 +812,15 @@
         <item name="vtmnPriceAlertSmallStyle">@style/Widget.Vitamin.Price.Alert.Small</item>
         <item name="vtmnPriceAlertMediumStyle">@style/Widget.Vitamin.Price.Alert.Medium</item>
         <item name="vtmnPriceAlertLargeStyle">@style/Widget.Vitamin.Price.Alert.Large</item>
-        <item name="vtmnPriceStrikethroughSmallStyle">@style/Widget.Vitamin.Price.Strikethrough.Small</item>
-        <item name="vtmnPriceStrikethroughMediumStyle">@style/Widget.Vitamin.Price.Strikethrough.Medium</item>
-        <item name="vtmnPriceStrikethroughLargeStyle">@style/Widget.Vitamin.Price.Strikethrough.Large</item>
+        <item name="vtmnPriceStrikethroughSmallStyle">
+            @style/Widget.Vitamin.Price.Strikethrough.Small
+        </item>
+        <item name="vtmnPriceStrikethroughMediumStyle">
+            @style/Widget.Vitamin.Price.Strikethrough.Medium
+        </item>
+        <item name="vtmnPriceStrikethroughLargeStyle">
+            @style/Widget.Vitamin.Price.Strikethrough.Large
+        </item>
         <!-- endregion -->
         <!-- region Deprecated Vitamin Prices -->
         <item name="priceDefaultSmall">?attr/vtmnPriceDefaultSmallStyle</item>
@@ -689,42 +856,173 @@
         <!-- endregion -->
 
         <!-- region Vitamin Tags -->
-        <item name="vtmnTagAccentStyle">@style/Widget.Vitamin.Tag.Accent</item>
-        <item name="vtmnTagAccentInteractiveStyle">@style/Widget.Vitamin.Tag.Accent.Interactive</item>
-        <item name="vtmnTagAlertStyle">@style/Widget.Vitamin.Tag.Alert</item>
-        <item name="vtmnTagAlertInteractiveStyle">@style/Widget.Vitamin.Tag.Alert.Interactive</item>
-        <item name="vtmnTagBrandStyle">@style/Widget.Vitamin.Tag.Brand</item>
-        <item name="vtmnTagBrandInteractiveStyle">@style/Widget.Vitamin.Tag.Brand.Interactive</item>
-        <item name="vtmnTagDecorativeGravelStyle">@style/Widget.Vitamin.Tag.DecorativeGravel</item>
+        <!-- region default Vitamin Tags -->
+        <item name="vtmnTagAccentStyle">?attr/vtmnTagMediumAccentStyle</item>
+        <item name="vtmnTagAccentInteractiveStyle">?attr/vtmnTagMediumAccentInteractiveStyle</item>
+        <item name="vtmnTagAlertStyle">?attr/vtmnTagMediumAlertStyle</item>
+        <item name="vtmnTagAlertInteractiveStyle">?attr/vtmnTagMediumAlertInteractiveStyle</item>
+        <item name="vtmnTagBrandStyle">?attr/vtmnTagMediumBrandStyle</item>
+        <item name="vtmnTagBrandInteractiveStyle">?attr/vtmnTagMediumBrandInteractiveStyle</item>
+        <item name="vtmnTagDecorativeGravelStyle">?attr/vtmnTagMediumDecorativeGravelStyle</item>
         <item name="vtmnTagDecorativeGravelInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeGravel.Interactive
+            ?attr/vtmnTagMediumDecorativeGravelInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeBrickStyle">@style/Widget.Vitamin.Tag.DecorativeBrick</item>
+        <item name="vtmnTagDecorativeBrickStyle">?attr/vtmnTagMediumDecorativeBrickStyle</item>
         <item name="vtmnTagDecorativeBrickInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeBrick.Interactive
+            ?attr/vtmnTagMediumDecorativeBrickInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeSaffronStyle">@style/Widget.Vitamin.Tag.DecorativeSaffron</item>
+        <item name="vtmnTagDecorativeSaffronStyle">?attr/vtmnTagMediumDecorativeSaffronStyle</item>
         <item name="vtmnTagDecorativeSaffronInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeSaffron.Interactive
+            ?attr/vtmnTagMediumDecorativeSaffronInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeGoldStyle">@style/Widget.Vitamin.Tag.DecorativeGold</item>
-        <item name="vtmnTagDecorativeGoldInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeGold.Interactive
+        <item name="vtmnTagDecorativeGoldStyle">?attr/vtmnTagMediumDecorativeGoldStyle</item>
+        <item name="vtmnTagDecorativeGoldInteractiveStyle">
+            ?attr/vtmnTagMediumDecorativeGoldInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeJadeStyle">@style/Widget.Vitamin.Tag.DecorativeJade</item>
-        <item name="vtmnTagDecorativeJadeInteractiveStyle">@style/Widget.Vitamin.Tag.DecorativeJade.Interactive
+        <item name="vtmnTagDecorativeJadeStyle">?attr/vtmnTagMediumDecorativeJadeStyle</item>
+        <item name="vtmnTagDecorativeJadeInteractiveStyle">
+            ?attr/vtmnTagMediumDecorativeJadeInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeEmeraldStyle">@style/Widget.Vitamin.Tag.DecorativeEmerald</item>
+        <item name="vtmnTagDecorativeEmeraldStyle">?attr/vtmnTagMediumDecorativeEmeraldStyle</item>
         <item name="vtmnTagDecorativeEmeraldInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeEmerald.Interactive
+            ?attr/vtmnTagMediumDecorativeEmeraldInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeCobaltStyle">@style/Widget.Vitamin.Tag.DecorativeCobalt</item>
+        <item name="vtmnTagDecorativeCobaltStyle">?attr/vtmnTagMediumDecorativeCobaltStyle</item>
         <item name="vtmnTagDecorativeCobaltInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeCobalt.Interactive
+            ?attr/vtmnTagMediumDecorativeCobaltInteractiveStyle
         </item>
-        <item name="vtmnTagDecorativeAmethystStyle">@style/Widget.Vitamin.Tag.DecorativeAmethyst</item>
+        <item name="vtmnTagDecorativeAmethystStyle">?attr/vtmnTagMediumDecorativeAmethystStyle
+        </item>
         <item name="vtmnTagDecorativeAmethystInteractiveStyle">
-            @style/Widget.Vitamin.Tag.DecorativeAmethyst.Interactive
+            ?attr/vtmnTagMediumDecorativeAmethystInteractiveStyle
         </item>
+        <!-- endregion-->
+
+        <!-- region Vitamin medium Tags -->
+        <item name="vtmnTagMediumAccentStyle">@style/Widget.Vitamin.Tag.Medium.Accent</item>
+        <item name="vtmnTagMediumAccentInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.Accent.Interactive
+        </item>
+        <item name="vtmnTagMediumAlertStyle">@style/Widget.Vitamin.Tag.Medium.Alert</item>
+        <item name="vtmnTagMediumAlertInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.Alert.Interactive
+        </item>
+        <item name="vtmnTagMediumBrandStyle">@style/Widget.Vitamin.Tag.Medium.Brand</item>
+        <item name="vtmnTagMediumBrandInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.Brand.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeGravelStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGravel
+        </item>
+        <item name="vtmnTagMediumDecorativeGravelInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGravel.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeBrickStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeBrick
+        </item>
+        <item name="vtmnTagMediumDecorativeBrickInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeBrick.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeSaffronStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeSaffron
+        </item>
+        <item name="vtmnTagMediumDecorativeSaffronInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeSaffron.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeGoldStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGold
+        </item>
+        <item name="vtmnTagMediumDecorativeGoldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeGold.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeJadeStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeJade
+        </item>
+        <item name="vtmnTagMediumDecorativeJadeInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeJade.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeEmeraldStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeEmerald
+        </item>
+        <item name="vtmnTagMediumDecorativeEmeraldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeEmerald.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeCobaltStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeCobalt
+        </item>
+        <item name="vtmnTagMediumDecorativeCobaltInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeCobalt.Interactive
+        </item>
+        <item name="vtmnTagMediumDecorativeAmethystStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeAmethyst
+        </item>
+        <item name="vtmnTagMediumDecorativeAmethystInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Medium.DecorativeAmethyst.Interactive
+        </item>
+        <!-- endregion-->
+
+        <!-- region Vitamin small Tags -->
+        <item name="vtmnTagSmallAccentStyle">@style/Widget.Vitamin.Tag.Small.Accent</item>
+        <item name="vtmnTagSmallAccentInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.Accent.Interactive
+        </item>
+        <item name="vtmnTagSmallAlertStyle">@style/Widget.Vitamin.Tag.Small.Alert</item>
+        <item name="vtmnTagSmallAlertInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.Alert.Interactive
+        </item>
+        <item name="vtmnTagSmallBrandStyle">@style/Widget.Vitamin.Tag.Small.Brand</item>
+        <item name="vtmnTagSmallBrandInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.Brand.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeGravelStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGravel
+        </item>
+        <item name="vtmnTagSmallDecorativeGravelInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGravel.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeBrickStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeBrick
+        </item>
+        <item name="vtmnTagSmallDecorativeBrickInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeBrick.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeSaffronStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeSaffron
+        </item>
+        <item name="vtmnTagSmallDecorativeSaffronInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeSaffron.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeGoldStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGold
+        </item>
+        <item name="vtmnTagSmallDecorativeGoldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeGold.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeJadeStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeJade
+        </item>
+        <item name="vtmnTagSmallDecorativeJadeInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeJade.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeEmeraldStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeEmerald
+        </item>
+        <item name="vtmnTagSmallDecorativeEmeraldInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeEmerald.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeCobaltStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeCobalt
+        </item>
+        <item name="vtmnTagSmallDecorativeCobaltInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeCobalt.Interactive
+        </item>
+        <item name="vtmnTagSmallDecorativeAmethystStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeAmethyst
+        </item>
+        <item name="vtmnTagSmallDecorativeAmethystInteractiveStyle">
+            @style/Widget.Vitamin.Tag.Small.DecorativeAmethyst.Interactive
+        </item>
+        <!-- endregion-->
         <!-- endregion -->
 
         <!-- region Tabs -->
@@ -739,9 +1037,9 @@
         <!-- endregion -->
     </style>
 
-    <style name="Theme.Vitamin.DayNight" parent="Theme.Vitamin.Light"/>
+    <style name="Theme.Vitamin.DayNight" parent="Theme.Vitamin.Light" />
 
     <!-- {@deprecated Use Theme.Vitamin.DayNight instead.} -->
-    <style name="Theme.Vitamin" parent="Theme.Vitamin.DayNight"/>
+    <style name="Theme.Vitamin" parent="Theme.Vitamin.DayNight" />
 
 </resources>

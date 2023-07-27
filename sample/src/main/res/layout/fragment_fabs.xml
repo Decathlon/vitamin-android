@@ -7,7 +7,11 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/spacing_large"
+        android:paddingBottom="@dimen/spacing_large">
 
         <TextView
             android:id="@+id/normalFabTitle"
@@ -89,7 +93,6 @@
             android:layout_marginBottom="@dimen/spacing_large"
             android:text="Label"
             app:icon="@drawable/ic_vtmn_add_fill"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/normalFabTitle"
             app:layout_constraintTop_toBottomOf="@id/extendedFabTitle"
             tools:ignore="HardcodedText" />
@@ -104,6 +107,29 @@
             app:icon="@drawable/ic_vtmn_add_fill"
             app:layout_constraintStart_toEndOf="@id/extendedFab"
             app:layout_constraintTop_toTopOf="@id/extendedFab"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.fabs.VitaminExtendedFloatingActionButton
+            android:id="@+id/extendedFabFullWidth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:text="Label"
+            app:icon="@drawable/ic_vtmn_shopping_cart"
+            app:layout_constraintStart_toStartOf="@id/extendedFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/extendedFab"
+            tools:ignore="HardcodedText" />
+
+        <com.decathlon.vitamin.fabs.VitaminExtendedFloatingActionButton
+            android:id="@+id/extendedFabFullWidthDisabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:enabled="false"
+            android:text="Label"
+            app:icon="@drawable/ic_vtmn_shopping_cart"
+            app:layout_constraintStart_toStartOf="@id/extendedFabTitle"
+            app:layout_constraintTop_toBottomOf="@id/extendedFabFullWidth"
             tools:ignore="HardcodedText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
