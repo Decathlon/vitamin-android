@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:color="@color/vtmn_grey500"/>
+    <item android:state_enabled="false" android:state_checked="true" android:color="@color/vtmn_blue600"/>
+
+    <!--    Enable  -->
+    <item android:state_checked="true" android:color="@color/vtmn_blue200" />
+    <item android:state_checked="false" android:color="@color/vtmn_white" />
+</selector>
